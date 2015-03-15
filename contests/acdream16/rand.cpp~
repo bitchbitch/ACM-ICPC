@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#define MAX 10000
+long long  Rand(int k,int max)
+{
+   int  a = 0;
+    for(int i =1;i <= k;i ++)
+    {
+       a *= 10;
+       a += rand()%10;
+    }
+    if(a <= max && a >= 1)
+     return a;
+    else return Rand(k,max);
+
+}
+
+int main(){
+  //  freopen("cin.txt","w",stdout);
+    srand( (int)time( NULL ));
+    for(int i =1 ;i<= 10000;i ++)
+     {
+       printf("%lld %lld %lld\n",Rand(2,100),Rand(2,32),Rand(5,100000) );
+     }
+     //printf("%d\n",Rand(9));
+  return 0;
+}

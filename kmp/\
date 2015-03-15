@@ -1,0 +1,82 @@
+// File Name: getnext.cpp
+// Author: darkdream
+// Created Time: 2014年09月09日 星期二 22时35分02秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+char str[50005];
+char str1[50005];
+int next[50005];
+int next1[50005];
+void getnext()
+{
+	int len = strlen(str);
+	int len1 = strlen(str1);
+	next[0] = -1; 
+	int k = -1;
+	int j = 0 ;
+	int sum = 0 ; 
+	while(j <= len - 1 )
+	{
+		if(k == -1 || str[j] == str[k])
+		{
+			++j; 
+			++k;
+			next[j] = k ;
+		}
+		else {
+			k = next[k];
+		}
+	}
+    k = -1;
+	j =0 ; 
+	while(j <= len1 -1)
+	{
+	     if(k == -1 || str[k] == str1[j])
+		 {
+		   ++ j ; 
+		   ++ k ;
+		   next1[j] = k; 
+		 }else{
+		   k = next[k];
+		 }
+	}
+	for(int i = 0 ;i <= len1 ;i ++)
+		printf("%d ",next1[i]);
+	printf("\n");
+    if(next1[len1] == 0)
+		printf("0\n");
+	else{
+	  for(int i = 0 ;i < next1[len1] ;i ++)
+		  printf("%c",str[i]);
+	  printf(" %d\n",next1[len1]);
+	}
+}
+int main(){
+	while(scanf("%s",str) != EOF)
+	{
+	  scanf("%s",str1);
+	  getnext();
+	}
+	return 0;
+}

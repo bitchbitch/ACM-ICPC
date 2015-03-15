@@ -1,0 +1,1153 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>心疼 陈小霞 试听 -- SongTaste 用音乐倾听彼此</title>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<meta name="keywords" content="歌名：心疼 歌手：陈小霞 试听 下载 mp3 音乐 歌词 图片">
+<meta name="description" content="心疼 陈小霞 试听">
+<meta name="baidu-site-verification" content="Y4pAsFPVL7U0jtRO" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://image.songtaste.com/inc/style.css?r=2" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://image.songtaste.com/inc/IE6.css" />
+<![endif]-->
+<script type="text/javascript" src="http://image.songtaste.com/inc/main.js" charset="gb2312"></script>
+<script type="text/javascript" src="http://image.songtaste.com/inc/ajax.js"></script>
+<script type="text/javascript" src="http://image.songtaste.com/inc/jquery.js"></script>
+<script type="text/javascript">
+var ts = new Date().getTime();
+</script>
+</head>
+<body>
+<div style="position: absolute; top: 0px; left: 0px; z-index: 999; background-color: #000; opacity: 0.7; FILTER: alpha(opacity=70); display: none; width: 100%; height: 100%; _height:1000px" id="jquery-overlay"></div>
+<div class="in_main">
+	<div id="main">
+		<h1>歌曲 心疼 歌手 陈小霞</h1>
+	</div>
+	<div class="top_bg"></div>
+	<div id="top_col">
+		<div class="logo" ><a href="/"><img src="http://image.songtaste.com/images/logo.gif" border="0"></a></div>
+		<div class="logo_nav"><div id='nav'><ul><li id='navMusic' class='current'><a href='/music/'></a></li><li id='navUsers'><a href='/userlist1.php'></a></li><li id='navRadio'><a href='/blog2.php'></a></li><li id='navDj'><a href='http://dj2.duomi.com/?utm_medium=st_dh'></a></li><li id='navGroups'><a href='/help.php'></a></li></ul></div></div><script>GetUInfoBlk();</script>
+	</div><ul id='subnav'><li class='active'><a href='/song/3816/'><em>歌曲试听</em></a></li><li><a href='/song/3816/log'><em>日志</em></a></li><li><a href='/song/3816/tag'><em>标签</em></a></li><li><a href='/song/3816/lsnr'><em>谁听过</em></a></li><li><a href='/song/3816/chart'><em>统计</em></a></li><li><a href='/song/3816/cmt'><em>评价</em></a></li><li><a href='/singer/467454/' target=_blank><em>歌手资料</em></a></li></ul>
+</div>
+<div id="b_cont">
+	<div id="b_left_col">
+		<div class="sblk1">
+			<div class="sblk2">
+				<a href="/home.php" title="我的音乐">
+					<img src="http://image.songtaste.com/images/home.gif">
+				</a>
+			</div>
+		</div>
+		<div class="sblk1">
+			<div class="sblk2">
+				<a href="/msg.php" title="我的收件箱">
+					<img src="http://image.songtaste.com/images/smg.gif">
+				</a>
+			</div>
+		</div>
+		<div class="sblk1">
+			<div class="sblk2">
+				<a href="/info_oper.php?tag=signout" title="退出ST">
+				<img src="http://image.songtaste.com/images/slogout.gif">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="content_gray">
+		<div id="subcontent" class="clearfix">
+		<div id="submid_gray">
+<div id="sub_left" style="width:220px">
+<div class="icon_col">
+	<h1 class="h1singer">陈小霞</h1>
+	<div class="icon_div"><a href="/singer/467454/"><img src="http://image.songtaste.com/images/singer/m/default.gif" class="icon" alt="陈小霞"></a></div>
+	
+	<div class="usr_fun">
+	<a class="add underline" href="/home.php?tag=add_song&singerid=467454">推荐歌曲</a> (<a href="/singer/467454/" class="gray">已有<b>0</b>首</a>) <br /> 
+	<!-- 该歌曲共被听 <b>17530</b> 次 -->
+	<div id="song_ad_link" style="text-align:left;margin-top:10px;">
+	
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<script type="text/javascript">
+BAIDU_CLB_preloadSlots("258729","258727");
+</script>
+<!-- 广告位：歌曲页面左侧文字链 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("258727");</script>
+	</div>
+	</div>
+</div>
+<!-- 广告位：歌曲页面左侧button图片 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("258729");</script>
+
+
+
+
+    <DIV class=info_tit2>用户标签</DIV>
+	<div class="info_col">
+	
+	<span style='font-size:12px'><a href='/tag/%D0%C4%CC%DB' class='taglink'>心疼</a></span>　
+	<span style='font-size:13px'><a href='/tag/%B3%C2%D0%A1%CF%BC' class='taglink'>陈小霞</a></span>　
+	<span style='font-size:12px'><a href='/tag/%B9%FE%C0%D7%C2%E8%C2%E8' class='taglink'>哈雷妈妈</a></span>　
+	</div>
+<p style="margin:5px 0 0 20px;"><a href="/song/3816/tag" class="tag">给该首歌添加标签</a></p>
+<div style="float:left;padding-top:10px;width:200px;">
+<script type="text/javascript" >BAIDU_CLB_SLOT_ID = "858271";</script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/o.js"></script>
+</div>
+<div style="float:left;padding-top:10px;width:200px;">
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript"> 
+alimama_pid="mm_34326891_3456686_11235337"; 
+alimama_width=200; 
+alimama_height=200; 
+</script> 
+<script src="http://a.alimama.cn/inf.js" type="text/javascript"> 
+</script>
+</body>
+</html>
+
+</div>   
+<div style="float:left;padding-top:10px;width:200px;">
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" /><style type="text/css"> * { margin:0;padding:0; } .qiyi-con2 { display:none; } .qiyi-box { position:relative;background-color:#fff;padding-top:26px;width:198px;border:1px solid #858A90;  } .qiyi-tab { text-align:center;background-color:#858A90;border-top:1px solid #858A90; color:#fafafa;height:26px;line-height:26px;position:absolute;top:0;left:0;width:50%; } .qiyi-tab1 { left:50%;} .qiyi-current { color:#858A90;background-color:#FFF; } .qiyi-con a { color:#858A90;text-decoration:none;font-size:14px;height:26px;line-height:26px;padding-left:5px; } .qiyi-con a:hover { color:#869AB7;text-decoration:underline; } .qiyi-con span { font-size:12px;color:#858A90; } .qiyi-con li { padding-left:15px; }</style><div class="qiyi-box"><span class="qiyi-tab qiyi-current" onclick="$('.qiyi-con1').show();$('.qiyi-con2').hide();$('.qiyi-tab').removeClass('qiyi-current');$(this).addClass('qiyi-current');">热卖大片</span><ul class="qiyi-con qiyi-con1"><li><span>1</span><a href="http://www.iqiyi.com/v_19rrhl14f4.html" target="_blank">封门村</a></li><li><span>2</span><a href="http://www.iqiyi.com/v_19rrhl0xpg.html" target="_blank">人间小团圆</a></li><li><span>3</span><a href="http://www.iqiyi.com/v_19rrhvzrps.html" target="_blank">银行大劫案</a></li><li><span>4</span><a href="http://www.iqiyi.com/v_19rrhucx5g.html" target="_blank">爱情和香烟</a></li><li><span>5</span><a href="http://www.iqiyi.com/v_19rrhkbx0c.html" target="_blank">疾速风云</a></li><li><span>6</span><a href="http://www.iqiyi.com/v_19rrhkz4rc.html" target="_blank">求爱嫁期</a></li><li><span>7</span><a href="http://www.iqiyi.com/v_19rrhlqhj8.html" target="_blank">最佳嫌疑人</a></li><li><span>8</span><a href="http://www.iqiyi.com/v_19rrhxuehc.html" target="_blank">通缉令</a></li><li><span>9</span><a href="http://www.iqiyi.com/v_19rrhyn2oc.html" target="_blank">她们(下集)</a></li><li><span>10</span><a href="http://www.iqiyi.com/v_19rrhlz0rs.html" target="_blank">突袭2：暴徒</a></li></ul><span class="qiyi-tab qiyi-tab1" onclick="$('.qiyi-con2').show();$('.qiyi-con1').hide();$('.qiyi-tab').removeClass('qiyi-current');$(this).addClass('qiyi-current');">最新上映</span><ul class="qiyi-con qiyi-con2"><li><span>1</span><a href="http://www.iqiyi.com/v_19rrht33jg.html" target="_blank">罗密欧和朱丽叶</a></li><li><span>2</span><a href="http://www.iqiyi.com/v_19rrhv93bg.html" target="_blank">杀人是我的职业，亲爱的</a></li><li><span>3</span><a href="http://www.iqiyi.com/v_19rrhzrlso.html" target="_blank">沙漠之花</a></li><li><span>4</span><a href="http://www.iqiyi.com/v_19rrh41zhw.html" target="_blank">深水炸弹</a></li><li><span>5</span><a href="http://www.iqiyi.com/v_19rrhv5m9k.html" target="_blank">圣诞的雪</a></li><li><span>6</span><a href="http://www.iqiyi.com/v_19rrhv5nx0.html" target="_blank">事不过三</a></li><li><span>7</span><a href="http://www.iqiyi.com/v_19rrhvy46o.html" target="_blank">双重重击</a></li><li><span>8</span><a href="http://www.iqiyi.com/v_19rrhubmwc.html" target="_blank">堕落天使</a></li><li><span>9</span><a href="http://www.iqiyi.com/v_19rrhv5n0g.html" target="_blank">思绪的速度</a></li><li><span>10</span><a href="http://www.iqiyi.com/v_19rrhlcwi0.html" target="_blank">四重唱</a></li></ul></div>
+</div>
+</div>
+<style>
+#sub_bright {
+PADDING-BOTTOM: 30px;
+
+MIN-HEIGHT: 960px;
+
+PADDING-LEFT: 5px;
+
+WIDTH: 720px;
+
+FLOAT: left;
+
+_height: 960px;
+}
+</style>	
+<script type="text/javascript" src="http://image.songtaste.com/inc/common.js?r=2"></script>
+<script type="text/javascript" src="http://image.songtaste.com/inc/jquery.js"></script>
+<!--
+<script type="text/javascript" src="http://image.songtaste.com/js/jquery.jplayer.js"></script>
+<script type="text/javascript" src="http://image.songtaste.com/js/DD_belatedPNG-min.js"></script>
+-->
+<STYLE type=text/css>
+.ratelist{
+	margin:10px 0 0 0;
+	padding:0;
+	width:303px;
+}
+.ratelist li{
+	float:left;
+	width:100px;
+	height:24px;
+	padding-top:6px;
+}
+.tj_sc{ width:340px; padding-left:15px; padding-top:2px; position:relative }
+.tj_scleft{ width:210px; float:left }
+.le_url{ width:210px; height:20px; line-height:20px; padding-top:2px; }
+.tj_scright{ width:130px; float:left }
+.ri_url{ width:130px; height:20px; line-height:20px; padding-top:2px; }
+
+A.don {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; BACKGROUND:url(http://image.songtaste.com/images/down.gif) no-repeat; COLOR: #98aabf; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 3px
+}
+A.don:hover {
+	BACKGROUND: url(http://image.songtaste.com/images/down.gif) no-repeat left -20px
+}
+
+
+.no_gmbg_div{ width:332px; height:96px; position:absolute; top:90px; left:100px; z-index:100; display:none; float:left }
+
+.no_gmbg{ width:332px; height:96px; background:url(http://image.songtaste.com/images/no_bg.png) repeat-x 0 0; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://image.songtaste.com/images/no_bg.png" ,sizingMethod="crop"; position:absolute); }
+
+.hasg_dd{ width:331px; height:15px; 
+background:url(http://image.songtaste.com/images/gu_bgd.png) repeat-x 0 0; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://image.songtaste.com/images/gu_bgd.png" ,sizingMethod="crop"); float:left}
+
+.hasg_top{width:331px; height:37px; 
+background:url(http://image.songtaste.com/images/gu_bgt.png) repeat-x 0 0; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://image.songtaste.com/images/gu_bgt.png" ,sizingMethod="crop"); float:left}
+
+.hasg_main{ width:331px;
+background:url(http://image.songtaste.com/images/gu_bgm.png) repeat-y top; float:left}
+.new_tt{ vertical-align:-10%}
+</STYLE>
+<script type="text/javascript">
+//EvPNG.fix('div, ul, img, li, input');
+function setCookie(name, value)
+{
+	var Days = 90;
+	var exp  = new Date();
+	exp.setTime(exp.getTime() + Days*24*60*60*1000);
+	document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+
+}
+
+function getNowStamp()
+{
+	var timestamp = Date.parse(new Date());
+	return parseInt(timestamp/1000);
+}
+
+function commonReg(cont)
+{
+		if(cont.length < 1){
+			return 'blank';
+		}
+		var pattern = /\.com|\.cn|\.net|\.org|\.biz|\.info|\.cn|\.mobi|\.name|\.sh|\.ac|\.la|\.travel|\.tm|\.us|\.cc |\.tv| \.mn| \.saia| \.hn|\.lc |\.hk|\.bz|\.ws |\.tel|\.cm|\.tw|\.io|\.ac/gi;
+		var stpattern = /songtaste.com/i;
+		if (!stpattern.test(cont)) {
+			if (pattern.test(cont)) {
+				return 'link';
+			}
+		}
+
+		var par = /\[.*?\].*?\[\/.*?\]*?]/i;
+		if (par.test(cont)) {
+			return 'stab';
+		}
+
+		var reg = new RegExp('[^<>]*?>|Uis');
+	  	if (reg.test(cont)) {
+			return 'tab';
+	  	}
+		return '';
+}
+
+function createcode() {
+	var ih = $("#secoder_img:has(img)");
+	if(ih.length == 0) {
+		$("#secoder_img").append("<img src='"+ createimg() + "' title='输入不区分大小写' /><span style='font-size:10px;'><a href='javascript:;' onclick=\"$('#secoder_img img').attr('src',function(){return createimg();})\">看不清楚？换一张</a></span>");
+	}
+}
+function createimg() {
+	var img = "/Secoder.php?" + codehash(7);
+	return img;
+}
+function check_code() {
+	var code = $('#secoder').val();
+	var re = $.ajax({
+	                  url: "/info_oper.php?tag=check_code",
+	                  data: "coder="+code,
+	                  type: 'POST',
+	                  async: false
+	             }).responseText;
+	if(re == 'error') return false;
+	return true;
+}
+
+$("document").ready(function(){
+	var te = new Date().getTime();
+	var timespan = te-ts;
+	$.get("/info_oper.php", { tag: "loadinglog", songid: "3816", ts: timespan } ); 
+	
+	jQuery.fn.modelId = function(){
+		var id = $(this).attr('id');
+		if (id == null) return null;
+		var idParts = id.split(/[-_]/g);
+		return (idParts.length > 1) ? idParts[idParts.length-1] : null;
+	};
+	$('a[id*="custom_"]').click(function(){
+		$.get("/click.php?type="+$(this).modelId());
+	});
+	
+	var getname = '/info_oper.php?tag=getfavname&songid='+3816;
+	$.ajax({
+		type : "GET",
+		url : getname,
+		dataType : 'json',
+		success : function(msg){
+			if(msg != null && msg != undefined){
+				var cont = "<H4>歌名：<span id='favsongname' style='color:#d01f3c'></span></H4>";
+				cont += "<H4>歌手：<span id='favsinger' style='color:#d01f3c'></span></H4>";
+			    $('#favs').html(cont);
+				$('#favsongname').html(msg.song);
+				$('#favsinger').html(msg.singer);
+			}
+		}
+	});
+
+	
+});
+
+function showNameBox(songid)
+{
+	$.get("/click.php?type=9");
+	if($('div.has_gmbg').css('display') == undefined){
+		var operurl = "/info_oper.php?tag=namebox&songid="+songid;
+		$.ajax({
+			type: 'GET',
+			url: operurl,
+			success : function(msg){
+				$('div.tj_scright').append(msg);
+				$('div.has_gmbg').css('left','-100px');
+			}
+		});
+	}
+	else
+	{
+		if($('div.has_gmbg').css('display') == 'none'){
+			$('div.has_gmbg').css('left','-100px');
+			$('div.has_gmbg').css('display','block');
+		}else{
+			$('div.has_gmbg').css('display','none');
+		}
+	}
+}
+
+function hidebox()
+{
+	$('div.has_gmbg').hide();
+}
+
+
+function saveSongName()
+{
+	var songname = $('#songname').val();
+	var singername = $('#singername').val();
+	if(songname == '' || songname == '你认为正确的') {
+		alert('歌曲名称不能为空');
+		return false;
+	}
+	if(singername == '') {
+		alert('歌手名不能为空');
+		return false;
+	}
+	var regrs = commonReg(songname);
+	switch(regrs) {
+		case 'link':
+			alert('歌名中不能存在链接');
+			return false;break;
+		case 'stab':
+			alert('歌名中不允许有自定义标签');
+			return false;break;
+		case 'tab':
+			alert('歌名中不允许有标签');
+			return false;break;
+		default:
+			break;
+	}
+	var regrs = commonReg(singername);
+	switch(regrs) {
+		case 'link':
+			alert('歌手名中不能存在链接');
+			return false;break;
+		case 'stab':
+			alert('歌手名中不允许有自定义标签');
+			return false;break;
+		case 'tab':
+			alert('歌手名中不允许有标签');
+			return false;break;
+		default:
+			break;
+	}
+	
+	var songid = 3816;
+	var operurl = "/info_oper.php?tag=addsongname&songid="+songid+"&songname="+songname+"&singername="+singername;
+	$.ajax({
+		type : "GET",
+		url : operurl,
+		contentType : "text/html;charset=gb2312",
+		success : function(msg){
+			if(msg == 'nologin'){
+				alert('对不起，您需要登录才能添加歌曲名');
+			}
+			else if(msg == 'userStatError') {
+				alert('您的帐户已经被冻结，不能做任何操作');
+			}
+			else if(msg == 'nosongname') {
+				alert('歌曲名不能为空');
+			}
+			else if(msg == 'exceedlimit') {
+				alert('添加的歌曲名不能超过3个');
+			}
+			else if(msg == 'userlimit') {
+				alert('您只能为该歌曲添加一个歌曲名');
+			}
+			else if(msg == 'existed') {
+				alert('您添加的歌名已存在');
+			}
+			else if(msg == 'getNameError') {
+				alert('获取歌名列表失败，请刷新');
+			}
+			else{
+				$('ul.has_hb').html(msg);
+			}
+		}
+	});
+}
+
+function favSongName(nameid)
+{
+	var favsonglist = getCookie('favSongName');
+	if(favsonglist == null){
+		favsonglist = '';
+	}
+	if(favsonglist.length > 0 && favsonglist.indexOf(nameid)>-1) {
+		alert('您已经顶过该歌曲名');
+		return false;
+	}
+	var operurl = "/info_oper.php?tag=favsongname&nameid="+nameid;
+	$.ajax({
+		type : "GET",
+		url : operurl,
+		success : function(msg){
+			if(msg == 'nologin'){
+				alert('对不起，您需要登录才能添加歌曲名');
+			}
+			else if(msg == 'userStatError') {
+				alert('您的帐户已经被冻结，不能做任何操作');
+			}
+			else{
+				$('#favname_'+nameid).html('顶'+msg);
+				if(favsonglist != '') {
+					favsonglist += ',';
+				}
+				favsonglist += nameid;
+				setCookie('favSongName', favsonglist);
+			}
+		}
+	});
+}
+/*
+function switch_player(playIcon, strID,strURL,intWidth,intHeight,type, Head, songid)
+{
+	if(Head.indexOf('media') > 0){
+		playmedia_flash(playIcon, strID,strURL,intWidth,intHeight,type, Head, songid);
+	}
+	else{
+		playmedia1(playIcon, strID,strURL,intWidth,intHeight,type, Head, songid);
+	}
+} 
+*/
+
+</script>
+<div class="left_gray">
+	<div class="song_right" style="width:340px">
+	
+
+	<a href="/song/3816/chart#grade"><h4 style="margin-bottom:0px">歌曲评分</h4></a>
+
+	<table cellpadding=0 cellspacing=0 style='margin:10px 0 0 0'>
+		<tr height=40> 
+			<td>
+				<a id="ratesong" href="javascript:void(0);" title='评价为好听' onclick="rateClick()"> 
+				<img src="http://image.songtaste.com/images/rategood.gif" border=0>
+				</a>
+			</td>
+			<td width=196 style="background:url(http://image.songtaste.com/images/ratecol.gif) no-repeat; color:white">
+				<p style="margin:0;padding:0 0 0 15px;line-height:150%;">	
+				热度 <b>17530</b> <br/>
+				<b>5</b> 人认为非常好听
+				</p>
+			</td>
+		</tr>
+	</table>
+ 
+	<ul class='ratelist'>
+	<li><img src='http://image.songtaste.com/images/u0.gif'> <a href='/user/1228978/' target=_blank>可可 合子</a></li><li><img src='http://image.songtaste.com/images/u0.gif'> <a href='/user/1029246/' target=_blank>胖婶</a></li><li><img src='http://image.songtaste.com/images/u1.gif'> <a href='/user/650854/' target=_blank>kelivn</a></li><li><img src='http://image.songtaste.com/images/u0.gif'> <a href='/user/237118/' target=_blank>安夏</a></li><li><img src='http://image.songtaste.com/images/u2.gif'> <a href='/user/107660/' target=_blank>家猪</a></li>
+	</ul>
+
+	<p class="gray" style="MARGIN-TOP: 12px; display:inline; width:100%; float:left ">被评为“好听”的歌将被顶到首页第一个位置</p>
+	<div style="width:300px;float:left;">
+    <html>
+<head>
+</head>
+<body>
+<script type="text/javascript"> 
+alimama_pid="mm_34326891_3456686_11235331"; 
+alimama_width=300; 
+alimama_height=250; 
+</script> 
+<script src="http://a.alimama.cn/inf.js" type="text/javascript"> 
+</script>
+</body>
+</html>
+
+	</div>
+	<br>
+	<h4 style="width:100%; float:left ">相关评价</h4>
+	
+	
+	
+	<div class="song_cmt">
+			<input type="hidden" id="song_id" value="3816"> 
+			<textarea style="width:250px;height:50px;" name="cont" id="cont" onclick="contClick();"></textarea>  
+			<a href='/upradio/upradio.php?sid=3816' target=_blank><span class="gray">200字以内</span></a><br />
+			
+ 			<!-- <table><tr>
+		  		<td><input type="text" id="secoder" name="secoder" style="width:100px;" onclick="createcode()"/></td><td><span id="secoder_img"></span></td>
+		  	</tr></table> -->
+			<input id="subcmt" type='button' value="提交" style="margin-left:208px; margin-top:5px; display:inline" onclick="subClick()"> 
+	</div>
+
+	<!-- BEGIN Cmt -->
+	<div class="cmt_list">
+	<script>
+	
+	SWM("26666","66/26666.gif","夏 ","2009-10-12 15:00:16","一年后再听这首歌,真的是有些心疼. ","3071798","1");
+	SWM("948699","99/948699.jpg","时差小姐 ","2009-02-07 00:00:19","很有共鸣的歌词.曲调也很干净纯粹. ","1837686","1");
+	SWM("873326","26/873326.jpg","冻掉的热水袋 ","2009-01-13 23:11:37","真的很安静。。。 ","1701184","1");
+	SWM("313","13/313.jpg","似乎野有 ","2008-11-14 16:04:47","这么乱的地方好久都没来了。你还在心疼呢 纯情青年 ","1401847","0");
+	SWM("222326","26/222326.jpg","felicityx ","2008-11-14 16:01:52","我想你也一定累了吧…… ","1401833","0");
+	SWM("26666","66/26666.gif","夏 ","2008-10-24 20:18:08","我相信年少的你<br />曾经拥抱许多的美丽幻想<br />也相信现在的你<br />有一段段怎么说也说不清的悲伤 ","1298435","1");
+	SWM("237118","18/237118.jpg","安夏 ","2008-10-06 20:59:51","今晚就想听你 ","1197331","0");
+	SWM("107660","60/107660.jpg","家猪 ","2008-03-11 01:29:29","很心疼<br />我们曾经留在往事里的美丽幻想<br />最终不得不似梦一场 ","275290","2");
+	SWM("428","28/428.jpg","egg ","2007-03-22 22:45:00","這樣一個堅強、好客、豪爽的女人，在旋律裡，又透露出多少自己不為人知的脆弱呢？<br /> ","3022","1");
+	</script>
+	</div>
+	<!-- END Cmt -->
+	
+	
+</div>
+
+<div class="song_left">
+<p class="mid_tit">心疼</p><p></p>
+<p class="fir_rec"> 
+<a href="/user/428/">
+	<img src="http://image.songtaste.com/images/usericon/s/28/428.jpg" class="icon" width=25 align=absmiddle>
+</a> 
+<img src="http://image.songtaste.com/images/u1.gif"> 
+<a href="/user/428/" class="underline">egg</a>　
+<span class="date">2007-03-17 19:03:14</span> 第一次推荐　　
+<a href="/home.php?tag=add_song&act=edit&songid=3816" class="gray">编辑</a></p>
+<p style="color:red"></p>
+
+<div id="playicon" style="margin-left:-12px">
+<div style='display:none;'><a href="javascript:playmedia1('playicon','player', 'cb2ad1a80e89f0d208ebe017c0022a66dbb33e87c5420ba174722aa92d0d57c2dd8f0769c87629fe8b71ad302f3c3a9b', '355', '68', '7d99bb4c7bd4602c342e2bb826ee8777', 'http://mc.', '3816',1);ListenLog(3816, 0);">
+<img src="http://image.songtaste.com/images/play_ico.gif" align="absmiddle" border="0" alt="播放心疼"> <b> Listen Now</b>
+</a>　　　(<a href="javascript:;" onClick=window.open("/playmusic.php?song_id=3816",'popwin_kt','menubar=no,location=no,resizable=no,scrollbars=no,status=no,width=50,height=50'); >弹出播放</a>)</div><script src="/stflashplayer/js/swfobject.js"></script><script>var flashvars = { };var params = { menu:"false",scale:"noScale",allowFullscreen:"true",allowScriptAccess:"always",wmode:"transparent"};params.allowScriptAccess="always";params.hasPriority="true";params.swliveconnect="true";var attributes = { id:"STWebPlayer" };swfobject.embedSWF("/stflashplayer/STPlayer_1.12.swf","STWebPlayer","360","70","10.0.0","/stflashplayer/expressInstall.swf", flashvars, params, attributes);function swfReady(){	var strURL = "cb2ad1a80e89f0d208ebe017c0022a66dbb33e87c5420ba174722aa92d0d57c2dd8f0769c87629fe8b71ad302f3c3a9b";	var Head = "http://mc.";	var type = "7d99bb4c7bd4602c342e2bb826ee8777";	var iscopy = "1";	if(strURL.indexOf('rayfile')>0 && iscopy <= 0) {		var SongUrl = Head + strURL + GetSongType(type);		var obj = { 			name:"心疼",url:SongUrl,isShowLogo:"1" ,isAutoReplay:1, isAutoPlay:0		};		setSongInfo(obj);	}	flashplay("cb2ad1a80e89f0d208ebe017c0022a66dbb33e87c5420ba174722aa92d0d57c2dd8f0769c87629fe8b71ad302f3c3a9b", "3816","1");ListenLog("3816", "0");}function setSongInfo(obj){	try{		var stPlayerSWFobj = swfobject.getObjectById("STWebPlayer");		stPlayerSWFobj.setSongInfo(obj);	} catch(e){ alert(e.description); }}function playAudio(){	var stPlayerSWFobj = swfobject.getObjectById("STWebPlayer");	stPlayerSWFobj.playAudio();}function pauseAudio(){	var stPlayerSWFobj = swfobject.getObjectById("STWebPlayer");	stPlayerSWFobj.pauseAudio();}function playerPlayStart(){}function playerPaused(){}function flashplay(strURL,st_songid,t) {		$.ajax({			type:'POST',			url:'/time.php',			cache:false,			data:'str='+strURL+'&sid='+st_songid+'&t='+t,			dataType:'html',			success:function(data){				if(data){					var obj = { 						name:"心疼",url:data,isShowLogo:"1" ,isAutoReplay:1, isAutoPlay:0					};					setSongInfo(obj);					if(data.indexOf('duomi.com') > 0){						$("#show_logo").show();					}				}			},			error:function(data){			}		});}</script><div id="STWebPlayer"><h1>STWebPlayer</h1><p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p></div>
+</div>
+
+<DIV id=player style="DISPLAY: none;margin-bottom:10px;"></DIV>
+
+<script language="JScript" for="MediaPlayer1" event="error()">PlayErrorLog(3816);</script>
+<script language="JScript" for="MediaPlayer1" event="OpenStateChange(ns)">PlayLog(ns,3816);</script>
+<style type="text/css">
+#show_logo{ width:340px; margin-left:-10px; padding-bottom:10px; float:left;display:none}
+.come_01{ color:#666666; font-size:12px; line-height:25px; float:left }
+.come_url{ width:190px; height:25px; padding-left:10px; font-size:12px; line-height:25px; overflow:hidden; float:left }
+.to_url{ font-size:12px; line-height:25px; float:left }
+.come_url a{ color:#666666; text-decoration:underline }
+.come_url a:hover{ color:#666666; text-decoration:underline }
+.to_url a{ color:#666666; text-decoration:underline }
+.to_url a:hover{ color:#666666; text-decoration:underline }
+</style>
+<DIV class=tj_sc style="padding-left:0px">
+<div id="show_logo">
+	<div class="come_01">&nbsp;版权合作：</div><img src="http://image.songtaste.com/images/duomi_logo2.png" border="0" width="70" height="20" style="float:left" /><div class="come_url"><a href="http://s.duomi.com/s/3ppjikljx" target="_blank">http://s.duomi.com/s/3ppjikljx</a></div>
+</div>
+<div style="margin-top:10px" >
+	<img align="absMiddle" src="http://image.songtaste.com/images/shouji_03.jpg" style="padding:0;margin:0;border:0">
+	<font style="color:#d01f3c">
+	下载ST手机版（<a id="custom_5" href="http://songtaste.com/3g.php" target="_blank" style="text-decoration:underline"><font style="color:#d01f3c">Android</font></a> / <a id="custom_5" href="http://itunes.apple.com/cn/app/songtaste/id490570840?mt=8 " target="_blank"  style="text-decoration:underline"><font style="color:#d01f3c">iPhone</font></a>）</font>
+	</a><img border="0"style="padding:0;margin:0;border:0" class="new_tt" alt="" src="http://image.songtaste.com/images/new.jpg">
+</div>
+<DIV class=tj_scleft>
+<DIV class=le_url>
+	<A id="custom_1" class="don underline" href="http://huodong.duomi.com/songtaste/?songid=3816" target=_blank style="color:red">下载歌曲</A> (<A id="custom_2" class=underline href="http://huodong.duomi.com/songtaste/?songid=3816" target=_blank>高速下载</A>) 
+</DIV>
+<link rel="stylesheet" href="http://www.songtaste.com/plugin/fancybox/jquery.fancybox-1.3.4.css" type="text/css" />
+<script src="http://www.songtaste.com/plugin/fancybox/jquery.fancybox-1.3.4.js"></script>
+ 
+<script>
+var lightbox_t = false;
+$(document).ready(function() {
+	$("#iframe").fancybox({
+		'hideOnContentClick': true,
+		'centerOnScroll ': false
+	});
+	//lightbox_t = showLightbox();
+});
+function showLightbox() {
+	var login_status = 0;
+	if(!checkLogin()) {
+		login_status = 1;
+	}
+	else {
+		var ses = getCookie("CookDmID");
+		if(ses && ses >0) {
+			return;
+		}
+		else if(ses < 0){
+			login_status = 2;
+		}
+		else {
+			$.ajax({
+				url: "/info_oper.php?tag=checkbind",
+				async: false,
+				success : function(data) {
+					if(data==1){
+					   login_status = 0;
+					   return;
+					}
+					login_status = 2;
+				}
+			});
+		}
+	}
+	if(login_status == 0) return false;
+	if(login_status == 1) {
+		var t = setTimeout(showLoginLightbox,30000);
+		return t;
+	}
+	if(login_status == 2) {
+		var t = setTimeout(showBindLightbox,30000);
+		return t;
+	}
+}
+
+function clearLightbox(lightbox_t){
+	if(lightbox_t === false) return;
+	clearTimeout(lightbox_t);
+	return showLightbox();
+}
+
+function showLoginLightbox() {
+	parentAct = function(){ changeUserInfo(true);if(lightbox_t!==false)lightbox_t=clearLightbox(lightbox_t); };
+		$("#iframe").attr('href','http://2012.songtaste.com/st/lightbox.shtml')
+		.click();
+}
+
+function showBindLightbox() {
+	parentAct = function(){ changeUserInfo(true);if(lightbox_t!==false)if(lightbox_t!==false)lightbox_t=clearLightbox(lightbox_t); };
+		$("#iframe").attr('href','http://2012.songtaste.com/st/lightbox_bind.shtml')
+		.click();
+}
+function checkLogin(){
+	var uid = getCookie("CookID");
+	if ( uid == null || uid == "" || uid==0 ) 
+	{
+		return false;	
+	}
+	return true;
+}
+
+document.domain = "songtaste.com";
+var parentAct = function(fuc) {};
+
+function addrecsong(){
+		$.get("/click.php?type=6");
+		var songid = $("#song_id").val();
+			if(!songid) {
+			alert("找不到推荐歌曲");
+		}
+		var $url = '/info_oper.php?tag=addrecsong&songid='+songid;
+		$.ajax({
+			type : "GET",
+			url : $url,
+			success : function(msg){
+				if(msg == 'nologin') {
+					alert('对不起，您需要登录才能操作');
+				}
+				else if (msg == 'success'){
+					alert('该首歌已成功加入您的推荐');
+				}
+			}
+		});
+	}
+ 
+function addRecClick(){
+	if(checkLogin()){
+		addrecsong();
+		return;
+	}
+	
+	$("#iframe").click();
+	parentAct = arc;
+}
+function arc()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function changeUserInfo(flg){
+	if(flg){
+		$.fancybox.close();	
+	}
+	var icon = getCookie("CookIcon");
+	var uid = getCookie("CookID");
+	if( icon == null || icon == "" )
+			icon = "default.gif";
+		else
+			icon = uid.substring(uid.length-2)+"/"+icon;
+	var tpl = $("#tpl").html();
+	tpl = tpl.replace(/_uid_/g,uid);
+	tpl = tpl.replace(/_icon_/g,icon);
+	$('#sign').replaceWith(tpl);
+}
+function addfavsong(){
+		$.get("/click.php?type=7");
+		var songid = $("#song_id").val();
+		if(!songid) {
+			alert("找不到收藏歌曲");
+		}
+		var $url = '/info_oper.php?tag=addfavsong&songid='+songid;
+		$.ajax({
+			type : "GET",
+			url : $url,
+			success : function(msg){
+				if(msg == 'nologin') {
+					//alert('对不起，您需要登录才能操作');
+				}
+				else if (msg == 'success'){
+					alert('该首歌已成功加入您的收藏');
+				}
+			}
+		});
+}
+function addFavClick(){
+	if(checkLogin()){
+		addfavsong();
+		return;
+	}
+	
+	$("#iframe").click();
+	parentAct = afc;
+}
+function afc()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function addCustomClick(){
+	if(checkLogin()){
+		addcustomsong();
+		return;
+	}
+	
+	$("#iframe").click();
+	parentAct = acs;
+}
+function acs()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function addcustomsong()
+{
+window.location.href=$('#custom_3').attr('val');
+}
+function addbox(){
+		$.get("/click.php?type=8");
+		var songid = $("#song_id").val();
+		if(!songid) {
+			alert("找不到要添加的歌曲");
+		}
+		var $url = '/info_oper.php?tag=addbox&songid='+songid;
+		$.ajax({
+			type : "GET",
+			url : $url,
+			success : function(msg){
+				if(msg == 'nologin') {
+					alert('对不起，您需要登录才能使用音乐盒功能');
+				}
+				else if (msg == 'success'){
+					alert('该首歌已成功加入我的音乐盒');
+				}
+			}
+		});
+ 
+	}
+function addBoxClick(){
+	if(checkLogin()){
+		addbox();
+		return;
+	}
+	
+	$("#iframe").click();
+	parentAct = ab;
+}
+function ab()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function contClick()
+{
+	if(checkLogin()){
+			return;
+		}
+		
+		$("#iframe").click();
+		parentAct = ck;
+}
+function ck(){
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+	}
+function subClick()
+{
+	if(checkLogin()){
+			subcmt();
+			return;
+		}
+		
+		$("#iframe").click();
+		parentAct = sc;
+}
+function sc()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function subcmt(){
+		var songid = $("#song_id").val();
+		if(!songid) {
+			return false;
+		}
+//		var secoder = $('#secoder').val();
+//		if($('#secoder').val() == '') {
+//			alert("请输入验证码");
+//			$('#secoder').focus().trigger("click");
+//			return false;
+//		}
+//		if( check_code() == false) {
+//			alert('您的验证码填写错误！');
+//			$('#secoder').focus();
+//			return false;
+//		}
+		var cmtcont = $("#cont").val();
+		if(cmtcont.length < 1){
+			alert("评论内容不能为空");
+			return false;
+		}
+		var pattern = /\.com|\.cn|\.net|\.org|\.biz|\.info|\.cn|\.mobi|\.name|\.sh|\.ac|\.la|\.travel|\.tm|\.us|\.cc |\.tv| \.mn| \.saia| \.hn|\.lc |\.hk|\.bz|\.ws |\.tel|\.cm|\.tw|\.io|\.ac/gi;
+		var stpattern = /songtaste.com/i;
+		if (!stpattern.test(cmtcont)) {
+			if (pattern.test(cmtcont)) {
+				alert("评论内容不允许有链接！");
+				document.getElementById("cont").focus();
+				return(false);
+			}
+		}
+
+		var par = /\[.*?\].*?\[\/.*?\]*?]/i;
+		if (par.test(cmtcont)) {
+			alert("不允许有自定义标签出现！");
+			document.getElementById("cont").focus();
+			return(false);
+		}
+
+		var reg = new RegExp('[^<>]*?>|Uis');
+	  	if (reg.test(cmtcont)) {
+			alert("评论内容不允许有标签！");
+			document.getElementById("cont").focus();
+			return(false);
+	   
+	  	}
+	  	
+	  	var uid = getCookie("CookID");
+	  	if(!uid) {
+	  		alert('对不起，您需要登录才能评论');
+	  		return false;
+	  	}
+	  	else 
+	  	{
+		  	var lastcmt = getCookie('LastCmt'+uid);
+		  	var nowtime = getNowStamp();
+		  	if(!lastcmt) 
+		  	{
+		  		setCookie("LastCmt"+uid, nowtime);
+		  	} 
+		  	else 
+		  	{
+		  		if((nowtime - lastcmt) < 30) 
+		  		{
+		  			alert('对不起，您留言太快了，两次留言时间不能低于30秒！');
+		  			return false;
+		  		}
+		  	}
+	  	}
+	  	
+		var cmturl = "/info_oper.php?tag=song_cmt&songid="+songid+"&cont="+cmtcont;
+		$.ajax({
+			type : "GET",
+			url : cmturl,
+			contentType : "text/html;charset=gbk",
+			beforeSend : function(){
+				document.getElementById("cont").disabled = true;
+				document.getElementById("subcmt").disabled = true;
+				var promptHtml = "<div id='cmt_prompt' style='text-align:center;margin:0 0 20px 0;clear:both;'>正在发送请求，请稍候…</div>";
+				$('div.cmt_list').before(promptHtml);
+			},
+			
+			success : function(msg){
+				document.getElementById("cont").value = '';
+				document.getElementById("cont").disabled = false;
+				document.getElementById("subcmt").disabled = false;
+				if(document.getElementById("cmt_prompt")) {
+					$('#cmt_prompt').remove();
+				}
+				
+				if(msg == 'nologin'){
+					alert('对不起，您需要登录才能评论');
+				}
+				else if(msg == 'userStatError') {
+					alert('您的帐户已经被冻结，不能做任何操作');
+				}
+				else if(msg == 'getcmtError'){
+					alert('获取评论列表失败，请刷新');
+				}
+				else if(msg == 'checkCmtDt') {
+					alert('对不起，您留言太快了，两次留言时间不能低于30秒！');
+				}
+				else if(msg == 'regtimelimit') {
+					alert('对不起，该用户(上传者)设置了注册时间超过一定天数的会员才能留言！');
+				}
+				else if(msg == 'badfred') {
+					alert('对方用户已经把您列为坏蛋名单中，您不能给对方以及对方歌曲专辑留言！');
+				}
+				else if(msg == 'regtime10') {
+					alert('注册10天后才能对歌曲留言！');
+				}
+				else if(msg == 'secoderror') {
+					alert('您的验证码错误！');
+				}
+				else {
+					$("div.cmt_list").html(msg);
+//					$("#secoder").val('');
+//					$("#secoder_img a").trigger("click");
+				}
+			},
+			error : function(){
+				document.getElementById("cont").disabled = false;
+				document.getElementById("subcmt").disabled = false;
+				if(document.getElementById("cmt_prompt")) {
+					$('#cmt_prompt').remove();
+				}
+				alert('发布留言失败，请重试！');
+			}
+		}); 
+	}
+function rateClick()
+{
+	if(checkLogin()){
+			ratesong();
+			return;
+		}
+		
+		$("#iframe").click();
+		parentAct = rate;
+}
+function rate()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+function ratesong(){
+		var songid = $("#song_id").val();
+		var rateurl = '/info_oper.php?tag=add_song_grade&songid='+songid+'&rating=5';
+		$.ajax({
+			type : "GET",
+			url : rateurl,
+			success : function(msg){
+				switch(msg){
+					case 'nologin':
+						alert('对不起，您需要登录才能对此歌曲进行评分');break;
+					case 'rated':
+						alert('您以前已经认为这首歌好听了,不能重复评价');break;
+					case 'timelimit':
+						alert('对不起，两次歌曲评分至少间隔1分钟');break;
+					case 'norateself':
+						alert('对不起，您不能给自己首次推荐的歌曲评分');break;
+					case 'rateok':
+						alert('您的评分已经生效，感谢您对歌曲的支持');break;
+				}
+			}
+		});
+	} 
+function showNameClick	()
+{
+	if(checkLogin()){
+			showNameBox($("#addsn").attr("val"));
+			return;
+		}
+		
+		$("#iframe").click();
+		parentAct = showName;
+}
+function showName()
+{
+	var flg = arguments[0]===false?false:true;
+	changeUserInfo(flg);
+}
+</script>
+<div id="tpl" style="display:none">
+<div id="user_blk"><ul><li class="hb1"><a href="/user/_uid_/">别人眼中我的主页</a></li><li class="hb2"><a href="/home.php">我的操作页</a>  <a href="/home.php?tag=feed">动态</a></li><li class="hb3"><a href="#" onclick="window.open('/play.php?tag=box','popwin_kt','menubar=no,location=no,resizable=no,scrollbars=no,status=no,width=50,height=50');">音乐盒</a>　<a href="/home.php?tag=fav">收藏夹</a></li><li><a href="/msg.php" id="msgnum">收件箱</a> | <a href="/info_oper.php?tag=signout">退出</a></li></ul><img src="image.songtaste.com/images/usericon/s/_icon_"  style="margin:0;margin-right:2px;margin-bottom:-3px;"></div>
+</div>
+<div ><a class="iframe" id="iframe" href="http://2012.songtaste.com/st/lightbox.shtml"></a></div>
+<DIV class=le_url>
+	<A id=addrecsong class="add underline" href="javascript:void(0);" onclick="addRecClick();">收录到 我的推荐</A> (10, <a href='/song/3816/chart#rec' class='underline'>who?</a>)
+</DIV>
+<DIV class=le_url>
+	<A id=addfavsong class="fav underline" href="javascript:void(0);" onclick="addFavClick();">加入到 我的收藏</A> (6, <a href='/song/3816/chart#fav' class='underline'>who?</a>)
+</DIV>
+<DIV class=le_url><A id="addsn" val="3816" style="padding-left:30px" class="chag underline" href="javascript:void(0)" onClick="showNameClick()">添加正确歌名</A></DIV>
+
+</DIV>
+<DIV class=tj_scright>
+
+<DIV class=ri_url>
+<SPAN class=weiboshare>
+<div style="float:left">
+<img src="http://qzonestyle.gtimg.cn/ac/qzone_v5/app/app_share/qz_logo.png" border=0 alt="分享到QQ空间" align="absmiddle"  id="qzoneHolder"/>
+</div>
+<div style="float:right">
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a></div>
+
+<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+</span>
+</div>
+<DIV class=ri_url>
+	<span class="weiboshare">
+	  <img src="http://open.t.sina.com.cn/favicon.ico" align=absmiddle>
+	  <a id="custom_4" class="xl" onclick="javascript:;" href="javascript:void(call_sina_api(screen,document,encodeURIComponent,'','','',
+	  '我刚在SongTaste听到了一首超好听的歌曲：心疼','http://www.songtaste.com/song/3816/','utf-8'));">分享到新浪微博</a>
+	  &nbsp;
+	</span>
+</DIV>
+<DIV class=ri_url>
+	<img src="http://image.songtaste.com/images/cd.gif" align=absmiddle> 
+	<a class="underline" id="addbox" href="javascript:void(0);" onclick="addBoxClick(event);">放入我的音乐盒</a>
+</DIV>
+
+</DIV>
+
+</DIV>
+
+
+
+<DIV id='favs' style="MARGIN: 10px 0px 0px; FLOAT: left"></DIV>
+			
+<script>
+var pic=null;
+</script>		
+<!-- BEGIN Album -->
+<div style="MARGIN: 25px 0px 0px; FLOAT: left">
+
+<h4>相关专辑：</h4><ul class="s_album_list">
+<script>		
+
+SWA("9274","album.gif","粤语，其他，再…","193","粤语，其他，再其他，再三其他");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/album.gif";
+SWA("277","77/277.jpg","哈雷妈妈","11","哈雷妈妈");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/77/277.jpg";
+SWA("158101","01/158101.jpg","行走的女子","25","行走的女子");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/01/158101.jpg";
+SWA("226110","10/226110.jpg","耳廓","2","耳廓");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/10/226110.jpg";
+SWA("33094","94/33094.gif","沉溺在爱这件小…","3","沉溺在爱这件小事里");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/94/33094.gif";
+SWA("204835","35/204835.jpg","bring from oth…","12","bring from other’s");
+if(pic==null)
+	pic="http://image.songtaste.com/images/abu/35/204835.jpg";	
+</script>
+</ul></div>
+<!-- END Album -->
+<script type="text/javascript">
+if(pic==null)
+	pic = "http://image.songtaste.com/images/usericon/l/28/428.jpg";
+(function(){
+var p = {
+url:location.href,
+desc:'我刚在Songtaste音乐网站听到了一首很棒的歌：心疼 By:egg 在线试听 mp3下载',/*默认分享理由(可选)*/
+summary:'',/*摘要(可选)*/
+title:'',/*分享标题(可选)*/
+site:'SongTaste',/*分享来源 如：腾讯网(可选)*/
+pics: pic /*分享图片的路径(可选)*/
+};
+var s = [];
+for(var i in p){
+s.push(i + '=' + encodeURIComponent(p[i]||''));
+}
+var sharehtml = ['<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank" title="分享到QQ空间"> 分享到QQ空间</a>'].join('');
+$("#qzoneHolder").after(sharehtml);
+
+})();
+</script>
+<div class="lyric_blk"  style="float:left;width:300px">
+<h4>歌词：</h4>
+<div class="lyric" id="old_lyric">
+<!-- BEGIN Lyric -->
+青春年华转眼过了<br />那美好随风飘散<br />爱情的梦转眼醒了<br />爱与不爱都是惆怅<br />是非成败转眼空了<br />不愿意也要遗忘<br />脆弱的心终于哭了<br />人生路上剩下孤单<br />我相信年少的你<br />曾经拥抱许多的美丽幻想<br />也相信现在的你<br />有一段段怎么说也说不清的悲伤<br />班么心疼你呀<br />靠近我不用说话<br />我想你一定累了吧<br />眼角里那是泪吗  
+<!-- END Lyric -->
+</div>
+
+</div></div></div>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+</SCRIPT>
+
+<script>
+(function(){
+if(parseInt($(".song_left").css('height').replace('px',''))>760){
+	$("#left_ad_2").show();
+}
+})();
+</script>
+</div>
+
+		</div>
+		<div id="content_foot_gray">
+		</div>
+	</div>
+	<div id="b_right_col">
+		<div class="r_blue1">
+			<div class="r_blue2">  
+				<div class="r_blue3">  
+				<img src="http://image.songtaste.com/images/blue_icon.gif">     
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="display:none;"><a href=" http://www.16kan.com">TOPIT.ME 收录优美图片</a></div>
+
+<script>WrtFoot()</script>
+ 
+ <script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17903945-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=5&amp;uid=725175" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->
+<div style="display:none">
+
+
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffd19d6b371be7ce51c3b62b0dac6535e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</script>
+</div>
+
+</body>
+</html>
+<!--cached 2014-07-07 20:31:31-->

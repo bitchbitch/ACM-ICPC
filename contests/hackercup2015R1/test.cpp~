@@ -1,0 +1,55 @@
+#include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <complex>
+#include <cstring>
+#include <cstdlib>
+#include <string>
+#include <vector>
+#include <cstdio>
+#include <cmath>
+#include <map>
+#include <set>
+using namespace std;
+//#pragma comment(linker,"/STACK:102400000,102400000")
+
+int nFactors[10000001];
+
+void solve()
+{
+	int A, B, K;
+	cin >> A >> B >> K;
+	int cnt = 0;
+	for(int i = A; i <= B; i++)
+		if(nFactors[i] == K)
+			cnt ++;
+	cout << cnt << endl;
+}
+
+int MAIN()
+{
+	memset(nFactors, 0, sizeof(nFactors));
+	for(int i = 2; i <= 10000000; i++)
+		if(nFactors[i] == 0)
+			for(int j = i; j <= 10000000; j+= i)
+				nFactors[j] ++;
+	int T;
+	cin >> T;
+	for(int caseID = 1; caseID <= T; caseID ++)
+	{
+		cout << "Case #" << caseID << ": ";
+		solve();
+	}
+	return 0;
+}
+
+int main()
+{
+	#ifdef LOCAL_TEST
+		freopen("in.txt", "r", stdin);
+		freopen("out.txt", "w", stdout);
+	#endif
+	ios :: sync_with_stdio(false);
+	cout << fixed << setprecision(16);
+	return MAIN();
+}

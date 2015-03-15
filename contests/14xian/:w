@@ -1,0 +1,48 @@
+// File Name: 1009.cpp
+// Author: darkdream
+// Created Time: 2014年09月14日 星期日 12时44分40秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int n ,m ;
+LL a[100][100];
+int main(){
+   scanf("%d %d",&n,&m);
+   for(int i =1 ;i <= n;i ++)
+	   scanf("%lld",&a[i][0]);
+   a[0][0] = 233;
+   for(int i =1 ;i <= 10 ;i ++)
+	   a[0][i] = (a[0][i-1] *10 + 3)% 10000007; 
+   for(int i =1 ;i <= 10 ;i ++)
+	   for(int j = 1;j <= 10 ;j++)
+	   {
+	     a[i][j] = (a[i-1][j] + a[i][j-1])%10000007 ; 
+	   }
+   for(int i = 0 ;i <= 10 ;i ++)
+   {
+      for(int j= 0  ;j <= 10 ;j ++)
+		  printf("%lld ",a[i][j]);
+	  puts("");
+   }
+return 0;
+}

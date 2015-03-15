@@ -1,0 +1,102 @@
+#include<iostream>
+#include<cstdio>
+using namespace std;
+#define MAXN 100050
+ 
+struct la{
+    int l, r;
+    int col;          //  用一个32位的int型，每一位对应一种颜色，用位运算代替bool col[32]。
+    bool cover;       //  表示这个区间都被涂上同一种颜色，线段树效率的体现，否则插入就是0(n)了。
+}node[3*MAXN];
+ 
+void swap(int &a, int &b){
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+ 
+void BuildTree(int left, int right, int u){
+    node[u].l = left;
+    node[u].r = right;
+    node[u].col = 1;          //  开始时都为涂有颜色1，看题要仔细，要注意状态。
+    node[u].cover = true;
+    if(left == right) return;
+    int mid = (left+right)>>1;
+    BuildTree(left, mid, u<<1);
+    BuildTree(mid+1, right, (u<<1)+1);
+}
+ 
+void get_down(int u){        //  延迟覆盖的操作。
+    int val = node[u].col;
+    node[u].cover = false;
+    node[u<<1].col = val;
+    node[u<<1].cover = true;
+    node[(u<<1)+1].col = val;
+    node[(u<<1)+1].cover = true;
+}
+ 
+void updata(int left, int right, int val, int u){
+    if(left <= node[u].l && right >= node[u].r){
+        node[u].col = val;
+        node[u].cover = true;
+        return;
+    }
+    if(node[u].col == val) return;     // 这个剪枝还优40多MS，效果还蛮不错的。
+    if(node[u].cover) get_down(u);
+    //node[u].col |= val;   这样是错的，因为新加入的颜色可能会把node[u].col中的某些颜色覆盖掉。
+    if(left <= node[u<<1].r)
+        updata(left, right, val, u<<1);
+    if(right >= node[(u<<1)+1].l)
+        updata(left, right, val, (u<<1)+1);
+    node[u].col = node[u<<1].col | node[(u<<1)+1].col;   // 最后递归回来再更改父节点的颜色。
+}
+ 
+void query(int left, int right, int &sum, int u){ 
+    if(node[u].cover){         //  这个区间全部为1种颜色，就没有继续分割区间的必要了。 
+        sum |= node[u].col;    //  颜色种类相加的位运算代码。
+        return;
+    }
+    if(left <= node[u].l && right >= node[u].r){
+        sum |= node[u].col;
+        return;
+    }
+    if(left <= node[u<<1].r)
+        query(left, right, sum, u<<1);
+    if(right >= node[(u<<1)+1].l)
+        query(left, right, sum, (u<<1)+1);
+}
+ 
+int fun(int sum){             // 求int型的sum对应的颜色数量，即为求sum中有多少位是1。
+    int ans = 0;
+    while(sum){
+        if(sum % 2) ans ++;   // sum最后一位为1，(sum%2==1)，则多一种颜色。
+        sum = sum>>1;         // sum右移出一位。
+    }
+    return ans;
+}
+ 
+int main(){
+    int n, t, m;
+    freopen("数颜色.in","r",stdout);
+	scanf("%d%d%d", &n, &t, &m);
+    BuildTree(1, n, 1);
+    while(m --){
+        getchar();
+        int a, b, c;
+        char ope;
+        scanf("%c", &ope);
+        if(ope == 'C'){
+            scanf("%d%d%d", &a, &b, &c);
+            if(b < a) swap(a, b);         // 有可能b < a，要有状态仔细点，考虑要全面。
+            updata(a, b, 1<<(c-1), 1);    // int型的右起第c位变为1，即2的c-1次方。
+        }
+        else{
+            scanf("%d%d", &a, &b);
+            if(b < a) swap(a, b);
+            int sum = 0;
+            query(a, b, sum, 1);
+            printf("%d\n", fun(sum));
+        }
+    }
+    return 0;
+}

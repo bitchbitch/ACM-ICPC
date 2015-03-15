@@ -1,0 +1,88 @@
+// File Name: poj1741.cpp
+// Author: darkdream
+// Created Time: 2014年10月05日 星期日 08时06分24秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+#define maxn 20010
+using namespace std;
+struct node{
+   int ne; 
+   int v;
+   node(int _ne,int _v) 
+   {
+     ne = _ne; 
+	 v = _v ; 
+   }
+};
+int ans; 
+int ansv;
+int mx[maxn];
+int sum[maxn];
+vector<node> mp[maxn];
+int dfs(int k ,int la)
+{
+	//printf("%d\n",k);
+	int num = mp[k].size();
+	sum[k] = 1;
+    for(int i = 0; i < num;i ++ )
+	{
+       if(mp[k][i].ne != la)
+	   {
+	     mp[k][i].v = dfs(mp[k][i].ne,k);
+		 mx[k] = max(mp[k][i].v,mx[k]);
+		 sum[k] += mp[k][i].v; 
+	   }
+	}
+	return sum[k];
+}
+int main(){
+   int t; 
+   scanf("%d",&t);
+   while(t--)
+   {
+      int n ;
+	  scanf("%d",&n);
+	  int u, v;
+	  for(int i = 1;i <= n;i ++)
+		  mp[i].clear();
+	  for(int i = 1;i < n;i ++ )
+	  {
+	    scanf("%d %d",&u,&v);
+        mp[u].push_back(node(v,0));
+        mp[v].push_back(node(u,0));
+	  }
+	  memset(mx,0,sizeof(int)*(n+1));
+	  dfs(1,0);
+	  ansv = 1e9; 
+	  for(int i = 1;i <= n;i ++)
+	  {
+		 int tmx = max(sum[1] - sum[i],mx[i]);
+	     if(tmx < ansv)
+		 {
+		   ans  = i;
+		   ansv = tmx;
+		 }
+	  }
+	  printf("%d %d\n",ans,ansv);
+   }
+return 0;
+}

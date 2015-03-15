@@ -1,0 +1,59 @@
+// File Name: hmyuzx2.cpp
+// Author: darkdream
+// Created Time: 2013年11月29日 星期五 21时32分00秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+
+using namespace std;
+
+struct node{
+	int i ;
+	int v;
+}a[1000005];
+int ans[1000005];
+int main(){
+	int n ; 
+	while(scanf("%d",&n)!= EOF)
+	{
+		int sum = 0 ;
+		int temp;
+		scanf("%d",&temp);
+		sum ++;
+		memset(ans,0,sizeof(ans));
+		a[sum].v = temp;
+		a[sum].i = 1;
+		for(int i = 2;i <= n;i ++)
+		{
+			scanf("%d",&temp);
+			while(temp >= a[sum].v)
+			{
+				ans[a[sum].i] = temp;
+				sum --;
+			}
+			sum ++;
+			a[sum].v = temp;
+			a[sum].i = i;
+		}
+		for(int i=1 ;i <= n;i ++)
+			printf("%d\n",ans[i]);
+	}
+	return 0;
+}

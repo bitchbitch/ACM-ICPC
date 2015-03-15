@@ -1,0 +1,53 @@
+// File Name: 1005.cpp
+// Author: darkdream
+// Created Time: 2014年08月05日 星期二 12时44分19秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+char str[1000006];
+struct node{
+  int num ;
+  int is = 0
+}dp[1000006];
+int main(){
+	while(scanf("%s",&str[1]) != EOF)
+	{
+		int len = strlen(&str[1]);
+		int ok = 0 ; 
+		int sum = 0 ;
+        for(int i =1;i <= n;i ++)
+		{
+		    if(str[i] == ')')
+			{
+              sum ++ ;
+			  continue;
+			}else if(str[i] == '('){
+			
+			}else{
+			
+			}
+		}
+	}
+	return 0;
+}
+

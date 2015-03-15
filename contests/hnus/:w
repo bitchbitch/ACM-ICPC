@@ -1,0 +1,169 @@
+// File Name: b.cpp
+// Author: darkdream
+// Created Time: 2014年09月12日 星期五 12时37分27秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+char temp[] = "###";
+char str[1000] ; 
+char str1[1000];
+int ok = 0 ; 
+void solve(int fuck)
+{
+  int t = 0 ; 
+  int t1 = 0 ;
+  int len  = strlen(str);
+  int len1 = strlen(str1);
+  while(t < len && t1 < len1)
+  {
+       if(isalpha(str[t]) && isalpha(str1[t1]))
+	   {
+	      if(str[t] == str1[t1]) 
+		  {
+		    t ++ ; 
+			t1 ++ ; 
+			continue;
+		  }else if(isupper(str[t]) && islower(str1[t1]))
+		  {
+		     if(str[t] - 'A' < str1[t1] -'a')
+			 {
+			   puts("<");
+			   return;
+			 }
+			 else if(str[t] - 'A' > str1[t1] -'a')
+			 {
+			   puts(">");
+			   return;
+			 }else if(fuck)
+			 {
+			    puts(">");
+				return;
+			 }
+			 t ++ ; 
+			 t1 ++ ;
+		  }else if(isupper(str1[t1]) && islower(str[t]))
+		  {
+		    if(str1[t1] - 'A' < str[t] -'a')
+			{
+			  puts(">");
+			  return;
+			}else if(str1[t1] - 'A' > str[t] -'a')
+			{
+			  puts("<");
+			  return;
+			}else if(fuck)
+			{
+			  puts("<");
+			  return;
+			}
+			t ++ ; 
+			t1 ++;
+		  }else{
+		    if(str1[t1] - 'a' > str[t] - 'a')
+			{
+			  puts("<");
+			  return;
+			}else{
+			  puts(">");
+			  return;
+			}
+		  }
+	   }else if(isdigit(str[t]) && !isdigit(str1[t1])) 
+	   {
+	      puts("<");
+		  return;
+	   }else if(isdigit(str1[t1]) && !isdigit(str[t])){
+	      puts(">");
+		  return;
+	   }else{
+	     char temp[400];
+		 char temp1[400];
+		 memset(temp,0,sizeof(temp));
+		 memset(temp1,0,sizeof(temp));
+		 int k  = 0 ;
+		 int k1 = 0 ;
+		 int p = -1;
+		 while(isdigit(str[t]) && t < len)
+		 {
+			p++;
+			temp[p] = str[t];
+		    k = k * 10  + str[t] - '0' ;    
+			t ++ ;
+		 }
+		 p = -1;
+		 while(isdigit(str1[t1]) && t1 < len1)
+		 {
+			p++;
+			temp1[p] = str1[t1];
+		    k1 = k1 * 10  + str1[t1] - '0' ;    
+			t1 ++ ;
+		 }
+		  // puts(temp);
+		  // puts(temp1);
+		 if(k < k1)
+		 {
+		   puts("<");
+		   return;
+		 }else if(k > k1){
+		   puts(">");
+		   return;
+		 }else if(fuck){
+		   if(strcmp(temp,temp1) == 0 )
+			   continue;
+		   else if(strcmp(temp,temp1) < 0)
+		   {
+		      puts("<");
+			  return;
+		   }else{
+		      puts(">");
+			  return;
+		   }
+	    }
+     }
+  }
+  if(t == len && t1 != len1)
+	  puts("<");
+  else if(t1 == len1 && t != len)
+	  puts(">");
+  else{
+     ok = 1; 
+  }
+
+}
+int main(){
+  while(scanf("%s",str) != EOF)
+  {
+     if(strcmp(str,temp) == 0 )
+		 break;
+	 scanf("%s",str1);
+	 if(strcmp(str,str1) == 0 )
+		 puts("=");
+	 else {
+	   ok = 0 ; 
+	   solve(0);
+	   if(ok)
+		   solve(1);
+	 }
+  }
+return 0;
+}

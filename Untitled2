@@ -1,0 +1,77 @@
+#include <stdio.h>
+
+#define max 10002
+#define maxcost 0x7fffffff   //最大值
+
+int graph[max][max];
+int MAX;
+struct
+{
+ int x,y;
+}p[max];
+
+
+int prim(int graph[][max],int n)
+{
+ int lowcost[max],mis[max];
+ int sum=0,i,j,mini,min;
+ for(i=2;i<=n;i++)
+ {
+      lowcost[i]=graph[1][i];
+  mis[i]=1;
+ }
+ mis[1]=0;
+ for(i=2;i<=n;i++)
+ {
+  min=maxcost;
+      mini=0;
+  for(j=2;j<=n;j++)
+  {
+
+   if(lowcost[j]<min&&lowcost[j])
+  {
+      min=lowcost[j];
+   mini=j;
+  }
+  }
+  sum++;
+  p[sum].x=mis[mini];
+  p[sum].y=mini;
+  if(lowcost[mini]>MAX)
+  MAX=lowcost[mini];
+  lowcost[mini]=0;
+  for(j=2;j<=n;j++)
+  {
+   if(graph[mini][j]<lowcost[j])
+   {
+    lowcost[j]=graph[mini][j];
+    mis[j]=mini;
+   }
+  }
+ }
+ return sum;
+}
+
+int main ()
+{
+ int x,y,cost,m,n,i,j;
+
+ scanf("%d %d",&m,&n);
+ for(i=1;i<=m;i++)
+ for(j=1;j<=m;j++)
+ {
+  graph[i][j]=maxcost;
+ }
+ for(i=1;i<=n;i++)
+ {
+  scanf("%d %d %d",&x,&y,&cost);
+  graph[x][y]=cost;
+  graph[y][x]=cost;
+ }
+ n=prim(graph,m);
+ printf("%d\n",MAX);
+ printf("%d\n",n);
+ for(i=1;i<=n;i++)
+ printf("%d %d\n",p[i].x,p[i].y);
+ return 0;
+}

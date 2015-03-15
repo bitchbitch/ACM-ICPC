@@ -1,0 +1,48 @@
+// File Name: test.cpp
+// Author: darkdream
+// Created Time: 2015年03月11日 星期三 22时40分21秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int dp[10][10];
+int main(){
+    for(int i = 1;i <= 6;i ++)
+		for(int j = 1;j <= 6;j ++)
+			scanf("%d",&dp[i][j]);
+	for(int k= 1;k <= 6 ;k ++)
+	for(int i = 1;i <= 6;i++)
+		for(int j = 1;j <= 6; j ++)
+			dp[i][j]  = min(dp[i][j],dp[i][k] + dp[k][j]);
+	int sum = 0; 
+	for(int i = 1;i <=6 ;i ++)
+	{
+		for(int j = 1;j <= 6;  j ++)
+		{
+	      sum += dp[i][j];	
+		  printf("%d ",dp[i][j]);
+		}
+		printf("\n");
+	}
+	printf("%d\n",sum);
+return 0;
+}

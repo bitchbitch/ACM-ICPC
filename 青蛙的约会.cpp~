@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+__int64 extgcd(__int64 a, __int64 b, __int64 &x, __int64 &y)
+{
+    __int64 d, t;
+    if (b == 0) { x = 1; y = 0; return a; }
+    d = extgcd(b, a % b, x, y);
+    t = x - a/b*y; x = y; y = t;
+    return d;
+}
+int main()
+{ 
+     __int64 x,y,m,n,l;
+     while(scanf("%I64d %I64d %I64d %I64d %I64d",&x,&y,&m,&n,&l) != EOF)
+     {
+         __int64 X,Y;
+         __int64 d = extgcd((n-m),l,X,Y);
+         if((y-x) % d != 0 )
+         {
+           printf("Impossible\n");
+         }else{
+          __int64 r = l/d;
+          printf("%I64d\n",((x-y)/d*X%r + r )%r);
+         }
+     
+     }
+    
+     return 0; 
+}

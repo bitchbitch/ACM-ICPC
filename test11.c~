@@ -1,0 +1,69 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+#include<algorithm>
+#include<iostream>
+#define max(a , b) (a)>(b)?(a):(b)
+#define min(a , b) (a)<(b)?(a):(b)
+#define  LL long long 
+using namespace std;
+
+LL n;
+
+LL f(LL le,LL ri,LL k)
+{
+    LL t,tt;
+    while(le<ri)
+    {
+        t=(le+ri)/2;
+        tt=t*t-2*n+k*t;
+        if(tt==0)
+        {
+           if(t%2==0)
+              return -1;
+           return t;
+        }
+        else if(tt>0)
+           ri=t;
+        else
+           le=t+1;
+    }
+    if((le%2==1) && le*le-2*n+k*le==0)
+       return le;
+    return -1;
+}
+int main()
+{
+    while(scanf("%lld",&n)==true)
+{
+       LL tt;
+       LL q=1,p,count=0;
+       bool flag=0;
+       while(1)
+       {
+q *= 2;
+          	if(q-3<n*2)
+          	{
+            	tt=sqrt(2*n+0.5);
+            	p=n*2/(q-3);
+            	if(p>0 && p<tt)
+tt=p;
+ //	p=f(0 , tt , q-3);
+ //	p=f(0 , tt , q);
+             	p=f(0 , tt+3 , q-3);
+             	if(p>0 && count!=q/2*p)
+             	{
+printf("%lld\n",q/2*p);
+             	  	flag=1;
+               	 count=q/2*p;
+             	}
+          	}
+          	else
+            	 break;
+       }
+       if(!flag)
+   	 printf("-1\n");
+}
+    return 0;
+}

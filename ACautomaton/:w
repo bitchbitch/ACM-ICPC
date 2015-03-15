@@ -1,0 +1,103 @@
+// File Name: temp.cpp
+// Author: darkdream
+// Created Time: 2014年09月11日 星期四 15时18分4秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#include<queue>
+#define LL long long
+#define maxn 60002
+
+using namespace std;
+int n,m;
+struct Trie
+{
+    int next[maxn][4],fail[maxn],end[maxn];
+    int root, L;
+    int newnode()
+    {
+        memset(next[L],-1,sizeof(next[L]));
+        end[L++] = 0 ;
+        return L-1;
+    }
+    void init()
+    {
+        L = 0 ; 
+        root = newnode();
+    }
+    void insert(int buf[],int len)
+    {
+        int now = root;
+        for(int i = 0 ;i < len ;i ++)
+        {
+            if(next[now][buf[i]] ==  -1)
+            {
+                next[now][buf[i]] = newnode();
+            }
+            now = next[now][buf[i]];
+        }
+        end[now] ++;
+    }
+    void build()
+    {
+        queue<int> Q;
+        fail[root] = root; 
+        for(int i = 0;i < 4;i ++)
+        {
+            if(next[root][i] == -1)
+            {
+                next[root][i] = root;  //指向root 是没有问题的，我们主要是通过end 数组对个数进行计数的。    
+            }else{
+                fail[next[root][i]] = root;
+                Q.push(next[root][i]);
+            }
+        }
+        while(!Q.empty())
+        {
+            int now = Q.front();
+            Q.pop();
+            for(int i = 0 ;i < 4;i ++)
+            {
+                if(next[now][i] == -1)
+                {
+                    next[now][i] =  next[fail[now]][i]; 
+                }
+                else{
+                    fail[next[now][i]] = next[fail[now]][i];
+                    Q.push(next[now][i]);
+                }
+            }
+        }
+    }
+    void query()
+    {
+	
+	}
+};
+Trie ac;
+char str[50005];
+int main(){
+    while(scanf("%d",&n,&m ) != EOF,n)
+    {
+	
+       scanf("%s",str);   
+	}
+    return 0;
+}

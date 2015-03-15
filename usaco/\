@@ -1,0 +1,94 @@
+// File Name: butter.c
+// Author: darkdream
+// Created Time: 2014年03月18日 星期二 18时28分52秒
+/*
+ID: dream.y1
+PROG: butter
+LANG: C++
+*/
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#include<math.h>
+#include<limits.h>
+
+int a[1000];
+struct node{
+   int b, v ;
+}map[801][801];
+int num[801];
+int visit[801];
+int max[801][801];
+void dfs(int k ,int p){
+   for(int i = 1;i <= num[k] ;i ++){
+	  if(!visit[map[k][i].b] && max[p][k] + map[k][i].v <= max[p][map[k][i].b] ){
+		
+		if(map[k][i].b < p ){
+			visit[map[k][i].b]  = 1; 
+			dfs(map[k][i].b,p);   
+		}
+		else{
+	    visit[map[k][i].b] = 1; 
+		max[p][map[k][i].b] = max[p][k] + map[k][i].v;
+		max[map[k][i].b][p] = max[p][map[k][i].b];
+		dfs(map[k][i].b,p);
+		visit[map[k][i].b] = 0;
+		}
+	  }
+   }
+}
+int main(){
+
+   freopen("butter.in","r",stdin);
+   freopen("butter.out","w",stdout);
+   int n , p , c; 
+   memset(a,0,sizeof(a));
+   memset(map,0,sizeof(map));
+   memset(num,0,sizeof(num));
+   scanf("%d %d %d",&n,&p,&c);
+   for(int i = 1;i <= n;i ++)
+   {
+	  scanf("%d",&a[i]);
+   }
+   for(int i = 1;i <= c;i ++ )
+   {
+     int ta,tb,tc;
+	 scanf("%d %d %d",&ta,&tb,&tc);
+     num[ta] ++ ; 
+	 num[tb] ++ ;	
+	 map[ta][num[ta]].b = tb ; 
+	 map[ta][num[ta]].v = tc ; 
+	 map[tb][num[tb]].b = ta ; 
+	 map[tb][num[tb]].v = tc ; 
+
+   }
+   int ans = INT_MAX;
+   for(int i = 1;i<= p ;i ++)
+	   for(int j = 1; j <= p ; j ++)
+	   {
+	      max[i][j] = INT_MAX;
+		  if(i == j )
+			  max[i][j] = 0 ; 
+	   }
+   for(int i = 1;i <= p;i ++)
+   {
+	 memset(visit,0,sizeof(visit));
+	 visit[i] = 1 ; 
+	 dfs(i,i);
+	 
+	 int tsum = 0 ; 
+	 for(int j = 1;j <= n;j ++ )
+	 {	
+		//   printf("%d ",max[a[j]]);
+		 tsum += max[a[j]][i];
+	 }
+	// printf("\n");
+	 if(tsum < ans)
+		 ans = tsum ; 
+		 
+   }
+   printf("%d\n",ans);
+   
+return 0 ;
+}

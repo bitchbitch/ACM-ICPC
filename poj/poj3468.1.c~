@@ -1,0 +1,18 @@
+// File Name: poj3468.1.c
+// Author: darkdream
+// Created Time: 2013年08月02日 星期五 15时28分57秒
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#include<math.h>
+#include<ctype.h>
+
+int main(){
+
+   //freopen("/home/plac/problem/input.txt","r",stdin);
+   //freopen("/home/plac/problem/output.txt","w",stdout);
+  
+return 0 ;
+}

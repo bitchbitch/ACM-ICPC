@@ -1,0 +1,50 @@
+// File Name: f.cpp
+// Author: darkdream
+// Created Time: 2014年09月11日 星期四 22时33分10秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+
+char str[100005][12];
+int solve(int k )
+{
+  for(int i = 0;i <= 11;i ++)
+  {
+    if(str[k][i] != str[k-1][i])
+		return i;
+  }
+}
+int main(){
+  int t = 0 ; 
+  int hs[1] = 0 ; 
+  while(scanf("%s",str) != EOF)
+  {
+       t ++ ;
+      if(t == 2)
+	  {
+	    int t = solve(i);
+	  }
+  }
+   
+return 0;
+}

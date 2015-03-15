@@ -1,0 +1,3 @@
+can not get ISBN at http://book.douban.com/subject/2340100/
+error in geting url 
+can not get ISBN at 

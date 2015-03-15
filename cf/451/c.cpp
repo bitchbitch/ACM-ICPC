@@ -1,0 +1,95 @@
+// File Name: c.cpp
+// Author: darkdream
+// Created Time: 2014年07月24日 星期四 23时57分43秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+
+#define LL long long 
+using namespace std;
+
+int main(){
+    int ca; 
+	scanf("%d",&ca);
+	while(ca--)
+	{
+	   LL n , k ,d1,d2;
+	   scanf("%lld %lld %lld %lld",&n,&k,&d1,&d2);
+       LL a[4];
+	   LL b[4];
+	   LL is = 0 ;
+	   for(LL i = 0;i <= 3; i ++)
+	   {
+		   memset(a,0,sizeof(a));
+		   memset(b,0,sizeof(b));
+		   LL t = k ; 
+		   if(i % 2 == 0 )
+		   {
+			   t -= d1;
+		       b[1] = d1;
+		   }
+		   else {
+			   t += d1;
+		       b[1] = -d1;
+		   }
+		   
+		   if(i /2 == 0 ){
+			   t -=d2;
+			   b[3] = d2; 
+		   }
+		   else{ t += d2;
+		      b[3] = -d2;
+		   }
+		   if(t % 3 != 0 )
+			   continue;
+
+		   LL ok = 0 ; 
+		   for(LL i = 1;i <= 3 ;i ++)
+		   {
+		      a[i] = t/3 + b[i];
+			  if(a[i] < 0)
+				  ok = 1; 
+		   }
+		   if(ok == 1 )
+			   continue;
+
+           if(n % 3 != 0)
+			   continue;
+		   LL p = n/3;
+
+		   ok = 0 ; 
+		   for(LL i =1;i <= 3;i ++)
+		   {
+		      if(a[i]>p)
+				  ok = 1; 
+		   }
+		   if(ok == 1)
+			   continue;
+		   printf("%lld\n",i);
+		   is = 1; 
+		   break;
+	   }
+	   if(is)
+		   printf("yes\n");
+	   else printf("no\n");
+	   
+	}
+return 0;
+}

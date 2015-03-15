@@ -1,0 +1,26 @@
+字符大旋转
+Problem Description
+现在有一个长度为len的字符串（只包含小写字母），现在要对所有奇数位上的字母的位置进行调整，即奇数位的第一个字符跟奇数位的最
+后一个字符交换位置，奇数位的第二个字符跟奇数位的倒数第二个字符交换位置，等等。例如：字符串abcdefg交换位置后得到的字符串为
+gbedcfa。
+ 
+
+Input
+输入字符串，len <= 100,请处理到文件结束。
+ 
+
+Output
+输出交换位置后得到的字符串。
+ 
+
+Sample Input
+abcdefg
+abcd
+abc
+ 
+
+Sample Output
+gbedcfa
+cbad
+cba
+

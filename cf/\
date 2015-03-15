@@ -1,0 +1,72 @@
+// File Name: 461c.cpp
+// Author: darkdream
+// Created Time: 2015年03月11日 星期三 10时53分22秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+#define M 1000000007
+using namespace std;
+int color[100005];
+int dp[100005];
+int n; 
+vector<int> mp[100005]; 
+int find(int k ,int la)
+{
+	 dp[k] == 1; 
+     int sum = 0 ; 
+	 for(int i = 0 ;i < mp[k].size(); i ++)
+	 {
+	     if(mp[k][i] == la ) 
+			 continue;
+		 if(dfs(mp[k][i],k) != 0 )
+		 {
+		   sum ++ ; 
+		 }
+	 } 
+	 if(color[k] == 1)
+		 return 1; 
+	 if(sum >= 2 )
+	 {
+		 color[k] = 1; 
+	     return 1; 
+	 }else{
+	     return 1; 
+	 }
+}
+int dfs(int k , int la)
+{
+   for(int i = 0 ;i < mp[k].size();i ++)
+   {
+   
+   }
+}
+int main(){
+      scanf("%d",&n);
+	  for(int i = 0;i < n - 1;i ++)
+	  {
+	     int p ; 
+		 scanf("%d",&p);
+		 mp[p].push_back(i+1);
+		 mp[i+1].push_back(p);
+	  }
+	  find(0,-1);
+return 0;
+}

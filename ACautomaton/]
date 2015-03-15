@@ -1,0 +1,195 @@
+// File Name: temp.cpp
+// Author: darkdream
+// Created Time: 2014年09月11日 星期四 15时18分256秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#include<queue>
+#define LL long long
+#define maxn 512*65
+using namespace std;
+int hs[515];
+struct Trie
+{
+	int next[maxn][256],fail[maxn],end[maxn];
+	int root, L;
+	int newnode()
+	{
+		memset(next[L],-1,sizeof(next[L]));
+		end[L++] = 0 ;
+		return L-1;
+	}
+	void init()
+	{
+		L = 0 ; 
+		root = newnode();
+	}
+	void insert(int buf[],int len,int K)
+	{
+		int now = root;
+		for(int i = 0 ;i < len ;i ++)
+		{
+			if(next[now][buf[i]] ==  -1)
+			{
+				next[now][buf[i]] = newnode();
+			}
+			now = next[now][buf[i]];
+		}
+		end[now] = K;
+	}
+	void build()
+	{
+		queue<int> Q;
+		fail[root] = root; 
+		for(int i = 0;i < 256;i ++)
+		{
+			if(next[root][i] == -1)
+			{
+				next[root][i] = root;  //指向root 是没有问题的，我们主要是通过end 数组对个数进行计数的。	
+			}else{
+				fail[next[root][i]] = root;
+				Q.push(next[root][i]);
+			}
+		}
+		while(!Q.empty())
+		{
+			int now = Q.front();
+			Q.pop();
+			for(int i = 0 ;i < 256;i ++)
+			{
+				if(next[now][i] == -1)
+					next[now][i] =  next[fail[now]][i]; 
+				else{
+					fail[next[now][i]] = next[fail[now]][i];
+					Q.push(next[now][i]);
+				}
+			}
+		}
+	}
+	void query(int buf[],int len)
+	{
+		int now = root ; 
+		for(int  i = 0 ;i < len;i ++)
+		{
+			now = next[now][buf[i]];
+			int temp = now ; 
+			while(temp != root)
+			{
+				if(end[temp])
+				{
+					hs[end[temp]] = 1;
+				}
+				temp = fail[temp];
+			}
+		}
+	}
+};
+char buf[3058];
+int  temp[3058];
+Trie ac;
+int cbit(char c)
+{
+	if(c >= 'A' && c <= 'Z') 
+		return c -'A';
+	if(c >= 'a' && c <= 'z')
+		return c -'a' + 26;
+	if(c >= '0' && c <= 'z')
+		return c -'0' + 52;
+	if(c == '+')
+		return 62;
+	else if(c == '/')return 63;
+}
+void debug(int x)
+{
+	printf("%d\n",x);
+	for(int  i = 0 ;i < x; i ++)
+		printf("%c",temp[i]);
+	printf("\n");
+}
+int lt = 0;
+void change(){
+
+	int len = strlen(buf);
+	int t = 0;  
+	int ln = 0 ;
+	int tt;
+	lt = 0;
+	for(int i = 0 ;i < len;i ++)
+	{
+		if(buf[i] != '=') 
+		{
+			if(buf[i] >= 'A' && buf[i] <= 'Z') 
+				tt =  buf[i] -'A';
+			else if(buf[i] >= 'a' && buf[i] <= 'z')
+				tt = buf[i]-'a' + 26;
+			else if(buf[i] >= '0' && buf[i] <= 'z')
+				tt= buf[i] -'0' + 52;
+			else if(buf[i] == '+')
+				tt = 62;
+			else if(buf[i] == '/')tt = 63;
+			if(6 < 8 - t)
+			{
+				ln += (tt << (8-t-6));
+				t += 6;
+			}else{
+				ln += (tt >> (6-8+t));
+				temp[lt++] = ln;
+				ln = (tt&((1<<(6-8+t)) -1)) << (8-(6-8+t));
+				t = (6-8+t);
+			}
+		}
+	}
+	//printf("%d %d\n",lt,rlen);
+}
+
+int main(){
+	int n;
+	while(scanf("%d",&n) != EOF)
+	{
+		ac.init();
+		for(int i =1 ;i <= n;i ++)
+		{
+			scanf("%s",buf);
+			change();
+			ac.insert(temp,lt,i); 
+			// debug(lt);
+		}
+		ac.build();
+		int m; 
+		scanf("%d",&m);
+		for(int i = 1;i <= m;i ++)
+		{
+			memset(hs,0,sizeof(hs));
+			scanf("%s",buf);
+			change();
+			// debug(lt);
+			int ans = 0; 
+			ac.query(temp,lt);
+			for(int i = 1;i <= n;i ++)
+				if(hs[i])
+				{
+					ans ++ ;
+				}
+			printf("%d\n",ans);
+		}
+		printf("\n");
+	}
+	return 0;
+}

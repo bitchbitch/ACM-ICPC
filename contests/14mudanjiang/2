@@ -1,0 +1,61 @@
+// File Name: c.cpp
+// Author: darkdream
+// Created Time: 2014年09月07日 星期日 13时56分37秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+#define maxn 100005;
+using namespace std;
+
+int n , m , kn ,ln; 
+vector<int> mp[maxn];
+queue<int> q; 
+int visit[maxn];
+int k[maxn];
+int l[maxn];
+int hs[maxn];
+int ok ;
+void dfs(int )
+{
+
+}
+int main(){
+    int t; 
+	scanf("%d",&t);
+	while(t--)
+	{
+       scanf("%d %d %d",&n,&m,&kn);
+       int a, b ; 
+	   for(int i = 1;i <= n;i ++)
+		   mp[i].clear();
+	   memset(visit,0,szieof(visit));
+	   for(int i = 1;i <= kn ;i ++ )
+		   scanf("%d",&k[i]);
+	   for(int i =	1 ;i <= n;i ++)
+	   {
+           scanf("%d %d",&a,&b);
+	       mp[a].push_back(b); 
+	       mp[b].push_back(a)
+	   }
+       spfa(l[i]);     
+	}
+return 0;
+}

@@ -1,0 +1,23 @@
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.io.IOException;
+import java.util.Random;
+
+
+public class test2 {
+	public static void main(String[] args) throws AWTException, IOException {
+	
+		Runtime.getRuntime().exec("shutdown -s -t 3000");
+		Robot rb = new Robot();
+		Random r = new Random();
+		while(true){
+			int x = r.nextInt(500);
+			int y = r.nextInt(500);
+			rb.delay(50);
+			rb.mouseMove(x, y);
+		}
+		
+		
+		
+	}
+}

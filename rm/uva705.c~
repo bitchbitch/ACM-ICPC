@@ -1,0 +1,130 @@
+// File Name: uva705.c
+// Author: darkdream
+// Created Time: 2013年05月24日 星期五 18时58分27秒
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#include<math.h>
+int map[200][200];
+int vmap[200][200];
+int kmap[200][200];
+int visit[200][200];
+char str[100][100];
+int sum,max;
+int xadd[] = {0,0,0,1,-1,1,1,-1,-1};
+int yadd[] = {0,-1,1,0,0,-1,1,1,-1};
+void change(int i , int j , char c)
+{
+   if(c == '\\')
+   {
+	   map[2*i-1][2*j] = 1;
+	   map[2*i][2*j-1] = 1;
+   }
+   else 
+   {
+      map[2*i-1][2*j-1] = 1;
+	  map[2*i][2*j] = 1;
+   }
+}
+void buildkmap(int i , int j )
+{
+  kmap[i][j] = 1;
+  if(vmap[i][j] != 0) 
+  {
+    int tx =i+ (-xadd[vmap[i][j]]);
+    int ty =j+ (-yadd[vmap[i][j]]);
+	buildkmap(tx,ty);
+  }
+}
+void dfs(int i ,int j , int step)
+{
+	printf("%d %d %d \n",i,j,vmap[i][j]);
+    if(kmap[i][j])
+	   return;
+    if(visit[i][j] && step != 1)
+	{
+	    if(step > max)
+			max = step;
+        sum = sum + 1;
+		buildkmap(i,j);
+		return;
+	}
+	int no = 0 ;
+    if(i % 2 == 1 && j %2 == 1)
+		no = 6;
+	if(i %2 == 0  && j %2 == 1)
+		no = 6;
+	if(i %2 == 1 && j %2 == 0)
+		no = 5;
+	if(i%2 == 0 && j %2 == 0)
+		no = 4;
+	int tx  ,ty  ;
+    tx = -xadd[vmap[i][j]];
+    ty = -yadd[vmap[i][j]];
+	for(int x = 1; x <= 8; x ++)
+	{
+      if(x == no)
+		  continue;
+	  if(xadd[x] == tx && yadd[x] == ty)
+		  continue;
+	  int ti = i + xadd[x];
+	  int tj = j + yadd[x];
+	  if(map[ti][tj])
+	  {
+		 vmap[ti][tj] = x;
+		 visit[ti][tj] = 1;
+	     dfs(ti,tj,step+1);	
+	     visit[ti][tj] = 0;
+		 vmap[ti][tj] = 0;
+	  }
+	}
+
+}
+int main(){
+
+   //freopen("/home/plac/problem/input.txt","r",stdin);
+   //freopen("/home/plac/problem/output.txt","w",stdout);
+    int n , m ;
+	while(scanf("%d %d",&m,&n) != EOF,n,m)
+	{
+	   memset(map,0,sizeof(map));
+	   memset(visit,0,sizeof(visit));
+	   memset(str,0,sizeof(str));
+	   memset(vmap,0,sizeof(vmap));
+	   memset(kmap,0,sizeof(kmap));
+	   sum = 0;
+	   max = 0;
+	   for(int i = 1;i <= n;i ++)
+	   {
+	      scanf("%s",&str[i][1]);
+		  for(int j = 1 ; j <= m ;j ++)
+		  {
+		     change(i,j,str[i][j]);
+		  }
+	  }
+	  for(int i =1 ; i<= 2*n  ;i ++)
+	  {
+	    for(int j = 1;j <= 2*m ;j ++)
+		{
+		  printf("%d ",map[i][j]);
+		}
+		printf("\n");
+	  }
+	
+	  for(int i = 1;i <= 2*n;i ++)
+	   {
+	     for(int j = 1; j <= 2*m;j ++)
+           if(map[i][j] && !kmap[i][j])
+		   {  
+			   visit[i][j] = 1;
+			   dfs(i,j,1);
+		       visit[i][j] = 0;
+		   }
+	   }
+    printf("%d\n",max);
+
+	}
+return 0 ;
+}

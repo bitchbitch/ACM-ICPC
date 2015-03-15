@@ -1,0 +1,50 @@
+#include<stdio.h>
+int m,a[15]={0,1,1,2,3,4,6,9,13,19};
+int d(int n)
+{
+	if(n==3||n==4||n==5)
+	{
+		switch(m)
+		{
+		case 1:return 1;
+		case 2:return 1;
+		case 3:return 2;
+		case 4:return 3;
+		case 5:return 4;
+		case 6:return 6;
+		case 7:return 9;
+		case 8:return 13;
+		case 9:return 19;
+		}
+	}
+	if(n==6||n==7||n==8)
+	{
+		switch(m)
+		{
+		case 1:return 2;
+		case 2:return 2;
+		case 3:return 4;
+		case 4:return 6;
+		case 5:return 8;
+		case 6:return 12;
+		case 7:return 18;
+		case 8:return 26;
+		case 9:return 38;
+		}
+	}
+	else
+		return d(n-1)+d(n-2)+2*d(n-3);
+}
+int main()
+{
+	int n,ans;
+	while(scanf("%d%d",&m,&n)!=EOF)
+	{
+		if(n==3)
+			printf("%d\n",a[m]);
+		else
+			printf("%d\n",d(n));
+	}
+	return 0;
+}
+

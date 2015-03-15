@@ -1,0 +1,57 @@
+// File Name: d.cpp
+// Author: darkdream
+// Created Time: 2014年11月12日 星期三 10时14分42秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int d , n ; 
+int vis[2000];
+vector<int> mp;
+int val[2050];
+int b[2004];
+int cmp(int a, int b)
+{
+   return val[a] < val[b];
+}
+int main(){
+    
+	scanf("%d %d",&d,&n);
+    for(int i=1;i <= n;i ++)
+	{
+		scanf("%d",&val[i]);
+	    b[i] = i ; 
+	}
+	sort(b+1,b+1+n,cmp);
+    int u,v;
+	for(int i = 1;i < n;i ++)
+	{
+	   scanf("%d %d",&u,&v);
+	   mp[u].push_back(v);
+	   mp[v].push_back(u);
+	}
+    for(int i= 1;i <= n;i ++)
+	{
+	
+	}
+	return 0;
+}

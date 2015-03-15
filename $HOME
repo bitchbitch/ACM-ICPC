@@ -1,0 +1,191 @@
+# 这个 viminfo 文件是由 Vim 7.3 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/:w
+
+# 上个 替换 Search 图案：
+~MSle0&ll
+
+# 最后替换的字符串
+$I64
+
+# 命令行 历史记录 (从新到旧)：
+:w
+:q
+:W
+:4'
+:0'
+:Lw
+:Ww
+:ww
+:"w
+:Q
+:e
+:L:wi
+:Pw
+:%s/ll/I64/g
+:%s/I64/ll/g
+:%s/I64/ll
+:s
+:%S/ll/I64/g
+:%s/ll/I64
+:s/ll/I64/g
+:set nu
+:qw
+:24,58 c[opy] 12
+:24,58 c[opy]23
+:%s/FOOLfill/FloodFill/g
+:s/FOOLfill/FloodFill/g
+:b
+:c
+:wq
+:W:W
+: C
+: dream.y1
+::q
+:WQ
+:Wq
+:t
+:w:w
+:ew
+:%s/i =1/i = 0/g
+:%s/i=1/i = 0/g
+:%s/i = 1/ i = 0
+:%s/50/55/g
+:%s/ < /<=/g
+:%s/</<=/g
+
+# 查找字符串 历史记录 (从新到旧)：
+??:w
+?/:q
+? {
+? ll
+? I64
+? FOOLfill
+? }
+? \<last\>
+?//freopen("/home/plac/problem/input.txt","r",stdin);i
+?//freopen("/home/plac/problem/input.txt","r",stdin);
+?// Created Time: 2013年03月14日 星期四 13时48分03秒
+?// Author: darkdream
+?// File Name: dfs3.c
+?// Created Time: 2013年04月16日 星期二 19时38分30秒
+? \<return\>
+?// File Name: a.cpp
+?/:w
+? \<i\>
+?/people1
+?/max
+? \<scanf\>
+?// Created Time: 2013年06月01日 星期六 09时24分43秒
+? \<int\>
+??:q
+? i =1
+? i=1
+? i = 1
+? 50
+?  < 
+? <
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	LINE	0
+			call append(line(".")+7,"#include<math.h>")
+"1	LINE	0
+		 int tj = 0 ;
+"2	LINE	0
+		 int ti = 0 ; 
+"3	LINE	0
+				 printf("%d\n",d);
+"4	LINE	0
+	         if (okp == 0 )
+"5	LINE	0
+			}
+"6	LINE	0
+			  
+"7	LINE	0
+			{
+"8	LINE	0
+			else 
+"9	LINE	0
+			memset(str,0,sizeof(str));
+"-	CHAR	0
+	\
+
+# 全局变量:
+
+# 文件标记:
+'0  33  5  ~/problem/test11.c
+'1  41  0  ~/problem/contests/湖大1/c.c
+'2  16  13  ~/problem/contests/湖大1/b.c
+'3  25  0  ~/problem/rm/uva10098.c
+'4  35  1  ~/problem/rm/uva10098.c
+'5  346  25  /etc/vim/vimrc
+'6  18  0  ~/problem/c.c
+'7  16  30  ~/problem/rm/testcc.c
+'8  1  0  ~/c.
+'9  12  0  ~/problem/test.c
+
+# 跳转列表 (从新到旧):
+-'  33  5  ~/problem/test11.c
+-'  35  0  ~/problem/test11.c
+-'  69  0  ~/problem/test11.c
+-'  1  0  ~/problem/test11.c
+-'  45  6  ~/problem/test11.c
+-'  41  0  ~/problem/contests/湖大1/c.c
+-'  1  0  ~/problem/contests/湖大1/c.c
+-'  16  13  ~/problem/contests/湖大1/b.c
+-'  1  0  ~/problem/contests/湖大1/b.c
+-'  52  19  ~/problem/contests/湖大1/b.c
+-'  63  0  ~/problem/contests/湖大1/b.c
+-'  25  0  ~/problem/rm/uva10098.c
+-'  33  3  ~/problem/rm/uva10098.c
+-'  45  15  ~/problem/rm/uva10098.c
+-'  43  22  ~/problem/rm/uva10098.c
+-'  17  19  ~/problem/rm/uva10098.c
+-'  48  0  ~/problem/rm/uva10098.c
+-'  25  0  ~/problem/rm/uva10098.c
+-'  33  3  ~/problem/rm/uva10098.c
+-'  45  15  ~/problem/rm/uva10098.c
+-'  43  22  ~/problem/rm/uva10098.c
+-'  17  19  ~/problem/rm/uva10098.c
+-'  48  0  ~/problem/rm/uva10098.c
+-'  16  13  ~/problem/contests/湖大1/b.c
+-'  1  0  ~/problem/contests/湖大1/b.c
+-'  52  19  ~/problem/contests/湖大1/b.c
+-'  63  0  ~/problem/contests/湖大1/b.c
+-'  25  0  ~/problem/rm/uva10098.c
+-'  33  3  ~/problem/rm/uva10098.c
+-'  45  15  ~/problem/rm/uva10098.c
+-'  43  22  ~/problem/rm/uva10098.c
+-'  17  19  ~/problem/rm/uva10098.c
+-'  48  0  ~/problem/rm/uva10098.c
+-'  25  0  ~/problem/rm/uva10098.c
+-'  33  3  ~/problem/rm/uva10098.c
+-'  45  15  ~/problem/rm/uva10098.c
+-'  43  22  ~/problem/rm/uva10098.c
+-'  17  19  ~/problem/rm/uva10098.c
+-'  48  0  ~/problem/rm/uva10098.c
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/problem/test11.c
+	"	33	5
+	^	38	20
+	.	16	0
+	+	9	21
+	+	57	10
+	+	38	19
+	+	16	0

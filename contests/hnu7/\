@@ -1,0 +1,52 @@
+// File Name: k.cpp
+// Author: darkdream
+// Created Time: 2014年08月10日 星期日 16时31分20秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int t; 
+int n,m;
+int hs[30];
+int nv[30];
+struct node{
+  int x, y ; 
+  int is ; 
+}site[30];
+int sum = 0;
+int main(){
+   scanf("%d",&t);
+   while(t--)
+   {
+      scanf("%d %d",&n,&m); 
+      for(int i = 1;i <= n;i ++)
+	  {
+	     scanf("%s",&str[i+1][2]);
+	     for(int i = 2;i <= m+1;i ++)
+		 {
+	         if(str[i])        	     
+		 }
+	  }
+	 
+   }
+return 0;
+}

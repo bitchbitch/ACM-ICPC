@@ -1,0 +1,55 @@
+// File Name: 1002.cpp
+// Author: darkdream
+// Created Time: 2014年08月14日 星期四 14时01分08秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+struct node{
+   int x, y , z; 
+}a[10000];
+int main(){
+    int n ;
+	int ca = 0 ; 
+	while(scanf("%d",&n) != EOF)
+	{
+		if(n == 0 )
+			break;
+		ca ++ ;
+	    int M = 0 ; 
+		for(int i = 1;i <= n;i ++)
+		{
+		scanf("%d %d %d",&a[i].x,&a[i].y,&a[i].z);
+	    M = max(a[i].z,M);
+		}
+		printf("Case #%d: ",ca);
+		for(int i = 1;i <= n;i ++)
+		{
+	        if(a[i].z == M)
+				printf("1");
+			else printf("0");
+		}
+		printf("\n");
+	}
+	
+return 0;
+}

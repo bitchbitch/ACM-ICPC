@@ -1,0 +1,3207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^Point A, B, C, D;$/;"	v
+A	hdu/1016.c	/^int A[40];$/;"	v
+A	practice/乌龟与兔子/test1.c	/^struct A$/;"	s	file:
+A	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+A	usaco/rect1.c	/^int A, B,k;$/;"	v
+ABS	contests/mt2/1.c	/^long long ABS( long long a)$/;"	f
+B	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^Point A, B, C, D;$/;"	v
+B	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+B	usaco/rect1.c	/^int A, B,k;$/;"	v
+BUILD_MIN_HEAP	contests/hut20132/c.cpp	/^void BUILD_MIN_HEAP(long long A[])$/;"	f
+BigOEasy	tc/BigOEasy.cpp	/^class BigOEasy$/;"	c	file:
+BoundingBox	tc/BoundingBox.cpp	/^class BoundingBox$/;"	c	file:
+C	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^Point A, B, C, D;$/;"	v
+C	hdu/hzyqs/1009.c	/^}H[2000],C[2000];$/;"	v	typeref:struct:nodeH
+C	��һ��/D1������/D.cpp	/^LL C[20][20], fact[20];$/;"	v
+CHANGE	rm/uva705.1.c	/^Change CHANGE[] = {$/;"	v
+Case	contests/hanzhou2013/04.c	/^int Case ;  $/;"	v
+Cell	practice/乌龟与兔子/d1.cpp	/^struct Cell$/;"	s	file:
+Change	rm/uva705.1.c	/^struct Change {$/;"	s	file:
+D	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^Point A, B, C, D;$/;"	v
+DFS	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^void DFS(int x,int y)$/;"	f
+DP	��һ��/B�ı������/B.cpp	/^void DP(){$/;"	f
+Difference	somet.cpp	/^void Difference(Linkedlist A,Linkedlist B,Linkedlist *n)$/;"	f
+Dog	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^	Dog(int p = 0, int s = 0, int r = 0) : pos(p), speed(s), range(r) {}$/;"	f	struct:Dog
+Dog	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^struct Dog {$/;"	s	file:
+EnlargeAndSave	rm/uva705.1.c	/^void EnlargeAndSave(int x, int y, char ch) {$/;"	f
+ErasingCharacters	tc/ErasingCharacters.cpp	/^class ErasingCharacters$/;"	c	file:
+ErasingCharacters	tc/srm598/a.cpp	/^class ErasingCharacters{$/;"	c	file:
+F	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F1ab	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F1cd	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F2	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F32	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F3ab	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+F3cd	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+FOR	tc/BigOEasy.cpp	36;"	d	file:
+FOR	tc/BoundingBox.cpp	36;"	d	file:
+FOR	tc/ErasingCharacters.cpp	36;"	d	file:
+FOR	tc/FoxAndWord.cpp	31;"	d	file:
+FOR	tc/FoxAndWord1.cpp	36;"	d	file:
+FOR	tc/FoxConnection2.cpp	36;"	d	file:
+FOR	tc/MysticAndCandiesEasy.cpp	35;"	d	file:
+FOR	tc/ORSolitaireDiv2.cpp	36;"	d	file:
+FOR	tc/OneDimensionalRobotEasy.cpp	36;"	d	file:
+FOR	tc/PowerOfThreeEasy.cpp	36;"	d	file:
+FOR	tc/TheShuttles.cpp	36;"	d	file:
+FOR	tc/WinterAndCandies.cpp	36;"	d	file:
+FOR	tc/WinterAndMandarins.cpp	39;"	d	file:
+FOR	tc/WinterAndReindeers.cpp	36;"	d	file:
+FORD	tc/BigOEasy.cpp	37;"	d	file:
+FORD	tc/BoundingBox.cpp	37;"	d	file:
+FORD	tc/ErasingCharacters.cpp	37;"	d	file:
+FORD	tc/FoxAndWord.cpp	32;"	d	file:
+FORD	tc/FoxAndWord1.cpp	37;"	d	file:
+FORD	tc/FoxConnection2.cpp	37;"	d	file:
+FORD	tc/MysticAndCandiesEasy.cpp	36;"	d	file:
+FORD	tc/ORSolitaireDiv2.cpp	37;"	d	file:
+FORD	tc/OneDimensionalRobotEasy.cpp	37;"	d	file:
+FORD	tc/PowerOfThreeEasy.cpp	37;"	d	file:
+FORD	tc/TheShuttles.cpp	37;"	d	file:
+FORD	tc/WinterAndCandies.cpp	37;"	d	file:
+FORD	tc/WinterAndMandarins.cpp	40;"	d	file:
+FORD	tc/WinterAndReindeers.cpp	37;"	d	file:
+Find	practice/乌龟与兔子/d1.cpp	/^int Find(int x)$/;"	f
+FloodFill	rm/uva705.1.c	/^int FloodFill(int x, int y) {$/;"	f
+FloodFill	rm/uva705.c	/^int FloodFill(int i , int j)$/;"	f
+FoxAndWord	tc/FoxAndWord.cpp	/^class FoxAndWord$/;"	c	file:
+FoxAndWord	tc/FoxAndWord1.cpp	/^class FoxAndWord$/;"	c	file:
+FoxConnection2	tc/FoxConnection2.cpp	/^class FoxConnection2$/;"	c	file:
+Fxor	poj/3225.c	/^void Fxor(int c)$/;"	f
+H	contests/cid=342.h	/^ /;"	v
+H	hdu/hzyqs/1009.c	/^}H[2000],C[2000];$/;"	v	typeref:struct:nodeH
+HEAP_EXTRACT_MIN	contests/hut20132/c.cpp	/^long long HEAP_EXTRACT_MIN(long long A[])$/;"	f
+HEAP_INCREASE_KEY	contests/hut20132/c.cpp	/^void HEAP_INCREASE_KEY(long long A[],long long i,long long key)$/;"	f
+Hash	contests/湖大3/h.c	/^struct Hash$/;"	s	file:
+INT_MAX	test11.c	10;"	d	file:
+Kruskal	practice/乌龟与兔子/test1.c	/^int Kruskal()$/;"	f
+L	contests/cf368/c.cpp	/^int L(int x)$/;"	f
+L	poj/3225.c	/^int L(int c)$/;"	f
+L	poj/poj2182.c	/^int L(int c)$/;"	f
+L	poj/poj2828.c	/^int L(int c)$/;"	f
+L	poj/poj2886.c	/^int L(int c)$/;"	f
+L	poj/poj3468.1.c	/^long long L(long long c)$/;"	f
+L	poj/poj3468.c	/^long long L(long long c)$/;"	f
+L	uestc/1546.c	/^int L(int c){$/;"	f
+L	��һ��/B�ı������/B.cpp	/^int L[2010];$/;"	v
+LCSLength	tc/LCS.cpp	/^int LCSLength(char* str1, char* str2, int **b)$/;"	f
+LCSLength	tc/WinterAndReindeers.cpp	/^int LCSLength(char* str1, char* str2, int **b)$/;"	f
+LEFT	contests/hut20132/c.cpp	/^long long LEFT(long long i )$/;"	f
+LIMITS_H	rm/uva705.1.c	/^const int LIMITS_H = 1000;$/;"	v
+LIMITS_W	rm/uva705.1.c	/^const int LIMITS_W = 1000;$/;"	v
+LL	2594.c	10;"	d	file:
+LL	Template/radixsort.c	10;"	d	file:
+LL	a.c	10;"	d	file:
+LL	contests/5-17/k1.c	9;"	d	file:
+LL	contests/5-27/b.c	8;"	d	file:
+LL	contests/5-27/k.c	8;"	d	file:
+LL	contests/5-27/kk.c	8;"	d	file:
+LL	contests/5-27/ktest.c	8;"	d	file:
+LL	contests/Awarmup/1010.c	10;"	d	file:
+LL	contests/Awarmup/a.c	10;"	d	file:
+LL	contests/cf342/a.c	10;"	d	file:
+LL	contests/cf342/b.c	10;"	d	file:
+LL	contests/cf366.c	10;"	d	file:
+LL	contests/hanzhou2013/c.c	10;"	d	file:
+LL	contests/hut20134/e.1.c	10;"	d	file:
+LL	contests/hut20134/e.c	5;"	d	file:
+LL	contests/hut20135/c.c	10;"	d	file:
+LL	contests/hut20135/e.c	10;"	d	file:
+LL	contests/hut20135/f.c	10;"	d	file:
+LL	contests/hut20137/a.c	10;"	d	file:
+LL	contests/hut20137/g.c	10;"	d	file:
+LL	contests/last.c	10;"	d	file:
+LL	contests/nanjing2013/hehe.c	10;"	d	file:
+LL	contests/warmup.c	10;"	d	file:
+LL	contests/网络赛/b.c	13;"	d	file:
+LL	contests/长春/9.c	10;"	d	file:
+LL	contests/长春/test.c	10;"	d	file:
+LL	hdu/1016.c	10;"	d	file:
+LL	hdu/2553.c	10;"	d	file:
+LL	hdu/4704.c	10;"	d	file:
+LL	hdu/4707.c	10;"	d	file:
+LL	hdu/4727.c	10;"	d	file:
+LL	hdu/hzyqs/1009.1.cpp	13;"	d	file:
+LL	hehe.c	10;"	d	file:
+LL	rm/7.2.1.c	10;"	d	file:
+LL	rm/7.2.2.c	10;"	d	file:
+LL	rm/7.3.1.c	10;"	d	file:
+LL	rm/7.3.2.c	10;"	d	file:
+LL	rm/7.3.3.c	10;"	d	file:
+LL	tc/BigOEasy.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/BoundingBox.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/ErasingCharacters.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/FoxAndWord.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/FoxAndWord1.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/FoxConnection2.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/MysticAndCandiesEasy.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/ORSolitaireDiv2.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/OneDimensionalRobotEasy.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/PowerOfThreeEasy.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/TheShuttles.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/WinterAndCandies.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/WinterAndMandarins.cpp	/^typedef long long LL;$/;"	t	file:
+LL	tc/WinterAndReindeers.cpp	/^typedef long long LL;$/;"	t	file:
+LL	test/hdu4588.cpp	/^typedef long long LL ;$/;"	t	file:
+LL	test11.c	9;"	d	file:
+LL	zoj/2678.c	10;"	d	file:
+LL	��һ��/A�ͻ�����/A.cpp	/^typedef long long LL;$/;"	t	file:
+LL	��һ��/B�ı������/B.cpp	/^typedef long long LL;$/;"	t	file:
+LL	��һ��/D1������/D.cpp	/^typedef unsigned long long LL;$/;"	t	file:
+LL	��һ��/D1������/data.cpp	/^typedef unsigned long long LL;$/;"	t	file:
+LL	��һ��/E/data.cpp	/^typedef unsigned long long LL; $/;"	t	file:
+Linkedlist	somet.cpp	/^struct Linkedlist{$/;"	s	file:
+M	lanqiao/first.c	10;"	d	file:
+M	practice/树状数组/g.c	/^int N[1005],M[1005] , n , m ;$/;"	v
+M	usaco/nocows.cpp	30;"	d	file:
+MAP	practice/乌龟与兔子/d1.cpp	/^struct MAP$/;"	s	file:
+MAX	Template/Radixsort.c	3;"	d	file:
+MAX	cid=339.b1.c	6;"	d	file:
+MAX	contests/多校联合4/g.cpp	/^int n, m , MAX = 0;$/;"	v
+MAX	contests/网络赛/b.c	19;"	d	file:
+MAX	practice/乌龟与兔子/a.cpp	26;"	d	file:
+MAX	practice/第二场/a.c	/^int MAX (int a, int b)$/;"	f
+MAX	rand.cpp	4;"	d	file:
+MAXM	wikioi/3147.c	8;"	d	file:
+MAXN	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^const int MAXN = 2111;$/;"	v
+MAXN	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^const int MAXN = 1111;$/;"	v
+MAXN	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^const int MAXN = 111111;$/;"	v
+MAXN	cf/cf376/d.cpp	26;"	d	file:
+MAXN	poj/poj2182.c	11;"	d	file:
+MAXN	poj/poj2828.c	11;"	d	file:
+MAXN	poj/poj2886.c	4;"	d	file:
+MAXN	poj/poj3468.1.c	4;"	d	file:
+MAXN	poj/poj3468.c	4;"	d	file:
+MAXN	practice/乌龟与兔子/稀疏图.cpp	24;"	d	file:
+MAXN	wikioi/3147.c	7;"	d	file:
+MIN	cid=339.b1.c	5;"	d	file:
+MIN	��һ��/E/E.cpp	5;"	d	file:
+MIN_HEAPIFY	contests/hut20132/c.cpp	/^void MIN_HEAPIFY(long long A[],long long i)$/;"	f
+MIN_HEAP_INSERT	contests/hut20132/c.cpp	/^void MIN_HEAP_INSERT(long long A[],long long key)$/;"	f
+MOD	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^const int MOD = (int)1e9 + 7;$/;"	v
+MOD	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^const int MOD = 1000000007;$/;"	v
+MOD	cf/196div2/c.c	11;"	d	file:
+MOD	tc/FoxConnection2.cpp	44;"	d	file:
+MP	tc/BigOEasy.cpp	33;"	d	file:
+MP	tc/BoundingBox.cpp	33;"	d	file:
+MP	tc/ErasingCharacters.cpp	33;"	d	file:
+MP	tc/FoxAndWord.cpp	28;"	d	file:
+MP	tc/FoxAndWord1.cpp	33;"	d	file:
+MP	tc/FoxConnection2.cpp	33;"	d	file:
+MP	tc/MysticAndCandiesEasy.cpp	32;"	d	file:
+MP	tc/ORSolitaireDiv2.cpp	33;"	d	file:
+MP	tc/OneDimensionalRobotEasy.cpp	33;"	d	file:
+MP	tc/PowerOfThreeEasy.cpp	33;"	d	file:
+MP	tc/TheShuttles.cpp	33;"	d	file:
+MP	tc/WinterAndCandies.cpp	33;"	d	file:
+MP	tc/WinterAndMandarins.cpp	36;"	d	file:
+MP	tc/WinterAndReindeers.cpp	33;"	d	file:
+Main	java/first.java	/^public class Main {$/;"	c
+Max	contests/网络赛/b.c	15;"	d	file:
+Max	��һ��/A�ͻ�����/A.cpp	/^const int Max = (int)(1e9);$/;"	v
+Max	��һ��/A�ͻ�����/data.cpp	/^const int Max = (int)(1e9);$/;"	v
+Max	��һ��/B�ı������/data.cpp	/^const int Max = (int)(1e9);$/;"	v
+Max	��һ��/Cδ���ǵ���/data.cpp	/^const int Max = (int)(1e9);$/;"	v
+Max	��һ��/D1������/D.cpp	/^const LL Max = (LL)(1000000000000000000ll);$/;"	v
+Max	��һ��/D1������/data.cpp	/^const LL Max = ~0llu>>1;$/;"	v
+Max	��һ��/E/E.cpp	/^const int Max = (int)(1e9);$/;"	v
+Max	��һ��/E/data.cpp	/^const int Max = (int)(1e9);$/;"	v
+Min	contests/网络赛/b.c	17;"	d	file:
+Mod	��һ��/E/E.cpp	/^const int Mod = 1000000;$/;"	v
+Mod	��һ��/E/data.cpp	/^const int Mod = 1000000;$/;"	v
+MysticAndCandiesEasy	tc/MysticAndCandiesEasy.cpp	/^class MysticAndCandiesEasy$/;"	c	file:
+N	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^const int N = 2000010;$/;"	v
+N	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^const int N = 111111;$/;"	v
+N	cid=339.b1.c	/^const int N = 100110;$/;"	v
+N	contests/5-17/k1.c	/^int N;$/;"	v
+N	contests/cf168div2/b1.c	10;"	d	file:
+N	contests/cf184div2/test.c	/^const int N=3000;$/;"	v
+N	contests/cid=342.a.c	5;"	d	file:
+N	contests/duie.c	/^int N, a, b;$/;"	v
+N	practice/树状数组/g.c	/^int N[1005],M[1005] , n , m ;$/;"	v
+N	practice/树状数组/h.c	/^int N ;$/;"	v
+N	rm/uva10392.c	10;"	d	file:
+N	rm/uva568.c	10;"	d	file:
+N	��һ��/A�ͻ�����/A.cpp	/^const int N = 1e5+10;$/;"	v
+N	��һ��/Cδ���ǵ���/C.cpp	/^const int N = 2e5+10;$/;"	v
+N	蒋程/4.c	10;"	d	file:
+NHASH	hashnum.cpp	26;"	d	file:
+NinjaTurtles	tc/srm547.250.cpp	/^class NinjaTurtles$/;"	c	file:
+Node	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^	Node(int _x = 0, int _y = 0, int _val = 0) : x(_x), y(_y), val(_val) {}$/;"	f	struct:Node
+Node	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^struct Node {$/;"	s	file:
+Node	contests/湖大3/对拍.c	/^	Node(){};$/;"	f	struct:Node
+Node	contests/湖大3/对拍.c	/^	Node(int xx,int yy)$/;"	f	struct:Node
+Node	contests/湖大3/对拍.c	/^struct Node$/;"	s	file:
+Num	practice/乌龟与兔子/test1.c	/^int Num;$/;"	v
+ORSolitaireDiv2	tc/ORSolitaireDiv2.cpp	/^class ORSolitaireDiv2$/;"	c	file:
+ORSolitaireDiv2	tc/tc600/b.cpp	/^class ORSolitaireDiv2$/;"	c	file:
+OneDimensionalRobotEasy	tc/OneDimensionalRobotEasy.cpp	/^class OneDimensionalRobotEasy$/;"	c	file:
+P	hdu/hzyqs/1009.1.cpp	15;"	d	file:
+P	lanqiao/first.c	/^long long P(int n)$/;"	f
+PARENT	contests/hut20132/c.cpp	/^long long PARENT(long long i )$/;"	f
+PB	tc/BigOEasy.cpp	32;"	d	file:
+PB	tc/BoundingBox.cpp	32;"	d	file:
+PB	tc/ErasingCharacters.cpp	32;"	d	file:
+PB	tc/FoxAndWord.cpp	27;"	d	file:
+PB	tc/FoxAndWord1.cpp	32;"	d	file:
+PB	tc/FoxConnection2.cpp	32;"	d	file:
+PB	tc/MysticAndCandiesEasy.cpp	31;"	d	file:
+PB	tc/ORSolitaireDiv2.cpp	32;"	d	file:
+PB	tc/OneDimensionalRobotEasy.cpp	32;"	d	file:
+PB	tc/PowerOfThreeEasy.cpp	32;"	d	file:
+PB	tc/TheShuttles.cpp	32;"	d	file:
+PB	tc/WinterAndCandies.cpp	32;"	d	file:
+PB	tc/WinterAndMandarins.cpp	35;"	d	file:
+PB	tc/WinterAndReindeers.cpp	32;"	d	file:
+PI	rm/1.1.1-5.c	2;"	d	file:
+PII	tc/BigOEasy.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/BoundingBox.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/ErasingCharacters.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/FoxAndWord.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/FoxAndWord1.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/FoxConnection2.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/MysticAndCandiesEasy.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/ORSolitaireDiv2.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/OneDimensionalRobotEasy.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/PowerOfThreeEasy.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/TheShuttles.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/WinterAndCandies.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/WinterAndMandarins.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+PII	tc/WinterAndReindeers.cpp	/^typedef pair<int,int> PII;$/;"	t	file:
+POW	contests/湖大1/1005.c	/^int POW	(int t )$/;"	f
+POW	hdu/4704.c	/^LL POW (LL n ,LL k )$/;"	f
+POW	rm/uva712.c	/^int POW(int a,int p )$/;"	f
+Point	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^	Point(int x = 0, int y = 0): x(x), y(y) {}$/;"	f	struct:Point
+Point	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^struct Point {$/;"	s	file:
+Pow	cf/196div2/c.c	/^long long  Pow(long long k )$/;"	f
+Pow	cf/325b.c	/^long long  Pow(long long p)$/;"	f
+PowerOfThreeEasy	tc/PowerOfThreeEasy.cpp	/^class PowerOfThreeEasy$/;"	c	file:
+PrintLCS	tc/LCS.cpp	/^void PrintLCS(int **b, char *str1, int i, int j)$/;"	f
+PrintLCS	tc/WinterAndReindeers.cpp	/^void PrintLCS(int **b, char *str1, int i, int j)$/;"	f
+Pushdown	poj/3225.c	/^void Pushdown(int c)$/;"	f
+Pushdown	uestc/1546.c	/^void Pushdown(int c){$/;"	f
+Pushup	uestc/1546.c	/^void Pushup(int c){$/;"	f
+R	contests/cf368/c.cpp	/^int R(int x)$/;"	f
+R	poj/3225.c	/^int R(int c)$/;"	f
+R	poj/poj2182.c	/^int R(int c)$/;"	f
+R	poj/poj2828.c	/^int R(int c)$/;"	f
+R	poj/poj2886.c	/^int R(int c)$/;"	f
+R	poj/poj3468.1.c	/^long long R(long long c)$/;"	f
+R	poj/poj3468.c	/^long long R(long long c)$/;"	f
+R	uestc/1546.c	/^int R(int c){$/;"	f
+REP	tc/BigOEasy.cpp	35;"	d	file:
+REP	tc/BoundingBox.cpp	35;"	d	file:
+REP	tc/ErasingCharacters.cpp	35;"	d	file:
+REP	tc/FoxAndWord.cpp	30;"	d	file:
+REP	tc/FoxAndWord1.cpp	35;"	d	file:
+REP	tc/FoxConnection2.cpp	35;"	d	file:
+REP	tc/MysticAndCandiesEasy.cpp	34;"	d	file:
+REP	tc/ORSolitaireDiv2.cpp	35;"	d	file:
+REP	tc/OneDimensionalRobotEasy.cpp	35;"	d	file:
+REP	tc/PowerOfThreeEasy.cpp	35;"	d	file:
+REP	tc/TheShuttles.cpp	35;"	d	file:
+REP	tc/WinterAndCandies.cpp	35;"	d	file:
+REP	tc/WinterAndMandarins.cpp	38;"	d	file:
+REP	tc/WinterAndReindeers.cpp	35;"	d	file:
+RIGHT	contests/hut20132/c.cpp	/^long long RIGHT(long long i )$/;"	f
+RPrime	poj/poj2886.c	/^int RPrime[]={\/\/反素数$/;"	v
+Rand	rand.cpp	/^int Rand(int k,int max)$/;"	f
+Rand	test.c	/^int Rand(int be ,int en)$/;"	f
+S	hdu/hzyqs/1009.1.cpp	14;"	d	file:
+SUM	practice/树状数组/stars.c	/^int SUM[15005];$/;"	v
+TheArithmeticProgression	tc/TheArithmeticProgression.cpp	/^class TheArithmeticProgression{$/;"	c	file:
+TheShuttles	tc/TheShuttles.cpp	/^class TheShuttles$/;"	c	file:
+TheSuttles	tc/a.cpp	/^class TheSuttles{$/;"	c	file:
+Tnode	rm/2tree.c	/^typedef struct Tnode{$/;"	s	file:
+Tsum	contests/湖大3/g.c	/^int Tsum(int k )$/;"	f
+Union	practice/乌龟与兔子/d1.cpp	/^void Union(int x,int y,double r)$/;"	f
+Union	practice/乌龟与兔子/test1.c	/^void Union(int f1,int f2)$/;"	f
+VD	tc/BigOEasy.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/BoundingBox.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/ErasingCharacters.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/FoxAndWord.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/FoxAndWord1.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/FoxConnection2.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/MysticAndCandiesEasy.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/ORSolitaireDiv2.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/OneDimensionalRobotEasy.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/PowerOfThreeEasy.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/TheShuttles.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/WinterAndCandies.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/WinterAndMandarins.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VD	tc/WinterAndReindeers.cpp	/^typedef vector<double> VD;$/;"	t	file:
+VI	tc/BigOEasy.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/BoundingBox.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/ErasingCharacters.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/FoxAndWord.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/FoxAndWord1.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/FoxConnection2.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/MysticAndCandiesEasy.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/ORSolitaireDiv2.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/OneDimensionalRobotEasy.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/PowerOfThreeEasy.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/TheShuttles.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/WinterAndCandies.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/WinterAndMandarins.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VI	tc/WinterAndReindeers.cpp	/^typedef vector<int> VI;$/;"	t	file:
+VS	tc/BigOEasy.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/BoundingBox.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/ErasingCharacters.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/FoxAndWord.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/FoxAndWord1.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/FoxConnection2.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/MysticAndCandiesEasy.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/ORSolitaireDiv2.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/OneDimensionalRobotEasy.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/PowerOfThreeEasy.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/TheShuttles.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/WinterAndCandies.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/WinterAndMandarins.cpp	/^typedef vector<string> VS;$/;"	t	file:
+VS	tc/WinterAndReindeers.cpp	/^typedef vector<string> VS;$/;"	t	file:
+Visit	contests/5-27/j.c	/^int Visit[100][100];$/;"	v
+WinterAndCandies	tc/WinterAndCandies.cpp	/^class WinterAndCandies$/;"	c	file:
+WinterAndMandarins	tc/WinterAndMandarins.cpp	/^class WinterAndMandarins$/;"	c	file:
+WinterAndReindeers	tc/WinterAndReindeers.cpp	/^class WinterAndReindeers$/;"	c	file:
+Zeng	contests/HUN6/i.c	/^struct Zeng$/;"	s	file:
+a	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int a[N];$/;"	v
+a	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^vector<Dog> a;$/;"	v
+a	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^} a[MAXN], *it1, *it2;$/;"	v	typeref:struct:Node
+a	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/F.cpp	/^int a[maxn];$/;"	v
+a	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int n, a[N], prefix[N], suffix[N];$/;"	v
+a	7.3.1.cpp	/^int a[100];$/;"	v
+a	Dollars.cpp	/^int a[14] = {5,10,20,50,100,200,500,1000,2000,5000,10000};$/;"	v
+a	DynamicProgramming.cpp	/^int n , a[10000];$/;"	v
+a	cf/196div2/a.c	/^int a[100];$/;"	v
+a	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+a	cf/372a.cpp	/^int a[102];$/;"	v
+a	cf/cf373/c.c	/^int a[500005];$/;"	v
+a	cf/cf376/c.cpp	/^int a[5] = {1,8,6,9};$/;"	v
+a	cf/cf380/a.c	/^ int st,a,b;$/;"	m	struct:node	file:
+a	cf/cf380/a.c	/^int a[10000005];$/;"	v
+a	cf/cf382/b.c	/^__int64 a,b,w,x,c;$/;"	v
+a	cf/cf382/c.c	/^int a[100005];$/;"	v
+a	cf/cf389/a.c	/^int a[200];$/;"	v
+a	cf/cf389/d.c	/^int a[22];$/;"	v
+a	cf/cf390/b.c	/^__int64 a[100005];$/;"	v
+a	cf/cf394/b.c	/^int a[1000005];$/;"	v
+a	cid339.f.c	/^char a[100010];$/;"	v
+a	cid=339.e.c	/^ int a[1000004];$/;"	v
+a	contests/5-20/d.cpp	/^int a[100004]; $/;"	v
+a	contests/5-20/g.cpp	/^int a[100][100];$/;"	v
+a	contests/5-27/c.c	/^int a[1000010];$/;"	v
+a	contests/Awarmup/1010.c	/^int a[] = {3,5,7,11,13,17,19,23};$/;"	v
+a	contests/Awarmup/a.c	/^int a[300][300];$/;"	v
+a	contests/PrefaceNumbering.cpp	/^int a[10] = {1000,500,100,50,10,5,1};$/;"	v
+a	contests/acdream7.a.c	/^int a[100010],b[100010];$/;"	v
+a	contests/cf169div2/b.c	/^char a[10000];$/;"	v
+a	contests/cf169div2/c.c	/^int a[200001];$/;"	v
+a	contests/cf169div2/c.cpp	/^int a[200001];$/;"	v
+a	contests/cf170div2/b.c	/^char  a[100][40];$/;"	v
+a	contests/cf170div2/c.c	/^bool a[102][102] = {0};$/;"	v
+a	contests/cf171div2/c.c	/^int a[100001];$/;"	v
+a	contests/cf174div2/b.c	/^char a[200005];$/;"	v
+a	contests/cf184div2/a.c	/^ll p,q,n,a[1000];$/;"	v
+a	contests/cf188div2/b.c	/^int a[1000007];$/;"	v
+a	contests/cf188div2/d.c	/^int a[1000][1000];$/;"	v
+a	contests/cf282/c.c	/^char a[1000005];$/;"	v
+a	contests/cf342/a.c	/^int a[10];$/;"	v
+a	contests/cf366/c.cpp	/^int a[1000];$/;"	v
+a	contests/cf368/b.cpp	/^int a[100005];$/;"	v
+a	contests/cid=339.c	/^int a[s];$/;"	v
+a	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+a	contests/cid=342.c.c	/^int a[17000000],b[17000000];$/;"	v
+a	contests/cid=342.h.c	/^struct xy a[100010]={0};$/;"	v	typeref:struct:xy
+a	contests/cid=343.b.c	/^int a[5010]={0};$/;"	v
+a	contests/cid=343.f.c	/^long  long int a[110],b[110];$/;"	v
+a	contests/duie.c	/^int N, a, b;$/;"	v
+a	contests/hut20131/a.c	/^int a[2005];$/;"	v
+a	contests/hut20132/c.cpp	/^long long len, heapsize,a[maxn];$/;"	v
+a	contests/hut20132/g.c	/^}a[1005];$/;"	v	typeref:struct:node
+a	contests/hut20135/f.1.c	/^int a[maxn];$/;"	v
+a	contests/hut20135/f.c	/^int a[maxn];$/;"	v
+a	contests/hut20137/g.c	/^int a[200][200];$/;"	v
+a	contests/kp3.b.c	/^long long int a[]={0};$/;"	v
+a	contests/last.c	/^int a[maxn];$/;"	v
+a	contests/warmup.c	/^int a[300][300];$/;"	v
+a	contests/南京邀请/1001.c	/^int a[2000];$/;"	v
+a	contests/多校1/e.1.c	/^int a[100005];$/;"	v
+a	contests/多校1/e.c	/^int a[100005];$/;"	v
+a	contests/多校联合1/a.c	/^int a[1000005];$/;"	v
+a	contests/多校联合1/g.c	/^int a[100005];$/;"	v
+a	contests/多校联合4/a.cpp	/^char a[100004][200];$/;"	v
+a	contests/多校联合4/g.cpp	/^int a[10000][202];$/;"	v
+a	contests/多校联合4/h.cpp	/^int a[1005];$/;"	v
+a	contests/排序训练/b.c	/^int a[200];$/;"	v
+a	contests/排序训练/c.c	/^}a[2000];$/;"	v	typeref:struct:node
+a	contests/排序训练/d.c	/^}a[300];$/;"	v	typeref:struct:node
+a	contests/排序训练/e.c	/^int a[4000];$/;"	v
+a	contests/排序训练/g.c	/^}a[10];$/;"	v	typeref:struct:node
+a	contests/湖大3/b.c	/^int a[2005];$/;"	v
+a	contests/第三场/b.c	/^__int64 a[100005];$/;"	v
+a	contests/第三场/e.c	/^char a[100][100];$/;"	v
+a	contests/第三场/f.c	/^int a[1000005];$/;"	v
+a	contests/第三场/g.c	/^char a[300];$/;"	v
+a	contests/第三场/i.c	/^long long int a[100000];$/;"	v
+a	contests/网络赛/b.c	/^int a[MAX], b[MAX + MAX], c[MAX];$/;"	v
+a	contests/网络赛/j1.c	/^int a[100005];$/;"	v
+a	contests/长春/9.c	/^int a[1000000];$/;"	v
+a	hdu/3415.cpp	/^int a[200005];$/;"	v
+a	hdu/4686.c	/^int a[2000];$/;"	v
+a	hdu/4704.c	/^LL a[maxn];$/;"	v
+a	hdu/4727.c	/^int a[110000];$/;"	v
+a	hdu/hdu4647.cpp	/^long long  a[maxn];$/;"	v
+a	hmyuzx.cpp	/^int a[1005];$/;"	v
+a	hmyuzx2.cpp	/^}a[1000005];$/;"	v	typeref:struct:node
+a	id=340.b.c	/^int a[17000000]={0},b[17000000]={0};$/;"	v
+a	poj/2533.c	/^int a[10005];$/;"	v
+a	poj/poj2182.c	/^int a[MAXN];$/;"	v
+a	poj/poj2828.c	/^int a[MAXN];$/;"	v
+a	poj/poj2886.c	/^int a[MAXN];$/;"	v
+a	poj/poj3468.1.c	/^long long a[MAXN];$/;"	v
+a	poj/poj3468.c	/^long long a[MAXN];$/;"	v
+a	practice/1003.c	/^int a[1000000];$/;"	v
+a	practice/dfs3.c	/^int a[40][40] , sum = 10000000,visit[35] , t ,b[10];$/;"	v
+a	practice/dfs4.c	/^char a[1000][100];$/;"	v
+a	practice/乌龟与兔子/f1.cpp	/^int a[105][105];$/;"	v
+a	practice/乌龟与兔子/j.cpp	/^int a[105][105];$/;"	v
+a	practice/乌龟与兔子/test1.c	/^	int a,b;$/;"	m	struct:A	file:
+a	practice/树状数组/b.c	/^char a[100005];$/;"	v
+a	practice/树状数组/hoj1867.c	/^int a[1000005];$/;"	v
+a	practice/树状数组/japan.cpp	/^int a[1005];$/;"	v
+a	practice/树状数组/stars.c	/^int a[32005];$/;"	v
+a	practice/第一场/c.c	/^int a[20005];$/;"	v
+a	practice/第二场/a.c	/^int a[1000005];$/;"	v
+a	practice/第二场/b.c	/^char a[1005];$/;"	v
+a	practice/第二场/c.c	/^long long  int  a, p; $/;"	v
+a	python/py1.py	/^a = [1,2,3]$/;"	v
+a	python/test.py	/^ a = 3$/;"	v
+a	radixsort.c	/^int a[100000];$/;"	v
+a	rm/10494.c	/^char a[1000];$/;"	v
+a	rm/3.1.3.c	/^int a[100][100] = {0};$/;"	v
+a	rm/7.2.1.c	/^int a[1000];$/;"	v
+a	rm/7.2.2.c	/^int a[100];$/;"	v
+a	rm/7.3.1.c	/^int a[100];$/;"	v
+a	rm/bei.c.1.c	/^	int a,b,c,d;$/;"	m	struct:st	file:
+a	rm/bei.c.c	/^	int a[4];	$/;"	m	struct:st	file:
+a	rm/bei.c.c	/^char a[10000]={0};$/;"	v
+a	rm/bei.k.c	/^char a[1000000]={0};$/;"	v
+a	rm/c.c	/^int a[100004][101];$/;"	v
+a	rm/uva10010.cpp	/^char a[100][100];$/;"	v
+a	rm/uva10016.c	/^bool a[900];$/;"	v
+a	rm/uva10106.c	/^char a[600];$/;"	v
+a	rm/uva10112.c	/^double  a[20][3];$/;"	v
+a	rm/uva10152.cpp	/^struct node a[300];$/;"	v	typeref:struct:node
+a	rm/uva10392.c	/^bool a[N+5] = {0} ;$/;"	v
+a	rm/uva10420.c	/^struct con  a[2020] ;$/;"	v	typeref:struct:con
+a	rm/uva10474.c	/^int a[10001];$/;"	v
+a	rm/uva10557.c	/^	int a[103];$/;"	m	struct:point	file:
+a	rm/uva10719.c	/^int  a[12000];$/;"	v
+a	rm/uva120.c	/^int a[50] , n , b[50] ;$/;"	v
+a	rm/uva152.c	/^ double  a, b , c; $/;"	m	struct:pi	file:
+a	rm/uva156.c	/^struct k a[10000];$/;"	v	typeref:struct:k
+a	rm/uva253.c	/^   char  a , b ;$/;"	m	struct:mian	file:
+a	rm/uva340.c	/^int a[2000], b[2000],c[20] , d[20];$/;"	v
+a	rm/uva350.c	/^int a[1000000];$/;"	v
+a	rm/uva400.c	/^char a[120][70];$/;"	v
+a	rm/uva402.c	/^char a[300];$/;"	v
+a	rm/uva409.c	/^int a[100];$/;"	v
+a	rm/uva442.c	/^  int a, b;$/;"	m	struct:node	file:
+a	rm/uva457.c	/^char a[100] , c[100],h[200];$/;"	v
+a	rm/uva465.c	/^char a[1000],b[1000];$/;"	v
+a	rm/uva548.c	/^int a[10005];$/;"	v
+a	rm/uva568.c	/^bool a[N+5];$/;"	v
+a	rm/uva644.c	/^char a[20][1000] = {0};$/;"	v
+a	rm/uva748.c	/^char a[100];$/;"	v
+a	rm/uvaunkown.c	/^char a[100001][100];$/;"	v
+a	tc/WinterAndMandarins.cpp	/^int a[100];$/;"	v
+a	test/hdu4588.c	/^int a,b ;$/;"	v
+a	test/hdu4588.cpp	/^int a,b ;$/;"	v
+a	usaco/TheCastle.cpp	/^int a[200][200];$/;"	v
+a	usaco/contact.c	/^int a,b,n;$/;"	v
+a	usaco/crypt1.c	/^int a[20],n;$/;"	v
+a	usaco/dualpal.c	/^int a[200];$/;"	v
+a	usaco/fact4.c	/^int a[40000];$/;"	v
+a	usaco/humble.c	/^int a[200];$/;"	v
+a	usaco/humble1.c	/^int a[104];$/;"	v
+a	usaco/maze1.c	/^}a[100000];$/;"	v	typeref:struct:dian
+a	usaco/milk.c	/^}a[6000];$/;"	v	typeref:struct:node
+a	usaco/milk3.c	/^int a[4] = {0};$/;"	v
+a	usaco/palsquare.c	/^int a[100];$/;"	v
+a	usaco/ratios.c	/^int a[4]; $/;"	v
+a	usaco/rect1.c	/^}a[200000];$/;"	v	typeref:struct:node
+a	usaco/stamps.c	/^int a[51];$/;"	v
+a	uva11292.c	/^int a[20010],b[20010];$/;"	v
+a	wikioi/3147.c	/^int n,m,a[MAXN][MAXN] = 0 ,b[MAXN][MAXN] = 0 ;$/;"	v
+a	zoj/2678.c	/^int a[200];$/;"	v
+a	��һ��/E/E.cpp	/^int g[15][15], a[15], n, len;$/;"	v
+a	上车人数.cpp	/^}a[1000],b[1000],c[1000];$/;"	v	typeref:struct:node
+a	线段数.cpp	/^double   a[100][100];$/;"	v
+ableToGet	tc/PowerOfThreeEasy.cpp	/^        string ableToGet(int x, int y)$/;"	f	class:PowerOfThreeEasy
+add	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int n, add, m;$/;"	v
+add	hdu4446.c	/^int add[ma<<2];  $/;"	v
+add	rm/test.c	/^void add(int from,int to)$/;"	f
+add	rm/uva402.c	/^void add()$/;"	f
+add	rm/uva465.c	/^void add(int a[] , int b[])$/;"	f
+add	rm/加法.c	/^void add(char a[],char b[])$/;"	f
+addnode	rm/2tree.c	/^void addnode(int v, char *s)$/;"	f
+ans	cf/325b.c	/^long long ans[100] = {0},pre =0  ;$/;"	v
+ans	cf/cf376/c.cpp	/^int ans[10][5];$/;"	v
+ans	cf/cf382/c.c	/^int ans[100005];$/;"	v
+ans	contests/5-27/b1.c	/^double ans ;$/;"	v
+ans	contests/5-27/j.c	/^int n , last,ans, ok,t; $/;"	v
+ans	contests/HUN6/f.c	/^int ans[100005];$/;"	v
+ans	contests/PrefaceNumbering.cpp	/^int ans[3506][10];$/;"	v
+ans	contests/cf184div2/test.c	/^int ans;$/;"	v
+ans	contests/cf366/b.cpp	/^int ans[100005];$/;"	v
+ans	contests/cf368/a.cpp	/^int ans[1000];$/;"	v
+ans	contests/cf368/b.cpp	/^int ans[100005];$/;"	v
+ans	contests/hut20132/g.c	/^	int ans;$/;"	m	struct:node	file:
+ans	contests/hut20132/g.c	/^int ans[1005];$/;"	v
+ans	contests/多校1/e.1.c	/^int ans[100005];$/;"	v
+ans	contests/多校1/e.c	/^int ans[100005];$/;"	v
+ans	contests/多校联合1/h.c	/^int ans , t;$/;"	v
+ans	contests/湖大3/g.c	/^int ans[300005];$/;"	v
+ans	contests/湖大3/h.c	/^int ans[4005];$/;"	v
+ans	hdu/2553.c	/^int ans[20] = {0};$/;"	v
+ans	hmyuzx2.cpp	/^int ans[1000005];$/;"	v
+ans	practice/dfs2.c	/^int x2, y2 ,ans;$/;"	v
+ans	practice/dfs4.c	/^int ans = 0, i = 0  ;$/;"	v
+ans	rm/2tree.c	/^int ans[1000], n = 0 ;$/;"	v
+ans	tc/PowerOfThreeEasy.cpp	/^int ans[1000] = {0};$/;"	v
+ans	tc/tc600/b.cpp	/^int ans[100];$/;"	v
+ans	test/hdu4588.c	/^int  carry,ans ,now ;$/;"	v
+ans	test/hdu4588.cpp	/^LL carry,ans ,now ;$/;"	v
+ans	usaco/HammingCodes.cpp	/^int ans[100][10];$/;"	v
+ans	usaco/TheCastle.cpp	/^int ans[100000];$/;"	v
+ans	usaco/clocks.c	/^int ans[1000];$/;"	v
+ans	usaco/comehome.c	/^int ans[1000];$/;"	v
+ans	usaco/contact.c	/^}ans[120000];$/;"	v	typeref:struct:node1
+ans	usaco/fact4.c	/^int ans[40000];$/;"	v
+ans	usaco/milk3.c	/^int ans[100] = {0};$/;"	v
+ans	usaco/nocows.cpp	/^int ans = 0 ;$/;"	v
+ans	usaco/partylamps.cpp	/^char ans[20][200];$/;"	v
+ans	usaco/prefix.cpp	/^int ans[200001][11];$/;"	v
+ans	usaco/ratios.c	/^int ans[5][5];$/;"	v
+ans	��һ��/Cδ���ǵ���/C.cpp	/^int t[N],n, m,ans;$/;"	v
+ans	��һ��/E/E.cpp	/^int ans;$/;"	v
+answer	practice/乌龟与兔子/a.cpp	/^int answer[1005];$/;"	v
+ansx	contests/hanzhou2013/c.c	/^int ansx ,ansy;$/;"	v
+ansy	contests/hanzhou2013/c.c	/^int ansx ,ansy;$/;"	v
+area	rm/uva10112.c	/^double area(int i ,int j , int k)$/;"	f
+arr	Template/Radixsort.c	/^int arr[MAX];$/;"	v
+arr	Template/radixsort.c	/^int arr[maxn];$/;"	v
+b	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+b	cf/cf373/c.c	/^int b[500005];$/;"	v
+b	cf/cf380/a.c	/^ int st,a,b;$/;"	m	struct:node	file:
+b	cf/cf382/b.c	/^__int64 a,b,w,x,c;$/;"	v
+b	cf/cf390/b.c	/^__int64 b[100005];$/;"	v
+b	cid339.f.c	/^char b[30];$/;"	v
+b	contests/5-20/g.cpp	/^int b[100];$/;"	v
+b	contests/5-27/c.c	/^int b[1000010];$/;"	v
+b	contests/PrefaceNumbering.cpp	/^char b[10] = {'M','D','C','L','X','V','I'};$/;"	v
+b	contests/acdream7.a.c	/^int a[100010],b[100010];$/;"	v
+b	contests/cf168div2/b.c	/^int  b[52][52] ={0};$/;"	v
+b	contests/cf168div2/c.c	/^bool b[1000001000] = {0};$/;"	v
+b	contests/cf169div2/c.c	/^int b[200001];$/;"	v
+b	contests/cf169div2/c.cpp	/^int b[200001];$/;"	v
+b	contests/cf170div2/c.c	/^int b[102] = {0};$/;"	v
+b	contests/cf188div2/b.c	/^int b[1000007];$/;"	v
+b	contests/cf282/c.c	/^char b[1000005];$/;"	v
+b	contests/cf366.c	/^  int b;$/;"	m	struct:node	file:
+b	contests/cf366/c.cpp	/^int b[1000];$/;"	v
+b	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+b	contests/cid=342.c.c	/^int a[17000000],b[17000000];$/;"	v
+b	contests/cid=343.c.c	/^int b[100005],c[100005];$/;"	v
+b	contests/cid=343.f.c	/^long  long int a[110],b[110];$/;"	v
+b	contests/duie.c	/^int N, a, b;$/;"	v
+b	contests/last.c	/^int b[maxn];$/;"	v
+b	contests/多校联合4/g.cpp	/^int b[10000][202];$/;"	v
+b	contests/排序训练/c.c	/^}b[2000];$/;"	v	typeref:struct:hehe
+b	contests/排序训练/f.c	/^}b[101];$/;"	v	typeref:struct:hehe
+b	contests/第三场/f.c	/^int b[1000005];$/;"	v
+b	contests/网络赛/b.c	/^int a[MAX], b[MAX + MAX], c[MAX];$/;"	v
+b	contests/长春/9.c	/^int b[1000000];$/;"	v
+b	hdu/4686.c	/^int b[2000];$/;"	v
+b	hmyuzx.cpp	/^int b[1005];$/;"	v
+b	id=340.b.c	/^int a[17000000]={0},b[17000000]={0};$/;"	v
+b	poj/poj2182.c	/^int b[MAXN];$/;"	v
+b	poj/poj2828.c	/^int b[MAXN];$/;"	v
+b	practice/dfs3.c	/^int a[40][40] , sum = 10000000,visit[35] , t ,b[10];$/;"	v
+b	practice/dp/k.c	/^bool b[105];$/;"	v
+b	practice/乌龟与兔子/test1.c	/^	int a,b;$/;"	m	struct:A	file:
+b	practice/树状数组/b.c	/^char b[100005];$/;"	v
+b	practice/树状数组/hoj1867.c	/^int b[1000005];$/;"	v
+b	practice/第二场/b.c	/^int b[1005];$/;"	v
+b	python/test.py	/^ b = 4$/;"	v
+b	radixsort.c	/^int b[100000];$/;"	v
+b	rm/7.2.2.c	/^int b[100];$/;"	v
+b	rm/7.3.2.c	/^int b[1000];$/;"	v
+b	rm/bei.c.1.c	/^	int a,b,c,d;$/;"	m	struct:st	file:
+b	rm/uva10016.c	/^int  b[900];$/;"	v
+b	rm/uva10106.c	/^char b[600];$/;"	v
+b	rm/uva10152.cpp	/^struct node b[300];$/;"	v	typeref:struct:node
+b	rm/uva10392.c	/^int b[80000];$/;"	v
+b	rm/uva10719.c	/^int  b[12000];$/;"	v
+b	rm/uva120.c	/^int a[50] , n , b[50] ;$/;"	v
+b	rm/uva152.c	/^ double  a, b , c; $/;"	m	struct:pi	file:
+b	rm/uva156.c	/^char b[10000][80] = {0};$/;"	v
+b	rm/uva253.c	/^   char  a , b ;$/;"	m	struct:mian	file:
+b	rm/uva340.c	/^int a[2000], b[2000],c[20] , d[20];$/;"	v
+b	rm/uva402.c	/^int  b[300],temp[300];$/;"	v
+b	rm/uva442.c	/^  int a, b;$/;"	m	struct:node	file:
+b	rm/uva457.c	/^int	 b[130];$/;"	v
+b	rm/uva465.c	/^char a[1000],b[1000];$/;"	v
+b	rm/uva548.c	/^int b[10005];$/;"	v
+b	rm/uva568.c	/^int b[N];$/;"	v
+b	rm/uvaunkown.c	/^char b[100001][100];$/;"	v
+b	test/hdu4588.c	/^int a,b ;$/;"	v
+b	test/hdu4588.cpp	/^int a,b ;$/;"	v
+b	usaco/HammingCodes.cpp	/^int n, b,d;$/;"	v
+b	usaco/contact.c	/^int a,b,n;$/;"	v
+b	usaco/milk3.c	/^int b[4] = {0};$/;"	v
+b	uva11292.c	/^int a[20010],b[20010];$/;"	v
+b	wikioi/3147.c	/^int n,m,a[MAXN][MAXN] = 0 ,b[MAXN][MAXN] = 0 ;$/;"	v
+b	zoj/2678.c	/^int b[200];$/;"	v
+b	��һ��/E/E.cpp	/^int b[15];$/;"	v
+b	上车人数.cpp	/^}a[1000],b[1000],c[1000];$/;"	v	typeref:struct:node
+b1	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+band	practice/dp/k.c	/^struct bands band[15];$/;"	v	typeref:struct:bands
+bands	practice/dp/k.c	/^struct bands$/;"	s	file:
+be	contests/hut20135/e.c	/^	int be,en;$/;"	m	struct:node1	file:
+begin	rm/uva10557.c	/^int begin,end,ok ,n;$/;"	v
+begin	usaco/calfflac.c	/^int begin,end;$/;"	v
+bell	contests/长春/tt.c	/^uint64_t bell(int n) $/;"	f
+bfs	rm/2tree.c	/^int bfs()$/;"	f
+bfs	usaco/maze1.c	/^void bfs(int x,int y)$/;"	f
+bi	contests/5-17/i.c	/^int bi[100];$/;"	v
+bian	contests/5-27/kk.c	/^}bian[500000];$/;"	v	typeref:struct:wbian
+big	usaco/humble.c	/^long long  big ;$/;"	v
+block	practice/dp/i.cpp	/^struct blocks block[405];$/;"	v	typeref:struct:blocks
+blocks	practice/dp/i.c	/^struct blocks$/;"	s	file:
+blocks	practice/dp/i.cpp	/^struct blocks$/;"	s	file:
+box_width	python/2.3.py	/^ box_width  =  text_width+6$/;"	v
+build	hdu4446.c	/^void build(int l,int r,int rt)  $/;"	f
+build	poj/3225.c	/^void build(int c, int p , int v )$/;"	f
+build	poj/poj2182.c	/^void build(int c, int p ,int v)$/;"	f
+build	poj/poj2828.c	/^void build(int c, int p ,int v)$/;"	f
+build	poj/poj2886.c	/^void build(int c, int p , int v)$/;"	f
+build	poj/poj3468.1.c	/^void build(long long c, long long p ,long long v )$/;"	f
+build	poj/poj3468.c	/^void build(long long c, long long p ,long long v )$/;"	f
+build	practice/乌龟与兔子/test1.c	/^void build(int num)$/;"	f
+build	rm/2treeplus.c	/^void build (int n , char *s1,char *s2 , char *s)$/;"	f
+build	uestc/1546.1.c	/^void build(int l,int r,int rt)$/;"	f
+build	uestc/1546.c	/^void build(int c, int p , int v)$/;"	f
+build_tree	contests/cf184div2/test.c	/^char* build_tree(char *str,node t[N],int r){$/;"	f
+build_tree	practice/乌龟与兔子/表达式树.c	/^int build_tree(char *s,int x,int y)$/;"	f
+buildtree	rm/uva839.c	/^void  buildtree(struct node *p)$/;"	f
+c	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+c	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+c	cf/cf382/b.c	/^__int64 a,b,w,x,c;$/;"	v
+c	cid=339.b1.c	/^int rope[N],n,c[N],num[N];$/;"	v
+c	contests/5-27/c.c	/^int c[1000010];$/;"	v
+c	contests/cf168div2/b.c	/^int c[2501],d[2501];$/;"	v
+c	contests/cf282/b.c	/^char c[1000005];$/;"	v
+c	contests/cf366/c.cpp	/^int c[20000];$/;"	v
+c	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+c	contests/cid=343.c.c	/^int b[100005],c[100005];$/;"	v
+c	contests/哈理工/a.c	/^char  c[120][120] ,temp[120];$/;"	v
+c	contests/湖大3/h.c	/^	int m,c;$/;"	m	struct:node	file:
+c	contests/第三场/f.c	/^int c[1000005];$/;"	v
+c	contests/网络赛/b.c	/^int a[MAX], b[MAX + MAX], c[MAX];$/;"	v
+c	hdu/2553.c	/^int c[20];$/;"	v
+c	hdu4446.c	/^int c[ma<<2];  $/;"	v
+c	poj/3225.c	/^	int l ,r , m, c ,f;$/;"	m	struct:node	file:
+c	poj/poj2828.c	/^int c[MAXN];$/;"	v
+c	practice/dp/d.c	/^int c[6] = {0,50,25,10,5,1};$/;"	v
+c	practice/dp/i.c	/^  int c,w,m;$/;"	m	struct:blocks	file:
+c	practice/dp/i.cpp	/^	int c,w,m;$/;"	m	struct:blocks	file:
+c	practice/dp/j.c	/^int c[105][105];$/;"	v
+c	practice/dp/k.c	/^int c[105],w[105];$/;"	v
+c	practice/乌龟与兔子/d1.cpp	/^Cell c[105];$/;"	v
+c	practice/乌龟与兔子/g.cpp	/^int c[1000];$/;"	v
+c	practice/树状数组/a.c	/^int c[1000005], n ;$/;"	v
+c	practice/树状数组/b.c	/^char c[200010];$/;"	v
+c	practice/树状数组/h.c	/^int c[1005][1005];$/;"	v
+c	rm/bei.c.1.c	/^	int a,b,c,d;$/;"	m	struct:st	file:
+c	rm/uva10014.c	/^double c[4000];$/;"	v
+c	rm/uva10016.c	/^int  c[900];$/;"	v
+c	rm/uva10106.c	/^int  c[600];$/;"	v
+c	rm/uva10152.cpp	/^int c[300];$/;"	v
+c	rm/uva10815.c	/^char c[1000000][201] = {0};$/;"	v
+c	rm/uva112.c	/^  char c;$/;"	m	struct:node	file:
+c	rm/uva11234.c	/^  char c;$/;"	m	struct:node	file:
+c	rm/uva123.c	/^	char c[300];$/;"	m	struct:nokey	file:
+c	rm/uva152.c	/^ double  a, b , c; $/;"	m	struct:pi	file:
+c	rm/uva297.c	/^	char c;$/;"	m	struct:node	file:
+c	rm/uva340.c	/^int a[2000], b[2000],c[20] , d[20];$/;"	v
+c	rm/uva457.c	/^char a[100] , c[100],h[200];$/;"	v
+c	rm/uva568.c	/^int c[N];$/;"	v
+c	rm/uvaunkown.c	/^int  c[100001];$/;"	v
+c	uestc/1546.c	/^	int sum , c , f; $/;"	m	struct:node	file:
+c	usaco/namenum.c	/^char c[200];$/;"	v
+c	usaco/rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:
+c	上车人数.cpp	/^}a[1000],b[1000],c[1000];$/;"	v	typeref:struct:node
+c	加油站.cpp	/^int c[200005],v[200005];$/;"	v
+calc	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^inline int calc(Dog &d, int p, int t) {$/;"	f
+canvisit	rm/uva10557.c	/^int canvisit[105];$/;"	v
+card	rm/uva123.cpp	/^struct card$/;"	s	file:
+cards	rm/uva123.cpp	/^	struct card cards[54];$/;"	m	struct:node	typeref:struct:node::card	file:
+carry	test/hdu4588.c	/^int  carry,ans ,now ;$/;"	v
+carry	test/hdu4588.cpp	/^LL carry,ans ,now ;$/;"	v
+cd	contests/hut20135/e.c	/^}cd[20005];$/;"	v	typeref:struct:node
+change	contests/hut20134/e.1.c	/^void change()$/;"	f
+change	contests/hut20134/e.c	/^void change()$/;"	f
+change	contests/hut20138/d.c	/^void change(long long k)$/;"	f
+change	contests/哈理工/a.c	/^void change(int i , int j )$/;"	f
+change	rm/10494.c	/^void change(char a[],int b[])$/;"	f
+change	rm/autoedit.c	/^char change[300] = {0};$/;"	v
+change	rm/uva10106.c	/^void change(char a[],int b[])$/;"	f
+change	rm/uva402.c	/^void change()$/;"	f
+change	rm/uva457.c	/^void change()$/;"	f
+change	rm/uva465.c	/^void change(char a[], int b[])$/;"	f
+change	rm/uva705.c	/^void change(int i , int j , char c)$/;"	f
+change	rm/uva748.c	/^int  change(char a[],int  b[])$/;"	f
+change	usaco/calfflac.c	/^int change[30005],t;$/;"	v
+change	usaco/clocks.c	/^void change(int k , int T)$/;"	f
+change	usaco/milk3.c	/^void change(int i, int j)$/;"	f
+change	usaco/transform.c	/^char change[100][100];$/;"	v
+change1	contests/hut20138/d.c	/^void change1(long long k)$/;"	f
+change1	contests/长春/9.c	/^int change1(int n)$/;"	f
+change1	rm/uva120.c	/^void change1(int x , int y)$/;"	f
+change1	usaco/transform.c	/^int change1(char s[][100])$/;"	f
+change2	contests/长春/9.c	/^int change2(int n)$/;"	f
+change2	rm/uva120.c	/^void change2(int x)$/;"	f
+change2	usaco/transform.c	/^int change2(char s[][100])$/;"	f
+change3	usaco/transform.c	/^int change3(char s[][100])$/;"	f
+change4	usaco/transform.c	/^int change4(char s[][100])$/;"	f
+change5	usaco/transform.c	/^int change5(char s[][100])$/;"	f
+change6	usaco/transform.c	/^int change6( char s[][100])$/;"	f
+cheak	contests/cf168div2/b1.c	/^bool cheak(int x,int y)$/;"	f
+check	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^inline int check(Dog &d, int p, int t) {$/;"	f
+chu	contests/hut20131/a.c	/^void chu()$/;"	f
+chu	hdu/4704.c	/^LL chu(LL k){$/;"	f
+ci	contests/排序训练/c.c	/^	int ci , pi , ti , ri;$/;"	m	struct:hehe	file:
+ck	contests/cf184div2/a.c	/^bool ck()$/;"	f
+clean	rm/uva748.c	10;"	d	file:
+cmp	CrossingRivers.cpp	/^int cmp(const void * a ,const void *b)$/;"	f
+cmp	Template/radixsort.c	/^int cmp(const void * a ,const void * b)$/;"	f
+cmp	beautifulstrings.c	/^int cmp(const void *a , const void *b)$/;"	f
+cmp	cf/196div2/a.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	cf/325b.c	/^int  cmp(const void *a , const void *b)$/;"	f
+cmp	cf/cf373/c.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	cf/cf376/d.cpp	/^int cmp(const void * a,const void *b)$/;"	f
+cmp	cf/cf382/c.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/5-17/b.c	/^int cmp (const void *a , const void *b)$/;"	f
+cmp	contests/5-20/g.cpp	/^int cmp(const int i, const int j)$/;"	f
+cmp	contests/5-27/b.c	/^int cmp(const int i , const int j)$/;"	f
+cmp	contests/5-27/k.c	/^int cmp(const int i , const int j)$/;"	f
+cmp	contests/5-27/kk.c	/^double cmp(const int i , const int j)$/;"	f
+cmp	contests/5-27/ktest.c	/^double cmp(const int i , const int j)$/;"	f
+cmp	contests/HUN6/f.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/cf169div2/c.cpp	/^int cmp(const int a, const int b)$/;"	f
+cmp	contests/cf368/a.cpp	/^int cmp(const void *a , const void * b)$/;"	f
+cmp	contests/hut20135/e.c	/^int cmp(const void * a ,const void * b)$/;"	f
+cmp	contests/排序训练/b.c	/^int cmp(const void * a ,const void *b)$/;"	f
+cmp	contests/排序训练/c.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/排序训练/d.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/排序训练/f.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/排序训练/g.c	/^int  cmp(const void *a ,const void *b)$/;"	f
+cmp	contests/湖大3/g.c	/^int cmp(const void * b,const void *a)$/;"	f
+cmp	hdu/hdu4647.cpp	/^int  cmp(const void *a , const void * b)$/;"	f
+cmp	practice/c.cpp	/^int cmp(const int i, const int j )$/;"	f
+cmp	practice/乌龟与兔子/c.cpp	/^int cmp(const int i, const int j )$/;"	f
+cmp	practice/乌龟与兔子/d.cpp	/^int cmp(const int i, const int j)$/;"	f
+cmp	practice/乌龟与兔子/d1.cpp	/^bool cmp(MAP m1,MAP m2)$/;"	f
+cmp	practice/乌龟与兔子/f1.cpp	/^int cmp(const int i , const int j ) {$/;"	f
+cmp	practice/乌龟与兔子/g.cpp	/^int cmp(const int i , const int j)$/;"	f
+cmp	practice/乌龟与兔子/j.cpp	/^int cmp(const int i , const int j ) {$/;"	f
+cmp	practice/乌龟与兔子/test1.c	/^int cmp(const void *a,const void *b)$/;"	f
+cmp	rm/10098.c	/^int cmp(const void *a, const void *b)$/;"	f
+cmp	rm/uva10098.c	/^int  cmp(const void *a, const void *b)$/;"	f
+cmp	rm/uva10152.cpp	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	rm/uva146.c	/^int cmp(const void *a , const void *b)$/;"	f
+cmp	rm/uva657.c	/^int cmp(const void *a,const void *b)$/;"	f
+cmp	rm/减法.c	/^int cmp(char a[], char b[])$/;"	f
+cmp	tc/MysticAndCandiesEasy.cpp	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	tc/WinterAndMandarins.cpp	/^int cmp(const void * a ,const void *b)$/;"	f
+cmp	usaco/1.3.2.cpp	/^int cmp(const void *a, const void *b)$/;"	f
+cmp	usaco/barn1.c	/^int cmp(const void *a ,const void * b)$/;"	f
+cmp	usaco/clocks.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	usaco/contact.c	/^int cmp(const void * a ,const void * b)$/;"	f
+cmp	usaco/humble.c	/^int cmp(const void * a, const void *b)$/;"	f
+cmp	usaco/milk.c	/^int cmp(const void *a ,const void * b)$/;"	f
+cmp	usaco/milk2.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	usaco/milk3.c	/^int cmp(const void *a ,const void *b)$/;"	f
+cmp	usaco/prefix.c	/^int cmp(const void * a ,const void *b)$/;"	f
+cmp	zoj/2678.c	/^int  cmp()$/;"	f
+cmp	��һ��/B�ı������/B.cpp	7;"	d	file:
+cmp1	contests/5-17/k1.c	/^bool cmp1(node x,node y)$/;"	f
+cmp1	contests/HUN6/f.c	/^int cmp1(const void * a ,const void * b)$/;"	f
+cmp1	contests/hut20131/g.c	/^int cmp1(const void * a,const void *b)$/;"	f
+cmp1	contests/hut20132/g.c	/^int cmp1(const void * a ,const void * b)$/;"	f
+cmp1	contests/排序训练/c.c	/^int cmp1(const void * a,const void *b)$/;"	f
+cmp1	contests/湖大3/g.c	/^int cmp1(const void * a ,const void * b)$/;"	f
+cmp1	usaco/1.3.2.cpp	/^int cmp1(const void *a, const void *b)$/;"	f
+cmp1	usaco/barn1.c	/^int cmp1(const void *a ,const void *b )$/;"	f
+cmp2	contests/5-17/k1.c	/^bool cmp2(node x,node y)$/;"	f
+cnt	contests/湖大3/对拍.c	/^int rec[300000],cnt;$/;"	v
+cnt	rm/test.c	/^int cnt[110];$/;"	v
+col	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+color	contests/cf184div2/test.c	/^	 int color;$/;"	m	struct:node	file:
+combine	contests/长春/tt.c	/^uint64_t combine(int n,int m)$/;"	f
+comp	contests/acdream7.a.c	/^int comp(const void *a ,const void *b)$/;"	f
+comp	contests/cf169div2/c.c	/^int comp(const void *a , const void *b)$/;"	f
+comp	contests/cid=342.c.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	contests/cid=342.h.c	/^int comp(const void *a,const void *b)$/;"	f
+comp	contests/hlg/c.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	contests/多校联合4/a.cpp	/^int comp(const void *a,const void *b)$/;"	f
+comp	contests/网络赛/j1.c	/^int comp(const void *a , const void *b)$/;"	f
+comp	id=340.b.c	/^int comp(const void *a,const void *b)$/;"	f
+comp	practice/1003.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	rm/3.4.1.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	rm/uva10420.c	/^int comp(const void*a,const void *b)$/;"	f
+comp	rm/uva10785.c	/^int comp(const void *a,const void *b)$/;"	f
+comp	rm/uva10815.c	/^int comp(const void *a , const void *b)$/;"	f
+comp	rm/uva120.c	/^int comp(const void *a , const void *b)$/;"	f
+comp	rm/uva400.c	/^int comp(const void *a,const void *b)$/;"	f
+comp	rm/uvaunkown.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	tc/srm498div2250.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	uva11292.c	/^int comp(const *a,const *b)$/;"	f
+comp1	contests/cid=342.h.c	/^int comp1(const void *a,const void *b)$/;"	f
+comp1	id=340.b.c	/^int comp1(const void *a,const void *b)$/;"	f
+comp1	rm/uva156.c	/^int comp1(const void *a, const void *b)$/;"	f
+comp2	rm/uva156.c	/^int comp2(const void *a, const void *b)$/;"	f
+con	rm/uva10420.c	/^struct con{$/;"	s	file:
+cost	contests/5-17/k.cpp	/^int piao[105],cost[105],people[105];$/;"	v
+cost	contests/5-17/k1.c	/^	int id,cost;$/;"	m	struct:node	file:
+count	contests/cf184div2/test.c	/^void count(node r,int ord,int sum){$/;"	f
+count	zoj/2678.c	/^int count = 0 ; $/;"	v
+countOpponents	tc/srm547.250.cpp	/^  int countOpponents(int P, int k)$/;"	f	class:NinjaTurtles
+cover	poj/poj3468.1.c	/^    long long cover;$/;"	m	struct:node	file:
+cover	poj/poj3468.c	/^    long long cover;$/;"	m	struct:node	file:
+cow	usaco/ttwo.c	/^}cow,far;$/;"	v	typeref:struct:node
+cross	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^bool cross(const Point &a, const Point &b, const Point &c, const Point &d) {$/;"	f
+cstr	contests/cf368/c.cpp	/^char cstr[maxn];$/;"	v
+cur_pos	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int n, des, cur_pos, cur_time, energy;$/;"	v
+cur_time	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int n, des, cur_pos, cur_time, energy;$/;"	v
+cx	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+cy	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+d	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+d	contests/5-17/b.c	/^int d[13];$/;"	v
+d	contests/cf168div2/b.c	/^int c[2501],d[2501];$/;"	v
+d	contests/cf168div2/b1.c	/^char d[N][N];$/;"	v
+d	contests/cf366/c.cpp	/^int d[20000];$/;"	v
+d	contests/湖大3/g.c	/^}d[300005];$/;"	v	typeref:struct:node
+d	findyourmin.c	/^long long int d[200010];$/;"	v
+d	practice/乌龟与兔子/a.cpp	/^int d[1005];$/;"	v
+d	practice/乌龟与兔子/f.c	/^long long d[105];$/;"	v
+d	practice/乌龟与兔子/g.cpp	/^int d[1005][1005];$/;"	v
+d	practice/乌龟与兔子/k.cpp	/^double d[105];$/;"	v
+d	practice/树状数组/b.c	/^char d[200010];$/;"	v
+d	rm/bei.c.1.c	/^	int a,b,c,d;$/;"	m	struct:st	file:
+d	rm/test.c	/^int d[110];$/;"	v
+d	rm/uva10106.c	/^int  d[600];$/;"	v
+d	rm/uva10152.cpp	/^int d[300];$/;"	v
+d	rm/uva340.c	/^int a[2000], b[2000],c[20] , d[20];$/;"	v
+d	rm/uva540.c	/^int d[5004][5001];$/;"	v
+d	usaco/HammingCodes.cpp	/^int n, b,d;$/;"	v
+dabs	contests/排序训练/g.c	/^double dabs(double a, double b)$/;"	f
+data	somet.cpp	/^   int data;$/;"	m	struct:Linkedlist	file:
+date	practice/链表1.c	/^ int date;$/;"	m	struct:t	file:
+date	rm/6.2.2.c	/^ int date;$/;"	m	struct:tnode	file:
+date	rm/uva101.1.cpp	/^   int date;$/;"	m	struct:point	file:
+date	rm/uva101.cpp	/^   int date;$/;"	m	struct:point	file:
+date	rm/uva133.cpp	/^	int date;$/;"	m	struct:node	file:
+day	python/a.py	/^day = raw_input('Day(1-31):')$/;"	v
+day_number	python/a.py	/^day_number = int(day)$/;"	v
+deap	rm/uva10562.c	/^int deap;$/;"	v
+des	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int n, des, cur_pos, cur_time, energy;$/;"	v
+det	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^int det(const Point &a, const Point &b) {$/;"	f
+dfs	cf/cf389/b.c	/^void dfs(int x, int y )$/;"	f
+dfs	contests/5-27/j.c	/^void dfs(int k , int step ,int sum)$/;"	f
+dfs	contests/cf168div2/b1.c	/^void dfs(int x,int y ,int k ,int used)$/;"	f
+dfs	contests/duie.c	/^void dfs(int i, int j, int k) {$/;"	f
+dfs	contests/hut20134/e.1.c	/^void dfs(LL pos, LL status)$/;"	f
+dfs	contests/hut20134/e.c	/^void dfs(LL pos,LL status)$/;"	f
+dfs	contests/hut20138/d.c	/^void dfs(long long  pop,long long status)$/;"	f
+dfs	contests/多校1/h.c	/^int  dfs(int n)$/;"	f
+dfs	contests/多校联合4/g.cpp	/^void dfs(int x,int k)$/;"	f
+dfs	hdu/1016.c	/^void dfs(int cur)$/;"	f
+dfs	hdu/4707.c	/^void dfs(int x,int s)$/;"	f
+dfs	practice/dfs2.c	/^void dfs(int x, int y , int times, int site , bool h  ) $/;"	f
+dfs	practice/dfs3.c	/^void dfs(int i ,int tsum, int step)$/;"	f
+dfs	practice/dfs4.c	/^void dfs(int k)$/;"	f
+dfs	rm/test.c	/^void dfs(int from,int fa,int &ff)$/;"	f
+dfs	rm/uva10004.1.c	/^void dfs(int k , int sum)$/;"	f
+dfs	rm/uva10004.c	/^void dfs(int k,int sum,int color)$/;"	f
+dfs	rm/uva10054.1.c	/^void dfs(int k )$/;"	f
+dfs	rm/uva10129.c	/^void dfs(int k )$/;"	f
+dfs	rm/uva10557.c	/^void dfs(int p)$/;"	f
+dfs	rm/uva10596.c	/^void dfs(int k )$/;"	f
+dfs	rm/uva196.c	/^int dfs(int x,int y)$/;"	f
+dfs	usaco/TheCastle.cpp	/^void dfs(int x, int y )$/;"	f
+dfs	usaco/clocks.c	/^void dfs(int step, int limit,int k)$/;"	f
+dfs	usaco/concom.c	/^void dfs()$/;"	f
+dfs	usaco/crypt1.c	/^void dfs(int t)$/;"	f
+dfs	usaco/humble.c	/^void dfs(int t,int l)$/;"	f
+dfs	usaco/milk3.c	/^void dfs()$/;"	f
+dfs	usaco/namenum.c	/^void dfs(char temp ,int step)$/;"	f
+dfs	usaco/partylamps.cpp	/^void dfs(int a,int st)$/;"	f
+dfs	usaco/zerosum.cpp	/^void dfs(int k, int value)$/;"	f
+dfs	��һ��/E/E.cpp	/^void dfs( int num, int sum ){$/;"	f
+dfs1	contests/hanzhou2013/c.c	/^void dfs1(int x, int y , int d,int step)$/;"	f
+dfs1	rm/uva10054.1.c	/^void dfs1(int k )$/;"	f
+dfs1	usaco/TheCastle.cpp	/^void dfs1(int x, int y , int v)$/;"	f
+dfs2	contests/hanzhou2013/c.c	/^void dfs2(int x, int y , int d,int step){$/;"	f
+dian	usaco/maze1.c	/^struct dian{$/;"	s	file:
+digit	test11.c	/^char digit[2][500];$/;"	v
+dis	contests/5-27/b.c	/^double dis(int i , int j )$/;"	f
+dis	contests/5-27/b1.c	/^double dis(double a,double b,double c,double d)$/;"	f
+dis	contests/5-27/j.c	/^int  dis(int i ,int x, int y )$/;"	f
+dis	contests/5-27/k.c	/^double dis(int i , int j )$/;"	f
+dis	contests/5-27/kk.c	/^   int v,u,i;double dis;$/;"	m	struct:wbian	file:
+dis	contests/5-27/kk.c	/^double dis(int i , int j )$/;"	f
+dis	contests/5-27/ktest.c	/^double dis(int i , int j )$/;"	f
+dis	contests/hut20135/c.c	/^double dis(double x1,double y1, double x2,double y2)$/;"	f
+dis	contests/多校联合1/e.c	/^double dis(double a,double b,double c,double d)$/;"	f
+dis	practice/乌龟与兔子/d.cpp	/^double dis(int i , int j )$/;"	f
+dis	practice/乌龟与兔子/k.cpp	/^double  dis(int i ,int  j )$/;"	f
+dis	usaco/5.1.1.cpp	/^double dis(struct point a, struct point b)$/;"	f
+dis1	contests/5-27/b1.c	/^double dis1(double i , double j )$/;"	f
+dist	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^double dist(const Point &a, const Point &b) {$/;"	f
+div2	zoj/2678.c	/^void div2(int *p)$/;"	f
+dly	uestc/1546.1.c	/^int dly[mm<<2],rev[mm<<2],sum[mm<<2],lmax[mm<<2],lmin[mm<<2];$/;"	v
+dmap	rm/uva10054.c	/^int dmap[100][100];$/;"	v
+dmap	tc/FoxConnection2.cpp	/^int dmap[100][100];$/;"	v
+do1	线段数.cpp	/^void do1()$/;"	f
+do2	线段数.cpp	/^void do2()$/;"	f
+do3	线段数.cpp	/^void do3()$/;"	f
+doright	contests/cf372/d.c	/^void doright(int i , int j )$/;"	f
+dosome	contests/南京邀请/1001.c	/^double dosome(double k , double p ,double qw1)$/;"	f
+dosome	usaco/calfflac.c	/^void dosome(int n )$/;"	f
+dosomething	rm/10098.c	/^int   dosomething(){$/;"	f
+dosomething	rm/uva10098.c	/^int   dosomething(){$/;"	f
+dosomething	usaco/TheCastle.cpp	/^void dosomething(int i ,int j ,int k)$/;"	f
+dosomthing	usaco/beads.c	/^void dosomthing(int t)$/;"	f
+dp	Dollars.cpp	/^int dp[200000];$/;"	v
+dp	contests/5-27/c.c	/^long long dp[1000010];$/;"	v
+dp	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+dp	contests/hut20134/e.c	/^LL dp[31][20000],n,m,row,zt;$/;"	v
+dp	contests/hut20137/a.c	/^LL dp[1000][1000][2];$/;"	v
+dp	contests/hut20138/d.c	/^long long dp[20][40000]; $/;"	v
+dp	littlekenbg.cpp	/^int dp[10000];$/;"	v
+dp	poj/2533.c	/^int dp[10005];$/;"	v
+dp	tc/FoxConnection2.cpp	/^int dp[100][100];$/;"	v
+dp	usaco/SubsetSums.cpp	/^long long dp[1000];$/;"	v
+dp	usaco/inflate.c	/^int dp[10005];$/;"	v
+dp	usaco/money.cpp	/^long long dp[20000];$/;"	v
+dp	usaco/nocows.cpp	/^int dp[105][150][205];$/;"	v
+dp	usaco/prefix.cpp	/^int dp[200001];$/;"	v
+dp	usaco/stamps.c	/^int dp[2000001];$/;"	v
+dp	��һ��/B�ı������/B.cpp	/^LL dp[2][510];$/;"	v
+dqname	contests/排序训练/f.c	/^   char dqname[100];$/;"	m	struct:hehe	file:
+dx	contests/cf168div2/b1.c	/^int dx[4] = {1,-1,0,0},dy[4] = {0,0,1,-1};$/;"	v
+dy	contests/cf168div2/b1.c	/^int dx[4] = {1,-1,0,0},dy[4] = {0,0,1,-1};$/;"	v
+e	rm/uva10106.c	/^int  e[600];$/;"	v
+eage	practice/乌龟与兔子/test1.c	/^}eage[10011];$/;"	v	typeref:struct:A
+ed	��һ��/A�ͻ�����/A.cpp	/^	LL st, ed, k;	$/;"	m	struct:node	file:
+en	contests/hut20135/e.c	/^	int be,en;$/;"	m	struct:node1	file:
+end	rm/uva10557.c	/^int begin,end,ok ,n;$/;"	v
+end	usaco/calfflac.c	/^int begin,end;$/;"	v
+endings	python/a.py	/^		+ ['st']$/;"	v
+energy	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int n, des, cur_pos, cur_time, energy;$/;"	v
+energy	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+ex	rm/uva409.c	/^char ex[40][100];$/;"	v
+ex1	rm/uva409.c	/^char ex1[40][100];$/;"	v
+expend	contests/5-27/j.c	/^void expend(int k ,int temp )$/;"	f
+extend_gcd	青蛙的约会对拍.cpp	/^int extend_gcd(int a, int b) {$/;"	f
+extgcd	青蛙的约会.cpp	/^long long extgcd(long long a, long long b, long long &x, long long &y)$/;"	f
+f	contests/5-27/c.c	/^int f[1000010];$/;"	v
+f	contests/cf168div2/b1.c	/^bool f[N][N];$/;"	v
+f	contests/cf170div2/c.c	/^int f[102];$/;"	v
+f	contests/duie.c	/^int f[205][205][205];$/;"	v
+f	lanqiao/first.c	/^long long  f[2000];$/;"	v
+f	poj/3225.c	/^	int l ,r , m, c ,f;$/;"	m	struct:node	file:
+f	practice/dp/a.c	/^int f[10005];$/;"	v
+f	practice/dp/d.c	/^int f[255];$/;"	v
+f	practice/dp/i.c	/^int f[40005];$/;"	v
+f	practice/dp/i.cpp	/^int f[40005];$/;"	v
+f	practice/dp/j.c	/^int f[200];$/;"	v
+f	practice/dp/k.c	/^int f[10005];$/;"	v
+f	rm/test.c	/^int f[110][110];$/;"	v
+f	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+f	tc/tc600/b.cpp	/^int f[100];$/;"	v
+f	uestc/1546.c	/^	int sum , c , f; $/;"	m	struct:node	file:
+f	usaco/cowtour.c	/^int f[200];$/;"	v
+f	usaco/nocows.cpp	/^int f[150][150];$/;"	v
+fact	poj/poj2886.c	/^int fact[]={\/\/反素数约数个数$/;"	v
+fact	��һ��/D1������/D.cpp	/^LL C[20][20], fact[20];$/;"	v
+failed	rm/2tree.c	/^int failed = 0 ;$/;"	v
+fan	poj/3225.c	/^void fan(int c ,int p , int v)$/;"	f
+fan	uestc/1546.c	/^void fan(int c, int p , int v){$/;"	f
+fang	contests/HUN6/i.c	/^}zeng[200005],fang[200005];$/;"	v	typeref:struct:Zeng
+far	usaco/ttwo.c	/^}cow,far;$/;"	v	typeref:struct:node
+fen	cf/325b.c	/^int  fen(long long n , long long p)$/;"	f
+fen	contests/5-27/b1.c	/^void fen(double low ,double high)$/;"	f
+fen2	contests/5-27/b1.c	/^void fen2(double low ,double high)$/;"	f
+ff	rm/test.c	/^int ff;$/;"	v
+fh	usaco/zerosum.cpp	/^int fh[10] ={0};$/;"	v
+figu	usaco/rect1.c	/^void figu()$/;"	f
+fin	usaco/clocks.c	/^FILE *fin = fopen("clocks.in","r");$/;"	v
+fin	usaco/milk3.c	/^FILE *fin = fopen("milk3.in","r");$/;"	v
+fin	usaco/namenum.c	/^FILE *fin = fopen("namenum.in","r");$/;"	v
+fin	usaco/palsquare.c	/^FILE *fin = fopen("palsquare.in","r");$/;"	v
+fin1	usaco/namenum.c	/^FILE *fin1 = fopen("dict.txt","r");$/;"	v
+finalPosition	tc/OneDimensionalRobotEasy.cpp	/^        int finalPosition(string commands, int A, int B)$/;"	f	class:OneDimensionalRobotEasy
+find	contests/5-27/b.c	/^int find(int x) $/;"	f
+find	contests/5-27/k.c	/^int find(int x) $/;"	f
+find	contests/5-27/kk.c	/^int find(int x) $/;"	f
+find	contests/5-27/ktest.c	/^int find(int x) $/;"	f
+find	contests/cf168div2/b.c	/^int find(int x1,int y1,int x2,int y2)$/;"	f
+find	contests/cf170div2/b.c	/^int find(char b[])$/;"	f
+find	contests/cf368/c.cpp	/^void find(int c,int p , int v)$/;"	f
+find	contests/hut20131/g.c	/^int find(int flor,int y)$/;"	f
+find	contests/多校1/e.1.c	/^int find(int stack[],int top,int temp)$/;"	f
+find	contests/多校1/e.c	/^int find(int stack[],int top,int temp)$/;"	f
+find	practice/c.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/c.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/d.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/f1.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/g.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/j.cpp	/^int find(int x)$/;"	f
+find	practice/乌龟与兔子/test1.c	/^int find(int k)$/;"	f
+find	practice/乌龟与兔子/表达式树.c	/^long long  find(int i)$/;"	f
+find	rm/autoedit.c	/^char find[20][300] = {0};$/;"	v
+find	rm/uva10010.cpp	/^int find (char b[] , int h , int l )$/;"	f
+find	rm/uva101.1.cpp	/^int  find(int a, int b)$/;"	f
+find	rm/uva101.cpp	/^int  find(int a, int b)$/;"	f
+find	rm/uva10112.c	/^int find(int i ,int j , int k)$/;"	f
+find	rm/uva10194.c	/^int find(int i , int j )$/;"	f
+find	rm/uva10562.c	/^void find (int u , int p , int k )$/;"	f
+find	rm/uva123.c	/^int find(char a[], int s,int h)$/;"	f
+find	rm/uva123.cpp	/^void find( struct node *head)$/;"	f
+find	rm/uva253.c	/^void find()$/;"	f
+find	rm/uva540.c	/^int find(int x)$/;"	f
+find	rm/uva548.c	/^void find(int ai , int aj ,int  bi,int bj, int step)$/;"	f
+find	rm/uva568.c	/^int find()$/;"	f
+find	rm/uva669.c	/^void find(struct node*p,int k)$/;"	f
+find	rm/uva839.c	/^int  find(struct node *p)$/;"	f
+find	usaco/cowtour.c	/^int find(int x)$/;"	f
+find	usaco/namenum.c	/^void find()$/;"	f
+findalong	rm/uva297.c	/^void findalong(struct node *p,int stemp)$/;"	f
+finddouble	rm/uva297.c	/^void finddouble (struct node *p1,struct node *p2,int stemp)$/;"	f
+findnode	rm/uva297.c	/^void findnode(struct node *p)$/;"	f
+first	contests/hut20131/g.c	/^}first[maxn],stack[maxn];$/;"	v	typeref:struct:node2
+fist	practice/第一场/a.cpp	/^ long long  fist,last;$/;"	m	struct:p	file:
+flag	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int flag,sum;$/;"	v
+fout	usaco/clocks.c	/^FILE *fout = fopen("clocks.out","w");$/;"	v
+fout	usaco/milk3.c	/^FILE *fout = fopen("milk3.out","w");$/;"	v
+fout	usaco/namenum.c	/^FILE *fout = fopen("namenum.out","w");$/;"	v
+fout	usaco/palsquare.c	/^FILE *fout = fopen("palsquare.out","w");$/;"	v
+fuck	usaco/cowtour.c	/^double fuck(double a ,double b)$/;"	f
+fun	蒋程/5.c	/^void fun(char s1[],char s2[])$/;"	f
+fun0	usaco/rect1.c	/^void fun0(struct node p ,struct node q)$/;"	f
+fun1	usaco/rect1.c	/^void fun1(struct node p,struct node q)$/;"	f
+fun2	usaco/rect1.c	/^void fun2(struct node p,struct node q)$/;"	f
+fun3	usaco/rect1.c	/^void fun3(struct node p,struct node q)$/;"	f
+fun4	usaco/rect1.c	/^void fun4(struct node p,struct node q)$/;"	f
+fun5	usaco/rect1.c	/^void fun5(struct node p,struct node q)$/;"	f
+fun6	usaco/rect1.c	/^void fun6(struct node p,struct node q)$/;"	f
+fun7	usaco/rect1.c	/^void fun7(struct node p,struct node q)$/;"	f
+fun8	usaco/rect1.c	/^void fun8(struct node p,struct node q)$/;"	f
+fxor	uestc/1546.c	/^void fxor(int c){$/;"	f
+g	rm/test.c	/^node g[10010];$/;"	v
+g	��һ��/E/E.cpp	/^int g[15][15], a[15], n, len;$/;"	v
+gao	contests/duie.c	/^void gao() {$/;"	f
+gcd	cf/196div2/b.c	/^long long gcd(long long i , long long j )$/;"	f
+gcd	cf/cf389/a.c	/^int gcd(int a, int b)$/;"	f
+gcd	contests/Awarmup/1010.c	/^int gcd(int a, int b)$/;"	f
+gcd	contests/cf184div2/b.c	/^long long int gcd(long long int a, long long int b)$/;"	f
+gcd	contests/mt2/1.c	/^long long gcd(long long a, long long b)$/;"	f
+gcd	rm/b.c	/^long long int gcd(long long int a, long long int b)$/;"	f
+gcd	rm/uva408.c	/^int gcd(int a , int b)$/;"	f
+gcd	zoj/2678.c	/^void gcd()$/;"	f
+get	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^	inline int get() { return scanf("%d%d%d", &pos, &speed, &range); }$/;"	f	struct:Dog
+get	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^	int get() { return scanf("%d%d%d", &x, &y, &val); }$/;"	f	struct:Node
+get	rm/uva112.c	/^void get(char *s)$/;"	f
+get	test/hdu4588.c	/^int  get(int x , int p) $/;"	f
+get	test/hdu4588.cpp	/^LL get(int x , int p) $/;"	f
+getLeasetCost	tc/a.cpp	/^	public: int getLeasetCost(vector<int> a,int b, int c)$/;"	f	class:TheSuttles
+getLeastCost	tc/TheShuttles.cpp	/^        int getLeastCost(vector <int> cnt, int baseCost, int seatCost)$/;"	f	class:TheShuttles
+getMinimum	tc/ORSolitaireDiv2.cpp	/^        int getMinimum(vector <int> numbers, int goal)$/;"	f	class:ORSolitaireDiv2
+getMinimum	tc/tc600/b.cpp	/^	  int getMinimum(vector<int> a ,int b)$/;"	f	class:ORSolitaireDiv2
+getNumber	tc/WinterAndCandies.cpp	/^        int getNumber(vector <int> type)$/;"	f	class:WinterAndCandies
+getNumber	tc/WinterAndMandarins.cpp	/^        int getNumber(vector <int> bags, int K)$/;"	f	class:WinterAndMandarins
+getNumber	tc/WinterAndReindeers.cpp	/^        int getNumber(vector <string> allA, vector <string> allB, vector <string> allC)$/;"	f	class:WinterAndReindeers
+geths	poj/3225.c	/^void geths(int c,int p ,int v )$/;"	f
+getsum	poj/poj2182.c	/^void getsum (int c, int p , int v )$/;"	f
+getsum	poj/poj2828.c	/^void getsum (int c, int p , int v )$/;"	f
+getsum	poj/poj2886.c	/^void getsum(int c, int p ,int v )$/;"	f
+getsum	poj/poj3468.1.c	/^void getsum(long long c, long long p ,long long v )$/;"	f
+getsum	poj/poj3468.c	/^void getsum(long long c, long long p ,long long v )$/;"	f
+getsum	uestc/1546.c	/^void getsum(int c, int p, int v ){$/;"	f
+goal	rm/uva10194.c	/^  int  goal,lgoal,gp,win,ties;$/;"	m	struct:team	file:
+gp	rm/uva10194.c	/^  int  goal,lgoal,gp,win,ties;$/;"	m	struct:team	file:
+greeting	first.py	/^greeting = "i lvoe you"$/;"	v
+h	findthemin.c	/^bool h[100001];$/;"	v
+h	findyourmin.c	/^int  h[200010];$/;"	v
+h	rm/bei.c.c	/^	int q,h;$/;"	m	struct:st	file:
+h	rm/uva457.c	/^char a[100] , c[100],h[200];$/;"	v
+h	rm/uva705.1.c	/^int w, h;$/;"	v
+h_maze	rm/uva705.1.c	/^int w_maze, h_maze;$/;"	v
+hash	contests/湖大3/h.c	/^}hash[4005];$/;"	v	typeref:struct:Hash
+hash	practice/树状数组/c.c	/^}hash;$/;"	t	typeref:struct:hashs	file:
+hash	usaco/barn1.c	/^int hash[1000] = {0};$/;"	v
+hash	usaco/crypt1.c	/^int hash[20] = {0};$/;"	v
+hasha	usaco/crypt1.c	/^int hasha[1000000] = {0};$/;"	v
+hashcmp	contests/湖大3/h.c	/^int hashcmp(const void *a ,const void *b)$/;"	f
+hashs	practice/树状数组/c.c	/^typedef struct hashs $/;"	s	file:
+have_value	rm/2tree.c	/^   int have_value;$/;"	m	struct:Tnode	file:
+head	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int que[N], head, tail;$/;"	v
+head	rm/test.c	/^int head[110];$/;"	v
+heapsize	contests/hut20132/c.cpp	/^long long len, heapsize,a[maxn];$/;"	v
+hehe	CrossingRivers.cpp	/^}hehe[10000];$/;"	v	typeref:struct:node
+hehe	cf/cf376/d.cpp	/^int hehe[5001][5001] = {0};$/;"	v
+hehe	contests/cf342/b.c	/^}hehe[1000000];$/;"	v	typeref:struct:node
+hehe	contests/多校联合1/g.c	/^int hehe(int i )$/;"	f
+hehe	contests/排序训练/c.c	/^struct hehe {$/;"	s	file:
+hehe	contests/排序训练/f.c	/^struct hehe{$/;"	s	file:
+hehe	practice/乌龟与兔子/a.cpp	/^struct heihei hehe[1005];$/;"	v	typeref:struct:heihei
+heihei	practice/乌龟与兔子/a.cpp	/^struct heihei$/;"	s	file:
+heihei	practice/树状数组/c.c	/^}heihei;$/;"	t	typeref:struct:tnode	file:
+high	usaco/namenum.c	/^int high,n;$/;"	v
+hor	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+howManyPairs	tc/FoxAndWord.cpp	/^		int howManyPairs(vector <string> words)$/;"	f	class:FoxAndWord
+howManyPairs	tc/FoxAndWord1.cpp	/^        int howManyPairs(string words[])$/;"	f	class:FoxAndWord
+hs	cf/cf376/b.cpp	/^int hs[200];$/;"	v
+hs	cf/cf376/c.cpp	/^int hs[10];$/;"	v
+hs	cf/cf376/d.cpp	/^int hs[5005];$/;"	v
+hs	cf/cf382/b.c	/^__int64 hs[2000];$/;"	v
+hs	cf/cf389/a.c	/^int hs[200];$/;"	v
+hs	cf/cf389/c.c	/^int hs[200];$/;"	v
+hs	cf/cf389/d.c	/^int hs[23];$/;"	v
+hs	cf/cf397/a.c	/^int hs[200];$/;"	v
+hs	contests/cf368/b.cpp	/^int hs[100005];$/;"	v
+hs	contests/排序训练/a.c	/^int hs[200];$/;"	v
+hs	contests/排序训练/c.c	/^   int hs[30];$/;"	m	struct:node	file:
+hs	contests/排序训练/e.c	/^int hs[11000];$/;"	v
+hs	poj/3225.c	/^int hs[maxn*2];$/;"	v
+hs	tc/WinterAndCandies.cpp	/^int hs[100];$/;"	v
+hs	usaco/concom.c	/^int hs[200][200] = {0};$/;"	v
+hs	usaco/contact.c	/^int hs[14][10001];$/;"	v
+hs	usaco/fact4.c	/^int hs[50000];$/;"	v
+hs	usaco/fracdec.c	/^int hs[1000005];$/;"	v
+hs	usaco/humble1.c	/^int hs[104];$/;"	v
+hs	usaco/kimbits.c	/^int hs[40];$/;"	v
+hs	usaco/prefix.c	/^long long hs[100000];$/;"	v
+hs	usaco/ttwo.c	/^int hs[100][100][5] ;$/;"	v
+hs1	usaco/comehome.c	/^int hs1[200] = {0};$/;"	v
+hsa	usaco/comehome.c	/^int hsa[200]  = {0};$/;"	v
+hss	cf/cf376/c.cpp	/^int hss[10];$/;"	v
+hsx	cf/cf390/a.c	/^int hsx[100004];$/;"	v
+hsy	cf/cf390/a.c	/^int hsy[100005];$/;"	v
+i	contests/5-27/kk.c	/^   int v,u,i;double dis;$/;"	m	struct:wbian	file:
+i	hmyuzx2.cpp	/^	int i ;$/;"	m	struct:node	file:
+i	practice/dfs4.c	/^int ans = 0, i = 0  ;$/;"	v
+i	practice/dp/k.c	/^  int i ;$/;"	m	struct:bands	file:
+i	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+i	rm/uva572.c	/^    int i , j ;$/;"	m	struct:node	file:
+i	rm/uva657.c	/^	int i , j ;$/;"	m	struct:node	file:
+i	test11.c	/^int integer[2][10] , i , j;$/;"	v
+id	contests/5-17/k1.c	/^	int id,cost;$/;"	m	struct:node	file:
+id	contests/cid=342.h.c	/^  int x,y,id;$/;"	m	struct:xy	file:
+in	rm/uva10129.c	/^int in[100];$/;"	v
+inf	contests/5-17/k1.c	8;"	d	file:
+inf	hdu4446.c	/^const int inf=1<<25;  $/;"	v
+inf	��һ��/B�ı������/B.cpp	/^const LL inf = ~0llu>>1; $/;"	v
+inf	��һ��/E/E.cpp	/^const int inf = 0x3fffffff;$/;"	v
+init	hdu/1016.c	/^void init()$/;"	f
+init	usaco/kimbits.c	/^void init()$/;"	f
+init	��һ��/D1������/D.cpp	/^void init(){$/;"	f
+input	��һ��/A�ͻ�����/A.cpp	/^	void input(){$/;"	f	struct:node
+int64	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^typedef long long int64;$/;"	t	file:
+intcmp	contests/湖大3/h.c	/^int intcmp(const void *a,const void *b)$/;"	f
+integer	test11.c	/^int integer[2][10] , i , j;$/;"	v
+is	2594.c	/^int is(int x,int y)$/;"	f
+is	cid339.f.c	/^int is(int i)$/;"	f
+is	contests/cf342/b.c	/^int is(int i , int j )$/;"	f
+is	contests/第三场/f.c	/^void is()$/;"	f
+is	practice/第二场/c.c	/^long long  is(long long a, long long t)$/;"	f
+is	rm/uva439.c	/^int is(int x)$/;"	f
+is	rm/uva457.c	/^int is()$/;"	f
+is	usaco/comehome.c	/^int is[200] = {0};$/;"	v
+is	usaco/cowtour.c	/^int is[200][200];$/;"	v
+is	usaco/dualpal.c	/^int is(int n )$/;"	f
+is	usaco/palsquare.c	/^int is(int n)$/;"	f
+is	usaco/runaroundnumbers.cpp	/^int is(int n)$/;"	f
+isBounded	tc/BigOEasy.cpp	/^        string isBounded(vector <string> graph)$/;"	f	class:BigOEasy
+is_prime	usaco/1.5.3.c	/^int is_prime(long long int a )$/;"	f
+isaren	usaco/rect1.c	/^int isaren(int i)$/;"	f
+ise	zoj/2678.c	/^int ise(int *p)$/;"	f
+isi	contests/id=25065.e.c	/^int isi(long long int i)$/;"	f
+isin	usaco/rect1.c	/^int isin(struct node temp,int  x,int y)$/;"	f
+isnum	rm/uva196.c	/^  int isnum;$/;"	m	struct:node	file:
+isnum	usaco/crypt1.c	/^int isnum(int k)$/;"	f
+isp	hdu/1016.c	/^int isp[50],n;$/;"	v
+ispoint	contests/多校联合1/e.c	/^int  ispoint(double x1, double y1,double x2,double y2,double x3 ,double y3, double x4,double y4)$/;"	f
+isprime	contests/第三场/h.c	/^int isprime(int n )$/;"	f
+isprime	practice/树状数组/hoj1867.c	/^int isprime(int x)$/;"	f
+it1	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^} a[MAXN], *it1, *it2;$/;"	v	typeref:struct:Node
+it2	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^} a[MAXN], *it1, *it2;$/;"	v	typeref:struct:Node
+j	contests/排序训练/g.c	/^  double j;$/;"	m	struct:node	file:
+j	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+j	rm/uva297.c	/^int j = 1;$/;"	v
+j	rm/uva572.c	/^    int i , j ;$/;"	m	struct:node	file:
+j	rm/uva657.c	/^	int i , j ;$/;"	m	struct:node	file:
+j	test11.c	/^int integer[2][10] , i , j;$/;"	v
+ji	rm/uva152.c	/^double ji(double x1,double y1,double z1, double x2, double y2,double z2)$/;"	f
+jian	contests/hut20131/a.c	/^void jian()$/;"	f
+jian	hdu/4704.c	/^void jian()$/;"	f
+jian	zoj/2678.c	/^void jian(int *p ,int *q)$/;"	f
+k	2594.c	/^	int  x , y ,k,last;$/;"	m	struct:node	file:
+k	c++/2.1.3.cpp	/^int k = 100;$/;"	v
+k	cf/cf373/b.c	/^long long w,m,k;$/;"	v
+k	contests/5-27/j.c	/^   int k ;$/;"	m	struct:yuan	file:
+k	contests/cf372/d.c	/^int k = 0 ;$/;"	v
+k	contests/hut20137/a.c	/^LL n, k;$/;"	v
+k	contests/多校联合1/g.c	10;"	d	file:
+k	contests/网络赛/j1.c	10;"	d	file:
+k	memset.cpp	/^int k[1000];$/;"	v
+k	poj/poj2886.c	/^int n, k ;$/;"	v
+k	practice/树状数组/c.c	/^  int k;$/;"	m	struct:hashs	file:
+k	python/test.py	/^ k = int(a) + int(b)$/;"	v
+k	rm/uva10010.cpp	/^int m , k ;$/;"	v
+k	rm/uva10557.c	/^	int k; $/;"	m	struct:point	file:
+k	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+k	rm/uva123.c	/^int k , t , n = 0 ;$/;"	v
+k	rm/uva156.c	/^struct k{$/;"	s	file:
+k	usaco/concom.c	/^int k;$/;"	v
+k	usaco/humble.c	/^int k = 0; $/;"	v
+k	usaco/prefix.cpp	/^int k = 0;$/;"	v
+k	usaco/rect1.c	/^int A, B,k;$/;"	v
+k	��һ��/A�ͻ�����/A.cpp	/^	LL st, ed, k;	$/;"	m	struct:node	file:
+k	新生面试2.cpp	/^__int64 w,m,k;$/;"	v
+k2	c++/2.1.3.cpp	/^const int &k2 = k ;$/;"	v
+key	rm/uva123.c	/^char key[55][300] = {0};$/;"	v
+key	rm/uva409.c	/^char key[40][40];$/;"	v
+ki	c++/2.1.3.cpp	/^const int &ki = k ;$/;"	v
+kiss	practice/树状数组/japan.cpp	/^struct point kiss[1000005];$/;"	v	typeref:struct:point
+kk	rm/uva10054.1.c	/^int kk[204];$/;"	v
+kk	rm/uva10596.c	/^int kk[204];$/;"	v
+kmp	kmp.cpp	/^int kmp(string a, string b)$/;"	f
+kmp	tc/FoxAndWord.cpp	/^int kmp(string a, string b)$/;"	f
+kmp	tc/FoxAndWord1.cpp	/^int kmp(string a, string b)$/;"	f
+kmp	usaco/kmp.cpp	/^void kmp(char *a,char *b)$/;"	f
+kmp	usaco/prefix.cpp	/^void kmp()$/;"	f
+l	CrossingRivers.cpp	/^  int p , l , v; $/;"	m	struct:node	file:
+l	cf/cf373/b.c	/^long long  l[20];$/;"	v
+l	contests/cf342/b.c	/^  int st,l,r;$/;"	m	struct:node	file:
+l	contests/cf366.c	/^  int l , r; $/;"	m	struct:node	file:
+l	contests/cf368/c.cpp	/^  int l,r,m;$/;"	m	struct:node	file:
+l	poj/3225.c	/^	int l ,r , m, c ,f;$/;"	m	struct:node	file:
+l	uestc/1546.c	/^	int l, r, m ;$/;"	m	struct:node	file:
+l	usaco/contact.c	/^  int l,v;$/;"	m	struct:node	file:
+l	usaco/contact.c	/^  int l;$/;"	m	struct:node1	file:
+l	新生面试2.cpp	/^__int64  l[20];$/;"	v
+l1	cid339.f.c	/^int l1;$/;"	v
+last	2594.c	/^	int  x , y ,k,last;$/;"	m	struct:node	file:
+last	contests/5-27/j.c	/^int n , last,ans, ok,t; $/;"	v
+last	practice/第一场/a.cpp	/^ long long  fist,last;$/;"	m	struct:p	file:
+last	practice/链表2.c	/^	struct list  *last;$/;"	m	struct:list	typeref:struct:list::list	file:
+last	rm/uva101.1.cpp	/^   struct point *next,*last;$/;"	m	struct:point	typeref:struct:point::	file:
+last	rm/uva101.cpp	/^   struct point *next,*last;$/;"	m	struct:point	typeref:struct:point::	file:
+last	rm/uva10152.cpp	/^  struct node *last ,*next;$/;"	m	struct:node	typeref:struct:node::node	file:
+last	rm/uva123.cpp	/^	struct node  *next ,*last;$/;"	m	struct:node	typeref:struct:node::	file:
+last	rm/uva133.cpp	/^	struct node *next ,*last;$/;"	m	struct:node	typeref:struct:node::	file:
+lastjudge	usaco/rect1.c	/^int lastjudge(node tn1,node tn2)$/;"	f
+lch	practice/乌龟与兔子/表达式树.c	/^int lch[maxn] , rch[maxn];$/;"	v
+left	poj/poj2182.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+left	poj/poj2828.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+left	poj/poj2886.c	/^	int left ,right ,mid ;$/;"	m	struct:node	file:
+left	poj/poj3468.1.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+left	poj/poj3468.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+left	rm/2tree.c	/^   struct Tnode * left , * right;$/;"	m	struct:Tnode	typeref:struct:Tnode::Tnode	file:
+left	rm/6.2.2.c	/^ struct tnode *left ,*right;$/;"	m	struct:tnode	typeref:struct:tnode::tnode	file:
+left	rm/uva11234.c	/^  struct node *right ,*left;$/;"	m	struct:node	typeref:struct:node::	file:
+left	rm/uva669.c	/^	struct node* left,*right;$/;"	m	struct:node	typeref:struct:node::node	file:
+left	rm/uva839.c	/^  struct node *left,*right;$/;"	m	struct:node	typeref:struct:node::node	file:
+left_margin	python/2.3.py	/^ left_margin = (screen_width - box_width) \/\/2$/;"	v
+len	contests/hut20131/a.c	/^int len ; $/;"	v
+len	contests/hut20132/c.cpp	/^long long len, heapsize,a[maxn];$/;"	v
+len	hdu/4704.c	/^LL len ;$/;"	v
+len	practice/乌龟与兔子/test1.c	/^	int len;$/;"	m	struct:A	file:
+len	rm/10098.c	/^int len;$/;"	v
+len	rm/uva10098.c	/^int len;$/;"	v
+len	usaco/prefix.cpp	/^int len[201];$/;"	v
+len	��һ��/E/E.cpp	/^int g[15][15], a[15], n, len;$/;"	v
+length	rm/uva839.c	/^  int length;$/;"	m	struct:node	file:
+lens	usaco/prefix.cpp	/^int lens ;$/;"	v
+lgoal	rm/uva10194.c	/^  int  goal,lgoal,gp,win,ties;$/;"	m	struct:team	file:
+limit	contests/湖大3/g.c	/^	int limit;$/;"	m	struct:node	file:
+limit	contests/湖大3/g.c	/^	int limit;$/;"	m	struct:nodep	file:
+limits	contests/hut20138/d.c	/^long long row , zt , limits[30] ,n; $/;"	v
+list	2594.c	/^}list[1000*1000];$/;"	v	typeref:struct:node
+list	cf/cf380/a.c	/^}list[10000005];$/;"	v	typeref:struct:node
+list	contests/HUN6/f.c	/^}list[100005];$/;"	v	typeref:struct:node
+list	contests/cf188div2/d.c	/^}list[1000005];$/;"	v	typeref:struct:node
+list	contests/cf372/d.c	/^}list[260000];$/;"	v	typeref:struct:node
+list	contests/多校1/h.c	/^}list[100005];$/;"	v	typeref:struct:node
+list	contests/多校联合1/h.c	/^struct node list[100];$/;"	v	typeref:struct:node
+list	contests/湖大3/h.c	/^}list[4005];$/;"	v	typeref:struct:node
+list	hdu/4707.c	/^}list[maxn];$/;"	v	typeref:struct:node
+list	practice/dfs1.c	/^struct node list[500];$/;"	v	typeref:struct:node
+list	practice/dp/k.c	/^  int list[105];$/;"	m	struct:bands	file:
+list	practice/链表2.c	/^struct list$/;"	s	file:
+list	rm/uva10557.c	/^}list[1000000];$/;"	v	typeref:struct:node
+list	rm/uva439.c	/^struct node list[10000];$/;"	v	typeref:struct:node
+list	rm/uva532.c	/^struct node list[1000000];$/;"	v	typeref:struct:node
+list	test1.c	/^}list[2000];$/;"	v	typeref:struct:node
+list	usaco/milk2.c	/^}list[6000];$/;"	v	typeref:struct:node
+ll	contests/cf184div2/a.c	10;"	d	file:
+lmax	uestc/1546.1.c	/^int dly[mm<<2],rev[mm<<2],sum[mm<<2],lmax[mm<<2],lmin[mm<<2];$/;"	v
+lmin	uestc/1546.1.c	/^int dly[mm<<2],rev[mm<<2],sum[mm<<2],lmax[mm<<2],lmin[mm<<2];$/;"	v
+lnum	contests/湖大3/g.c	/^	int lnum ;$/;"	m	struct:node	file:
+low	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+lowbit	cid=339.b1.c	/^int lowbit (int x)$/;"	f
+lowbit	contests/湖大3/g.c	/^int lowbit(int x)$/;"	f
+lowbit	practice/树状数组/a.c	/^int lowbit (int x)$/;"	f
+lowbit	practice/树状数组/g.c	/^int lowbit(int x)$/;"	f
+lowbit	practice/树状数组/h.c	/^int lowbit(int x)$/;"	f
+lowbit	practice/树状数组/hoj1867.c	/^int lowbit (int x)$/;"	f
+lowbit	practice/树状数组/japan.cpp	/^int lowbit(int x)$/;"	f
+lowbit	practice/树状数组/stars.c	/^int lowbit(int x)$/;"	f
+lowbit	practice/第一场/c.c	/^int lowbit(int x)$/;"	f
+lson	contests/5-17/k1.c	10;"	d	file:
+lson	hdu4446.c	5;"	d	file:
+lson	uestc/1546.1.c	3;"	d	file:
+lx	usaco/rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:
+ly	usaco/rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:
+m	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int n, add, m;$/;"	v
+m	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+m	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int n,m,t;$/;"	v
+m	2594.c	/^int n, m;$/;"	v
+m	cf/cf373/b.c	/^long long w,m,k;$/;"	v
+m	contests/cf168div2/b1.c	/^int n , m ;$/;"	v
+m	contests/cf368/c.cpp	/^  int l,r,m;$/;"	m	struct:node	file:
+m	contests/hut20132/g.c	/^	int n, m , y ;$/;"	v
+m	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+m	contests/hut20134/e.c	/^LL dp[31][20000],n,m,row,zt;$/;"	v
+m	contests/多校联合4/g.cpp	/^int n, m , MAX = 0;$/;"	v
+m	contests/湖大3/h.c	/^	int m,c;$/;"	m	struct:node	file:
+m	hdu/hzyqs/1009.c	/^int n  ,m; $/;"	v
+m	poj/3225.c	/^	int l ,r , m, c ,f;$/;"	m	struct:node	file:
+m	practice/dp/i.c	/^  int c,w,m;$/;"	m	struct:blocks	file:
+m	practice/dp/i.cpp	/^	int c,w,m;$/;"	m	struct:blocks	file:
+m	practice/乌龟与兔子/d1.cpp	/^MAP m[105*105];$/;"	v
+m	practice/树状数组/g.c	/^int N[1005],M[1005] , n , m ;$/;"	v
+m	practice/树状数组/hoj1867.c	/^int m;$/;"	v
+m	practice/第一场/c.c	/^int n , m ;$/;"	v
+m	rm/uva10010.cpp	/^int m , k ;$/;"	v
+m	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+m	rm/uva196.c	/^int n , m;$/;"	v
+m	rm/uva442.c	/^}m[300] ;$/;"	v	typeref:struct:node
+m	uestc/1546.c	/^	int l, r, m ;$/;"	m	struct:node	file:
+m	usaco/TheCastle.cpp	/^int n ,m; $/;"	v
+m	usaco/cowtour.c	/^double m[200];$/;"	v
+m	usaco/humble.c	/^int n ,m; $/;"	v
+m	usaco/nocows.cpp	/^int n , m ;$/;"	v
+m	wikioi/3147.c	/^int n,m,a[MAXN][MAXN] = 0 ,b[MAXN][MAXN] = 0 ;$/;"	v
+m	��һ��/B�ı������/B.cpp	/^int n, m;$/;"	v
+m	��һ��/Cδ���ǵ���/C.cpp	/^int t[N],n, m,ans;$/;"	v
+m	新生面试2.cpp	/^__int64 w,m,k;$/;"	v
+m	线段数.cpp	/^int  n ,m ; $/;"	v
+ma	hdu4446.c	/^const int ma=1000010;  $/;"	v
+main	1.c	/^int main()$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int main() {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int main() {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^int main() {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^int main() {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/F.cpp	/^int main()$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int main() {$/;"	f
+main	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int main()$/;"	f
+main	2132.c	/^int main()$/;"	f
+main	2565.c	/^int main()$/;"	f
+main	2594.c	/^int main(){$/;"	f
+main	7.3.1.cpp	/^int main(){$/;"	f
+main	CrossingRivers.cpp	/^int main(){$/;"	f
+main	Dollars.cpp	/^int main(){$/;"	f
+main	DynamicProgramming.cpp	/^int main(){$/;"	f
+main	Template/Radixsort.c	/^int main()$/;"	f
+main	Template/radixsort.c	/^int main(){$/;"	f
+main	a.c	/^int main(){$/;"	f
+main	b1.cpp	/^int main()$/;"	f
+main	balancedsmileys.c	/^int main(){$/;"	f
+main	beautifulstrings.c	/^int main(){$/;"	f
+main	c++/1.1.cpp	/^int main(){$/;"	f
+main	c++/1.2.cpp	/^int main(){$/;"	f
+main	c++/2.1.3.cpp	/^int main(){$/;"	f
+main	c++/3.3.1.cpp	/^int main(){$/;"	f
+main	c++/a.cpp	/^int main(){$/;"	f
+main	c++/ex.cpp	/^int main(){$/;"	f
+main	c++/hehe.cpp	/^int main(){$/;"	f
+main	c.cpp	/^int main(){$/;"	f
+main	cf/163div2.a.cpp	/^int main(){$/;"	f
+main	cf/163div2.b.cpp	/^int main(){$/;"	f
+main	cf/164.b.c	/^int main(){$/;"	f
+main	cf/164.c.c	/^int main(){$/;"	f
+main	cf/164div2.a.c	/^int main(){$/;"	f
+main	cf/196div2/a.c	/^int main(){$/;"	f
+main	cf/196div2/b.c	/^int main(){$/;"	f
+main	cf/196div2/c.c	/^int main(){$/;"	f
+main	cf/325b.c	/^int main(){$/;"	f
+main	cf/372a.cpp	/^int main(){$/;"	f
+main	cf/cf373/a.c	/^int main(){$/;"	f
+main	cf/cf373/b.c	/^int main(){$/;"	f
+main	cf/cf373/c.c	/^int main(){$/;"	f
+main	cf/cf376/a.cpp	/^int main(){$/;"	f
+main	cf/cf376/b.cpp	/^int main(){$/;"	f
+main	cf/cf376/c.cpp	/^int main(){$/;"	f
+main	cf/cf376/d.cpp	/^int main(){$/;"	f
+main	cf/cf376/test.c	/^int main(){$/;"	f
+main	cf/cf380/a.c	/^int main(){$/;"	f
+main	cf/cf382/a.c	/^int main(){$/;"	f
+main	cf/cf382/b.c	/^int main(){$/;"	f
+main	cf/cf382/c.c	/^int main(){$/;"	f
+main	cf/cf389/a.c	/^int main()$/;"	f
+main	cf/cf389/b.c	/^int main(){$/;"	f
+main	cf/cf389/c.c	/^int main(){$/;"	f
+main	cf/cf389/d.c	/^int main(){$/;"	f
+main	cf/cf390/a.c	/^int main(){$/;"	f
+main	cf/cf390/b.c	/^int main(){$/;"	f
+main	cf/cf394/a.c	/^int main(){$/;"	f
+main	cf/cf394/b.c	/^int main(){$/;"	f
+main	cf/cf394/c.c	/^int main(){$/;"	f
+main	cf/cf397/a.c	/^int main(){$/;"	f
+main	cf/cf397/b.c	/^int main(){$/;"	f
+main	cf/cf399/a.c	/^int main(){$/;"	f
+main	cf/cf399/b.c	/^int main(){$/;"	f
+main	cf/cf399/c.c	/^int main(){$/;"	f
+main	cid339.f.c	/^int main()$/;"	f
+main	cid=339.b.c	/^int main()$/;"	f
+main	cid=339.b1.c	/^int main()$/;"	f
+main	cid=339.cw.c	/^int main()$/;"	f
+main	cid=339.d.c	/^int main()$/;"	f
+main	cid=339.e.c	/^int main()$/;"	f
+main	contests/5-17/b.c	/^int main()$/;"	f
+main	contests/5-17/d.c	/^int main(){$/;"	f
+main	contests/5-17/i.c	/^int main(){$/;"	f
+main	contests/5-17/k.cpp	/^int main()$/;"	f
+main	contests/5-17/k1.c	/^int main()$/;"	f
+main	contests/5-20/d.cpp	/^int main(){$/;"	f
+main	contests/5-20/g.cpp	/^int main(){$/;"	f
+main	contests/5-27/b.c	/^int main()$/;"	f
+main	contests/5-27/b1.c	/^int main()$/;"	f
+main	contests/5-27/c.c	/^int main(){$/;"	f
+main	contests/5-27/j.c	/^int main(){$/;"	f
+main	contests/5-27/k.c	/^int main()$/;"	f
+main	contests/5-27/kk.c	/^int main()$/;"	f
+main	contests/5-27/ktest.c	/^int main()$/;"	f
+main	contests/Awarmup/1010.c	/^int main(){$/;"	f
+main	contests/Awarmup/a.c	/^int main(){$/;"	f
+main	contests/HUN6/f.c	/^int main(){$/;"	f
+main	contests/HUN6/i.c	/^int main(){$/;"	f
+main	contests/PrefaceNumbering.cpp	/^int main(){$/;"	f
+main	contests/a.c	/^int main(){$/;"	f
+main	contests/acdream7.a.c	/^int main()$/;"	f
+main	contests/b.c	/^int main(){$/;"	f
+main	contests/cf168div2/a.c	/^int main(){$/;"	f
+main	contests/cf168div2/b.c	/^int main(){$/;"	f
+main	contests/cf168div2/b1.c	/^int main(){$/;"	f
+main	contests/cf168div2/c.c	/^int main(){$/;"	f
+main	contests/cf169div2/a.c	/^int main(){$/;"	f
+main	contests/cf169div2/b.c	/^int main(){$/;"	f
+main	contests/cf169div2/c.c	/^int main(){$/;"	f
+main	contests/cf169div2/c.cpp	/^int main()$/;"	f
+main	contests/cf169div2/d.c	/^int main(){$/;"	f
+main	contests/cf170div2/a.c	/^int main(){$/;"	f
+main	contests/cf170div2/b.c	/^int main(){$/;"	f
+main	contests/cf170div2/c.c	/^int main(){$/;"	f
+main	contests/cf171div2/a.c	/^int main(){$/;"	f
+main	contests/cf171div2/c.c	/^int main(){$/;"	f
+main	contests/cf174div2/a.c	/^int main(){$/;"	f
+main	contests/cf174div2/b.c	/^int main(){$/;"	f
+main	contests/cf184div2/a.c	/^int main(){$/;"	f
+main	contests/cf184div2/b.c	/^int main(){$/;"	f
+main	contests/cf184div2/test.c	/^int main(){$/;"	f
+main	contests/cf188div2/a.c	/^int main(){$/;"	f
+main	contests/cf188div2/b.c	/^int main(){$/;"	f
+main	contests/cf188div2/c.c	/^int main(){$/;"	f
+main	contests/cf188div2/d.c	/^int main(){$/;"	f
+main	contests/cf282/a.c	/^int main(){$/;"	f
+main	contests/cf282/b.c	/^int main(){$/;"	f
+main	contests/cf282/c.c	/^int main(){$/;"	f
+main	contests/cf342/a.c	/^int main(){$/;"	f
+main	contests/cf342/b.c	/^int main(){$/;"	f
+main	contests/cf366.c	/^int main(){$/;"	f
+main	contests/cf366/a.cpp	/^int main(){$/;"	f
+main	contests/cf366/b.cpp	/^int main(){$/;"	f
+main	contests/cf366/c.cpp	/^int main(){$/;"	f
+main	contests/cf368/a.cpp	/^int main(){$/;"	f
+main	contests/cf368/b.cpp	/^int main(){$/;"	f
+main	contests/cf368/c.cpp	/^int main(){$/;"	f
+main	contests/cf372/d.c	/^int main(){$/;"	f
+main	contests/cid=20715/a.c	/^int main(){$/;"	f
+main	contests/cid=20715/b.c	/^int main(){$/;"	f
+main	contests/cid=339.c	/^int main()$/;"	f
+main	contests/cid=3391.c	/^int main()$/;"	f
+main	contests/cid=342.a.c	/^int main()$/;"	f
+main	contests/cid=342.c.c	/^int main()$/;"	f
+main	contests/cid=342.h.c	/^int main()$/;"	f
+main	contests/cid=343.a.c	/^int main()$/;"	f
+main	contests/cid=343.b.c	/^int main()$/;"	f
+main	contests/cid=343.c.c	/^int main()$/;"	f
+main	contests/cid=343.d.c	/^int main()$/;"	f
+main	contests/cid=343.f.c	/^int main()$/;"	f
+main	contests/cid=343.g.c	/^int main()$/;"	f
+main	contests/duie.c	/^int main() {$/;"	f
+main	contests/hanzhou2013/04.c	/^int main()$/;"	f
+main	contests/hanzhou2013/c.c	/^int main(){$/;"	f
+main	contests/hlg/c.c	/^int main(){$/;"	f
+main	contests/hut20131/a.c	/^int main(){$/;"	f
+main	contests/hut20131/g.c	/^int main(){$/;"	f
+main	contests/hut20132/c.cpp	/^int main(){$/;"	f
+main	contests/hut20132/g.c	/^int main()$/;"	f
+main	contests/hut20132/watashi.g.c	/^int main()$/;"	f
+main	contests/hut20134/e.1.c	/^int main(){$/;"	f
+main	contests/hut20134/e.c	/^int main()$/;"	f
+main	contests/hut20135/c.c	/^int main(){$/;"	f
+main	contests/hut20135/e.c	/^int main(){$/;"	f
+main	contests/hut20135/f.1.c	/^int main()$/;"	f
+main	contests/hut20135/f.c	/^int main(){$/;"	f
+main	contests/hut20137/a.c	/^int main(){$/;"	f
+main	contests/hut20137/g.c	/^int main(){$/;"	f
+main	contests/hut20138/d.c	/^int main()	$/;"	f
+main	contests/id=25065.a.c	/^int main()$/;"	f
+main	contests/id=25065.b.c	/^int main()$/;"	f
+main	contests/id=25065.e.c	/^int main()$/;"	f
+main	contests/id=25065.g.c	/^int main()$/;"	f
+main	contests/kp3.b.c	/^int main()$/;"	f
+main	contests/last.c	/^int main(){$/;"	f
+main	contests/mt2/1.c	/^int main()$/;"	f
+main	contests/nanjing2013/hehe.c	/^int main(){$/;"	f
+main	contests/poj/a.c	/^int main(){$/;"	f
+main	contests/warmup.c	/^int main(){$/;"	f
+main	contests/南京邀请/1001.c	/^int main(){$/;"	f
+main	contests/南京邀请/1008.c	/^int main()$/;"	f
+main	contests/哈理工/a.c	/^int main(){$/;"	f
+main	contests/哈理工/c.c	/^int main(){$/;"	f
+main	contests/哈理工/e.c	/^int main(){$/;"	f
+main	contests/哈理工/f.c	/^int main(){$/;"	f
+main	contests/哈理工/g.c	/^int main()$/;"	f
+main	contests/哈理工/h.c	/^int main(){$/;"	f
+main	contests/哈理工/test.c	/^int main()$/;"	f
+main	contests/多校1/e.1.c	/^int main()$/;"	f
+main	contests/多校1/e.c	/^int main(){$/;"	f
+main	contests/多校1/h.c	/^int main(){$/;"	f
+main	contests/多校联合1/a.c	/^int main(){$/;"	f
+main	contests/多校联合1/e.c	/^int main(){$/;"	f
+main	contests/多校联合1/g.c	/^int main(){$/;"	f
+main	contests/多校联合1/h.c	/^int main(){$/;"	f
+main	contests/多校联合4/a.cpp	/^int main(){$/;"	f
+main	contests/多校联合4/g.cpp	/^int main(){$/;"	f
+main	contests/多校联合4/h.cpp	/^int main(){$/;"	f
+main	contests/排序训练/a.c	/^int main(){$/;"	f
+main	contests/排序训练/b.c	/^int main(){$/;"	f
+main	contests/排序训练/c.c	/^int main(){ $/;"	f
+main	contests/排序训练/d.c	/^int main(){$/;"	f
+main	contests/排序训练/e.c	/^int main(){$/;"	f
+main	contests/排序训练/f.c	/^int main(){$/;"	f
+main	contests/排序训练/g.c	/^int main(){$/;"	f
+main	contests/湖大1/1005.c	/^int main(){$/;"	f
+main	contests/湖大1/b.c	/^int main(){$/;"	f
+main	contests/湖大1/c.c	/^int main(){$/;"	f
+main	contests/湖大1/e.c	/^int main(){$/;"	f
+main	contests/湖大3/b.c	/^int main(){$/;"	f
+main	contests/湖大3/e.c	/^int main(){$/;"	f
+main	contests/湖大3/g.c	/^int main(){$/;"	f
+main	contests/湖大3/h.c	/^int main(){$/;"	f
+main	contests/湖大3/j.c	/^int main(){$/;"	f
+main	contests/湖大3/对拍.c	/^int main()$/;"	f
+main	contests/第三场/a.c	/^int main(){$/;"	f
+main	contests/第三场/b.c	/^int main(){$/;"	f
+main	contests/第三场/d.c	/^int main(){$/;"	f
+main	contests/第三场/e.c	/^int main(){$/;"	f
+main	contests/第三场/f.c	/^int main(){$/;"	f
+main	contests/第三场/g.c	/^int main(){$/;"	f
+main	contests/第三场/h.c	/^int main(){$/;"	f
+main	contests/第三场/i.c	/^int main(){$/;"	f
+main	contests/网络赛/b.c	/^int main()$/;"	f
+main	contests/网络赛/j1.c	/^int main(){$/;"	f
+main	contests/长春/9.c	/^int main(){$/;"	f
+main	contests/长春/test.c	/^int main(){$/;"	f
+main	contests/长春/tt.c	/^int main(void)$/;"	f
+main	dijkstra.c	/^int main(){$/;"	f
+main	duipai.c	/^int main(){$/;"	f
+main	findthemin.c	/^int main(){$/;"	f
+main	findyourmin.c	/^int main(){$/;"	f
+main	flip.cpp	/^int main(){$/;"	f
+main	hashnum.cpp	/^main() {$/;"	f
+main	hdu/1016.c	/^int main(){$/;"	f
+main	hdu/2553.c	/^int main(){$/;"	f
+main	hdu/3415.cpp	/^int main(){$/;"	f
+main	hdu/4611.cpp	/^int main(){$/;"	f
+main	hdu/4686.c	/^int main(){$/;"	f
+main	hdu/4704.c	/^int main(){$/;"	f
+main	hdu/4707.c	/^int main(){$/;"	f
+main	hdu/4727.c	/^int main(){$/;"	f
+main	hdu/hdu4647.cpp	/^int main()$/;"	f
+main	hdu/hzyqs/1009.1.cpp	/^int main()$/;"	f
+main	hdu/hzyqs/1009.c	/^int main(){$/;"	f
+main	hdu2074.c	/^int main()$/;"	f
+main	hdu4446.c	/^int main()  $/;"	f
+main	hehe.c	/^int main(){$/;"	f
+main	hmyuzx.cpp	/^int main(){$/;"	f
+main	hmyuzx2.cpp	/^int main(){$/;"	f
+main	id=340.b.c	/^int main()$/;"	f
+main	java/first.java	/^	public static void main(String args[]){$/;"	m	class:Main
+main	jiechen.cpp	/^int main(){$/;"	f
+main	kmp.c	/^int main(){$/;"	f
+main	kmp.cpp	/^int main(){$/;"	f
+main	kmp1.c	/^int main(){$/;"	f
+main	lanqiao/first.c	/^int main(){$/;"	f
+main	liqiao.c	/^int main(){$/;"	f
+main	littlekenbg.cpp	/^int main(){$/;"	f
+main	memset.cpp	/^int main(){$/;"	f
+main	newmantest.cpp	/^int main()$/;"	f
+main	poj/2533.1.c	/^int main(){$/;"	f
+main	poj/2533.c	/^int main(){$/;"	f
+main	poj/2991.c	/^int main(){$/;"	f
+main	poj/3225.c	/^int main()$/;"	f
+main	poj/poj2182.c	/^int main(){$/;"	f
+main	poj/poj2828.c	/^int main(){$/;"	f
+main	poj/poj2886.c	/^int main()$/;"	f
+main	poj/poj3468.1.c	/^int main()$/;"	f
+main	poj/poj3468.c	/^int main()$/;"	f
+main	practice/1003.c	/^int main(){$/;"	f
+main	practice/c.cpp	/^int main(){$/;"	f
+main	practice/dfs1.c	/^int main(){$/;"	f
+main	practice/dfs2.c	/^int main(){$/;"	f
+main	practice/dfs3.c	/^int main(){$/;"	f
+main	practice/dfs4.c	/^int main(){$/;"	f
+main	practice/dp/a.c	/^int main(){$/;"	f
+main	practice/dp/d.c	/^int main(){$/;"	f
+main	practice/dp/i.c	/^int main(){$/;"	f
+main	practice/dp/i.cpp	/^int main(){$/;"	f
+main	practice/dp/j.c	/^int main(){$/;"	f
+main	practice/dp/k.c	/^int main(){$/;"	f
+main	practice/乌龟与兔子/a.cpp	/^int main()$/;"	f
+main	practice/乌龟与兔子/c.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/d.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/d1.cpp	/^int main()$/;"	f
+main	practice/乌龟与兔子/f.c	/^int main()$/;"	f
+main	practice/乌龟与兔子/f1.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/g.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/h.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/j.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/k.cpp	/^int main()$/;"	f
+main	practice/乌龟与兔子/test.c	/^int main(){$/;"	f
+main	practice/乌龟与兔子/test1.c	/^int main()$/;"	f
+main	practice/乌龟与兔子/totest.c	/^int main(){$/;"	f
+main	practice/乌龟与兔子/稀疏图.cpp	/^int main(){$/;"	f
+main	practice/乌龟与兔子/表达式树.c	/^int main(){$/;"	f
+main	practice/树状数组/a.c	/^int main(){$/;"	f
+main	practice/树状数组/b.c	/^int main(){$/;"	f
+main	practice/树状数组/c.c	/^int main(){$/;"	f
+main	practice/树状数组/g.c	/^int main(){$/;"	f
+main	practice/树状数组/h.c	/^int main(){$/;"	f
+main	practice/树状数组/hoj1867.c	/^int main(){$/;"	f
+main	practice/树状数组/i.c	/^int main(){$/;"	f
+main	practice/树状数组/japan.cpp	/^int main(){$/;"	f
+main	practice/树状数组/stars.c	/^int main(){$/;"	f
+main	practice/第一场/a.cpp	/^int main(){$/;"	f
+main	practice/第一场/c.c	/^int main(){$/;"	f
+main	practice/第一场/d.c	/^int main(){$/;"	f
+main	practice/第二场/a.c	/^int main(){$/;"	f
+main	practice/第二场/b.c	/^int main(){$/;"	f
+main	practice/第二场/c.c	/^int main(){$/;"	f
+main	practice/链表1.c	/^int main(){$/;"	f
+main	practice/链表2.c	/^int main(){$/;"	f
+main	radixsort.c	/^int main(){$/;"	f
+main	rand.cpp	/^int main(){$/;"	f
+main	rm/1.1.1-2.c	/^int main()$/;"	f
+main	rm/1.1.1-5.c	/^int main()$/;"	f
+main	rm/1.1.1.c	/^int main()$/;"	f
+main	rm/1.3.1-3.c	/^int main()$/;"	f
+main	rm/1.3.1-4.c	/^int main()$/;"	f
+main	rm/1.3.1-5.c	/^int main()$/;"	f
+main	rm/1.5.6.1.c	/^int main()$/;"	f
+main	rm/1.5.6.2.c	/^int main()$/;"	f
+main	rm/1.5.6.3.c	/^int main()$/;"	f
+main	rm/1.5.6.4.c	/^int main()$/;"	f
+main	rm/1.5.6.5.c	/^int main()$/;"	f
+main	rm/1.5.6.6.c	/^int main()$/;"	f
+main	rm/1.5.6.7.c	/^int main()$/;"	f
+main	rm/1.5.6.8.c	/^int main()$/;"	f
+main	rm/1.5.c	/^int main()$/;"	f
+main	rm/10098.c	/^int main(){$/;"	f
+main	rm/10494.c	/^int main(){$/;"	f
+main	rm/2.4.6.1.c	/^int main()$/;"	f
+main	rm/2.4.6.10.c	/^int main()$/;"	f
+main	rm/2.4.6.2.c	/^int main()$/;"	f
+main	rm/2.4.6.3.c	/^int main()$/;"	f
+main	rm/2.4.6.4.c	/^int main()$/;"	f
+main	rm/2.4.6.5.c	/^int main()$/;"	f
+main	rm/2.4.6.6.c	/^int main()$/;"	f
+main	rm/2.4.6.7.c	/^int main()$/;"	f
+main	rm/2.4.6.9.c	/^int main()$/;"	f
+main	rm/2565.c	/^int main()$/;"	f
+main	rm/2tree.c	/^int main(){$/;"	f
+main	rm/2treeplus.c	/^int main(){$/;"	f
+main	rm/3.1.2.c	/^int main()$/;"	f
+main	rm/3.1.3.c	/^int main()$/;"	f
+main	rm/3.2.5.1.c	/^int main()$/;"	f
+main	rm/3.2.5.c	/^int main()$/;"	f
+main	rm/3.3.4.c	/^int main()$/;"	f
+main	rm/3.4.1.c	/^int main()$/;"	f
+main	rm/3.4.2.c	/^int main()$/;"	f
+main	rm/3.4.3.c	/^int main()$/;"	f
+main	rm/3.4.5.c	/^int main()$/;"	f
+main	rm/34.c	/^int main(){$/;"	f
+main	rm/6.2.2.c	/^int main(){$/;"	f
+main	rm/6.3.1.c	/^int main(){$/;"	f
+main	rm/7.2.1.c	/^int main(){$/;"	f
+main	rm/7.2.2.c	/^int main(){$/;"	f
+main	rm/7.3.1.c	/^int main(){$/;"	f
+main	rm/7.3.2.c	/^int main(){$/;"	f
+main	rm/7.3.3.c	/^int main(){$/;"	f
+main	rm/a.c	/^int main(){$/;"	f
+main	rm/acdream1.c	/^int main()$/;"	f
+main	rm/autoedit.c	/^int main(){$/;"	f
+main	rm/b.c	/^int main(){$/;"	f
+main	rm/bei.b.c	/^int main()$/;"	f
+main	rm/bei.c.1.c	/^int main()$/;"	f
+main	rm/bei.c.c	/^int main()$/;"	f
+main	rm/bei.d.c	/^int main()$/;"	f
+main	rm/bei.e.c	/^int main()$/;"	f
+main	rm/bei.k.c	/^int main()$/;"	f
+main	rm/c.c	/^int main(){$/;"	f
+main	rm/cid=339.c.c	/^int main()$/;"	f
+main	rm/cid=339.d.c	/^int main()$/;"	f
+main	rm/gift1.cpp	/^int main(){$/;"	f
+main	rm/hdu2204.c	/^int main(){$/;"	f
+main	rm/hutest.c	/^int main()$/;"	f
+main	rm/sdjfl.c	/^int main(){$/;"	f
+main	rm/test.c	/^int main()$/;"	f
+main	rm/test.cpp	/^int main()$/;"	f
+main	rm/testcc.c	/^int main(){$/;"	f
+main	rm/uva10004.1.c	/^int main(){$/;"	f
+main	rm/uva10004.c	/^int main(){$/;"	f
+main	rm/uva10010.cpp	/^int main(){$/;"	f
+main	rm/uva10014.c	/^int main(){$/;"	f
+main	rm/uva10016.c	/^int main(){$/;"	f
+main	rm/uva10025.c	/^int main(){$/;"	f
+main	rm/uva10050.c	/^int main(){$/;"	f
+main	rm/uva10054.1.c	/^int main(){$/;"	f
+main	rm/uva10054.c	/^int main(){$/;"	f
+main	rm/uva10055.c	/^int main()$/;"	f
+main	rm/uva10071.c	/^int main()$/;"	f
+main	rm/uva10098.c	/^int main(){$/;"	f
+main	rm/uva101.1.cpp	/^int main(){$/;"	f
+main	rm/uva101.cpp	/^int main(){$/;"	f
+main	rm/uva10106.c	/^int main(){ $/;"	f
+main	rm/uva10110.c	/^int main(){$/;"	f
+main	rm/uva10112.c	/^int main(){$/;"	f
+main	rm/uva10129.c	/^int main(){$/;"	f
+main	rm/uva10152.cpp	/^int main()$/;"	f
+main	rm/uva10161.c	/^int main(){$/;"	f
+main	rm/uva10177.c	/^int main(){$/;"	f
+main	rm/uva10194.c	/^int main(){$/;"	f
+main	rm/uva10250.c	/^int main(){$/;"	f
+main	rm/uva10300.c	/^int main()$/;"	f
+main	rm/uva10361.c	/^int main(){$/;"	f
+main	rm/uva10387.c	/^int main(){$/;"	f
+main	rm/uva10392.c	/^int main(){$/;"	f
+main	rm/uva10420.c	/^int main(){$/;"	f
+main	rm/uva10474.c	/^int main(){$/;"	f
+main	rm/uva10499.c	/^int main(){$/;"	f
+main	rm/uva10557.c	/^int main(){$/;"	f
+main	rm/uva10557test.c	/^int main()$/;"	f
+main	rm/uva10562.c	/^int main(){$/;"	f
+main	rm/uva10596.c	/^int main(){$/;"	f
+main	rm/uva107.c	/^int main(){$/;"	f
+main	rm/uva10719.c	/^int main(){$/;"	f
+main	rm/uva10785.c	/^int main(){$/;"	f
+main	rm/uva10790.c	/^int main(){$/;"	f
+main	rm/uva10815.c	/^int main(){$/;"	f
+main	rm/uva10878.c	/^int main(){$/;"	f
+main	rm/uva10879.c	/^int main(){$/;"	f
+main	rm/uva10916.c	/^int main(){$/;"	f
+main	rm/uva11044.c	/^int main(){$/;"	f
+main	rm/uva11111.c	/^int main(){$/;"	f
+main	rm/uva112.c	/^int main(){$/;"	f
+main	rm/uva11234.c	/^int main(){$/;"	f
+main	rm/uva113.c	/^int main(){$/;"	f
+main	rm/uva120.c	/^int main(){$/;"	f
+main	rm/uva123.c	/^int main(){$/;"	f
+main	rm/uva123.cpp	/^int main(){$/;"	f
+main	rm/uva133.cpp	/^int main(){$/;"	f
+main	rm/uva146.c	/^int main(){$/;"	f
+main	rm/uva152.c	/^int main(){$/;"	f
+main	rm/uva156.c	/^int main(){$/;"	f
+main	rm/uva196.c	/^int main(){$/;"	f
+main	rm/uva253.c	/^int main(){$/;"	f
+main	rm/uva297.c	/^int main(){$/;"	f
+main	rm/uva299.c	/^int main(){$/;"	f
+main	rm/uva340.c	/^int main(){$/;"	f
+main	rm/uva350.c	/^int main(){$/;"	f
+main	rm/uva372.c	/^int main(){$/;"	f
+main	rm/uva375.c	/^int main(){$/;"	f
+main	rm/uva400.c	/^int main(){$/;"	f
+main	rm/uva402.c	/^int main(){$/;"	f
+main	rm/uva408.c	/^int main(){$/;"	f
+main	rm/uva409.c	/^int main(){$/;"	f
+main	rm/uva414.c	/^int main()$/;"	f
+main	rm/uva439.c	/^int main(){$/;"	f
+main	rm/uva442.c	/^int main(){$/;"	f
+main	rm/uva445.c	/^int main()$/;"	f
+main	rm/uva457.c	/^int main()$/;"	f
+main	rm/uva458.c	/^int main()$/;"	f
+main	rm/uva465.c	/^int main(){$/;"	f
+main	rm/uva488.c	/^int main()$/;"	f
+main	rm/uva489.c	/^int main()$/;"	f
+main	rm/uva490.c	/^int main()$/;"	f
+main	rm/uva532.c	/^int main(){$/;"	f
+main	rm/uva537.c	/^int main(){$/;"	f
+main	rm/uva540.c	/^int main(){$/;"	f
+main	rm/uva548.c	/^int main(){$/;"	f
+main	rm/uva550.c	/^int main(){$/;"	f
+main	rm/uva568.c	/^int main(){$/;"	f
+main	rm/uva572.c	/^int main(){$/;"	f
+main	rm/uva573.c	/^int main(){$/;"	f
+main	rm/uva575.c	/^int main(){$/;"	f
+main	rm/uva579.c	/^int main(){$/;"	f
+main	rm/uva591.c	/^int main(){$/;"	f
+main	rm/uva621.c	/^int main(){$/;"	f
+main	rm/uva644.c	/^int main(){$/;"	f
+main	rm/uva657.c	/^int main(){$/;"	f
+main	rm/uva669.c	/^int main(){$/;"	f
+main	rm/uva673.cpp	/^int main()$/;"	f
+main	rm/uva6731.c	/^int main(){$/;"	f
+main	rm/uva705.1.c	/^int main() {$/;"	f
+main	rm/uva705.c	/^int main(){$/;"	f
+main	rm/uva712.c	/^int main(){$/;"	f
+main	rm/uva748.c	/^int main(){$/;"	f
+main	rm/uva784.c	/^int main(){$/;"	f
+main	rm/uva839.c	/^int main(){$/;"	f
+main	rm/uva846.c	/^int main(){$/;"	f
+main	rm/uvaunkown.c	/^int main(){$/;"	f
+main	rm/vua10970.c	/^int main(){$/;"	f
+main	rm/减法.c	/^int main(){$/;"	f
+main	rm/加法.c	/^int main(){$/;"	f
+main	rm/高精度减法.c	/^int main()$/;"	f
+main	somet.cpp	/^int main(){$/;"	f
+main	something.cpp	/^int  main()$/;"	f
+main	strimg.cpp	/^int main(){$/;"	f
+main	string.cpp	/^int main(){$/;"	f
+main	sunxu.cpp	/^int main(){$/;"	f
+main	tc/BigOEasy.cpp	/^int main()$/;"	f
+main	tc/BoundingBox.cpp	/^int main()$/;"	f
+main	tc/ErasingCharacters.cpp	/^int main()$/;"	f
+main	tc/LCS.cpp	/^int main(void)$/;"	f
+main	tc/ORSolitaireDiv2.cpp	/^int main()$/;"	f
+main	tc/TheArithmeticProgression.cpp	/^int main(){$/;"	f
+main	tc/TheShuttles.cpp	/^int main()$/;"	f
+main	tc/WinterAndReindeers.cpp	/^int main()$/;"	f
+main	tc/a.cpp	/^int main(){$/;"	f
+main	tc/srm498div2250.c	/^int main()$/;"	f
+main	tc/tc600/b.c	/^int main(){$/;"	f
+main	tc/tc600/b.cpp	/^int main(){$/;"	f
+main	temp.c	/^int main(){$/;"	f
+main	test.c	/^int main()$/;"	f
+main	test.cpp	/^int main(){$/;"	f
+main	test/hdu4588.c	/^int main()$/;"	f
+main	test/hdu4588.cpp	/^int main()$/;"	f
+main	test1.c	/^int main()$/;"	f
+main	test11.c	/^int main()$/;"	f
+main	testforchar.c	/^int main(){$/;"	f
+main	uestc/1546.1.c	/^int main()$/;"	f
+main	uestc/1546.c	/^int main()$/;"	f
+main	usaco/1.3.2.cpp	/^int main(){$/;"	f
+main	usaco/1.5.3.c	/^int main(){$/;"	f
+main	usaco/5.1.1.cpp	/^int main(){$/;"	f
+main	usaco/HammingCodes.cpp	/^int main(){$/;"	f
+main	usaco/HammingCodes1.cpp	/^int main(){$/;"	f
+main	usaco/RunaroundNumbers.cpp	/^int main(){$/;"	f
+main	usaco/SubsetSums.cpp	/^int main(){$/;"	f
+main	usaco/TheCastle.cpp	/^int main(){$/;"	f
+main	usaco/barn1.c	/^int main(){$/;"	f
+main	usaco/beads.c	/^int main(){$/;"	f
+main	usaco/calfflac.c	/^int main(){$/;"	f
+main	usaco/clocks.c	/^int main(){$/;"	f
+main	usaco/comehome.c	/^int main(){$/;"	f
+main	usaco/concom.c	/^int main(){$/;"	f
+main	usaco/concom.cpp	/^int main(){$/;"	f
+main	usaco/contact.c	/^int main(){$/;"	f
+main	usaco/cowtour.c	/^int main(){$/;"	f
+main	usaco/crypt1.c	/^int main(){$/;"	f
+main	usaco/dualpal.c	/^int main(){$/;"	f
+main	usaco/fact4.c	/^int main(){$/;"	f
+main	usaco/fracdec.c	/^int main(){$/;"	f
+main	usaco/friday.c	/^int main(){$/;"	f
+main	usaco/friday.cpp	/^int main(){$/;"	f
+main	usaco/gift.cpp	/^int main()$/;"	f
+main	usaco/gift1.c	/^int main()$/;"	f
+main	usaco/gift1.cpp	/^int main()$/;"	f
+main	usaco/humble.c	/^int main(){ $/;"	f
+main	usaco/humble1.c	/^int main(){ $/;"	f
+main	usaco/inflate.c	/^int main(){$/;"	f
+main	usaco/kimbits.c	/^int main(){$/;"	f
+main	usaco/kmp.cpp	/^int main(){$/;"	f
+main	usaco/maze1.c	/^int main(){$/;"	f
+main	usaco/milk.c	/^int main(){$/;"	f
+main	usaco/milk2.c	/^int main(){$/;"	f
+main	usaco/milk3.c	/^int main(){$/;"	f
+main	usaco/money.cpp	/^int main(){$/;"	f
+main	usaco/msquare.c	/^int main(){$/;"	f
+main	usaco/namenum.c	/^int main(){$/;"	f
+main	usaco/nocows.cpp	/^int main(){$/;"	f
+main	usaco/palsquare.c	/^int main(){$/;"	f
+main	usaco/partylamps.cpp	/^int main(){$/;"	f
+main	usaco/prefix.c	/^int main(){$/;"	f
+main	usaco/prefix.cpp	/^int main(){$/;"	f
+main	usaco/ratios.c	/^int main(){$/;"	f
+main	usaco/rect1.c	/^int main(){$/;"	f
+main	usaco/runaroundnumbers.cpp	/^int main(){$/;"	f
+main	usaco/spin.c	/^int main(){$/;"	f
+main	usaco/stamps.c	/^int main(){$/;"	f
+main	usaco/transform.c	/^int main(){$/;"	f
+main	usaco/ttwo.c	/^int main(){$/;"	f
+main	usaco/usaco1.2.1.cpp	/^int main()$/;"	f
+main	usaco/zerosum.cpp	/^int main(){$/;"	f
+main	uva11292.c	/^int main()$/;"	f
+main	wikioi/2145.c	/^int main(){$/;"	f
+main	wikioi/3147.c	/^int main()$/;"	f
+main	zoj/2678.c	/^int main(){$/;"	f
+main	��һ��/A�ͻ�����/A.cpp	/^int main(){ $/;"	f
+main	��һ��/A�ͻ�����/data.cpp	/^int main(){$/;"	f
+main	��һ��/B�ı������/B.cpp	/^int main(){$/;"	f
+main	��һ��/B�ı������/data.cpp	/^int main(){$/;"	f
+main	��һ��/Cδ���ǵ���/C.cpp	/^main()$/;"	f
+main	��һ��/Cδ���ǵ���/data.cpp	/^int main(){$/;"	f
+main	��һ��/D1������/D.cpp	/^int main(){$/;"	f
+main	��һ��/D1������/data.cpp	/^int main(){$/;"	f
+main	��һ��/E/E.cpp	/^int main(){$/;"	f
+main	��һ��/E/data.cpp	/^int main(){$/;"	f
+main	上车人数.cpp	/^int main(){$/;"	f
+main	加油站.cpp	/^int main(){$/;"	f
+main	对拍.cpp	/^int main(){$/;"	f
+main	对角线.c	/^int main(){$/;"	f
+main	新生面试2.cpp	/^int main(){$/;"	f
+main	最大整数.cpp	/^int main(){$/;"	f
+main	线段数.cpp	/^int main(){$/;"	f
+main	蒋程/4.c	/^int main(){$/;"	f
+main	蒋程/5.c	/^int main(){$/;"	f
+main	蒋程/5.cpp	/^int main(){$/;"	f
+main	蒋程/6.c	/^int main(){$/;"	f
+main	青蛙的约会.cpp	/^int main()$/;"	f
+main	青蛙的约会对拍.cpp	/^int main() {$/;"	f
+main	面试.cpp	/^int main()$/;"	f
+maketree	contests/cf368/c.cpp	/^void maketree(int c, int p,int v )$/;"	f
+map	2594.c	/^int map[1000][1000];$/;"	v
+map	cf/cf389/b.c	/^int map[200][200];$/;"	v
+map	cf/cf389/d.c	/^int map[1002][1002];$/;"	v
+map	cf/cf394/c.c	/^int map[2000][2005];$/;"	v
+map	contests/cf366.c	/^}map[1004,1004];$/;"	v	typeref:struct:node
+map	contests/多校联合1/h.c	/^int map[100][100];$/;"	v
+map	contests/湖大1/e.c	/^int map[1000000];$/;"	v
+map	practice/dfs1.c	/^int map[3][15][15];$/;"	v
+map	practice/dfs2.c	/^int map[1005][1005];$/;"	v
+map	practice/乌龟与兔子/test1.c	/^int map[111][111];$/;"	v
+map	rm/uva10004.1.c	/^int map[300][300];$/;"	v
+map	rm/uva10004.c	/^int map[205][205];$/;"	v
+map	rm/uva10054.1.c	/^int map[204][204];$/;"	v
+map	rm/uva10054.c	/^int map[100];$/;"	v
+map	rm/uva10129.c	/^int map[100][100];$/;"	v
+map	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+map	rm/uva10596.c	/^int map[204][204];$/;"	v
+map	rm/uva196.c	/^struct node map[1000][1000];$/;"	v	typeref:struct:node
+map	rm/uva705.c	/^int map[1000][1000];$/;"	v
+map	test1.c	/^int map[51][51];$/;"	v
+map	usaco/clocks.c	/^int map[10] = {0};$/;"	v
+map	usaco/comehome.c	/^int map[100][100];$/;"	v
+map	usaco/concom.c	/^double map[200][200] = {0};$/;"	v
+map	usaco/cowtour.c	/^double map[200][200];$/;"	v
+map	usaco/kimbits.c	/^int map[33][33];$/;"	v
+map	usaco/maze1.c	/^int map[500][500];$/;"	v
+map	usaco/namenum.c	/^char  map[5005][100];$/;"	v
+map	usaco/ratios.c	/^int map[5][5];$/;"	v
+map	usaco/rect1.c	/^int map[100][100];$/;"	v
+map	usaco/ttwo.c	/^int map[20][20];$/;"	v
+map1	contests/hanzhou2013/c.c	/^int map1[maxn][maxn];$/;"	v
+map2	contests/hanzhou2013/c.c	/^int map2[maxn][maxn];$/;"	v
+mapp	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^char mapp[maxn][maxn];$/;"	v
+matrix	对角线.c	/^int matrix[100][100];$/;"	v
+max	contests/5-27/b.c	6;"	d	file:
+max	contests/5-27/k.c	6;"	d	file:
+max	contests/5-27/kk.c	6;"	d	file:
+max	contests/5-27/ktest.c	6;"	d	file:
+max	contests/多校1/h.c	/^int max = 0 ; $/;"	v
+max	hdu/hzyqs/1009.1.cpp	17;"	d	file:
+max	rm/uva705.c	/^int sum,max;$/;"	v
+max	test11.c	7;"	d	file:
+max	usaco/beads.c	/^int max = 0;$/;"	v
+max	usaco/calfflac.c	/^int max = 0 ;$/;"	v
+max	usaco/maze1.c	/^int max = -1;$/;"	v
+maxa	usaco/milk2.c	/^int maxa = 0;$/;"	v
+maxb	usaco/milk2.c	/^int maxb = 0;$/;"	v
+maxn	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/F.cpp	11;"	d	file:
+maxn	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	11;"	d	file:
+maxn	Template/radixsort.c	11;"	d	file:
+maxn	contests/5-17/k1.c	12;"	d	file:
+maxn	contests/cf368/c.cpp	6;"	d	file:
+maxn	contests/hanzhou2013/c.c	14;"	d	file:
+maxn	contests/hut20131/g.c	11;"	d	file:
+maxn	contests/hut20132/c.cpp	25;"	d	file:
+maxn	contests/hut20135/f.1.c	4;"	d	file:
+maxn	contests/hut20135/f.c	11;"	d	file:
+maxn	contests/last.c	14;"	d	file:
+maxn	hdu/4704.c	11;"	d	file:
+maxn	hdu/4707.c	11;"	d	file:
+maxn	hdu/hdu4647.cpp	/^const int maxn = 111111;$/;"	v
+maxn	poj/3225.c	4;"	d	file:
+maxn	practice/乌龟与兔子/表达式树.c	/^const int maxn = 1000;$/;"	v
+maxn	uestc/1546.c	4;"	d	file:
+maxstep	contests/hanzhou2013/c.c	/^int n, maxstep; $/;"	v
+maxstep	rm/uva548.c	/^int maxstep,minnum;$/;"	v
+maze	rm/uva705.1.c	/^char maze[LIMITS_H][LIMITS_W];$/;"	v
+md	rm/uva568.c	/^int md(int k , int t)$/;"	f
+mem	hdu/4707.c	/^void mem( node * p )$/;"	f
+men	usaco/maze1.c	/^}men[10];$/;"	v	typeref:struct:node
+mennum	usaco/maze1.c	/^int mennum = 0 ;$/;"	v
+mian	rm/uva253.c	/^struct mian$/;"	s	file:
+mid	poj/poj2182.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+mid	poj/poj2828.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+mid	poj/poj2886.c	/^	int left ,right ,mid ;$/;"	m	struct:node	file:
+mid	poj/poj3468.1.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+mid	poj/poj3468.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+min	contests/5-27/b.c	7;"	d	file:
+min	contests/5-27/k.c	7;"	d	file:
+min	contests/5-27/kk.c	7;"	d	file:
+min	contests/5-27/ktest.c	7;"	d	file:
+min	contests/cf366/a.cpp	/^int min(int a, int b)$/;"	f
+min	contests/多校联合1/e.c	/^double min(double a, double b)$/;"	f
+min	hdu/hzyqs/1009.1.cpp	16;"	d	file:
+min	rm/bei.d.c	/^int min(int x, int y)$/;"	f
+min	test11.c	8;"	d	file:
+minBoxes	tc/MysticAndCandiesEasy.cpp	/^        int minBoxes(int C, int X, vector <int> high)$/;"	f	class:MysticAndCandiesEasy
+minimumChange	tc/TheArithmeticProgression.cpp	/^		double minimumChange(int a, int b, int c)$/;"	f	class:TheArithmeticProgression
+minnum	rm/uva548.c	/^int maxstep,minnum;$/;"	v
+minnum	usaco/partylamps.cpp	/^int minnum[100][6];$/;"	v
+minodes	rm/uva657.c	/^}nodes[10000],minodes[1000];$/;"	v	typeref:struct:node
+miss	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^inline bool miss(Dog &d, int p, int t) {$/;"	f
+mivisit	rm/uva657.c	/^int mivisit[120][120];$/;"	v
+mm	uestc/1546.1.c	/^const int mm=111111;$/;"	v
+mod	contests/长春/9.c	11;"	d	file:
+mod	contests/长春/tt.c	3;"	d	file:
+mod	hdu/4704.c	12;"	d	file:
+mod	��һ��/D1������/D.cpp	/^const int mod = 1e9+7;$/;"	v
+month	python/a.py	/^month = raw_input('Month(1-12): ')$/;"	v
+month_name	python/a.py	/^month_name = months[month_number -1]$/;"	v
+month_number	python/a.py	/^month_number = int(month)$/;"	v
+months	python/a.py	/^months = [$/;"	v
+mp	��һ��/E/data.cpp	/^int mp[15][15];$/;"	v
+mu	rm/uva10106.c	/^void mu()$/;"	f
+mu	rm/uva465.c	/^void mu(int c[],int d[],int e[])$/;"	f
+mu	rm/uva748.c	/^void mu(int c[],int d[], int e[])$/;"	f
+mul	zoj/2678.c	/^void mul()$/;"	f
+multiply	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int multiply(int a, int b) {$/;"	f
+mx	usaco/SubsetSums.cpp	/^int mx(int a, int b)$/;"	f
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int n, add, m;$/;"	v
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^int n, des, cur_pos, cur_time, energy;$/;"	v
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^int n, ways[MAXN], new_ways[MAXN];$/;"	v
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int n, a[N], prefix[N], suffix[N];$/;"	v
+n	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int n,m,t;$/;"	v
+n	2594.c	/^int n, m;$/;"	v
+n	DynamicProgramming.cpp	/^int n , a[10000];$/;"	v
+n	cf/cf389/a.c	/^int n ; $/;"	v
+n	cf/cf389/b.c	/^int n ; $/;"	v
+n	cf/cf389/d.c	/^int n ; $/;"	v
+n	cid=339.b1.c	/^int rope[N],n,c[N],num[N];$/;"	v
+n	contests/5-27/j.c	/^int n , last,ans, ok,t; $/;"	v
+n	contests/cf168div2/b1.c	/^int n , m ;$/;"	v
+n	contests/cf170div2/b.c	/^int n ;$/;"	v
+n	contests/cf184div2/a.c	/^ll p,q,n,a[1000];$/;"	v
+n	contests/hanzhou2013/c.c	/^int n, maxstep; $/;"	v
+n	contests/hut20132/g.c	/^	int n, m , y ;$/;"	v
+n	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+n	contests/hut20134/e.c	/^LL dp[31][20000],n,m,row,zt;$/;"	v
+n	contests/hut20137/a.c	/^LL n, k;$/;"	v
+n	contests/hut20137/g.c	/^int n ;$/;"	v
+n	contests/hut20138/d.c	/^long long row , zt , limits[30] ,n; $/;"	v
+n	contests/多校联合4/g.cpp	/^int n, m , MAX = 0;$/;"	v
+n	contests/排序训练/f.c	/^int n, t; $/;"	v
+n	hdu/1016.c	/^int isp[50],n;$/;"	v
+n	hdu/2553.c	/^int tot,n;$/;"	v
+n	hdu/4707.c	/^int n ,step;$/;"	v
+n	hdu/hzyqs/1009.c	/^int n  ,m; $/;"	v
+n	hdu4446.c	/^int n;  $/;"	v
+n	poj/poj2886.c	/^int n, k ;$/;"	v
+n	practice/乌龟与兔子/test1.c	/^int n;$/;"	v
+n	practice/树状数组/a.c	/^int c[1000005], n ;$/;"	v
+n	practice/树状数组/g.c	/^int N[1005],M[1005] , n , m ;$/;"	v
+n	practice/树状数组/stars.c	/^int n ;$/;"	v
+n	practice/第一场/c.c	/^int n , m ;$/;"	v
+n	practice/第二场/b.c	/^int n ;$/;"	v
+n	rm/10494.c	/^long long int n ;$/;"	v
+n	rm/2tree.c	/^int ans[1000], n = 0 ;$/;"	v
+n	rm/test.c	/^int n,num;$/;"	v
+n	rm/uva10004.1.c	/^int ok, n ;$/;"	v
+n	rm/uva10004.c	/^int n,ok;$/;"	v
+n	rm/uva101.1.cpp	/^int n ;$/;"	v
+n	rm/uva101.cpp	/^int n ;$/;"	v
+n	rm/uva10112.c	/^int n;$/;"	v
+n	rm/uva10557.c	/^int begin,end,ok ,n;$/;"	v
+n	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+n	rm/uva10596.c	/^int n , ok ;$/;"	v
+n	rm/uva120.c	/^int a[50] , n , b[50] ;$/;"	v
+n	rm/uva123.c	/^int k , t , n = 0 ;$/;"	v
+n	rm/uva196.c	/^int n , m;$/;"	v
+n	usaco/HammingCodes.cpp	/^int n, b,d;$/;"	v
+n	usaco/TheCastle.cpp	/^int n ,m; $/;"	v
+n	usaco/beads.c	/^int n; $/;"	v
+n	usaco/contact.c	/^int a,b,n;$/;"	v
+n	usaco/cowtour.c	/^int n ; $/;"	v
+n	usaco/crypt1.c	/^int a[20],n;$/;"	v
+n	usaco/humble.c	/^int n ,m; $/;"	v
+n	usaco/milk2.c	/^int n; $/;"	v
+n	usaco/namenum.c	/^int high,n;$/;"	v
+n	usaco/nocows.cpp	/^int n , m ;$/;"	v
+n	usaco/transform.c	/^int n;$/;"	v
+n	usaco/zerosum.cpp	/^int n;$/;"	v
+n	wikioi/3147.c	/^int n,m,a[MAXN][MAXN] = 0 ,b[MAXN][MAXN] = 0 ;$/;"	v
+n	��һ��/A�ͻ�����/A.cpp	/^int n;$/;"	v
+n	��һ��/B�ı������/B.cpp	/^int n, m;$/;"	v
+n	��һ��/Cδ���ǵ���/C.cpp	/^int t[N],n, m,ans;$/;"	v
+n	��һ��/E/E.cpp	/^int g[15][15], a[15], n, len;$/;"	v
+n	线段数.cpp	/^int  n ,m ; $/;"	v
+name	contests/排序训练/d.c	/^	char name[39];$/;"	m	struct:node	file:
+name	rm/uva10194.c	/^  char name[100];$/;"	m	struct:team	file:
+name	rm/uva10420.c	/^  char name[100];$/;"	m	struct:con	file:
+nc	practice/乌龟与兔子/表达式树.c	/^int nc = 0;$/;"	v
+new_ways	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^int n, ways[MAXN], new_ways[MAXN];$/;"	v
+newlist	contests/多校1/h.c	/^int * newlist(int i)$/;"	f
+newnode	contests/多校1/h.c	/^struct node * newnode()$/;"	f
+newnode	hdu/4707.c	/^struct node *newnode(int x){$/;"	f
+newnode	practice/树状数组/c.c	/^heihei* newnode(){$/;"	f
+newnode	rm/2tree.c	/^node * newnode()$/;"	f
+newnode	rm/uva297.c	/^struct node * newnode()$/;"	f
+newnode	rm/uva669.c	/^struct node *newnode()$/;"	f
+newnode	rm/uva839.c	/^struct node * newnode()$/;"	f
+next	contests/多校1/h.c	/^   struct node * next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	hdu/4707.c	/^  struct node * next ;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	practice/树状数组/c.c	/^   struct tnode * next;$/;"	m	struct:tnode	typeref:struct:tnode::tnode	file:
+next	practice/树状数组/c.c	/^  struct tnode *next ;$/;"	m	struct:hashs	typeref:struct:hashs::tnode	file:
+next	practice/链表1.c	/^ struct t *next;$/;"	m	struct:t	typeref:struct:t::t	file:
+next	practice/链表2.c	/^	struct list  *next;$/;"	m	struct:list	typeref:struct:list::list	file:
+next	rm/test.c	/^     int next,to;$/;"	m	struct:node	file:
+next	rm/uva101.1.cpp	/^   struct point *next,*last;$/;"	m	struct:point	typeref:struct:point::point	file:
+next	rm/uva101.cpp	/^   struct point *next,*last;$/;"	m	struct:point	typeref:struct:point::point	file:
+next	rm/uva10152.cpp	/^  struct node *last ,*next;$/;"	m	struct:node	typeref:struct:node::	file:
+next	rm/uva123.cpp	/^	struct node  *next ,*last;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	rm/uva133.cpp	/^	struct node *next ,*last;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	rm/uva297.c	/^	struct node * next[4];$/;"	m	struct:node	typeref:struct:node::node	file:
+next	somet.cpp	/^   struct Linkedlist * next;$/;"	m	struct:Linkedlist	typeref:struct:Linkedlist::Linkedlist	file:
+next	usaco/ttwo.c	/^void next(struct node &a)$/;"	f
+node	2594.c	/^struct node{$/;"	s	file:
+node	CrossingRivers.cpp	/^struct node{$/;"	s	file:
+node	cf/cf380/a.c	/^struct node{$/;"	s	file:
+node	contests/5-17/k.cpp	/^struct node$/;"	s	file:
+node	contests/5-17/k1.c	/^struct node$/;"	s	file:
+node	contests/HUN6/f.c	/^struct node $/;"	s	file:
+node	contests/cf184div2/test.c	/^struct node{$/;"	s	file:
+node	contests/cf188div2/d.c	/^struct node$/;"	s	file:
+node	contests/cf342/b.c	/^struct node {$/;"	s	file:
+node	contests/cf366.c	/^struct node$/;"	s	file:
+node	contests/cf368/c.cpp	/^struct node$/;"	s	file:
+node	contests/cf372/d.c	/^struct node$/;"	s	file:
+node	contests/hut20132/g.c	/^struct node{$/;"	s	file:
+node	contests/hut20135/c.c	/^struct node$/;"	s	file:
+node	contests/hut20135/e.c	/^struct node$/;"	s	file:
+node	contests/多校1/h.c	/^struct node$/;"	s	file:
+node	contests/多校联合1/h.c	/^struct node$/;"	s	file:
+node	contests/排序训练/c.c	/^struct node{$/;"	s	file:
+node	contests/排序训练/d.c	/^struct node{$/;"	s	file:
+node	contests/排序训练/g.c	/^struct node{$/;"	s	file:
+node	contests/湖大3/g.c	/^struct node$/;"	s	file:
+node	contests/湖大3/h.c	/^struct node$/;"	s	file:
+node	hdu/4707.c	/^struct node{$/;"	s	file:
+node	hmyuzx2.cpp	/^struct node{$/;"	s	file:
+node	poj/3225.c	/^struct node$/;"	s	file:
+node	poj/poj2182.c	/^struct node$/;"	s	file:
+node	poj/poj2828.c	/^struct node$/;"	s	file:
+node	poj/poj2886.c	/^struct node$/;"	s	file:
+node	poj/poj3468.1.c	/^struct node$/;"	s	file:
+node	poj/poj3468.c	/^struct node$/;"	s	file:
+node	practice/dfs1.c	/^struct node $/;"	s	file:
+node	rm/2tree.c	/^}node;$/;"	t	typeref:struct:Tnode	file:
+node	rm/6.2.2.c	/^} node;$/;"	t	typeref:struct:tnode	file:
+node	rm/test.c	/^struct node$/;"	s	file:
+node	rm/uva10152.cpp	/^struct node$/;"	s	file:
+node	rm/uva10557.c	/^struct node$/;"	s	file:
+node	rm/uva11111.c	/^struct node $/;"	s	file:
+node	rm/uva112.c	/^struct node $/;"	s	file:
+node	rm/uva11234.c	/^struct node$/;"	s	file:
+node	rm/uva123.cpp	/^struct node$/;"	s	file:
+node	rm/uva133.cpp	/^struct node$/;"	s	file:
+node	rm/uva196.c	/^struct node$/;"	s	file:
+node	rm/uva297.c	/^struct node$/;"	s	file:
+node	rm/uva439.c	/^struct node $/;"	s	file:
+node	rm/uva442.c	/^struct node $/;"	s	file:
+node	rm/uva532.c	/^struct node$/;"	s	file:
+node	rm/uva572.c	/^struct node $/;"	s	file:
+node	rm/uva657.c	/^struct node $/;"	s	file:
+node	rm/uva669.c	/^struct node $/;"	s	file:
+node	rm/uva784.c	/^struct node$/;"	s	file:
+node	rm/uva839.c	/^struct node $/;"	s	file:
+node	test1.c	/^struct node$/;"	s	file:
+node	uestc/1546.c	/^struct node{$/;"	s	file:
+node	usaco/contact.c	/^struct node$/;"	s	file:
+node	usaco/cowtour.c	/^struct node{$/;"	s	file:
+node	usaco/gift.cpp	/^struct node$/;"	s	file:
+node	usaco/gift1.c	/^struct node$/;"	s	file:
+node	usaco/gift1.cpp	/^struct node$/;"	s	file:
+node	usaco/maze1.c	/^struct node{$/;"	s	file:
+node	usaco/milk.c	/^struct node $/;"	s	file:
+node	usaco/milk2.c	/^struct node$/;"	s	file:
+node	usaco/rect1.c	/^struct node{$/;"	s	file:
+node	usaco/ttwo.c	/^struct node{$/;"	s	file:
+node	��һ��/A�ͻ�����/A.cpp	/^struct node{ $/;"	s	file:
+node	上车人数.cpp	/^struct node{$/;"	s	file:
+node1	2594.c	/^struct node1$/;"	s	file:
+node1	contests/hut20135/e.c	/^struct node1$/;"	s	file:
+node1	usaco/contact.c	/^struct node1{$/;"	s	file:
+node2	contests/hut20131/g.c	/^struct node2{$/;"	s	file:
+nodeH	hdu/hzyqs/1009.c	/^struct nodeH$/;"	s	file:
+nodecmp	contests/湖大3/h.c	/^int nodecmp(const void *b ,const void * a)$/;"	f
+nodep	contests/湖大3/g.c	/^struct nodep$/;"	s	file:
+nodes	contests/5-17/k.cpp	/^}nodes[105];$/;"	v	typeref:struct:node
+nodes	rm/uva11111.c	/^}nodes[100005];$/;"	v	typeref:struct:node
+nodes	rm/uva572.c	/^}nodes[10000];$/;"	v	typeref:struct:node
+nodes	rm/uva657.c	/^}nodes[10000],minodes[1000];$/;"	v	typeref:struct:node
+nodes	rm/uva784.c	/^}nodes[1000];$/;"	v	typeref:struct:node
+nodes	usaco/gift.cpp	/^}nodes[100];$/;"	v	typeref:struct:node
+nodes	usaco/gift1.c	/^}nodes[100];$/;"	v	typeref:struct:node
+nodes	usaco/gift1.cpp	/^}nodes[100];$/;"	v	typeref:struct:node
+nokey	rm/uva123.c	/^struct nokey$/;"	s	file:
+nokeys	rm/uva123.c	/^struct nokey nokeys[3005] = {0} ;$/;"	v	typeref:struct:nokey
+now	test/hdu4588.c	/^int  carry,ans ,now ;$/;"	v
+now	test/hdu4588.cpp	/^LL carry,ans ,now ;$/;"	v
+now	usaco/contact.c	/^}now;$/;"	v	typeref:struct:node
+num	cf/cf394/c.c	/^int num[10000];$/;"	v
+num	cid=339.b1.c	/^int rope[N],n,c[N],num[N];$/;"	v
+num	contests/5-17/k.cpp	/^	int num;$/;"	m	struct:node	file:
+num	contests/5-17/k1.c	/^vector<node> num;$/;"	v
+num	contests/HUN6/f.c	/^   int x,y,num;$/;"	m	struct:node	file:
+num	contests/hut20131/g.c	/^  int x, y,num;$/;"	m	struct:node2	file:
+num	contests/hut20132/g.c	/^	int num;$/;"	m	struct:node	file:
+num	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+num	contests/hut20134/e.c	/^LL num[10],pp[10];$/;"	v
+num	contests/hut20135/e.c	/^	int y,num ; $/;"	m	struct:node	file:
+num	contests/hut20138/d.c	/^long long num[30];$/;"	v
+num	contests/排序训练/c.c	/^   int num ;$/;"	m	struct:node	file:
+num	contests/排序训练/d.c	/^	int num; $/;"	m	struct:node	file:
+num	contests/排序训练/f.c	/^   int num;$/;"	m	struct:hehe	file:
+num	contests/湖大3/g.c	/^	int num ;$/;"	m	struct:node	file:
+num	contests/湖大3/g.c	/^	int num ;$/;"	m	struct:nodep	file:
+num	contests/湖大3/h.c	/^	int sit,num;$/;"	m	struct:Hash	file:
+num	hdu/4707.c	/^  int num ; $/;"	m	struct:node	file:
+num	poj/poj2182.c	/^  int num;  $/;"	m	struct:node	file:
+num	poj/poj2828.c	/^  int num;  $/;"	m	struct:node	file:
+num	poj/poj2886.c	/^	int num ;$/;"	m	struct:node	file:
+num	poj/poj3468.1.c	/^	long long  num ;$/;"	m	struct:node	file:
+num	poj/poj3468.c	/^	long long  num ;$/;"	m	struct:node	file:
+num	practice/乌龟与兔子/表达式树.c	/^int num[50];$/;"	v
+num	rm/bei.c.1.c	/^    char num[20];$/;"	m	struct:st	file:
+num	rm/bei.c.c	/^    char num[100];$/;"	m	struct:st	file:
+num	rm/test.c	/^int n,num;$/;"	v
+num	rm/uva10004.c	/^int num[205];$/;"	v
+num	rm/uva11111.c	/^  int num;$/;"	m	struct:node	file:
+num	rm/uva112.c	/^  int num ;$/;"	m	struct:node	file:
+num	rm/uva196.c	/^  int num;$/;"	m	struct:node	file:
+num	rm/uva669.c	/^    int num;$/;"	m	struct:node	file:
+num	rm/uva839.c	/^  int num;$/;"	m	struct:node	file:
+num	usaco/contact.c	/^int num[200004];$/;"	v
+num	usaco/crypt1.c	/^int num[6];$/;"	v
+num	usaco/gift.cpp	/^	int num;       $/;"	m	struct:node	file:
+num	usaco/gift1.c	/^	int num;       $/;"	m	struct:node	file:
+num	usaco/gift1.cpp	/^	int num;       $/;"	m	struct:node	file:
+num	usaco/humble.c	/^int num[2000000];$/;"	v
+num	usaco/humble1.c	/^long long  num[100005];$/;"	v
+num	usaco/rect1.c	/^int num[10000];$/;"	v
+num	最大整数.cpp	/^char num[10][6];$/;"	v
+num_case	rm/uva705.1.c	/^int num_case = 0;$/;"	v
+nummap	contests/cf366.c	/^int nummap[10000];$/;"	v
+ok	contests/5-27/j.c	/^int n , last,ans, ok,t; $/;"	v
+ok	contests/hanzhou2013/c.c	/^int ok = 0;$/;"	v
+ok	contests/hut20131/a.c	/^int ok (int k )$/;"	f
+ok	contests/排序训练/c.c	/^   int ok[30];$/;"	m	struct:node	file:
+ok	poj/poj2828.c	/^int ok= 0 ;$/;"	v
+ok	poj/poj2886.c	/^int ok =0 ;$/;"	v
+ok	practice/乌龟与兔子/表达式树.c	/^int ok = 1;$/;"	v
+ok	practice/树状数组/c.c	/^   int v , ok;$/;"	m	struct:tnode	file:
+ok	rm/uva10004.1.c	/^int ok, n ;$/;"	v
+ok	rm/uva10004.c	/^int n,ok;$/;"	v
+ok	rm/uva10557.c	/^int begin,end,ok ,n;$/;"	v
+ok	rm/uva10596.c	/^int n , ok ;$/;"	v
+ok	rm/uva839.c	/^int ok = 1;$/;"	v
+ok	uestc/1546.c	/^int ok = 1;$/;"	v
+ok	usaco/clocks.c	/^int ok = 0 ;$/;"	v
+ok	usaco/namenum.c	/^int ok =0 ;$/;"	v
+ok1	contests/hut20137/g.c	/^int ok1()$/;"	f
+ok2	cf/cf389/b.c	/^int ok2 = 1; $/;"	v
+ok2	contests/hut20137/g.c	/^int ok2()$/;"	f
+ok3	contests/hut20137/g.c	/^int ok3()$/;"	f
+ok4	contests/hut20137/g.c	/^int ok4()$/;"	f
+ok5	contests/hut20137/g.c	/^int ok5()$/;"	f
+ok6	contests/hut20137/g.c	/^int ok6()$/;"	f
+old	rm/uva123.c	/^	char old[4505];$/;"	m	struct:title	file:
+op	practice/乌龟与兔子/表达式树.c	/^char op[maxn];$/;"	v
+op	usaco/partylamps.cpp	/^int op[5];$/;"	v
+op1	practice/第二场/b.c	/^void op1(int b[], long long int n  ) $/;"	f
+op1	rm/10494.c	/^void op1(int b[], int t , long long int n  )$/;"	f
+op1	rm/uva101.1.cpp	/^void op1(int a, int b)$/;"	f
+op1	rm/uva101.cpp	/^void op1(int a, int b)$/;"	f
+op2	rm/uva101.1.cpp	/^void op2(int a,int b)$/;"	f
+op2	rm/uva101.cpp	/^void op2(int a,int b)$/;"	f
+op3	rm/uva101.1.cpp	/^void op3(int a, int b)$/;"	f
+op3	rm/uva101.cpp	/^void op3(int a, int b)$/;"	f
+op4	rm/uva101.1.cpp	/^void op4(int a,int b)$/;"	f
+op4	rm/uva101.cpp	/^void op4(int a,int b)$/;"	f
+operator	contests/5-27/kk.c	/^  bool operator < (const wbian &x) const$/;"	f	struct:wbian
+operator	contests/湖大3/对拍.c	/^	bool friend operator<(Node a,Node b)$/;"	f	struct:Node
+operator -	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^Point operator -(const Point &a, const Point &b) {$/;"	f
+operator <	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^inline bool operator< (const Node &a, const Node &b) { return a.x < b.x || a.x == b.x && a.y < b.y; }$/;"	f
+operator <	contests/5-17/k.cpp	/^	bool operator < (const node &x) const $/;"	f	struct:node
+operator <	practice/dp/i.cpp	/^     bool operator < (const blocks& x) const{$/;"	f	struct:blocks
+operator <	practice/乌龟与兔子/a.cpp	/^	bool operator  < (const heihei& p) const $/;"	f	struct:heihei
+operator <	practice/树状数组/japan.cpp	/^  bool operator < (const point& t) const {$/;"	f	struct:point
+operator <	practice/第一场/a.cpp	/^  bool operator < (const p& x) const {$/;"	f	struct:p
+operator <	��һ��/A�ͻ�����/A.cpp	/^	bool operator < ( node tmp ) const{$/;"	f	struct:node
+ordinal	python/a.py	/^ordinal = day + endings[day_number -1]$/;"	v
+out	rm/uva10129.c	/^int out[100];$/;"	v
+p	CrossingRivers.cpp	/^  int p , l , v; $/;"	m	struct:node	file:
+p	cf/cf399/b.c	/^__int64  p(int x, int n)$/;"	f
+p	contests/5-17/k1.c	/^} p[maxn];$/;"	v	typeref:struct:node
+p	contests/5-27/b.c	/^int p[100];$/;"	v
+p	contests/5-27/k.c	/^int p[100];$/;"	v
+p	contests/5-27/kk.c	/^int p[100];$/;"	v
+p	contests/5-27/ktest.c	/^int p[100];$/;"	v
+p	contests/cf184div2/a.c	/^ll p,q,n,a[1000];$/;"	v
+p	contests/hut20132/g.c	/^	double  p; $/;"	m	struct:node	file:
+p	contests/排序训练/c.c	/^   int p ;$/;"	m	struct:node	file:
+p	contests/湖大3/g.c	/^}p[300005];$/;"	v	typeref:struct:nodep
+p	hashnum.cpp	/^char *p;$/;"	v
+p	practice/c.cpp	/^int p[100005];$/;"	v
+p	practice/乌龟与兔子/c.cpp	/^int p[100005];$/;"	v
+p	practice/乌龟与兔子/d.cpp	/^int p[105];$/;"	v
+p	practice/乌龟与兔子/f1.cpp	/^int p[10005];$/;"	v
+p	practice/乌龟与兔子/g.cpp	/^int p[1000];$/;"	v
+p	practice/乌龟与兔子/j.cpp	/^int p[10005];$/;"	v
+p	practice/第一场/a.cpp	/^struct p{$/;"	s	file:
+p	practice/第二场/c.c	/^long long  int  a, p; $/;"	v
+p	rm/uva101.1.cpp	/^struct point *p ,*q;$/;"	v	typeref:struct:point
+p	rm/uva101.cpp	/^struct point *p ,*q;$/;"	v	typeref:struct:point
+p	rm/uva540.c	/^int  p[1000001],s[1000001];$/;"	v
+p	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+p	usaco/TheCastle.cpp	/^int p = 0 ; $/;"	v
+p	usaco/cowtour.c	/^}p[200];$/;"	v	typeref:struct:node
+p	usaco/fracdec.c	/^int p[1000000];$/;"	v
+p	usaco/kmp.cpp	/^int p[100] = {0};$/;"	v
+p	usaco/prefix.cpp	/^int  p[201][12];$/;"	v
+p	��һ��/A�ͻ�����/A.cpp	/^}p[N];$/;"	v	typeref:struct:node
+p1num	usaco/cowtour.c	/^int p1num = 0 ; $/;"	v
+p2num	usaco/cowtour.c	/^int p2num = 0;$/;"	v
+partition	Template/Quicksort.c	/^int partition(int* array, int left, int right)$/;"	f
+pe	practice/第一场/a.cpp	/^struct p pe[100005];$/;"	v	typeref:struct:p
+peo	contests/5-17/k1.c	/^vector<node> peo[maxn];$/;"	v
+people	contests/5-17/k.cpp	/^int piao[105],cost[105],people[105];$/;"	v
+pi	contests/排序训练/c.c	/^	int ci , pi , ti , ri;$/;"	m	struct:hehe	file:
+pi	rm/uva10387.c	10;"	d	file:
+pi	rm/uva152.c	/^struct pi$/;"	s	file:
+pi	rm/uva375.c	10;"	d	file:
+piao	contests/5-17/k.cpp	/^int piao[105],cost[105],people[105];$/;"	v
+point	contests/5-27/b.c	/^struct point$/;"	s	file:
+point	contests/5-27/j.c	/^struct point$/;"	s	file:
+point	contests/5-27/k.c	/^struct point$/;"	s	file:
+point	contests/5-27/kk.c	/^struct point$/;"	s	file:
+point	contests/5-27/ktest.c	/^struct point$/;"	s	file:
+point	practice/乌龟与兔子/d.cpp	/^struct point$/;"	s	file:
+point	practice/乌龟与兔子/k.cpp	/^struct point{$/;"	s	file:
+point	practice/树状数组/japan.cpp	/^struct point$/;"	s	file:
+point	rm/uva101.1.cpp	/^struct point$/;"	s	file:
+point	rm/uva101.cpp	/^struct point$/;"	s	file:
+point	rm/uva10557.c	/^struct point$/;"	s	file:
+point	usaco/5.1.1.cpp	/^struct point{$/;"	s	file:
+points	contests/5-27/b.c	/^}points[60];$/;"	v	typeref:struct:point
+points	contests/5-27/j.c	/^   struct point points[3000];$/;"	m	struct:yuan	typeref:struct:yuan::point	file:
+points	contests/5-27/k.c	/^}points[60];$/;"	v	typeref:struct:point
+points	contests/5-27/kk.c	/^}points[60];$/;"	v	typeref:struct:point
+points	contests/5-27/ktest.c	/^}points[60];$/;"	v	typeref:struct:point
+points	practice/乌龟与兔子/d.cpp	/^struct point points[105];$/;"	v	typeref:struct:point
+points	practice/乌龟与兔子/k.cpp	/^struct point points[105];$/;"	v	typeref:struct:point
+points	rm/uva101.1.cpp	/^struct point points[100];$/;"	v	typeref:struct:point
+points	rm/uva101.cpp	/^struct point points[100];$/;"	v	typeref:struct:point
+points	rm/uva10557.c	/^}points[105];$/;"	v	typeref:struct:point
+pos	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^	int pos, speed, range;$/;"	m	struct:Dog	file:
+pos	contests/hut20138/d.c	/^long long pos[100];$/;"	v
+pp	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+pp	contests/hut20134/e.c	/^LL num[10],pp[10];$/;"	v
+pre	cf/325b.c	/^long long ans[100] = {0},pre =0  ;$/;"	v
+pre	contests/hut20131/g.c	/^int pre[maxn];$/;"	v
+pre	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+prefix	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int n, a[N], prefix[N], suffix[N];$/;"	v
+prime	usaco/fact4.c	/^void prime()$/;"	f
+print	Template/Radixsort.c	/^void print(int *a, int n)$/;"	f
+print	contests/5-17/i.c	/^void print(int x)$/;"	f
+print	contests/cid=342.a.c	/^void print()$/;"	f
+print	contests/hut20131/a.c	/^void print()$/;"	f
+print	contests/hut20131/g.c	/^void print(int x)$/;"	f
+print	rm/2.4.6.5.c	/^void print(int a)$/;"	f
+print	rm/uva101.1.cpp	/^void print()$/;"	f
+print	rm/uva101.cpp	/^void print()$/;"	f
+print	rm/uva10106.c	/^void print()$/;"	f
+print	rm/uva123.c	/^void print()$/;"	f
+print	rm/uva297.c	/^void print(struct node *p)$/;"	f
+print	rm/uva400.c	/^void print(int i , int k)$/;"	f
+print	rm/uva402.c	/^void print()$/;"	f
+print	rm/uva748.c	/^void print(int t , int c[])$/;"	f
+print	rm/uva839.c	/^void print(struct node *p)$/;"	f
+print	usaco/clocks.c	/^void print()$/;"	f
+print	usaco/contact.c	/^void print(int v,int l)$/;"	f
+print	usaco/palsquare.c	/^void print(int n )$/;"	f
+print_array	tc/BigOEasy.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:BigOEasy	file:
+print_array	tc/BoundingBox.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:BoundingBox	file:
+print_array	tc/ErasingCharacters.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:ErasingCharacters	file:
+print_array	tc/ORSolitaireDiv2.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:ORSolitaireDiv2	file:
+print_array	tc/TheShuttles.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:TheShuttles	file:
+print_array	tc/WinterAndReindeers.cpp	/^	template <typename T> string print_array(const vector<T> &V) { ostringstream os; os << "{ "; for (typename vector<T>::const_iterator iter = V.begin(); iter != V.end(); ++iter) os << '\\"' << *iter << "\\","; os << " }"; return os.str(); }$/;"	f	class:WinterAndReindeers	file:
+print_permutation	rm/7.2.1.c	/^void print_permutation(int n, int *A,int cur)$/;"	f
+print_permutation	rm/7.2.2.c	/^void print_permutation(int n,int *P,int *A,int cur)$/;"	f
+print_subset	7.3.1.cpp	/^void print_subset(int n , int *A,int cur){$/;"	f
+print_subset	rm/7.3.1.c	/^void  print_subset(int n , int *A , int cur)$/;"	f
+print_subset	rm/7.3.2.c	/^void print_subset(int n , int *B , int cur)$/;"	f
+print_subset	rm/7.3.3.c	/^void print_subset(int  n , int s)$/;"	f
+pushdown	hdu4446.c	/^void pushdown(int rt,int m)  $/;"	f
+pushdown	uestc/1546.1.c	/^int pushdown(int rt,int l1,int l2)$/;"	f
+pushup	hdu4446.c	/^void pushup(int rt)  $/;"	f
+pushup	uestc/1546.1.c	/^void pushup(int rt)$/;"	f
+pw	rm/bei.d.c	/^int pw(int n,int t)$/;"	f
+q	cf/cf373/b.c	/^long long q[100];$/;"	v
+q	contests/cf184div2/a.c	/^ll p,q,n,a[1000];$/;"	v
+q	rm/bei.c.c	/^	int q,h;$/;"	m	struct:st	file:
+q	rm/uva101.1.cpp	/^struct point *p ,*q;$/;"	v	typeref:struct:
+q	rm/uva101.cpp	/^struct point *p ,*q;$/;"	v	typeref:struct:
+q	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+q	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+q	新生面试2.cpp	/^__int64 q[100];$/;"	v
+qsort	Template/Quicksort.c	/^void qsort(int* array, int left, int right)$/;"	f
+que	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int que[N], head, tail;$/;"	v
+que	contests/湖大3/对拍.c	/^priority_queue<Node> que;$/;"	v
+query	hdu4446.c	/^int query(int l,int r,int rt)  $/;"	f
+querym	uestc/1546.1.c	/^int querym(int L,int R,int l,int r,int rt)$/;"	f
+querys	uestc/1546.1.c	/^int querys(int L,int R,int l,int r,int rt)$/;"	f
+r	contests/5-27/b.c	/^int r[100];$/;"	v
+r	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+r	contests/5-27/k.c	/^int r[100];$/;"	v
+r	contests/5-27/kk.c	/^int r[100];$/;"	v
+r	contests/5-27/ktest.c	/^int r[500000];$/;"	v
+r	contests/cf342/b.c	/^  int st,l,r;$/;"	m	struct:node	file:
+r	contests/cf366.c	/^  int l , r; $/;"	m	struct:node	file:
+r	contests/cf368/c.cpp	/^  int l,r,m;$/;"	m	struct:node	file:
+r	contests/hut20135/c.c	/^  double  x, y ,r; $/;"	m	struct:node	file:
+r	poj/3225.c	/^	int l ,r , m, c ,f;$/;"	m	struct:node	file:
+r	practice/c.cpp	/^int r[100005];$/;"	v
+r	practice/乌龟与兔子/c.cpp	/^int r[100005];$/;"	v
+r	practice/乌龟与兔子/d.cpp	/^  double x, y, z,r;$/;"	m	struct:point	file:
+r	practice/乌龟与兔子/d.cpp	/^int  r[10005];$/;"	v
+r	practice/乌龟与兔子/d1.cpp	/^	double r;$/;"	m	struct:Cell	file:
+r	practice/乌龟与兔子/d1.cpp	/^	double r;$/;"	m	struct:MAP	file:
+r	practice/乌龟与兔子/f1.cpp	/^int r[10005];$/;"	v
+r	practice/乌龟与兔子/g.cpp	/^int r[1000005];$/;"	v
+r	practice/乌龟与兔子/j.cpp	/^int r[10005];$/;"	v
+r	uestc/1546.c	/^	int l, r, m ;$/;"	m	struct:node	file:
+radixsort	Template/Radixsort.c	/^void radixsort(int *a, int n)$/;"	f
+radixsort	cf/cf376/d.cpp	/^void radixsort(int *a, int n)$/;"	f
+radixsort	radixsort.c	/^void radixsort(int *a, int n)$/;"	f
+range	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^	int pos, speed, range;$/;"	m	struct:Dog	file:
+rank	practice/乌龟与兔子/d1.cpp	/^int rank[105];$/;"	v
+rc	hdu4446.c	/^int rc[ma];  $/;"	v
+rch	practice/乌龟与兔子/表达式树.c	/^int lch[maxn] , rch[maxn];$/;"	v
+read	cid=339.b1.c	/^int read(int x)$/;"	f
+read	practice/树状数组/a.c	/^int read(int x )$/;"	f
+read	practice/树状数组/h.c	/^int read(int x, int y )$/;"	f
+read_input	rm/2tree.c	/^int read_input()$/;"	f
+rec	contests/湖大3/对拍.c	/^int rec[300000],cnt;$/;"	v
+rechange	rm/uva465.c	/^void rechange(int a[], char b[])$/;"	f
+remove_tree	rm/2tree.c	/^void remove_tree(node *u)$/;"	f
+rev	uestc/1546.1.c	/^int dly[mm<<2],rev[mm<<2],sum[mm<<2],lmax[mm<<2],lmin[mm<<2];$/;"	v
+reverse	uestc/1546.1.c	/^void reverse(int rt)$/;"	f
+ri	contests/排序训练/c.c	/^	int ci , pi , ti , ri;$/;"	m	struct:hehe	file:
+right	poj/poj2182.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+right	poj/poj2828.c	/^  int left ,right ,mid ; $/;"	m	struct:node	file:
+right	poj/poj2886.c	/^	int left ,right ,mid ;$/;"	m	struct:node	file:
+right	poj/poj3468.1.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+right	poj/poj3468.c	/^    long long left ,right,mid;$/;"	m	struct:node	file:
+right	rm/2tree.c	/^   struct Tnode * left , * right;$/;"	m	struct:Tnode	typeref:struct:Tnode::	file:
+right	rm/6.2.2.c	/^ struct tnode *left ,*right;$/;"	m	struct:tnode	typeref:struct:tnode::	file:
+right	rm/uva11234.c	/^  struct node *right ,*left;$/;"	m	struct:node	typeref:struct:node::node	file:
+right	rm/uva669.c	/^	struct node* left,*right;$/;"	m	struct:node	typeref:struct:node::	file:
+right	rm/uva839.c	/^  struct node *left,*right;$/;"	m	struct:node	typeref:struct:node::	file:
+root	practice/乌龟与兔子/d1.cpp	/^int root[105];$/;"	v
+root	rm/2tree.c	/^node *root;$/;"	v
+root	rm/6.2.2.c	/^node* root;$/;"	v
+rope	cid=339.b1.c	/^int rope[N],n,c[N],num[N];$/;"	v
+row	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+row	contests/hut20134/e.c	/^LL dp[31][20000],n,m,row,zt;$/;"	v
+row	contests/hut20138/d.c	/^long long row , zt , limits[30] ,n; $/;"	v
+rrt	hdu4446.c	/^int rrt;  $/;"	v
+rson	contests/5-17/k1.c	11;"	d	file:
+rson	hdu4446.c	6;"	d	file:
+rson	uestc/1546.1.c	4;"	d	file:
+run_test	tc/BigOEasy.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); if ((Case == -1) || (Case == 5)) test_case_5(); if ((Case == -1) || (Case == 6)) test_case_6(); if ((Case == -1) || (Case == 7)) test_case_7(); }$/;"	f	class:BigOEasy
+run_test	tc/BoundingBox.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); }$/;"	f	class:BoundingBox
+run_test	tc/ErasingCharacters.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); }$/;"	f	class:ErasingCharacters
+run_test	tc/ORSolitaireDiv2.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); }$/;"	f	class:ORSolitaireDiv2
+run_test	tc/TheShuttles.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); }$/;"	f	class:TheShuttles
+run_test	tc/WinterAndReindeers.cpp	/^	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); }$/;"	f	class:WinterAndReindeers
+rx	usaco/rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:
+ry	usaco/rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:
+s	contests/cf168div2/b.c	/^char s[52][52];$/;"	v
+s	contests/cf168div2/b1.c	/^int s[N*N];$/;"	v
+s	contests/cid=339.c	3;"	d	file:
+s	rm/2tree.c	/^char s[1000];$/;"	v
+s	rm/test.c	/^int s[110];$/;"	v
+s	rm/uva10152.cpp	/^  char s[1000];$/;"	m	struct:node	file:
+s	rm/uva123.c	/^	int  s;$/;"	m	struct:nokey	file:
+s	rm/uva123.cpp	/^	char v,s;$/;"	m	struct:card	file:
+s	rm/uva253.c	/^struct mian s[4];$/;"	v	typeref:struct:mian
+s	rm/uva540.c	/^int  p[1000001],s[1000001];$/;"	v
+s	usaco/maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:
+s	usaco/prefix.c	/^char s[200005];$/;"	v
+sai	contests/kp3.b.c	/^void sai()$/;"	f
+savekey	rm/uva123.c	/^int  savekey()$/;"	f
+savetitle	rm/uva123.c	/^int savetitle()$/;"	f
+screen_width	python/2.3.py	/^ screen_width = 80$/;"	v
+search	hdu/2553.c	/^void search(int cur)$/;"	f
+seg	contests/hut20135/e.c	/^}seg[20005];$/;"	v	typeref:struct:node1
+sentence	python/2.3.py	/^ sentence = raw_input('Sentence:')$/;"	v
+set	practice/乌龟与兔子/test1.c	/^int set[111];$/;"	v
+set	uestc/1546.1.c	/^void set(int rt,int op,int len)$/;"	f
+sgname	contests/排序训练/f.c	/^   char sgname[100];$/;"	m	struct:hehe	file:
+simulate	tc/ErasingCharacters.cpp	/^        string simulate(string s)$/;"	f	class:ErasingCharacters
+simulate	tc/srm598/a.cpp	/^	string simulate(string a){$/;"	f	class:ErasingCharacters
+sit	contests/湖大3/h.c	/^	int sit,num;$/;"	m	struct:Hash	file:
+site	contests/5-17/k.cpp	/^	int site;$/;"	m	struct:node	file:
+site	rm/uva123.c	/^	int site[205];$/;"	m	struct:nokey	file:
+sited	rm/uva123.c	/^	int sited[205];$/;"	m	struct:nokey	file:
+slove	contests/hut20131/g.c	/^void slove(int n)$/;"	f
+smallestArea	tc/BoundingBox.cpp	/^        int smallestArea(vector <int> X, vector <int> Y)$/;"	f	class:BoundingBox
+solve	cf/cf389/d.c	/^void solve(int d)$/;"	f
+solve	rm/test.c	/^void solve()$/;"	f
+solve	tc/PowerOfThreeEasy.cpp	/^void solve(int t)$/;"	f
+solve	usaco/HammingCodes.cpp	/^int solve( )$/;"	f
+solve	usaco/contact.c	/^int solve(int b,int e)$/;"	f
+solve	usaco/kimbits.c	/^void solve(long long n , long long m , long long k )$/;"	f
+some	contests/hut20132/g.c	/^int some(double t)$/;"	f
+space	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/F.cpp	/^int space[maxn];$/;"	v
+speed	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^	int pos, speed, range;$/;"	m	struct:Dog	file:
+spfa	rm/test.c	/^void spfa()$/;"	f
+sqr	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^double sqr(double x) {$/;"	f
+st	cf/cf380/a.c	/^ int st,a,b;$/;"	m	struct:node	file:
+st	contests/cf342/b.c	/^  int st,l,r;$/;"	m	struct:node	file:
+st	rm/bei.c.1.c	/^struct st$/;"	s	file:
+st	rm/bei.c.c	/^struct st$/;"	s	file:
+st	��һ��/A�ͻ�����/A.cpp	/^	LL st, ed, k;	$/;"	m	struct:node	file:
+stack	contests/hut20131/g.c	/^}first[maxn],stack[maxn];$/;"	v	typeref:struct:node2
+stacklow	contests/多校1/e.1.c	/^int stacklow[100005];$/;"	v
+stacklow	contests/多校1/e.c	/^int stacklow[100005];$/;"	v
+stackup	contests/多校1/e.1.c	/^int stackup[100005];$/;"	v
+stackup	contests/多校1/e.c	/^int stackup[100005];$/;"	v
+stand	rm/uva465.c	/^char stand[] = "2147483647";$/;"	v
+std	contests/5-17/k1.c	/^using namespace std;$/;"	v
+std	contests/5-27/b.c	/^using namespace std;$/;"	v
+std	contests/5-27/k.c	/^using namespace std;$/;"	v
+std	contests/5-27/kk.c	/^using namespace std;$/;"	v
+std	contests/5-27/ktest.c	/^using namespace std;$/;"	v
+std	contests/cf184div2/test.c	/^using namespace std;$/;"	v
+std	contests/duie.c	/^using namespace std;$/;"	v
+std	contests/hanzhou2013/04.c	/^using namespace std ;$/;"	v
+std	contests/hut20134/e.c	/^using namespace std;$/;"	v
+std	contests/hut20138/d.c	/^using namespace std ;$/;"	v
+std	contests/湖大3/对拍.c	/^using namespace std;$/;"	v
+std	contests/网络赛/b.c	/^using namespace std;$/;"	v
+std	hdu4446.c	/^using namespace std;  $/;"	v
+std	rm/test.c	/^using namespace std;$/;"	v
+std	test/hdu4588.c	/^using namespace std ;$/;"	v
+std	test11.c	/^using namespace std;$/;"	v
+std	uestc/1546.1.c	/^using namespace std;$/;"	v
+std	wikioi/3147.c	/^using namespace std;$/;"	v
+step	2594.c	/^}step[1000*1000];$/;"	v	typeref:struct:node1
+step	contests/cf372/d.c	/^int  step[1000005][4];$/;"	v
+step	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+step	contests/多校联合1/h.c	/^  int step;$/;"	m	struct:node	file:
+step	hdu/4707.c	/^int n ,step;$/;"	v
+step	practice/dfs1.c	/^  int x,y,z,step;$/;"	m	struct:node	file:
+step	rm/uva439.c	/^   int x,y,step;$/;"	m	struct:node	file:
+step	rm/uva532.c	/^  int z, x, y,step;$/;"	m	struct:node	file:
+step	test1.c	/^  int x, y ,step;$/;"	m	struct:node	file:
+str	2594.c	/^char str[1000][1000];$/;"	v
+str	Template/radixsort.c	/^char str[maxn];$/;"	v
+str	cf/cf376/a.cpp	/^char str[1000000];$/;"	v
+str	cf/cf376/c.cpp	/^char str[1000005];$/;"	v
+str	cf/cf382/a.c	/^char str[10000];$/;"	v
+str	cf/cf389/b.c	/^char str[1000];$/;"	v
+str	cf/cf394/a.c	/^char str[10000];$/;"	v
+str	cf/cf399/b.c	/^char str[1000];$/;"	v
+str	contests/5-17/i.c	/^char str[3000005];$/;"	v
+str	contests/cf188div2/b.c	/^char str[1000007];$/;"	v
+str	contests/cf372/d.c	/^char str[505][505];$/;"	v
+str	contests/duie.c	/^char str[205];$/;"	v
+str	contests/hut20131/a.c	/^char str[2005];$/;"	v
+str	contests/hut20135/e.c	/^	char str[1000];$/;"	m	struct:node	file:
+str	contests/湖大3/e.c	/^char str[10000];$/;"	v
+str	duipai.c	/^char str[1000];$/;"	v
+str	hdu/4611.cpp	/^char str[1000005];$/;"	v
+str	hdu/4704.c	/^char str[maxn];$/;"	v
+str	hdu/hzyqs/1009.c	/^char str[50];$/;"	v
+str	poj/poj2886.c	/^char str[MAXN][13];$/;"	v
+str	practice/乌龟与兔子/c.cpp	/^char str[100];$/;"	v
+str	rm/10098.c	/^char str[100];$/;"	v
+str	rm/uva10098.c	/^char str[100] = {0};$/;"	v
+str	rm/uva10562.c	/^char str[300][300];$/;"	v
+str	rm/uva10785.c	/^char  str[500];$/;"	v
+str	rm/uva146.c	/^char str[100];$/;"	v
+str	rm/uva156.c	/^   char str[80];$/;"	m	struct:k	file:
+str	rm/uva196.c	/^  char str[100];$/;"	m	struct:node	file:
+str	rm/uva297.c	/^char str[2000];$/;"	v
+str	rm/uva372.c	/^char str[10000];$/;"	v
+str	rm/uva532.c	/^char str[40][40][40];$/;"	v
+str	rm/uva572.c	/^char str[128][128];$/;"	v
+str	rm/uva657.c	/^char str[128][128];$/;"	v
+str	rm/uva673.cpp	/^char str[1000];$/;"	v
+str	rm/uva6731.c	/^char str[1000];$/;"	v
+str	rm/uva705.c	/^char str[100][100];$/;"	v
+str	rm/uva784.c	/^char str[100][100];$/;"	v
+str	test1.c	/^char str[51];$/;"	v
+str	uestc/1546.1.c	/^char str[mm];$/;"	v
+str	uestc/1546.c	/^char str[maxn];$/;"	v
+str	usaco/beads.c	/^char str[1000];$/;"	v
+str	usaco/calfflac.c	/^char str[30005] = {0};$/;"	v
+str	usaco/contact.c	/^char str[200004];$/;"	v
+str	usaco/gift.cpp	/^	char str[100];$/;"	m	struct:node	file:
+str	usaco/gift1.c	/^	char str[100];$/;"	m	struct:node	file:
+str	usaco/gift1.cpp	/^	char str[100];$/;"	m	struct:node	file:
+str	usaco/namenum.c	/^char str[100];$/;"	v
+str	usaco/prefix.cpp	/^char str[201][12];$/;"	v
+str	usaco/transform.c	/^char str[100][100];$/;"	v
+str	wikioi/2145.c	/^char str[10000000];$/;"	v
+str	zoj/2678.c	/^char str[200];$/;"	v
+str1	cf/cf382/a.c	/^char str1[100];$/;"	v
+str1	contests/cf184div2/test.c	/^char str1[N],str2[N];$/;"	v
+str1	duipai.c	/^char str1[1000];$/;"	v
+str1	rm/uva10785.c	/^char  str1[500];$/;"	v
+str1	usaco/prefix.cpp	/^char str1[200001];$/;"	v
+str111	tc/LCS.cpp	/^char str111[100];$/;"	v
+str111	tc/WinterAndReindeers.cpp	/^char str111[100];$/;"	v
+str2	contests/cf184div2/test.c	/^char str1[N],str2[N];$/;"	v
+str2	rm/uva10785.c	/^char  str2[500];$/;"	v
+stra	tc/WinterAndReindeers.cpp	/^char stra[100][100];$/;"	v
+strb	tc/WinterAndReindeers.cpp	/^char strb[100][100];$/;"	v
+strc	tc/WinterAndReindeers.cpp	/^char strc[100][100];$/;"	v
+strcp	usaco/partylamps.cpp	/^int strcp(int a, int b)$/;"	f
+strcp	最大整数.cpp	/^int strcp(int a, int b)$/;"	f
+strle	rm/uva465.c	/^int strle(char a[])$/;"	f
+strle	rm/uva748.c	/^int strle(int c[])$/;"	f
+su	contests/hut20138/d.c	/^long long su[30];$/;"	v
+su	rm/uva123.cpp	/^	int su;$/;"	m	struct:node	file:
+sub	rm/uva839.c	/^int  temp[100000][6],sub = 1;$/;"	v
+sub	rm/减法.c	/^void sub(char a[], char b[],int t )$/;"	f
+suffix	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/G.cpp	/^int n, a[N], prefix[N], suffix[N];$/;"	v
+sum	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int64 sum[N];$/;"	v
+sum	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int flag,sum;$/;"	v
+sum	cf/372a.cpp	/^int sum[102] ={0};$/;"	v
+sum	cf/cf389/d.c	/^int sum = 3;$/;"	v
+sum	contests/HUN6/i.c	/^int sum[100005];$/;"	v
+sum	contests/cid=342.h.c	/^  long long int sum;$/;"	m	struct:xy	file:
+sum	contests/湖大3/g.c	/^int sum[300005];$/;"	v
+sum	hdu/4707.c	/^int sum = 0 ;$/;"	v
+sum	practice/dfs3.c	/^int a[40][40] , sum = 10000000,visit[35] , t ,b[10];$/;"	v
+sum	practice/乌龟与兔子/d1.cpp	/^double sum = 0;$/;"	v
+sum	practice/树状数组/hoj1867.c	/^int sum(int x)$/;"	f
+sum	practice/树状数组/japan.cpp	/^int sum (int x)$/;"	f
+sum	practice/树状数组/stars.c	/^int sum(int x)$/;"	f
+sum	practice/第一场/c.c	/^int sum(int x)$/;"	f
+sum	rm/uva297.c	/^int sum = 0 ;$/;"	v
+sum	rm/uva669.c	/^int sum[10000];$/;"	v
+sum	rm/uva705.c	/^int sum,max;$/;"	v
+sum	uestc/1546.1.c	/^int dly[mm<<2],rev[mm<<2],sum[mm<<2],lmax[mm<<2],lmin[mm<<2];$/;"	v
+sum	uestc/1546.c	/^	int sum , c , f; $/;"	m	struct:node	file:
+sum	usaco/HammingCodes.cpp	/^int sum = 0 ; $/;"	v
+sum	usaco/SubsetSums.cpp	/^int sum[1000];$/;"	v
+sum	usaco/TheCastle.cpp	/^int sum = 0 ;$/;"	v
+sum	usaco/crypt1.c	/^int sum = 0 ;$/;"	v
+sum	usaco/partylamps.cpp	/^int sum = 0;$/;"	v
+sum	��һ��/D1������/D.cpp	/^LL sum( LL x ){$/;"	f
+sum1	contests/多校联合1/g.c	/^long long int sum1[100005];$/;"	v
+sum2	contests/多校联合1/g.c	/^long long int sum2[100005];$/;"	v
+summ	practice/树状数组/g.c	/^int summ(int x)$/;"	f
+sumn	practice/树状数组/g.c	/^int sumn(int x)$/;"	f
+sumx	contests/cid=342.h.c	/^long long sumx[100010]={0},sumy[100010]={0};$/;"	v
+sumy	contests/cid=342.h.c	/^long long sumx[100010]={0},sumy[100010]={0};$/;"	v
+swap	Template/Quicksort.c	/^using std::swap;$/;"	m	class:std	file:
+swap	contests/cf184div2/a.c	/^void swap(ll *a, ll *b)$/;"	f
+t	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int n,m,t;$/;"	v
+t	contests/5-27/j.c	/^int n , last,ans, ok,t; $/;"	v
+t	contests/cid=343.g.c	/^char t[1000][1000];$/;"	v
+t	contests/多校联合1/h.c	/^int ans , t;$/;"	v
+t	contests/排序训练/f.c	/^int n, t; $/;"	v
+t	practice/dfs3.c	/^int a[40][40] , sum = 10000000,visit[35] , t ,b[10];$/;"	v
+t	practice/链表1.c	/^struct t$/;"	s	file:
+t	python/test.py	/^ t = t +1$/;"	v
+t	python/test.py	/^t = 1$/;"	v
+t	rm/uva10420.c	/^  int  t ;$/;"	m	struct:con	file:
+t	rm/uva10557.c	/^  int t ;$/;"	m	struct:node	file:
+t	rm/uva123.c	/^int k , t , n = 0 ;$/;"	v
+t	rm/uva156.c	/^   int t ;$/;"	m	struct:k	file:
+t	rm/uva253.c	/^   bool t ; $/;"	m	struct:mian	file:
+t	rm/uva253.c	/^struct mian t[4];$/;"	v	typeref:struct:mian
+t	tc/LCS.cpp	/^int t = -1;$/;"	v
+t	tc/WinterAndReindeers.cpp	/^int t = -1;$/;"	v
+t	usaco/calfflac.c	/^int change[30005],t;$/;"	v
+t	usaco/contact.c	/^  int t;$/;"	m	struct:node1	file:
+t	usaco/fact4.c	/^int t = 0 ; $/;"	v
+t	usaco/milk3.c	/^int t = 0 ;$/;"	v
+t	usaco/rect1.c	/^int t = 1;$/;"	v
+t	wikioi/3147.c	/^int x1,y1,x2,y2,t;$/;"	v
+t	��һ��/Cδ���ǵ���/C.cpp	/^int t[N],n, m,ans;$/;"	v
+t1	contests/cf184div2/test.c	/^}t1[N],t2[N],t3[N];$/;"	v	typeref:struct:node
+t2	contests/cf184div2/test.c	/^}t1[N],t2[N],t3[N];$/;"	v	typeref:struct:node
+t3	contests/cf184div2/test.c	/^}t1[N],t2[N],t3[N];$/;"	v	typeref:struct:node
+ta	contests/排序训练/g.c	/^  int ta,tb;$/;"	m	struct:node	file:
+tail	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/A.cpp	/^int que[N], head, tail;$/;"	v
+tail	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+tar	contests/5-17/k1.c	/^	int tar;$/;"	m	struct:node	file:
+tb	contests/排序训练/g.c	/^  int ta,tb;$/;"	m	struct:node	file:
+tc	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+td	cf/196div2/b.c	/^long long a, b  , c, d,tc,td;$/;"	v
+team	rm/uva10194.c	/^struct team{$/;"	s	file:
+teams	rm/uva10194.c	/^struct team teams[110];$/;"	v	typeref:struct:team
+temp	contests/5-20/g.cpp	/^int temp[100][100];$/;"	v
+temp	contests/哈理工/a.c	/^char  c[120][120] ,temp[120];$/;"	v
+temp	rm/uva11111.c	/^  int temp ;$/;"	m	struct:node	file:
+temp	rm/uva402.c	/^int  b[300],temp[300];$/;"	v
+temp	rm/uva839.c	/^int  temp[100000][6],sub = 1;$/;"	v
+temp	usaco/HammingCodes.cpp	/^int temp[10];$/;"	v
+temp	usaco/calfflac.c	/^char temp[30005] = {0};$/;"	v
+temp	usaco/transform.c	/^char temp[100][100];$/;"	v
+temp	zoj/2678.c	/^int temp[200];$/;"	v
+test_case_0	tc/BigOEasy.cpp	/^	void test_case_0() { string Arr0[] = {"NYY",$/;"	f	class:BigOEasy	file:
+test_case_0	tc/BoundingBox.cpp	/^	void test_case_0() { int Arr0[] = {0,1}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arr1[] = {1,0}; vector <int> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); int Arg2 = 1; verify_case(0, Arg2, smallestArea(Arg0, Arg1)); }$/;"	f	class:BoundingBox	file:
+test_case_0	tc/ErasingCharacters.cpp	/^	void test_case_0() { string Arg0 = "cieeilll"; string Arg1 = "cl"; verify_case(0, Arg1, simulate(Arg0)); }$/;"	f	class:ErasingCharacters	file:
+test_case_0	tc/ORSolitaireDiv2.cpp	/^	void test_case_0() { int Arr0[] = {1, 2, 4}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 7; int Arg2 = 1; verify_case(0, Arg2, getMinimum(Arg0, Arg1)); }$/;"	f	class:ORSolitaireDiv2	file:
+test_case_0	tc/TheShuttles.cpp	/^	void test_case_0() { int Arr0[] = {9}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 30; int Arg2 = 5; int Arg3 = 75; verify_case(0, Arg3, getLeastCost(Arg0, Arg1, Arg2)); }$/;"	f	class:TheShuttles	file:
+test_case_0	tc/WinterAndReindeers.cpp	/^	void test_case_0() { string Arr0[] = {"X"}; vector <string> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); string Arr1[] = {"X", "Y"}; vector <string> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); string Arr2[] = {"X"}; vector <string> Arg2(Arr2, Arr2 + (sizeof(Arr2) \/ sizeof(Arr2[0]))); int Arg3 = 1; verify_case(0, Arg3, getNumber(Arg0, Arg1, Arg2)); }$/;"	f	class:WinterAndReindeers	file:
+test_case_1	tc/BigOEasy.cpp	/^	void test_case_1() { string Arr0[] = {"NYYN",$/;"	f	class:BigOEasy	file:
+test_case_1	tc/BoundingBox.cpp	/^	void test_case_1() { int Arr0[] = {0,-2,-1}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arr1[] = {-1,-1,-2}; vector <int> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); int Arg2 = 2; verify_case(1, Arg2, smallestArea(Arg0, Arg1)); }$/;"	f	class:BoundingBox	file:
+test_case_1	tc/ErasingCharacters.cpp	/^	void test_case_1() { string Arg0 = "topcoder"; string Arg1 = "topcoder"; verify_case(1, Arg1, simulate(Arg0)); }$/;"	f	class:ErasingCharacters	file:
+test_case_1	tc/ORSolitaireDiv2.cpp	/^	void test_case_1() { int Arr0[] = {1, 2, 4, 7, 8}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 7; int Arg2 = 2; verify_case(1, Arg2, getMinimum(Arg0, Arg1)); }$/;"	f	class:ORSolitaireDiv2	file:
+test_case_1	tc/TheShuttles.cpp	/^	void test_case_1() { int Arr0[] = {9, 4}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 30; int Arg2 = 5; int Arg3 = 150; verify_case(1, Arg3, getLeastCost(Arg0, Arg1, Arg2)); }$/;"	f	class:TheShuttles	file:
+test_case_1	tc/WinterAndReindeers.cpp	/^	void test_case_1() { string Arr0[] = {"ABCXD"}; vector <string> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); string Arr1[] = {"BCDEF"}; vector <string> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); string Arr2[] = {"CD"}; vector <string> Arg2(Arr2, Arr2 + (sizeof(Arr2) \/ sizeof(Arr2[0]))); int Arg3 = 3; verify_case(1, Arg3, getNumber(Arg0, Arg1, Arg2)); }$/;"	f	class:WinterAndReindeers	file:
+test_case_2	tc/BigOEasy.cpp	/^	void test_case_2() { string Arr0[] = {"NYN",$/;"	f	class:BigOEasy	file:
+test_case_2	tc/BoundingBox.cpp	/^	void test_case_2() { int Arr0[] = {0,0,1,0,-1,2}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arr1[] = {0,1,2,-2,0,-1}; vector <int> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); int Arg2 = 12; verify_case(2, Arg2, smallestArea(Arg0, Arg1)); }$/;"	f	class:BoundingBox	file:
+test_case_2	tc/ErasingCharacters.cpp	/^	void test_case_2() { string Arg0 = "abcdefghijklmnopqrstuvwxyyxwvutsrqponmlkjihgfedcba"; string Arg1 = ""; verify_case(2, Arg1, simulate(Arg0)); }$/;"	f	class:ErasingCharacters	file:
+test_case_2	tc/ORSolitaireDiv2.cpp	/^	void test_case_2() { int Arr0[] = {12571295, 2174218, 2015120}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 1; int Arg2 = 0; verify_case(2, Arg2, getMinimum(Arg0, Arg1)); }$/;"	f	class:ORSolitaireDiv2	file:
+test_case_2	tc/TheShuttles.cpp	/^	void test_case_2() { int Arr0[] = {9, 4}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 10; int Arg2 = 5; int Arg3 = 105; verify_case(2, Arg3, getLeastCost(Arg0, Arg1, Arg2)); }$/;"	f	class:TheShuttles	file:
+test_case_2	tc/WinterAndReindeers.cpp	/^	void test_case_2() { string Arr0[] = {"WE", "LOVE"}; vector <string> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); string Arr1[] = {"WORKING", "FOR", "SANTA"}; vector <string> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); string Arr2[] = {"JK"}; vector <string> Arg2(Arr2, Arr2 + (sizeof(Arr2) \/ sizeof(Arr2[0]))); int Arg3 = 0; verify_case(2, Arg3, getNumber(Arg0, Arg1, Arg2)); }$/;"	f	class:WinterAndReindeers	file:
+test_case_3	tc/BigOEasy.cpp	/^	void test_case_3() { string Arr0[] = {"NYYN",$/;"	f	class:BigOEasy	file:
+test_case_3	tc/BoundingBox.cpp	/^	void test_case_3() { int Arr0[] = {9,-88,-40,98,-55,41,-38}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arr1[] = {-65,56,-67,7,-58,33,68}; vector <int> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); int Arg2 = 25110; verify_case(3, Arg2, smallestArea(Arg0, Arg1)); }$/;"	f	class:BoundingBox	file:
+test_case_3	tc/ErasingCharacters.cpp	/^	void test_case_3() { string Arg0 = "bacaabaccbaaccabbcabbacabcbba"; string Arg1 = "bacbaca"; verify_case(3, Arg1, simulate(Arg0)); }$/;"	f	class:ErasingCharacters	file:
+test_case_3	tc/ORSolitaireDiv2.cpp	/^	void test_case_3() { int Arr0[] = {5, 2, 4, 52, 62, 9, 8, 3, 1, 11, 6}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 11; int Arg2 = 3; verify_case(3, Arg2, getMinimum(Arg0, Arg1)); }$/;"	f	class:ORSolitaireDiv2	file:
+test_case_3	tc/TheShuttles.cpp	/^	void test_case_3() { int Arr0[] = {51, 1, 77, 14, 17, 10, 80}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 32; int Arg2 = 40; int Arg3 = 12096; verify_case(3, Arg3, getLeastCost(Arg0, Arg1, Arg2)); }$/;"	f	class:TheShuttles	file:
+test_case_3	tc/WinterAndReindeers.cpp	/^	void test_case_3() { string Arr0[] = {"ABCDE"}; vector <string> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); string Arr1[] = {"CDEAB"}; vector <string> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); string Arr2[] = {"B"}; vector <string> Arg2(Arr2, Arr2 + (sizeof(Arr2) \/ sizeof(Arr2[0]))); int Arg3 = 2; verify_case(3, Arg3, getNumber(Arg0, Arg1, Arg2)); }$/;"	f	class:WinterAndReindeers	file:
+test_case_4	tc/BigOEasy.cpp	/^	void test_case_4() { string Arr0[] = {"NYY",$/;"	f	class:BigOEasy	file:
+test_case_4	tc/ErasingCharacters.cpp	/^	void test_case_4() { string Arg0 = "eel"; string Arg1 = "l"; verify_case(4, Arg1, simulate(Arg0)); }$/;"	f	class:ErasingCharacters	file:
+test_case_4	tc/ORSolitaireDiv2.cpp	/^	void test_case_4() { int Arr0[] = {503, 505, 152, 435, 491, 512, 1023, 355, 510, 500, 502, 255, 63, 508, 509, 511, 60, 250, 254, 346}; vector <int> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); int Arg1 = 510; int Arg2 = 5; verify_case(4, Arg2, getMinimum(Arg0, Arg1)); }$/;"	f	class:ORSolitaireDiv2	file:
+test_case_4	tc/WinterAndReindeers.cpp	/^	void test_case_4() { string Arr0[] = {"ABCABDEGAXAHDJBAAHFJDXBB", "ABHFHCDALFDJDBBA", "BABBAXAXXX"}; vector <string> Arg0(Arr0, Arr0 + (sizeof(Arr0) \/ sizeof(Arr0[0]))); string Arr1[] = {"ABLOCBAXBAHAJDXBIJKA", "JBABCDAHKFIUDALPJAH", "AABACX"}; vector <string> Arg1(Arr1, Arr1 + (sizeof(Arr1) \/ sizeof(Arr1[0]))); string Arr2[] = {"AXBADXBBAB", "CDD"}; vector <string> Arg2(Arr2, Arr2 + (sizeof(Arr2) \/ sizeof(Arr2[0]))); int Arg3 = 23; verify_case(4, Arg3, getNumber(Arg0, Arg1, Arg2)); }$/;"	f	class:WinterAndReindeers	file:
+test_case_5	tc/BigOEasy.cpp	/^	void test_case_5() { string Arr0[] = {"NYNYN",$/;"	f	class:BigOEasy	file:
+test_case_6	tc/BigOEasy.cpp	/^	void test_case_6() { string Arr0[] = {"NYYN",$/;"	f	class:BigOEasy	file:
+test_case_7	tc/BigOEasy.cpp	/^	void test_case_7() { string Arr0[] = {"NYYNNNNYNNYNYNNNNYYNNYNYNNNNNNNNNNYNNNNNNNYYNYNNNN",$/;"	f	class:BigOEasy	file:
+text_width	python/2.3.py	/^ text_width = len(sentence)$/;"	v
+than	rm/uva465.c	/^int  than(char a[])$/;"	f
+ti	contests/排序训练/c.c	/^	int ci , pi , ti , ri;$/;"	m	struct:hehe	file:
+ties	rm/uva10194.c	/^  int  goal,lgoal,gp,win,ties;$/;"	m	struct:team	file:
+time	contests/排序训练/c.c	/^   int time ;$/;"	m	struct:node	file:
+time	contests/排序训练/d.c	/^	int time;$/;"	m	struct:node	file:
+times	usaco/clocks.c	/^int times[10] = {0,4,3,4,3,5,3,4,3,4};$/;"	v
+title	rm/uva123.c	/^struct title$/;"	s	file:
+titles	rm/uva123.c	/^struct title titles[205] = {0} ;$/;"	v	typeref:struct:title
+tmp	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/B.cpp	/^} tmp;$/;"	v	typeref:struct:Dog
+tnode	practice/树状数组/c.c	/^typedef struct tnode$/;"	s	file:
+tnode	rm/6.2.2.c	/^typedef struct tnode{$/;"	s	file:
+to	contests/湖大1/1005.c	/^long long  to(long long  k )$/;"	f
+to	rm/autoedit.c	/^char to[20][300] = {0};$/;"	v
+to	rm/test.c	/^     int next,to;$/;"	m	struct:node	file:
+to1	contests/湖大1/1005.c	/^long long to1 (int t )$/;"	f
+top	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+toplow	contests/多校1/e.1.c	/^int toplow = 0 ;$/;"	v
+toplow	contests/多校1/e.c	/^int toplow = 0 ;$/;"	v
+topup	contests/多校1/e.1.c	/^int topup = 0 ;$/;"	v
+topup	contests/多校1/e.c	/^int topup = 0 ; $/;"	v
+tot	hdu/1016.c	/^int tot ;$/;"	v
+tot	hdu/2553.c	/^int tot,n;$/;"	v
+tree	contests/cf368/c.cpp	/^}tree[maxn];$/;"	v	typeref:struct:node
+tree	poj/3225.c	/^}tree[maxn * 4];$/;"	v	typeref:struct:node
+tree	poj/poj2182.c	/^}tree[MAXN* 4];$/;"	v	typeref:struct:node
+tree	poj/poj2828.c	/^}tree[MAXN* 4];$/;"	v	typeref:struct:node
+tree	poj/poj2886.c	/^}tree[MAXN * 4];$/;"	v	typeref:struct:node
+tree	poj/poj3468.1.c	/^} tree[MAXN*4];$/;"	v	typeref:struct:node
+tree	poj/poj3468.c	/^} tree[MAXN*4];$/;"	v	typeref:struct:node
+tree	uestc/1546.c	/^}tree[maxn*4];$/;"	v	typeref:struct:node
+trys	usaco/clocks.c	/^int trys[10][6] = {{0},{0,1,2,4,5},{0,1,2,3},{0,2,3,5,6},{0,1,4,7},{0,2,4,5,6,8},{0,3,6,9},{0,4,5,7,8},{0,7,8,9},{0,5,6,8,9}};$/;"	v
+tsum	poj/poj2182.c	/^int tsum  = 0 ; $/;"	v
+tsum	poj/poj2828.c	/^int tsum  = 0 ; $/;"	v
+tsum	poj/poj2886.c	/^int tsum = 0  ;$/;"	v
+tsum	poj/poj3468.1.c	/^long long  tsum = 0 ;$/;"	v
+tsum	poj/poj3468.c	/^long long  tsum = 0 ;$/;"	v
+tsum	uestc/1546.c	/^int tsum =0 ;$/;"	v
+tvx	contests/cf368/c.cpp	/^int tvx = 0; $/;"	v
+tvy	contests/cf368/c.cpp	/^int tvy = 0 ; $/;"	v
+tvz	contests/cf368/c.cpp	/^int tvz = 0 ;$/;"	v
+u	contests/5-27/b.c	/^int u[500000];$/;"	v
+u	contests/5-27/k.c	/^int u[500000];$/;"	v
+u	contests/5-27/kk.c	/^   int v,u,i;double dis;$/;"	m	struct:wbian	file:
+u	contests/5-27/kk.c	/^int u[500000];$/;"	v
+u	contests/5-27/ktest.c	/^int u[500000];$/;"	v
+u	practice/c.cpp	/^int u[100005];$/;"	v
+u	practice/乌龟与兔子/c.cpp	/^int u[100005];$/;"	v
+u	practice/乌龟与兔子/d.cpp	/^int  u[10005];  $/;"	v
+u	practice/乌龟与兔子/f1.cpp	/^int u[10005];$/;"	v
+u	practice/乌龟与兔子/g.cpp	/^int u[1000005];$/;"	v
+u	practice/乌龟与兔子/j.cpp	/^int u[10005];$/;"	v
+u	somet.cpp	/^}A,B,*p,*q,*pre,*u;$/;"	v	typeref:struct:Linkedlist
+unions	contests/cf184div2/test.c	/^void unions(node r1,node r2,int ord){$/;"	f
+up	cf/325b.c	/^long long int up(long long int  n)$/;"	f
+up	contests/湖大3/g.c	/^int up;$/;"	v
+up	poj/poj2182.c	/^void up(int c)$/;"	f
+up	poj/poj2828.c	/^void up(int c)$/;"	f
+up	poj/poj3468.1.c	/^void up(long long c)$/;"	f
+up	poj/poj3468.c	/^void up(long long c)$/;"	f
+upd	rm/uva540.c	/^int upd[5004];$/;"	v
+updata	uestc/1546.1.c	/^void updata(int L,int R,int op,int l,int r,int rt)$/;"	f
+update	cid=339.b1.c	/^void update(int x)$/;"	f
+update	contests/cf368/c.cpp	/^void update(int c)$/;"	f
+update	contests/多校1/e.1.c	/^int update(int stack[],int top,int temp)$/;"	f
+update	contests/多校1/e.c	/^int  update(int stack[],int top,int temp)$/;"	f
+update	contests/湖大3/g.c	/^void update(int k)$/;"	f
+update	hdu4446.c	/^void update(int L,int R,int l,int r,int rt)  $/;"	f
+update	poj/3225.c	/^void update(int c , int p , int v ,int value )$/;"	f
+update	poj/poj2182.c	/^void update( int c, int p )$/;"	f
+update	poj/poj2828.c	/^void update( int c, int p )$/;"	f
+update	poj/poj2886.c	/^void update(int c, int p)$/;"	f
+update	poj/poj3468.1.c	/^void update(long long c, long long p , long long v , long long value)$/;"	f
+update	poj/poj3468.c	/^void update(long long c, long long p , long long v , long long value)$/;"	f
+update	practice/树状数组/a.c	/^int update(int x, int i)$/;"	f
+update	practice/树状数组/h.c	/^void update(int x, int y ,int i)$/;"	f
+update	practice/树状数组/hoj1867.c	/^int update(int x,int i )$/;"	f
+update	practice/树状数组/japan.cpp	/^void update(int x)$/;"	f
+update	practice/树状数组/stars.c	/^void update(int x)$/;"	f
+update	practice/第一场/c.c	/^void update(int x,  int i  )$/;"	f
+update	uestc/1546.c	/^void update(int c , int p , int  v, int value){$/;"	f
+update2	hdu4446.c	/^void update2(int p,int l,int r,int rt)  $/;"	f
+v	CrossingRivers.cpp	/^  int p , l , v; $/;"	m	struct:node	file:
+v	contests/5-27/b.c	/^int v[500000];$/;"	v
+v	contests/5-27/k.c	/^int v[500000];$/;"	v
+v	contests/5-27/kk.c	/^   int v,u,i;double dis;$/;"	m	struct:wbian	file:
+v	contests/5-27/kk.c	/^int v[500000];$/;"	v
+v	contests/5-27/ktest.c	/^int v[500000];$/;"	v
+v	hmyuzx2.cpp	/^	int v;$/;"	m	struct:node	file:
+v	practice/c.cpp	/^int v[100005];$/;"	v
+v	practice/乌龟与兔子/c.cpp	/^int v[100005];$/;"	v
+v	practice/乌龟与兔子/d.cpp	/^int  v[10005];$/;"	v
+v	practice/乌龟与兔子/f1.cpp	/^int v[10005];$/;"	v
+v	practice/乌龟与兔子/g.cpp	/^int v[1000005];$/;"	v
+v	practice/乌龟与兔子/j.cpp	/^int v[10005];$/;"	v
+v	practice/树状数组/c.c	/^   int v , ok;$/;"	m	struct:tnode	file:
+v	rm/2tree.c	/^   int  v;$/;"	m	struct:Tnode	file:
+v	rm/uva10557.c	/^  int v ;$/;"	m	struct:node	file:
+v	rm/uva123.cpp	/^	char v,s;$/;"	m	struct:card	file:
+v	usaco/contact.c	/^  int l,v;$/;"	m	struct:node	file:
+v	usaco/contact.c	/^  int v;$/;"	m	struct:node1	file:
+v	加油站.cpp	/^int c[200005],v[200005];$/;"	v
+val	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^	int x, y, val;$/;"	m	struct:Node	file:
+value	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^inline int value(int x, int y) {$/;"	f
+value	contests/HUN6/i.c	/^  int x,y,value;$/;"	m	struct:Zeng	file:
+value	contests/湖大3/g.c	/^	int value;$/;"	m	struct:node	file:
+value	rm/uva10557.c	/^	int value;$/;"	m	struct:point	file:
+verify_case	tc/BigOEasy.cpp	/^	void verify_case(int Case, const string &Expected, const string &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:BigOEasy	file:
+verify_case	tc/BoundingBox.cpp	/^	void verify_case(int Case, const int &Expected, const int &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:BoundingBox	file:
+verify_case	tc/ErasingCharacters.cpp	/^	void verify_case(int Case, const string &Expected, const string &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:ErasingCharacters	file:
+verify_case	tc/ORSolitaireDiv2.cpp	/^	void verify_case(int Case, const int &Expected, const int &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:ORSolitaireDiv2	file:
+verify_case	tc/TheShuttles.cpp	/^	void verify_case(int Case, const int &Expected, const int &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:TheShuttles	file:
+verify_case	tc/WinterAndReindeers.cpp	/^	void verify_case(int Case, const int &Expected, const int &Received) { cerr << "Test Case #" << Case << "..."; if (Expected == Received) cerr << "PASSED" << endl; else { cerr << "FAILED" << endl; cerr << "\\tExpected: \\"" << Expected << '\\"' << endl; cerr << "\\tReceived: \\"" << Received << '\\"' << endl; } }$/;"	f	class:WinterAndReindeers	file:
+vis	contests/5-17/k1.c	/^int vis[maxn];$/;"	v
+vis	contests/cf168div2/b1.c	/^int vis[N][N][4][2];$/;"	v
+vis	hdu/1016.c	/^int vis[40];$/;"	v
+vis	practice/乌龟与兔子/a.cpp	/^int vis[1005];$/;"	v
+vis	practice/乌龟与兔子/k.cpp	/^int vis[105];$/;"	v
+vis	��һ��/A�ͻ�����/A.cpp	/^bool vis[N];$/;"	v
+vis	��һ��/E/E.cpp	/^bool vis[10];$/;"	v
+visit	2594.c	/^int visit[1000][1000];$/;"	v
+visit	contests/5-17/d.c	/^int visit[505][505];$/;"	v
+visit	contests/cf188div2/d.c	/^int visit[1000][1000];$/;"	v
+visit	contests/cf372/d.c	/^int  visit[505][505];$/;"	v
+visit	contests/hanzhou2013/c.c	/^int visit[maxn][maxn];$/;"	v
+visit	contests/多校1/h.c	/^int visit[100005];$/;"	v
+visit	contests/多校联合1/h.c	/^int visit[100][100];$/;"	v
+visit	contests/多校联合4/g.cpp	/^int visit[10001];$/;"	v
+visit	contests/湖大1/e.c	/^int visit[1000000];$/;"	v
+visit	contests/湖大3/e.c	/^int visit[10000];$/;"	v
+visit	contests/长春/9.c	/^int visit[mod];$/;"	v
+visit	hdu/2553.c	/^int visit[4][50];$/;"	v
+visit	hdu/4707.c	/^int visit[maxn];$/;"	v
+visit	practice/dfs1.c	/^int visit[3][15][15];$/;"	v
+visit	practice/dfs2.c	/^int visit[1005][1005];$/;"	v
+visit	practice/dfs3.c	/^int a[40][40] , sum = 10000000,visit[35] , t ,b[10];$/;"	v
+visit	practice/dfs4.c	/^int visit[1005];$/;"	v
+visit	practice/乌龟与兔子/f.c	/^int visit[105];$/;"	v
+visit	rm/test.c	/^int visit[110];$/;"	v
+visit	rm/uva10004.1.c	/^int visit[300];$/;"	v
+visit	rm/uva10004.c	/^int visit[205];$/;"	v
+visit	rm/uva10054.1.c	/^int visit[204];$/;"	v
+visit	rm/uva10129.c	/^int visit[100];$/;"	v
+visit	rm/uva10557.c	/^int visit[105];$/;"	v
+visit	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+visit	rm/uva10596.c	/^int visit[204];$/;"	v
+visit	rm/uva439.c	/^int visit[10][10];$/;"	v
+visit	rm/uva532.c	/^int  visit[40][40][40];$/;"	v
+visit	rm/uva572.c	/^int visit[128][128];$/;"	v
+visit	rm/uva657.c	/^int visit[128][128];$/;"	v
+visit	rm/uva784.c	/^int visit[100][100];$/;"	v
+visit	test1.c	/^int visit[51][51];$/;"	v
+visit	usaco/TheCastle.cpp	/^int visit[200][200];$/;"	v
+visit	usaco/clocks.c	/^int visit[4][4][4][4][4][4][4][4][4] ={0};$/;"	v
+visit	usaco/comehome.c	/^int visit[100];$/;"	v
+visit	usaco/concom.c	/^int visit[200] = {0};$/;"	v
+visit	usaco/maze1.c	/^int visit[500][500];$/;"	v
+visit	usaco/milk3.c	/^int visit[30][30][30];$/;"	v
+visit1	usaco/TheCastle.cpp	/^int visit1[200][200];$/;"	v
+visited	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/H.cpp	/^int visited[maxn][maxn];$/;"	v
+vx	contests/cf368/c.cpp	/^  int vx,vy,vz;$/;"	m	struct:node	file:
+vy	contests/cf368/c.cpp	/^  int vx,vy,vz;$/;"	m	struct:node	file:
+vz	contests/cf368/c.cpp	/^  int vx,vy,vz;$/;"	m	struct:node	file:
+w	cf/cf373/b.c	/^long long w,m,k;$/;"	v
+w	cf/cf382/b.c	/^__int64 a,b,w,x,c;$/;"	v
+w	contests/5-27/b.c	/^double w[500000];$/;"	v
+w	contests/5-27/k.c	/^double w[500000];$/;"	v
+w	contests/5-27/kk.c	/^double w[500000];$/;"	v
+w	contests/5-27/ktest.c	/^double w[500000];$/;"	v
+w	practice/c.cpp	/^int w[100005];$/;"	v
+w	practice/dp/i.c	/^  int c,w,m;$/;"	m	struct:blocks	file:
+w	practice/dp/i.cpp	/^	int c,w,m;$/;"	m	struct:blocks	file:
+w	practice/dp/k.c	/^int c[105],w[105];$/;"	v
+w	practice/乌龟与兔子/a.cpp	/^int w[1005][1005];$/;"	v
+w	practice/乌龟与兔子/c.cpp	/^int w[100005];$/;"	v
+w	practice/乌龟与兔子/d.cpp	/^double w[10005];$/;"	v
+w	practice/乌龟与兔子/f.c	/^int w[105][105];$/;"	v
+w	practice/乌龟与兔子/f1.cpp	/^int w[10005];$/;"	v
+w	practice/乌龟与兔子/g.cpp	/^int w[1000005];$/;"	v
+w	practice/乌龟与兔子/j.cpp	/^int w[10005];$/;"	v
+w	practice/乌龟与兔子/k.cpp	/^double w[105][105];$/;"	v
+w	rm/uva123.c	/^	int  w;$/;"	m	struct:title	file:
+w	rm/uva705.1.c	/^int w, h;$/;"	v
+w	新生面试2.cpp	/^__int64 w,m,k;$/;"	v
+w_maze	rm/uva705.1.c	/^int w_maze, h_maze;$/;"	v
+ways	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/C.cpp	/^int n, ways[MAXN], new_ways[MAXN];$/;"	v
+ways	tc/FoxConnection2.cpp	/^        int ways(vector <int> A, vector <int> B, int k)$/;"	f	class:FoxConnection2
+wbian	contests/5-27/kk.c	/^struct wbian$/;"	s	file:
+win	rm/uva10194.c	/^  int  goal,lgoal,gp,win,ties;$/;"	m	struct:team	file:
+word	rm/uva123.c	/^	char word[20][300];$/;"	m	struct:title	file:
+x	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^	int x, y, val;$/;"	m	struct:Node	file:
+x	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+x	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+x	2594.c	/^	int  x , y ,k,last;$/;"	m	struct:node	file:
+x	2594.c	/^	int x, y ;$/;"	m	struct:node1	file:
+x	cf/cf382/b.c	/^__int64 a,b,w,x,c;$/;"	v
+x	contests/5-27/b.c	/^   int   x , y;$/;"	m	struct:point	file:
+x	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+x	contests/5-27/j.c	/^	int x, y;$/;"	m	struct:point	file:
+x	contests/5-27/j.c	/^   int x, y;$/;"	m	struct:yuan	file:
+x	contests/5-27/k.c	/^   int  x , y;$/;"	m	struct:point	file:
+x	contests/5-27/kk.c	/^   int   x , y;$/;"	m	struct:point	file:
+x	contests/5-27/ktest.c	/^   int   x , y;$/;"	m	struct:point	file:
+x	contests/HUN6/f.c	/^   int x,y,num;$/;"	m	struct:node	file:
+x	contests/HUN6/i.c	/^  int x,y,value;$/;"	m	struct:Zeng	file:
+x	contests/cf188div2/d.c	/^	int x, y ;$/;"	m	struct:node	file:
+x	contests/cf372/d.c	/^	int x,y;$/;"	m	struct:node	file:
+x	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+x	contests/cid=342.h.c	/^  int x,y,id;$/;"	m	struct:xy	file:
+x	contests/hut20131/g.c	/^  int x, y,num;$/;"	m	struct:node2	file:
+x	contests/hut20132/g.c	/^	int x;$/;"	m	struct:node	file:
+x	contests/hut20135/c.c	/^  double  x, y ,r; $/;"	m	struct:node	file:
+x	contests/多校1/h.c	/^   int x;$/;"	m	struct:node	file:
+x	contests/多校联合1/e.c	/^double x = 0 ,y = 0;$/;"	v
+x	contests/多校联合1/h.c	/^  int x , y ; $/;"	m	struct:node	file:
+x	contests/湖大3/对拍.c	/^	int x,y;$/;"	m	struct:Node	file:
+x	first.py	/^x = 0$/;"	v
+x	hdu/hzyqs/1009.c	/^	int x, y ; $/;"	m	struct:nodeH	file:
+x	practice/dfs1.c	/^  int x,y,z,step;$/;"	m	struct:node	file:
+x	practice/乌龟与兔子/a.cpp	/^   int x, y ;$/;"	m	struct:heihei	file:
+x	practice/乌龟与兔子/d.cpp	/^  double x, y, z,r;$/;"	m	struct:point	file:
+x	practice/乌龟与兔子/d1.cpp	/^	double x;$/;"	m	struct:Cell	file:
+x	practice/乌龟与兔子/d1.cpp	/^	int x;$/;"	m	struct:MAP	file:
+x	practice/乌龟与兔子/k.cpp	/^  double x, y ;$/;"	m	struct:point	file:
+x	practice/树状数组/japan.cpp	/^  int x, y ;$/;"	m	struct:point	file:
+x	python/py1.py	/^x = 1$/;"	v
+x	python/py2.py	/^x = 1$/;"	v
+x	rm/uva10557test.c	/^int i,j,m,x,f,k,n,top,tail,q[100],visit[101],low[101],energy[101],map[101][101];$/;"	v
+x	rm/uva152.c	/^struct pi x[5001];$/;"	v	typeref:struct:pi
+x	rm/uva439.c	/^   int x,y,step;$/;"	m	struct:node	file:
+x	rm/uva532.c	/^  int z, x, y,step;$/;"	m	struct:node	file:
+x	rm/uva705.1.c	/^	int x;$/;"	m	struct:Change	file:
+x	rm/uva784.c	/^  int x, y ;$/;"	m	struct:node	file:
+x	shape.py	/^x =1$/;"	v
+x	shape1.py	/^x = 1$/;"	v
+x	test1.c	/^  int x, y ,step;$/;"	m	struct:node	file:
+x	usaco/5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:
+x	usaco/cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:
+x	usaco/maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:
+x	usaco/maze1.c	/^	int x,y;$/;"	m	struct:node	file:
+x	usaco/milk.c	/^  int x, y;$/;"	m	struct:node	file:
+x	usaco/milk2.c	/^  int x, y ;$/;"	m	struct:node	file:
+x	usaco/ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:
+x	上车人数.cpp	/^  int x, y ;$/;"	m	struct:node	file:
+x	青蛙的约会对拍.cpp	/^int x, y;$/;"	v
+x1	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+x1	wikioi/3147.c	/^int x1,y1,x2,y2,t;$/;"	v
+x2	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+x2	contests/多校联合1/h.c	/^int x2,y2;$/;"	v
+x2	practice/dfs2.c	/^int x2, y2 ,ans;$/;"	v
+x2	wikioi/3147.c	/^int x1,y1,x2,y2,t;$/;"	v
+xa	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+xadd	2594.c	/^int xadd[] = {0,0,1,-1,0,0,1,-1};$/;"	v
+xadd	contests/hanzhou2013/c.c	/^int xadd[] = {0,1,0,-1};$/;"	v
+xadd	contests/多校联合1/h.c	/^int xadd[] = {1,-1,0,0};$/;"	v
+xadd	rm/uva439.c	/^int xadd[] = {1,1,-1,-1,2,2,-2,-2};$/;"	v
+xadd	rm/uva532.c	/^int xadd[] = {1,-1,0,0};$/;"	v
+xadd	rm/uva572.c	/^int xadd[] = {+1,-1,0,0,+1,+1,-1,-1};$/;"	v
+xadd	rm/uva657.c	/^int xadd[] = {+1,-1,0,0};$/;"	v
+xadd	rm/uva705.c	/^int xadd[] = {0,0,1,-1};$/;"	v
+xadd	rm/uva784.c	/^int xadd[] = {+1,-1,0,0};$/;"	v
+xadd	usaco/TheCastle.cpp	/^int xadd[5] = {1,0,-1,0};$/;"	v
+xadd	usaco/maze1.c	/^int xadd[5] = {1,-1,0,0};$/;"	v
+xadd	usaco/ttwo.c	/^int xadd[6] = {-1,0,1,0};$/;"	v
+xb	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+xc	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+xd	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+xdd	contests/cf188div2/d.c	/^int xdd[]= {0,0,1,-1};$/;"	v
+xdd	contests/cf372/d.c	/^int xdd[] = {0,0,1,-1};$/;"	v
+xdd	practice/dfs1.c	/^int xdd[] = {1,-1,0,0};$/;"	v
+xdd	practice/dfs2.c	/^int xdd[] = {1,-1,0,0};$/;"	v
+xdd	test1.c	/^int xdd[]={0,0,-1,1};$/;"	v
+xm	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+xn1	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+xy	contests/cid=342.h.c	/^struct xy$/;"	s	file:
+y	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^	int x, y, val;$/;"	m	struct:Node	file:
+y	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/D.cpp	/^int hor[MAXN], col[MAXN], n, m, c, x, y;$/;"	v
+y	2013ACM╢р╨г┴к║╧(1)_CSUST(▒ъ│╠+╩¤╛▌)/std/E.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+y	2594.c	/^	int  x , y ,k,last;$/;"	m	struct:node	file:
+y	2594.c	/^	int x, y ;$/;"	m	struct:node1	file:
+y	contests/5-27/b.c	/^   int   x , y;$/;"	m	struct:point	file:
+y	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+y	contests/5-27/j.c	/^	int x, y;$/;"	m	struct:point	file:
+y	contests/5-27/j.c	/^   int x, y;$/;"	m	struct:yuan	file:
+y	contests/5-27/k.c	/^   int  x , y;$/;"	m	struct:point	file:
+y	contests/5-27/kk.c	/^   int   x , y;$/;"	m	struct:point	file:
+y	contests/5-27/ktest.c	/^   int   x , y;$/;"	m	struct:point	file:
+y	contests/HUN6/f.c	/^   int x,y,num;$/;"	m	struct:node	file:
+y	contests/HUN6/i.c	/^  int x,y,value;$/;"	m	struct:Zeng	file:
+y	contests/cf188div2/d.c	/^	int x, y ;$/;"	m	struct:node	file:
+y	contests/cf372/d.c	/^	int x,y;$/;"	m	struct:node	file:
+y	contests/cid=342.a.c	/^int a[N+10],b[201][201] = {0},b1[201][201],c[201][201] ={0} ,x[N],y[N],step[N];$/;"	v
+y	contests/cid=342.h.c	/^  int x,y,id;$/;"	m	struct:xy	file:
+y	contests/hut20131/g.c	/^  int x, y,num;$/;"	m	struct:node2	file:
+y	contests/hut20132/g.c	/^	int n, m , y ;$/;"	v
+y	contests/hut20135/c.c	/^  double  x, y ,r; $/;"	m	struct:node	file:
+y	contests/hut20135/e.c	/^	int y,num ; $/;"	m	struct:node	file:
+y	contests/多校联合1/e.c	/^double x = 0 ,y = 0;$/;"	v
+y	contests/多校联合1/h.c	/^  int x , y ; $/;"	m	struct:node	file:
+y	contests/湖大3/对拍.c	/^	int x,y;$/;"	m	struct:Node	file:
+y	hdu/hzyqs/1009.c	/^	int x, y ; $/;"	m	struct:nodeH	file:
+y	practice/dfs1.c	/^  int x,y,z,step;$/;"	m	struct:node	file:
+y	practice/乌龟与兔子/a.cpp	/^   int x, y ;$/;"	m	struct:heihei	file:
+y	practice/乌龟与兔子/d.cpp	/^  double x, y, z,r;$/;"	m	struct:point	file:
+y	practice/乌龟与兔子/d1.cpp	/^	double y;$/;"	m	struct:Cell	file:
+y	practice/乌龟与兔子/d1.cpp	/^	int y;$/;"	m	struct:MAP	file:
+y	practice/乌龟与兔子/k.cpp	/^  double x, y ;$/;"	m	struct:point	file:
+y	practice/树状数组/japan.cpp	/^  int x, y ;$/;"	m	struct:point	file:
+y	practice/链表2.c	/^    int y;$/;"	m	struct:list	file:
+y	rm/uva439.c	/^   int x,y,step;$/;"	m	struct:node	file:
+y	rm/uva532.c	/^  int z, x, y,step;$/;"	m	struct:node	file:
+y	rm/uva705.1.c	/^	int y;$/;"	m	struct:Change	file:
+y	rm/uva784.c	/^  int x, y ;$/;"	m	struct:node	file:
+y	test1.c	/^  int x, y ,step;$/;"	m	struct:node	file:
+y	usaco/5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:
+y	usaco/cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:
+y	usaco/maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:
+y	usaco/maze1.c	/^	int x,y;$/;"	m	struct:node	file:
+y	usaco/milk.c	/^  int x, y;$/;"	m	struct:node	file:
+y	usaco/milk2.c	/^  int x, y ;$/;"	m	struct:node	file:
+y	usaco/ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:
+y	上车人数.cpp	/^  int x, y ;$/;"	m	struct:node	file:
+y	青蛙的约会对拍.cpp	/^int x, y;$/;"	v
+y1	wikioi/3147.c	/^int x1,y1,x2,y2,t;$/;"	v
+y11	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+y2	contests/5-27/b1.c	/^double x1,y11,x2,y2,x,y,r,cx,cy;$/;"	v
+y2	contests/多校联合1/h.c	/^int x2,y2;$/;"	v
+y2	practice/dfs2.c	/^int x2, y2 ,ans;$/;"	v
+y2	wikioi/3147.c	/^int x1,y1,x2,y2,t;$/;"	v
+ya	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+yadd	2594.c	/^int yadd[] = {1,-1,0,0,1,-1,0,0};$/;"	v
+yadd	contests/hanzhou2013/c.c	/^int yadd[] = {1,0,-1,0};$/;"	v
+yadd	contests/多校联合1/h.c	/^int yadd[] = {0,0,1,-1};$/;"	v
+yadd	rm/uva439.c	/^int yadd[] = {2,-2,2,-2,1,-1,1,-1};$/;"	v
+yadd	rm/uva532.c	/^int yadd[] = {0,0,-1,1};$/;"	v
+yadd	rm/uva572.c	/^int yadd[] = {0,0,+1,-1,+1,-1,-1,+1};$/;"	v
+yadd	rm/uva657.c	/^int yadd[] = {0,0,+1,-1};$/;"	v
+yadd	rm/uva705.c	/^int yadd[] = {1,-1,0,0};$/;"	v
+yadd	rm/uva784.c	/^int yadd[] = {0,0,+1,-1};$/;"	v
+yadd	usaco/TheCastle.cpp	/^int yadd[5] = {0,1,0,-1};$/;"	v
+yadd	usaco/maze1.c	/^int yadd[5] = {0,0,1,-1};$/;"	v
+yadd	usaco/ttwo.c	/^int yadd[6] = {0,1,0,-1};$/;"	v
+yb	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+yc	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+yd	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+ydd	contests/cf188div2/d.c	/^int ydd[] = {1,-1,0,0};$/;"	v
+ydd	contests/cf372/d.c	/^int ydd[] = {1,-1,0,0};$/;"	v
+ydd	practice/dfs1.c	/^int ydd[] = {0,0,1,-1};$/;"	v
+ydd	practice/dfs2.c	/^int ydd[] = {0,0,1,-1};$/;"	v
+ydd	test1.c	/^int ydd[]={-1,1,0,0};$/;"	v
+year	python/a.py	/^year =  raw_input('Year:')$/;"	v
+ym	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+yn1	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+yuan	contests/5-27/j.c	/^struct yuan$/;"	s	file:
+yuan	contests/hut20135/c.c	/^}yuan[1000];$/;"	v	typeref:struct:node
+yuans	contests/5-27/j.c	/^}yuans[12];$/;"	v	typeref:struct:yuan
+z	practice/dfs1.c	/^  int x,y,z,step;$/;"	m	struct:node	file:
+z	practice/乌龟与兔子/d.cpp	/^  double x, y, z,r;$/;"	m	struct:point	file:
+z	practice/乌龟与兔子/d1.cpp	/^	double z;$/;"	m	struct:Cell	file:
+z	rm/uva532.c	/^  int z, x, y,step;$/;"	m	struct:node	file:
+z	usaco/ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:
+za	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+zb	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+zc	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+zd	contests/hanzhou2013/04.c	/^double xa , xb , xc , xd , ya , yb , yc , yd , za , zb , zc , zd ;$/;"	v
+zeng	contests/HUN6/i.c	/^}zeng[200005],fang[200005];$/;"	v	typeref:struct:Zeng
+zm	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+zn1	contests/hanzhou2013/04.c	/^double F1ab , F1cd , F2 ,F3ab , F3cd , F32 , F , xm , ym , zm , xn1 , yn1 , zn1 ;$/;"	v
+zt	contests/hut20134/e.1.c	/^LL pp[10] , num[10],zt,row,n,m,dp[34][100000];$/;"	v
+zt	contests/hut20134/e.c	/^LL dp[31][20000],n,m,row,zt;$/;"	v
+zt	contests/hut20138/d.c	/^long long row , zt , limits[30] ,n; $/;"	v

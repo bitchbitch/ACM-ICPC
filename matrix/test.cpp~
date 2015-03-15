@@ -1,0 +1,81 @@
+#include <cstdio>
+#include <algorithm>
+#include <cstring>
+#include <cmath>
+using namespace std;
+
+typedef long long LL;
+const int SIZE = 60;
+int n, mod;
+
+struct Matrix
+{
+    int a[SIZE][SIZE];
+    Matrix(int t=0)
+    {
+        memset(a, 0, sizeof(a));
+        for(int i=0;i<SIZE;i++) a[i][i]=t;
+    }
+    void output()
+	{
+	  for(int i = 0;i < n;i ++)
+	  {
+	     for(int j = 0 ;j < n;j ++)
+			 printf("%d ",a[i][j]);
+		 printf("\n");
+	  }
+	}
+    Matrix operator*(const Matrix& b) const
+    {
+        Matrix c;
+        for(int i=0;i<n;i++) for(int j=0;j<n;j++)
+        {
+            LL sum=0;
+            for(int k=0;k<n;k++) sum+=a[i][k]*b.a[k][j];
+            c.a[i][j]=sum%mod;
+        }
+        return c;
+    }
+};
+
+Matrix pow(Matrix a, int b)
+{
+    Matrix res(1);
+    while(b)
+    {
+        if(b&1)
+            res=res*a;
+        a=a*a;
+        b>>=1;
+    }
+    return res;
+}
+
+int main()
+{
+    int k;
+    while(~scanf("%d%d%d", &n, &k, &mod))
+    {
+        Matrix a;
+        for(int i=0;i<n;i++) for(int j=0;j<n;j++)
+            scanf("%d", &a.a[i][j]), a.a[i][j]%=mod;
+
+        for(int i=0;i<n;i++)
+            a.a[i][i+n]=a.a[i+n][i+n]=1;
+
+        n<<=1;
+        a = pow(a, k+1);
+		a.output();
+        n>>=1;
+
+        for(int i=0;i<n;i++)
+            if(a.a[i][i+n]==0)
+                a.a[i][i+n]=mod-1;
+            else
+                a.a[i][i+n]--;
+
+        for(int i=0;i<n;i++, puts("")) for(int j=0;j<n;j++)
+            printf("%d ", a.a[i][j+n]);
+    }
+}
+

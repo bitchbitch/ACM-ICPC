@@ -1,0 +1,18 @@
+// File Name: uva10098.c
+// Author: darkdream
+// Created Time: 2013年07月11日 星期四 15时31分36秒
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#include<math.h>
+#include<ctype.h>
+
+int main(){
+
+   //freopen("/home/plac/problem/input.txt","r",stdin);
+   //freopen("/home/plac/problem/output.txt","w",stdout);
+
+return 0 ;
+}

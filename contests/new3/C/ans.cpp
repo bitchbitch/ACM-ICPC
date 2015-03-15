@@ -1,0 +1,54 @@
+#include<iostream>
+#include<map>
+#include<string>
+#include<cstring>
+#include<cstdio>
+#include<cstdlib>
+#include<cmath>
+#include<queue>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main()
+{
+		freopen("in.txt","r",stdin);
+		freopen("out.txt","w",stdout);
+	bool flag=0;
+	int n,m,i,j,cnt;
+	char s[110][110];
+	while(cin>>n>>m)
+	{
+		if(flag)
+			cout<<endl;
+		flag=1;
+		getchar();
+		for(i=0;i<n;i++)
+			scanf("%s",s[i]);
+		for(i=0;i<n;i++)
+			for(j=0;j<m;j++)
+				if(s[i][j]=='.')
+				{
+					cnt=0;
+					if(i!=0&&s[i-1][j]=='*')
+						cnt++;
+					if(i!=n-1&&s[i+1][j]=='*')
+						cnt++;
+					if(j!=0&&s[i][j-1]=='*')
+						cnt++;
+					if(j!=m-1&&s[i][j+1]=='*')
+						cnt++;
+					if(i!=0&&j!=0&&s[i-1][j-1]=='*')
+						cnt++;
+					if(i!=n-1&&j!=m-1&&s[i+1][j+1]=='*')
+						cnt++;
+					if(i!=0&&j!=m-1&&s[i-1][j+1]=='*')
+						cnt++;
+					if(i!=n-1&&j!=0&&s[i+1][j-1]=='*')
+						cnt++;
+					s[i][j]=cnt+'0';
+				}
+		for(i=0;i<n;i++)
+			printf("%s\n",s[i]);
+	}
+	return 0 ; 
+}

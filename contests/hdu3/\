@@ -1,0 +1,76 @@
+// File Name: 1007.cpp
+// Author: darkdream
+// Created Time: 2014年07月29日 星期二 12时49分33秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long 
+using namespace std;
+#define maxn 100005;
+struct node{
+  int is3 ; 
+  int m , r , l ;  
+  LL sum ,fsum ; 
+}tree[maxn << 2];
+int L(int x)
+{
+   return 2* x;
+}
+int R(int x)
+{
+   return 2*x + 1; 
+}
+void  build(int c, int l , int r )
+{ 
+     tree[c].l = l ; 
+	 tree[c].r = r; 
+	 tree[c].m = (l+r)/2;
+	 if(l ==  r)
+	 {
+	    tree[c].sum = 0 ; 
+		tree[c].fsum = 0 ; 
+		return ; 
+	 }
+	 build(L(c),l,tree[c].m);
+	 build(R(c),tree[c].m+1,r);
+}
+void update(int c, int k , int d)
+{
+     if(tree[c].l == tree[c].r&& tree[c].l == k )
+	 {
+                    	 
+	 }
+}
+void get(int c , int l , int r)
+{
+
+}
+int main(){
+   int n , m; 
+   while(scanf("%d %d",&n,&m) != EOF)
+   {
+	   build(1 ,1,n);
+       for(int i = 1;i <= m;i ++)
+	   {
+	     int a, b, c  ; 
+	   }
+   }
+return 0;
+}

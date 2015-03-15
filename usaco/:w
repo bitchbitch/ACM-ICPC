@@ -1,0 +1,56 @@
+/*
+ID: dream.y1
+PROG: gift1
+LANG: C++
+*/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+struct node
+{
+	char str[100];
+	int num;       
+}nodes[100];
+int main()
+{
+	int n; 
+	scanf("%d",&n);
+	getchar();
+	memset(nodes,0,sizeof(nodes));
+	for(int i = 1;i <= n;i ++)
+	{
+		scanf("%s",nodes[i].str);
+	}
+	int a, b ;
+    for(int p = 1;p <= n;p ++)
+	{
+		char tstr[100];
+		scanf("%s",tstr);
+		scanf("%d %d",&a,&b);
+		getchar();
+		int k = a/b;
+		for(int i = 1;i <=n; i ++)
+			if(strcmp(tstr,nodes[i].str) == 0)
+				nodes[i].num -= k*b;
+		
+		for(int i = 1;i <= b ;i ++)
+		{
+			scanf("%s",tstr);
+			for(int j = 1; j <=n ;j ++)
+				if(strcmp(tstr,nodes[j].str) == 0)
+				{
+					nodes[j].num += k;                             
+				} 
+				
+		}        
+
+	}
+	for(int i = 1;i <= n;i ++)
+		printf("%s %d\n",nodes[i].str,nodes[i].num);
+
+
+
+	
+return 0 ;
+}
+

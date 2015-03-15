@@ -1,0 +1,12 @@
+package nothing;
+import java.math.*;
+
+public class Main {
+  public static void main(String[] args){
+	  System.out.println("HUT fucks me every days!");
+      BigInteger  b1 = new BigInteger(args[0]);
+      BigInteger  b2 = new BigInteger(args[1]);
+      System.out.println(b1.add(b2));
+      System.out.println(b1.subtract(b2));
+  }
+}

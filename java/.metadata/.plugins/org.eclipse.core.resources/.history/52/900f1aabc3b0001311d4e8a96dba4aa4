@@ -1,0 +1,20 @@
+package nothing;
+
+import java.math.*;
+
+public class Main {
+  public static void main(String[] args){
+	  int n = Integer.parseInt(args[0]);
+	  int temp = 2; 
+	  for(int i = 1;i <= n;i ++)
+	  {
+		  BigInteger  b1 = new BigInteger(args[temp]);
+	      BigInteger  b2 = new BigInteger(args[temp+1]);
+	      if(i != 1 )
+	    	  System.out.println("");
+	      System.out.println("Case "+ i +":");
+	      System.out.println(b1.add(b2));
+	  }
+	
+  }
+}

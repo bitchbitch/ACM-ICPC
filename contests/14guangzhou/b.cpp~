@@ -1,0 +1,207 @@
+// File Name: a.cpp
+// Author: darkdream
+// Created Time: 2014年09月18日 星期四 23时29分43秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#include<iostream>
+#include<cstdio>
+#include<cstring>
+#include<vector>
+using namespace std;
+
+const int N=400010;
+
+#define L(rt) (rt<<1)
+#define R(rt) (rt<<1|1)
+
+struct Tree{
+	int l,r;
+	int col;    
+	bool cover; 
+}tree[N<<2];
+
+void PushUp(int rt){    
+	tree[rt].col=tree[L(rt)].col | tree[R(rt)].col;
+}
+
+void build(int L,int R,int rt){
+	tree[rt].l=L;
+	tree[rt].r=R;
+	tree[rt].col=2; 
+	tree[rt].cover=1;
+	if(tree[rt].l==tree[rt].r)
+		return ;
+	int mid=(L+R)>>1;
+	build(L,mid,L(rt));
+	build(mid+1,R,R(rt));
+}
+
+void PushDown(int rt){  
+	tree[L(rt)].col=tree[rt].col;
+	tree[L(rt)].cover=1;
+	tree[R(rt)].col=tree[rt].col;
+	tree[R(rt)].cover=1;
+	tree[rt].cover=0;
+}
+
+void update(int val,int L,int R,int rt){
+	if(L<=tree[rt].l && R>=tree[rt].r){
+		tree[rt].col=val;
+		tree[rt].cover=1;
+		return ;
+	}
+	if(tree[rt].col==val)  
+		return ;
+	if(tree[rt].cover)
+		PushDown(rt);
+	int mid=(tree[rt].l+tree[rt].r)>>1;
+	if(R<=mid)
+		update(val,L,R,L(rt));
+	else if(L>=mid+1)
+		update(val,L,R,R(rt));
+	else{
+		update(val,L,mid,L(rt));
+		update(val,mid+1,R,R(rt));
+	}
+	PushUp(rt);      
+}
+
+int sum;
+
+void query(int L,int R,int rt){
+	if(L<=tree[rt].l && R>=tree[rt].r){
+		sum |= tree[rt].col;
+		return ;
+	}
+	if(tree[rt].cover){
+		sum |= tree[rt].col;
+		return;
+	}
+	int mid=(tree[rt].l+tree[rt].r)>>1;
+	if(R<=mid)
+		query(L,R,L(rt));
+	else if(L>=mid+1)
+		query(L,R,R(rt));
+	else{
+		query(L,mid,L(rt));
+		query(mid+1,R,R(rt));
+	}
+}
+
+int solve(){
+	int ans=0;
+	int  t = 0;
+	while(sum){
+		t ++ ;
+		if(sum&1)
+		{
+			printf("%d ",t);	
+		}
+		sum>>=1;
+	}
+	ans++;
+	printf("\n");
+	return ans;
+}
+
+void swap(int &a,int &b){
+	int tmp=a;a=b;b=tmp;
+}
+struct node{
+    int ok;
+	int a,b,c;
+}lis[100100];
+int X[300005];
+int Bin(int key,int n ,int X[])
+{
+	int l = 0 , r = n - 1;
+	while (l <= r) {
+		int m = (l + r) >> 1;
+		if (X[m] == key) return m;
+		if (X[m] < key) l = m + 1;
+		else r = m - 1;
+	}
+	return -1;
+
+}
+int main(){
+	int n,t,m;
+	while(~scanf("%d%d",&n,&m)){
+		if(n == 0  && m == 0  )
+			break;;
+		char op[3];
+		int a,b,c;
+		int tt = 0 ; ;
+		for(int i = 1;i <= m;i ++)    
+		{   
+			scanf("%s",op);
+			if(op[0]=='P'){
+				lis[i].ok = 1;
+				scanf("%d%d%d",&lis[i].a,&lis[i].b,&lis[i].c);
+				X[tt++] = lis[i].a;
+				X[tt++] = lis[i].b;
+				//update(1<<(c-1),a,b,1);
+			}else{
+				lis[i].ok = 0;
+				scanf("%d %d",&lis[i].a,&lis[i].b);
+				X[tt++] = lis[i].a;
+				X[tt++] = lis[i].b;
+				/*if(a>b)
+				  swap(a,b);
+				  sum=0;
+				  query(a,b,1);
+				  solve();*/
+			}
+		}
+		sort(X,X+tt);
+		int pp = 1;
+		for(int i = 1 ;i < tt; i ++)
+			if(X[i] != X[i-1]) X[pp++] = X[i];
+		for(int i = pp-1 ;i > 0;i --)
+		{
+			if(X[i] != X[i-1] +1) 
+				X[pp++] = X[i-1] + 1;
+		}
+		sort(X,X+pp);
+		n = X[pp-1];
+		build(1,n,1);
+		for(int i = 1;i <= m;i ++)
+		{
+			if(lis[i].ok)
+			{
+				int ll = Bin(lis[i].a,pp,X);
+				int rr = Bin(lis[i].b,pp,X);
+				//int ll = lis[i].a;
+				//int rr = lis[i].b;
+				update(1<<(lis[i].c-1),ll,rr,1);
+			}else{
+				int ll = Bin(lis[i].a,pp,X);
+				int rr = Bin(lis[i].b,pp,X);
+				//int ll = lis[i].a;
+				//int rr = lis[i].b;
+				sum = 0 ; 
+				query(ll,rr,1);
+				solve();
+			}
+		}
+	}
+	return 0;
+}

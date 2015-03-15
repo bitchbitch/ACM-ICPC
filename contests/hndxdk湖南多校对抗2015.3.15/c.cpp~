@@ -1,0 +1,48 @@
+// File Name: c.cpp
+// Author: darkdream
+// Created Time: 2015年03月15日 星期日 14时45分58秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+double dp[515][515][2];
+double dis(double  x1,double  y1,double x2,double y2 )
+{
+   return sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+}
+struct point{
+   int x, y;
+}node[555]n;
+int main(){
+   int t ;
+   scanf("%d",&t);
+   while(t--)
+   {
+      int n; 
+	  scanf("%d",&n);
+	  for(int i = 1;i <= n;i ++)
+	  {
+       	    scanf("") 
+	  }
+   }
+return 0;
+}

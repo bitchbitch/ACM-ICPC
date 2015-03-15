@@ -1,0 +1,31 @@
+// File Name: a.c
+// Author: darkdream
+// Created Time: 2014年03月30日 星期日 12时57分59秒
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#include<math.h>
+#include<limits.h>
+struct node{
+ int suma,  sumb ;
+}dp[1001][1001],a[10001];
+int max = -1;
+int main(){
+
+   //freopen("/home/plac/problem/input.txt","r",stdin);
+   //freopen("/home/plac/problem/output.txt","w",stdout);
+   int n ; 
+   while(scanf("%d",&n) != EOF)
+   {
+     if(n == 0 )
+		 break;
+     int max = -1;
+	 for(int i = 1;i <= n;i ++)
+	 {
+	    scanf("%d %d",&a[i].a,&a[i].b);
+	 }
+   }
+return 0 ;
+}

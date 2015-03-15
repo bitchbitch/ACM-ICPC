@@ -1,0 +1,381 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	rect1.c	/^int A, B,k;$/;"	v
+B	rect1.c	/^int A, B,k;$/;"	v
+M	nocows.cpp	30;"	d	file:
+N	msquare.c	/^  char N;$/;"	m	struct:node	file:	access:public
+a	TheCastle.cpp	/^int a[200][200];$/;"	v
+a	contact.c	/^int a,b,n;$/;"	v
+a	crypt1.c	/^int a[20],n;$/;"	v
+a	dualpal.c	/^int a[200];$/;"	v
+a	fact4.c	/^int a[40000];$/;"	v
+a	humble.c	/^int a[200];$/;"	v
+a	humble1.c	/^int a[104];$/;"	v
+a	maze1.c	/^}a[100000];$/;"	v	typeref:struct:dian
+a	milk.c	/^}a[6000];$/;"	v	typeref:struct:node
+a	milk3.c	/^int a[4] = {0};$/;"	v
+a	msquare.c	/^  int a[9];$/;"	m	struct:node	file:	access:public
+a	palsquare.c	/^int a[100];$/;"	v
+a	ratios.c	/^int a[4]; $/;"	v
+a	rect1.c	/^}a[200000];$/;"	v	typeref:struct:node
+a	stamps.c	/^int a[51];$/;"	v
+ans	HammingCodes.cpp	/^int ans[100][10];$/;"	v
+ans	TheCastle.cpp	/^int ans[100000];$/;"	v
+ans	clocks.c	/^int ans[1000];$/;"	v
+ans	comehome.c	/^int ans[1000];$/;"	v
+ans	contact.c	/^}ans[120000];$/;"	v	typeref:struct:node1
+ans	fact4.c	/^int ans[40000];$/;"	v
+ans	milk3.c	/^int ans[100] = {0};$/;"	v
+ans	nocows.cpp	/^int ans = 0 ;$/;"	v
+ans	partylamps.cpp	/^char ans[20][200];$/;"	v
+ans	prefix.cpp	/^int ans[200001][11];$/;"	v
+ans	ratios.c	/^int ans[5][5];$/;"	v
+b	HammingCodes.cpp	/^int n, b,d;$/;"	v
+b	contact.c	/^int a,b,n;$/;"	v
+b	milk3.c	/^int b[4] = {0};$/;"	v
+begin	calfflac.c	/^int begin,end;$/;"	v
+bfs	maze1.c	/^void bfs(int x,int y)$/;"	f	signature:(int x,int y)
+big	humble.c	/^long long  big ;$/;"	v
+c	namenum.c	/^char c[200];$/;"	v
+c	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+change	calfflac.c	/^int change[30005],t;$/;"	v
+change	clocks.c	/^void change(int k , int T)$/;"	f	signature:(int k , int T)
+change	milk3.c	/^void change(int i, int j)$/;"	f	signature:(int i, int j)
+change	transform.c	/^char change[100][100];$/;"	v
+change1	transform.c	/^int change1(char s[][100])$/;"	f	signature:(char s[][100])
+change2	transform.c	/^int change2(char s[][100])$/;"	f	signature:(char s[][100])
+change3	transform.c	/^int change3(char s[][100])$/;"	f	signature:(char s[][100])
+change4	transform.c	/^int change4(char s[][100])$/;"	f	signature:(char s[][100])
+change5	transform.c	/^int change5(char s[][100])$/;"	f	signature:(char s[][100])
+change6	transform.c	/^int change6( char s[][100])$/;"	f	signature:( char s[][100])
+cmp	1.3.2.cpp	/^int cmp(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+cmp	barn1.c	/^int cmp(const void *a ,const void * b)$/;"	f	signature:(const void *a ,const void * b)
+cmp	clocks.c	/^int cmp(const void *a ,const void *b)$/;"	f	signature:(const void *a ,const void *b)
+cmp	contact.c	/^int cmp(const void * a ,const void * b)$/;"	f	signature:(const void * a ,const void * b)
+cmp	humble.c	/^int cmp(const void * a, const void *b)$/;"	f	signature:(const void * a, const void *b)
+cmp	milk.c	/^int cmp(const void *a ,const void * b)$/;"	f	signature:(const void *a ,const void * b)
+cmp	milk2.c	/^int cmp(const void *a ,const void *b)$/;"	f	signature:(const void *a ,const void *b)
+cmp	milk3.c	/^int cmp(const void *a ,const void *b)$/;"	f	signature:(const void *a ,const void *b)
+cmp	prefix.c	/^int cmp(const void * a ,const void *b)$/;"	f	signature:(const void * a ,const void *b)
+cmp1	1.3.2.cpp	/^int cmp1(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+cmp1	barn1.c	/^int cmp1(const void *a ,const void *b )$/;"	f	signature:(const void *a ,const void *b )
+cow	ttwo.c	/^}cow,far;$/;"	v	typeref:struct:node
+d	HammingCodes.cpp	/^int n, b,d;$/;"	v
+dfs	TheCastle.cpp	/^void dfs(int x, int y )$/;"	f	signature:(int x, int y )
+dfs	clocks.c	/^void dfs(int step, int limit,int k)$/;"	f	signature:(int step, int limit,int k)
+dfs	concom.c	/^void dfs()$/;"	f
+dfs	crypt1.c	/^void dfs(int t)$/;"	f	signature:(int t)
+dfs	humble.c	/^void dfs(int t,int l)$/;"	f	signature:(int t,int l)
+dfs	milk3.c	/^void dfs()$/;"	f
+dfs	namenum.c	/^void dfs(char temp ,int step)$/;"	f	signature:(char temp ,int step)
+dfs	partylamps.cpp	/^void dfs(int a,int st)$/;"	f	signature:(int a,int st)
+dfs	zerosum.cpp	/^void dfs(int k, int value)$/;"	f	signature:(int k, int value)
+dfs1	TheCastle.cpp	/^void dfs1(int x, int y , int v)$/;"	f	signature:(int x, int y , int v)
+dian	maze1.c	/^struct dian{$/;"	s	file:
+dian::s	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+dian::x	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+dian::y	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+dis	5.1.1.cpp	/^double dis(struct point a, struct point b)$/;"	f	signature:(struct point a, struct point b)
+dosome	calfflac.c	/^void dosome(int n )$/;"	f	signature:(int n )
+dosomething	TheCastle.cpp	/^void dosomething(int i ,int j ,int k)$/;"	f	signature:(int i ,int j ,int k)
+dosomthing	beads.c	/^void dosomthing(int t)$/;"	f	signature:(int t)
+dp	SubsetSums.cpp	/^long long dp[1000];$/;"	v
+dp	inflate.c	/^int dp[10005];$/;"	v
+dp	money.cpp	/^long long dp[20000];$/;"	v
+dp	nocows.cpp	/^int dp[105][150][205];$/;"	v
+dp	prefix.cpp	/^int dp[200001];$/;"	v
+dp	stamps.c	/^int dp[2000001];$/;"	v
+end	calfflac.c	/^int begin,end;$/;"	v
+f	cowtour.c	/^int f[200];$/;"	v
+f	nocows.cpp	/^int f[150][150];$/;"	v
+far	ttwo.c	/^}cow,far;$/;"	v	typeref:struct:node
+fh	zerosum.cpp	/^int fh[10] ={0};$/;"	v
+figu	rect1.c	/^void figu()$/;"	f
+fin	clocks.c	/^FILE *fin = fopen("clocks.in","r");$/;"	v
+fin	milk3.c	/^FILE *fin = fopen("milk3.in","r");$/;"	v
+fin	namenum.c	/^FILE *fin = fopen("namenum.in","r");$/;"	v
+fin	palsquare.c	/^FILE *fin = fopen("palsquare.in","r");$/;"	v
+fin1	namenum.c	/^FILE *fin1 = fopen("dict.txt","r");$/;"	v
+find	cowtour.c	/^int find(int x)$/;"	f	signature:(int x)
+find	namenum.c	/^void find()$/;"	f
+fout	clocks.c	/^FILE *fout = fopen("clocks.out","w");$/;"	v
+fout	milk3.c	/^FILE *fout = fopen("milk3.out","w");$/;"	v
+fout	namenum.c	/^FILE *fout = fopen("namenum.out","w");$/;"	v
+fout	palsquare.c	/^FILE *fout = fopen("palsquare.out","w");$/;"	v
+fuck	cowtour.c	/^double fuck(double a ,double b)$/;"	f	signature:(double a ,double b)
+fun0	rect1.c	/^void fun0(struct node p ,struct node q)$/;"	f	signature:(struct node p ,struct node q)
+fun1	rect1.c	/^void fun1(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun2	rect1.c	/^void fun2(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun3	rect1.c	/^void fun3(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun4	rect1.c	/^void fun4(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun5	rect1.c	/^void fun5(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun6	rect1.c	/^void fun6(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun7	rect1.c	/^void fun7(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+fun8	rect1.c	/^void fun8(struct node p,struct node q)$/;"	f	signature:(struct node p,struct node q)
+hash	barn1.c	/^int hash[1000] = {0};$/;"	v
+hash	crypt1.c	/^int hash[20] = {0};$/;"	v
+hasha	crypt1.c	/^int hasha[1000000] = {0};$/;"	v
+high	namenum.c	/^int high,n;$/;"	v
+hs	concom.c	/^int hs[200][200] = {0};$/;"	v
+hs	contact.c	/^int hs[14][10001];$/;"	v
+hs	fact4.c	/^int hs[50000];$/;"	v
+hs	fracdec.c	/^int hs[1000005];$/;"	v
+hs	humble1.c	/^int hs[104];$/;"	v
+hs	kimbits.c	/^int hs[40];$/;"	v
+hs	msquare.c	/^int hs[50000];$/;"	v
+hs	prefix.c	/^long long hs[100000];$/;"	v
+hs	ttwo.c	/^int hs[100][100][5] ;$/;"	v
+hs1	comehome.c	/^int hs1[200] = {0};$/;"	v
+hsa	comehome.c	/^int hsa[200]  = {0};$/;"	v
+init	kimbits.c	/^void init()$/;"	f
+is	comehome.c	/^int is[200] = {0};$/;"	v
+is	cowtour.c	/^int is[200][200];$/;"	v
+is	dualpal.c	/^int is(int n )$/;"	f	signature:(int n )
+is	palsquare.c	/^int is(int n)$/;"	f	signature:(int n)
+is	runaroundnumbers.cpp	/^int is(int n)$/;"	f	signature:(int n)
+is_prime	1.5.3.c	/^int is_prime(long long int a )$/;"	f	signature:(long long int a )
+isaren	rect1.c	/^int isaren(int i)$/;"	f	signature:(int i)
+isin	rect1.c	/^int isin(struct node temp,int  x,int y)$/;"	f	signature:(struct node temp,int x,int y)
+isnum	crypt1.c	/^int isnum(int k)$/;"	f	signature:(int k)
+k	concom.c	/^int k;$/;"	v
+k	humble.c	/^int k = 0; $/;"	v
+k	prefix.cpp	/^int k = 0;$/;"	v
+k	rect1.c	/^int A, B,k;$/;"	v
+kmp	kmp.cpp	/^void kmp(char *a,char *b)$/;"	f	signature:(char *a,char *b)
+kmp	prefix.cpp	/^void kmp()$/;"	f	signature:()
+l	contact.c	/^  int l,v;$/;"	m	struct:node	file:	access:public
+l	contact.c	/^  int l;$/;"	m	struct:node1	file:	access:public
+last	msquare.c	/^  int last;$/;"	m	struct:node	file:	access:public
+lastjudge	rect1.c	/^int lastjudge(node tn1,node tn2)$/;"	f	signature:(node tn1,node tn2)
+len	prefix.cpp	/^int len[201];$/;"	v
+lens	prefix.cpp	/^int lens ;$/;"	v
+list	milk2.c	/^}list[6000];$/;"	v	typeref:struct:node
+list	msquare.c	/^}list[50000];$/;"	v	typeref:struct:node
+lx	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+ly	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+m	TheCastle.cpp	/^int n ,m; $/;"	v
+m	cowtour.c	/^double m[200];$/;"	v
+m	humble.c	/^int n ,m; $/;"	v
+m	nocows.cpp	/^int n , m ;$/;"	v
+main	1.3.2.cpp	/^int main(){$/;"	f	signature:()
+main	1.5.3.c	/^int main(){$/;"	f
+main	5.1.1.cpp	/^int main(){$/;"	f	signature:()
+main	HammingCodes.cpp	/^int main(){$/;"	f	signature:()
+main	HammingCodes1.cpp	/^int main(){$/;"	f	signature:()
+main	RunaroundNumbers.cpp	/^int main(){$/;"	f	signature:()
+main	SubsetSums.cpp	/^int main(){$/;"	f	signature:()
+main	TheCastle.cpp	/^int main(){$/;"	f	signature:()
+main	barn1.c	/^int main(){$/;"	f
+main	beads.c	/^int main(){$/;"	f
+main	calfflac.c	/^int main(){$/;"	f
+main	clocks.c	/^int main(){$/;"	f
+main	comehome.c	/^int main(){$/;"	f
+main	concom.c	/^int main(){$/;"	f
+main	concom.cpp	/^int main(){$/;"	f	signature:()
+main	contact.c	/^int main(){$/;"	f
+main	cowtour.c	/^int main(){$/;"	f
+main	crypt1.c	/^int main(){$/;"	f
+main	dualpal.c	/^int main(){$/;"	f
+main	fact4.c	/^int main(){$/;"	f
+main	fracdec.c	/^int main(){$/;"	f
+main	friday.c	/^int main(){$/;"	f
+main	friday.cpp	/^int main(){$/;"	f	signature:()
+main	gift.cpp	/^int main()$/;"	f	signature:()
+main	gift1.c	/^int main()$/;"	f
+main	gift1.cpp	/^int main()$/;"	f	signature:()
+main	humble.c	/^int main(){ $/;"	f
+main	humble1.c	/^int main(){ $/;"	f
+main	inflate.c	/^int main(){$/;"	f
+main	kimbits.c	/^int main(){$/;"	f
+main	kmp.cpp	/^int main(){$/;"	f	signature:()
+main	maze1.c	/^int main(){$/;"	f
+main	milk.c	/^int main(){$/;"	f
+main	milk2.c	/^int main(){$/;"	f
+main	milk3.c	/^int main(){$/;"	f
+main	money.cpp	/^int main(){$/;"	f	signature:()
+main	msquare.c	/^int main(){$/;"	f
+main	namenum.c	/^int main(){$/;"	f
+main	nocows.cpp	/^int main(){$/;"	f	signature:()
+main	palsquare.c	/^int main(){$/;"	f
+main	partylamps.cpp	/^int main(){$/;"	f	signature:()
+main	prefix.c	/^int main(){$/;"	f
+main	prefix.cpp	/^int main(){$/;"	f	signature:()
+main	ratios.c	/^int main(){$/;"	f
+main	rect1.c	/^int main(){$/;"	f
+main	runaroundnumbers.cpp	/^int main(){$/;"	f	signature:()
+main	spin.c	/^int main(){$/;"	f
+main	stamps.c	/^int main(){$/;"	f
+main	transform.c	/^int main(){$/;"	f
+main	ttwo.c	/^int main(){$/;"	f
+main	usaco1.2.1.cpp	/^int main()$/;"	f	signature:()
+main	zerosum.cpp	/^int main(){$/;"	f	signature:()
+map	clocks.c	/^int map[10] = {0};$/;"	v
+map	comehome.c	/^int map[100][100];$/;"	v
+map	concom.c	/^double map[200][200] = {0};$/;"	v
+map	cowtour.c	/^double map[200][200];$/;"	v
+map	kimbits.c	/^int map[33][33];$/;"	v
+map	maze1.c	/^int map[500][500];$/;"	v
+map	namenum.c	/^char  map[5005][100];$/;"	v
+map	ratios.c	/^int map[5][5];$/;"	v
+map	rect1.c	/^int map[100][100];$/;"	v
+map	ttwo.c	/^int map[20][20];$/;"	v
+max	beads.c	/^int max = 0;$/;"	v
+max	calfflac.c	/^int max = 0 ;$/;"	v
+max	maze1.c	/^int max = -1;$/;"	v
+maxa	milk2.c	/^int maxa = 0;$/;"	v
+maxb	milk2.c	/^int maxb = 0;$/;"	v
+men	maze1.c	/^}men[10];$/;"	v	typeref:struct:node
+mennum	maze1.c	/^int mennum = 0 ;$/;"	v
+minnum	partylamps.cpp	/^int minnum[100][6];$/;"	v
+mx	SubsetSums.cpp	/^int mx(int a, int b)$/;"	f	signature:(int a, int b)
+n	HammingCodes.cpp	/^int n, b,d;$/;"	v
+n	TheCastle.cpp	/^int n ,m; $/;"	v
+n	beads.c	/^int n; $/;"	v
+n	contact.c	/^int a,b,n;$/;"	v
+n	cowtour.c	/^int n ; $/;"	v
+n	crypt1.c	/^int a[20],n;$/;"	v
+n	humble.c	/^int n ,m; $/;"	v
+n	milk2.c	/^int n; $/;"	v
+n	namenum.c	/^int high,n;$/;"	v
+n	nocows.cpp	/^int n , m ;$/;"	v
+n	transform.c	/^int n;$/;"	v
+n	zerosum.cpp	/^int n;$/;"	v
+next	ttwo.c	/^void next(struct node &a)$/;"	f	signature:(struct node &a)
+node	contact.c	/^struct node$/;"	s	file:
+node	cowtour.c	/^struct node{$/;"	s	file:
+node	gift.cpp	/^struct node$/;"	s	file:
+node	gift1.c	/^struct node$/;"	s	file:
+node	gift1.cpp	/^struct node$/;"	s	file:
+node	maze1.c	/^struct node{$/;"	s	file:
+node	milk.c	/^struct node $/;"	s	file:
+node	milk2.c	/^struct node$/;"	s	file:
+node	msquare.c	/^struct node{$/;"	s	file:
+node	rect1.c	/^struct node{$/;"	s	file:
+node	ttwo.c	/^struct node{$/;"	s	file:
+node1	contact.c	/^struct node1{$/;"	s	file:
+node1::l	contact.c	/^  int l;$/;"	m	struct:node1	file:	access:public
+node1::t	contact.c	/^  int t;$/;"	m	struct:node1	file:	access:public
+node1::v	contact.c	/^  int v;$/;"	m	struct:node1	file:	access:public
+node::N	msquare.c	/^  char N;$/;"	m	struct:node	file:	access:public
+node::a	msquare.c	/^  int a[9];$/;"	m	struct:node	file:	access:public
+node::c	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+node::l	contact.c	/^  int l,v;$/;"	m	struct:node	file:	access:public
+node::last	msquare.c	/^  int last;$/;"	m	struct:node	file:	access:public
+node::lx	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+node::ly	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+node::num	gift.cpp	/^	int num;       $/;"	m	struct:node	file:	access:public
+node::num	gift1.c	/^	int num;       $/;"	m	struct:node	file:	access:public
+node::num	gift1.cpp	/^	int num;       $/;"	m	struct:node	file:	access:public
+node::rx	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+node::ry	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+node::str	gift.cpp	/^	char str[100];$/;"	m	struct:node	file:	access:public
+node::str	gift1.c	/^	char str[100];$/;"	m	struct:node	file:	access:public
+node::str	gift1.cpp	/^	char str[100];$/;"	m	struct:node	file:	access:public
+node::v	contact.c	/^  int l,v;$/;"	m	struct:node	file:	access:public
+node::x	cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:	access:public
+node::x	maze1.c	/^	int x,y;$/;"	m	struct:node	file:	access:public
+node::x	milk.c	/^  int x, y;$/;"	m	struct:node	file:	access:public
+node::x	milk2.c	/^  int x, y ;$/;"	m	struct:node	file:	access:public
+node::x	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
+node::y	cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:	access:public
+node::y	maze1.c	/^	int x,y;$/;"	m	struct:node	file:	access:public
+node::y	milk.c	/^  int x, y;$/;"	m	struct:node	file:	access:public
+node::y	milk2.c	/^  int x, y ;$/;"	m	struct:node	file:	access:public
+node::y	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
+node::z	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
+nodes	gift.cpp	/^}nodes[100];$/;"	v	typeref:struct:node
+nodes	gift1.c	/^}nodes[100];$/;"	v	typeref:struct:node
+nodes	gift1.cpp	/^}nodes[100];$/;"	v	typeref:struct:node
+now	contact.c	/^}now;$/;"	v	typeref:struct:node
+num	contact.c	/^int num[200004];$/;"	v
+num	crypt1.c	/^int num[6];$/;"	v
+num	gift.cpp	/^	int num;       $/;"	m	struct:node	file:	access:public
+num	gift1.c	/^	int num;       $/;"	m	struct:node	file:	access:public
+num	gift1.cpp	/^	int num;       $/;"	m	struct:node	file:	access:public
+num	humble.c	/^int num[2000000];$/;"	v
+num	humble1.c	/^long long  num[100005];$/;"	v
+num	rect1.c	/^int num[10000];$/;"	v
+ok	clocks.c	/^int ok = 0 ;$/;"	v
+ok	namenum.c	/^int ok =0 ;$/;"	v
+op	partylamps.cpp	/^int op[5];$/;"	v
+p	TheCastle.cpp	/^int p = 0 ; $/;"	v
+p	cowtour.c	/^}p[200];$/;"	v	typeref:struct:node
+p	fracdec.c	/^int p[1000000];$/;"	v
+p	kmp.cpp	/^int p[100] = {0};$/;"	v
+p	prefix.cpp	/^int  p[201][12];$/;"	v
+p1num	cowtour.c	/^int p1num = 0 ; $/;"	v
+p2num	cowtour.c	/^int p2num = 0;$/;"	v
+point	5.1.1.cpp	/^struct point{$/;"	s	file:
+point::x	5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:	access:public
+point::y	5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:	access:public
+prime	fact4.c	/^void prime()$/;"	f
+print	clocks.c	/^void print()$/;"	f
+print	contact.c	/^void print(int v,int l)$/;"	f	signature:(int v,int l)
+print	palsquare.c	/^void print(int n )$/;"	f	signature:(int n )
+rx	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+ry	rect1.c	/^  int lx,ly,rx,ry,c;$/;"	m	struct:node	file:	access:public
+s	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+s	prefix.c	/^char s[200005];$/;"	v
+solve	HammingCodes.cpp	/^int solve( )$/;"	f	signature:( )
+solve	contact.c	/^int solve(int b,int e)$/;"	f	signature:(int b,int e)
+solve	kimbits.c	/^void solve(long long n , long long m , long long k )$/;"	f	signature:(long long n , long long m , long long k )
+str	beads.c	/^char str[1000];$/;"	v
+str	calfflac.c	/^char str[30005] = {0};$/;"	v
+str	contact.c	/^char str[200004];$/;"	v
+str	gift.cpp	/^	char str[100];$/;"	m	struct:node	file:	access:public
+str	gift1.c	/^	char str[100];$/;"	m	struct:node	file:	access:public
+str	gift1.cpp	/^	char str[100];$/;"	m	struct:node	file:	access:public
+str	namenum.c	/^char str[100];$/;"	v
+str	prefix.cpp	/^char str[201][12];$/;"	v
+str	transform.c	/^char str[100][100];$/;"	v
+str1	prefix.cpp	/^char str1[200001];$/;"	v
+strcp	partylamps.cpp	/^int strcp(int a, int b)$/;"	f	signature:(int a, int b)
+sum	HammingCodes.cpp	/^int sum = 0 ; $/;"	v
+sum	SubsetSums.cpp	/^int sum[1000];$/;"	v
+sum	TheCastle.cpp	/^int sum = 0 ;$/;"	v
+sum	crypt1.c	/^int sum = 0 ;$/;"	v
+sum	partylamps.cpp	/^int sum = 0;$/;"	v
+t	calfflac.c	/^int change[30005],t;$/;"	v
+t	contact.c	/^  int t;$/;"	m	struct:node1	file:	access:public
+t	fact4.c	/^int t = 0 ; $/;"	v
+t	milk3.c	/^int t = 0 ;$/;"	v
+t	rect1.c	/^int t = 1;$/;"	v
+temp	HammingCodes.cpp	/^int temp[10];$/;"	v
+temp	calfflac.c	/^char temp[30005] = {0};$/;"	v
+temp	transform.c	/^char temp[100][100];$/;"	v
+times	clocks.c	/^int times[10] = {0,4,3,4,3,5,3,4,3,4};$/;"	v
+trys	clocks.c	/^int trys[10][6] = {{0},{0,1,2,4,5},{0,1,2,3},{0,2,3,5,6},{0,1,4,7},{0,2,4,5,6,8},{0,3,6,9},{0,4,5,7,8},{0,7,8,9},{0,5,6,8,9}};$/;"	v
+v	contact.c	/^  int l,v;$/;"	m	struct:node	file:	access:public
+v	contact.c	/^  int v;$/;"	m	struct:node1	file:	access:public
+visit	TheCastle.cpp	/^int visit[200][200];$/;"	v
+visit	clocks.c	/^int visit[4][4][4][4][4][4][4][4][4] ={0};$/;"	v
+visit	comehome.c	/^int visit[100];$/;"	v
+visit	concom.c	/^int visit[200] = {0};$/;"	v
+visit	maze1.c	/^int visit[500][500];$/;"	v
+visit	milk3.c	/^int visit[30][30][30];$/;"	v
+visit1	TheCastle.cpp	/^int visit1[200][200];$/;"	v
+x	5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:	access:public
+x	cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:	access:public
+x	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+x	maze1.c	/^	int x,y;$/;"	m	struct:node	file:	access:public
+x	milk.c	/^  int x, y;$/;"	m	struct:node	file:	access:public
+x	milk2.c	/^  int x, y ;$/;"	m	struct:node	file:	access:public
+x	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
+xadd	TheCastle.cpp	/^int xadd[5] = {1,0,-1,0};$/;"	v
+xadd	maze1.c	/^int xadd[5] = {1,-1,0,0};$/;"	v
+xadd	ttwo.c	/^int xadd[6] = {-1,0,1,0};$/;"	v
+y	5.1.1.cpp	/^  double x,y;$/;"	m	struct:point	file:	access:public
+y	cowtour.c	/^  double x, y ;$/;"	m	struct:node	file:	access:public
+y	maze1.c	/^	int x, y,s;$/;"	m	struct:dian	file:	access:public
+y	maze1.c	/^	int x,y;$/;"	m	struct:node	file:	access:public
+y	milk.c	/^  int x, y;$/;"	m	struct:node	file:	access:public
+y	milk2.c	/^  int x, y ;$/;"	m	struct:node	file:	access:public
+y	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
+yadd	TheCastle.cpp	/^int yadd[5] = {0,1,0,-1};$/;"	v
+yadd	maze1.c	/^int yadd[5] = {0,0,1,-1};$/;"	v
+yadd	ttwo.c	/^int yadd[6] = {0,1,0,-1};$/;"	v
+z	ttwo.c	/^  int x, y ,z; $/;"	m	struct:node	file:	access:public
