@@ -38,15 +38,13 @@ int main()
 		double tot = 0;
 		for(int i = 0;i < n;++i)
 		{
-			//printf("%d ",judge(b,c,p[i]));
 			if(judge(b,c,p[i]) == 1)
-			{
+			
 				tot += dis(now,p[i]);
 				visit[i] = 1;
 				now = p[i];
 			}
 		}
-		//printf("\n");
 		visit[0] = 0;
 		for(int i = n-1;i >= 0;--i)
 			if(visit[i] == 0)
