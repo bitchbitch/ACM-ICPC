@@ -56,9 +56,6 @@ void isok()
    }
    if(tok == 0 && n != 1)
 	   return;
-   /*for(int i = 0;i < n;i ++)
-	   printf("%d ",color[i]);
-   printf("\n");*/
    ok ++ ; 
 }
 void dosolve(int k,int be, int c)
@@ -77,11 +74,13 @@ void dosolve(int k,int be, int c)
 	 }
      if(be > k)
 	 {
-       if(tmp[k] == c)
+       if(tmp[k] == c )
+	   {
 	     dosolve(k+1,be,c);
+	   }
 	   else return;
 	 }else{
-	   for(int j = max(be,k-tmp[k]+1); j <= k;j ++)
+	   for(int j = max(be,k-tmp[k]+1); j <= be+1;j ++)
 	   {
 		  if(j + tmp[k] > n)
 			  break;
@@ -103,26 +102,6 @@ class CountryGroupHard
 			for(int i= 0 ;i< n;i ++)
 				tmp[i] = a[i];
 			dosolve(0,0,-1);
-			/*int n = a.size();
-		
-			memset(color,0,sizeof(color));
-            int be = 0 ; 
-			for(int i = 0 ;i < n ;i ++)
-			{
-			    if(a[i] != 0 ) 
-				{
-					int k = be; 
-					k = max(k, i-a[i] + 1);
-                    for(int j = k ;j < k +a[i] ;j ++)
-						color[j] = a[i]; 
-					be = k + a[i]; 
-				}
-			}
-            for(int i= 0 ;i < n;i ++)
-			{
-			  printf("%d ",color[i]);
-			}
-			puts("");*/
 		    //printf("%d\n",ok);			
 			if(ok == 1 )
 			return "Sufficient";
