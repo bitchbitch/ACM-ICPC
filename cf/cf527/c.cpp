@@ -97,9 +97,9 @@ int main(){
 	  t1.tree[1].lazy = w; 
 	  t2.build(1,1,h,h); 
 	  t2.tree[1].lazy = h;
-	  wmp[1] = 1; 
+	  wmp[0] = 1; 
 	  wmp[w] = 1; 
-	  hmp[1] = 1; 
+	  hmp[0] = 1; 
 	  hmp[h] = 1;
 	  map<int ,int >::iterator l,m,r;
 	  int tmpv;  
@@ -116,15 +116,9 @@ int main(){
 			  m = hmp.find(tmpv);
 			  r = hmp.find(tmpv);
 			  r ++ ; 
-			  t2.update(1,l->first,m->first,m->first- l->first + 1);
+			  t2.update(1,l->first,m->first,m->first- l->first);
 			  t2.update(1,m->first+1,r->first,r->first - m->first);
-			  printf("%d %d\n",m->first - l->first+1,r->first - m->first);
-		  }else if(tmpv == 1){
-			  m = hmp.find(tmpv);
-			  r = hmp.find(tmpv);
-			  r ++ ; 
-			  t2.update(1,1,m->first,1);
-			  t2.update(1,m->first+1,r->first,r->first - m->first);
+		//	  printf("%d %d\n",m->first - l->first+1,r->first - m->first);
 		  }
 	  }else{
 		  if(wmp.find(tmpv)== wmp.end() )
@@ -135,24 +129,15 @@ int main(){
 			  m = wmp.find(tmpv);
 			  r = wmp.find(tmpv);
 			  r ++ ;
-			  printf("%d %d %d %d %d %d %d\n",r->first,m->first,t1.tree[2].v,t1.tree[3].v,t1.tree[1].lazy,t1.tree[2].lazy,t1.tree[3].lazy);
-			  t1.update(1,l->first,m->first,m->first- l->first + 1);
+		//	  printf("%d %d\n",m->first ,l->first);
+			  //if(l->first == 1 )
+	          t1.update(1,l->first,m->first,m->first- l->first );
 			  t1.update(1,m->first+1,r->first,r->first - m->first);
-			  printf("%d %d %d %d %d %d %d\n",r->first,m->first,t1.tree[2].v,t1.tree[3].v,t1.tree[1].lazy,t1.tree[2].lazy,t1.tree[3].lazy);
-		  }else if(tmpv == 1)
-		  {
-			  printf("**\n");
-			  m = wmp.find(tmpv);
-			  r = wmp.find(tmpv);
-			  r ++ ; 
-			  t1.update(1,1,1,1);
-			  printf("%d %d %d %d %d %d %d\n",r->first,m->first,t1.tree[2].v,t1.tree[3].v,t1.tree[1].lazy,t1.tree[2].lazy,t1.tree[3].lazy);
-			  t1.update(1,m->first+1,r->first,r->first - m->first);
-			  printf("%d %d %d %d\n",r->first,m->first,t1.tree[2].v,t1.tree[3].v);
+		//	  printf("%d %d %d\n",t1.tree[1].v,m->first - l->first+1,r->first - m->first);
 		  }
 	  }
-	  printf("%d %d\n",t1.tree[1].v,t2.tree[1].v);
-	  printf("%lld\n",1ll*t1.tree[1].v*t2.tree[1].v);
+	  //printf("%d %d\n",t1.tree[1].v,t2.tree[1].v);
+	  printf("%I64d\n",1ll*t1.tree[1].v*t2.tree[1].v);
 	}
 return 0;
 }

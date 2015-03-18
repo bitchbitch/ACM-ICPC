@@ -52,10 +52,13 @@ void isok()
    for(int i = 0 ;i < n;i ++)
    {
       if(color[i] != 0 ) 
-		  tok = 1; 
+		  tok = 1;
+	  if(i >= 1 && color[i] == 0 && color[i-1] == 0 )
+		  ok = 2; 
    }
    if(tok == 0 && n != 1)
 	   return;
+   
    ok ++ ; 
 }
 void dosolve(int k,int be, int c)
@@ -80,7 +83,7 @@ void dosolve(int k,int be, int c)
 	   }
 	   else return;
 	 }else{
-	   for(int j = max(be,k-tmp[k]+1); j <= be+1;j ++)
+	   for(int j = max(be,k-tmp[k]+1); j <= k;j ++)
 	   {
 		  if(j + tmp[k] > n)
 			  break;
