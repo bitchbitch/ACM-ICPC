@@ -23,23 +23,23 @@
 #include<ctime>
 #define LL long long
 #define M 1000000007
-#define maxn 1000005
 using namespace std;
 int t ;
-char str[maxn];
-int nxt[maxn][66];
-int dp1[maxn];
-LL dp2[maxn];
+char str[1000005];
 int hs[360];
 int num[66];
-int pk[maxn];
 int sum;
 int ans;
 LL p(int n ,int k)
 {
-   pk[0] = 1;
-   for(int i = 1; i <=  k;i ++)
-	   pk[i] = (pk[i-1] *n )% M;
+   if(k == 0 )
+	   return 1; 
+   if(k ==  1)
+	   return n ;
+   LL tmp = p(n,k/2);
+   if(k % 2 == 0 )
+	   return tmp * tmp %M;
+   return tmp * tmp * n % M;
 }
 int main(){
     scanf("%d",&t);
@@ -60,17 +60,10 @@ int main(){
         int k; 
 		scanf("%d",&k);
 		scanf("%s",str);
-		ans = 0;
-		sum = 0;
 		int len = strlen(str);
-		memset(nxt,0,sizeof(nxt));
-		p(k,len);
 		memset(num,0,sizeof(num));
 		for(int i = 0;i < len ;i ++)
 		{
-			if(i > 0)
-			for(int j = 0 ; j < k ;j ++)
-				nxt[i][j] = nxt[i-1][j];
 	        if(num[hs[str[i]]] == 0 )
 			{
 			  sum ++ ; 
@@ -82,30 +75,15 @@ int main(){
 			  memset(num,0,sizeof(num));
 			  sum  = 0 ; 
 			}
-			dp1[i] = ans +1;
-			if(ans == 0 )
-			{
-			     for(int j = 0 ;j < k;j ++){
-				   int tt = nxt[i][j];
-				   dp2[i]++;
-				 }
-			}else{
-		        for(int j = 0 ;j < k;j ++)
-				{
-				   int tt = nxt[i][j];
-				   if(dp1[tt] == ans)
-					   dp2[i] = (dp2[i]+dp2[tt])%M;
-				   else{
-				       dp2[i] = (dp2[i] + pk[ans])%M;
-				   } 
-
-				}
-			}
-			nxt[i][hs[str[i]]] = i;
 		}
-		LL rans = (pk[dp1[len-1]] + M - dp2[len-1])%M;
-		printf("%d %lld\n",dp1[len-1],rans);
-
+		if(ans == 0)
+	    {
+		  printf("%d %d\n",ans+1,k - sum);
+		  continue;
+		}
+		LL rans = 0 ;
+		rans = p(k,ans)*(k-sum)%M;
+		printf("%d %lld\n",ans+1,rans);
 	}
 return 0;
 }

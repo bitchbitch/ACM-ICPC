@@ -21,13 +21,18 @@
 #define LL long long
 
 using namespace std;
+set<int > key ; 
 int main(){
-	for(int i = 1;i <= 10 ;i ++)
-	{
-	   for(int j = 1 ;j <= i ;  j ++)
-		   printf("*");
-	   printf("\n");
-	}
+     key.insert(1);
+	 key.insert(2);
+	 key.insert(5);
+	 key.insert(5);
+	 key.insert(5);
+	 key.insert(4);
+	 key.insert(5);
+	 key.insert(6);
+	 key.insert(4);
+	 printf("%d\n",*key.end());
 	
 	return 0;
 }
