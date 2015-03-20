@@ -26,6 +26,8 @@ int main()
    // freopen("1534.in", "r", stdin);
    // freopen("1534.out", "w", stdout);
     init();
+	//freopen("random2.in","r",stdin);
+	//freopen("out","w",stdout);
     int t, s, cnt, cnt2, k;
     scanf("%d", &t);
     while(t--)
