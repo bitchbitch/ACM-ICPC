@@ -63,9 +63,7 @@ int main(){
 		ans = 0;
 		sum = 0;
 		int len = strlen(str);
-		memset(nxt,0,sizeof(nxt));
 		p(k,len);
-		memset(num,0,sizeof(num));
 		for(int i = 0;i < len ;i ++)
 		{
 			if(i > 0)
@@ -83,8 +81,8 @@ int main(){
 			  sum  = 0 ; 
 			}
 			dp1[i] = ans +1;
-			if(ans == 0 )
-			{
+			dp2[i] = 0 ; 
+			if(ans == 0 ){
 			     for(int j = 0 ;j < k;j ++){
 				   int tt = nxt[i][j];
 				   dp2[i]++;
