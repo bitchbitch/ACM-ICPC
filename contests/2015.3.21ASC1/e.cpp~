@@ -1,0 +1,174 @@
+// File Name: e.cpp
+// Author: darkdream
+// Created Time: 2015年03月21日 星期六 19时58分58秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int M , n ;
+struct Matrix
+{
+   int mat[40][40];
+   void clear()
+   {
+      memset(mat,0,sizeof(mat));
+   }
+   void output()
+   {
+       for(int i = 0 ;i < n;i ++)
+	   {
+		 for(int j = 0 ;j < n;j ++)
+		 {
+		   printf("%d ",mat[i][j]);    
+		 }
+		 printf("\n");
+	   }
+   }
+   Matrix operator *(const Matrix &b) const
+   {
+      Matrix ret;
+	  ret.clear();
+	  for(int i =  0 ;i < n;i ++)
+		  for(int j = 0 ;j < n;j ++)
+		  {
+		      for(int s = 0 ; s < n; s ++)
+			  {
+			    ret.mat[i][j] = (ret.mat[i][j] + mat[i][s] *b.mat[s][j] % M) % M;
+			  }
+		  }
+	  return ret;
+   }
+}a;
+char str[1000];
+int num[1000];
+int len ;
+int t;
+void judge(int x, int y)
+{
+  //printf("%d %d***\n",x,y);
+   int tx = x; 
+   int ty = y;
+   int ttt = 0 ; 
+   int txa[10];
+   int tya[10];
+   memset(txa,0,sizeof(txa));
+   memset(tya,0,sizeof(tya));
+   while(tx)
+   {
+      txa[ttt] = tx % 2; 
+	  tx/= 2;
+	  ttt++;
+   }
+   ttt =0 ; 
+   while(ty)
+   {
+      tya[ttt] = ty % 2; 
+	  ty /= 2; 
+	  ttt++;
+   }
+   for(int i = 1;i < t; i ++)
+	   if(tya[i]+tya[i-1]+txa[i] + txa[i-1] == 4 || tya[i] + tya[i-1] + txa[i] + txa[i-1] == 0 )
+	   {
+	       return;
+	   }
+   a.mat[x][y] = 1; 
+}
+void jian()
+{
+   for(int i = 0 ;i <= len ;i ++)
+   {
+        if(num[i] == 0 )
+		{
+		   num[i] = 9 ;
+		}else{
+		   num[i]-- ;
+		   break;
+		}
+   }
+   if(num[len] == 0 )
+	   len --;
+}
+void chu()
+{
+	 int tmp = 0 ; 
+     printf("%d\n",len);
+	 for(int i = len ;i >= 0 ;i --)
+	 {
+	     int k = (tmp * 10 + num[i]);
+		 num[i] = k/2;
+		 tmp = k % 2; 
+	 }
+	 if(num[len] == 0 )
+		 len --;
+     printf("%d\n",len);
+}
+Matrix Pow(Matrix a)
+{
+   Matrix ret;
+   ret.clear();
+   for(int i= 0 ;i < n;i ++)
+      ret.mat[i][i] = 1;
+   Matrix tmp = a; 
+   while(len != -1)
+   {
+	  // printf("%d ***\n",len);
+        if(num[0] != 0 && num[0] % 2 == 1)
+		{
+		    ret = ret * tmp ;
+		}
+		tmp = tmp*tmp ;
+		chu();
+   }
+   return ret; 
+}
+int main(){
+	freopen("nice.in","r",stdin);
+	freopen("nice.out","w",stdout);
+	
+	scanf("%s %d %d",str,&t,&M);
+	len = strlen(str);
+	for(int i=  0 ;i < len ;i ++)
+	{
+	  num[i] = str[i] - '0';
+	}
+	len -- ; 
+    n = (1 << t);
+	for(int i = 0 ;i <n ;i ++)
+    {
+	  for(int j = 0 ;j < n;j ++)
+	  {
+	     judge(i,j);     
+	  }
+	}
+	int sum = 0 ; 
+	jian();
+	a = Pow(a);
+	for(int i = 0 ;i < n;i ++)
+		for(int j = 0 ;j < n;j ++)
+		{
+			sum = (sum + a.mat[i][j])%M;
+		}
+	
+	printf("%d\n",sum);
+     	
+return 0;
+}
