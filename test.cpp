@@ -19,10 +19,18 @@
 #include<ctime>
 #include<unistd.h>
 #define LL long long
-
+#define M 1000000007
 using namespace std;
-set<int > key ; 
+int dp[1005][1005];
+
 int main(){
-   printf("%d\n",sizeof(int*));	
+	for(int i = 0;i <= 1000 ;i ++)
+		dp[i][0] = 1;
+	for(int i = 1;i <= 1000;i ++)
+		for(int j = 1;j <= 1000;j ++)
+		{
+		  dp[i][j] = (dp[i-1][j] + dp[i-1][j-1])%M;
+		}
+	printf("%d\n",dp[4][2]);
 	return 0;
 }
