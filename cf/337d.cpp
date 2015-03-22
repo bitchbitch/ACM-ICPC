@@ -1,10 +1,3 @@
-/************************************************************
- * Author : darkdream
- * Email : darkdream1994@gmail.com 
- * Last modified : 2015-03-21 10:36
- * Filename : 337d.cpp
- * Description :
- * *********************************************************/
 // File Name: 337d.cpp
 // Author: darkdream
 // Created Time: 2015年03月13日 星期五 20时18分05秒
@@ -65,9 +58,8 @@ void dfs(int k , int la)
 }
 void dfs1(int k,int la,int ladis,int laval)
 {
-//	if(k == 4)
-//		printf("%d %d\n",ladis,laval);
-	if(ladis < 0)
+	//printf("%d %d %d %d\n",k,la,ladis,laval);
+	if(ladis < 0 || laval == 0)
 	{
 		laval = 0 ; 
 	    ladis = d ; 
@@ -77,20 +69,21 @@ void dfs1(int k,int la,int ladis,int laval)
 	for(int i = 0;i < mp[k].size();i ++)
 	{
 		int tt = laval;
+		int ttd = ladis;
 	    if(mp[k][i] == la)
 			continue;
 		//printf("***\n");
 		if(dis[mp[k][i]] == dis[k]+1)
 		{
-		    ladis = min(ladis,secdis[k]);
+		    ttd = min(ladis,secdis[k]);
 		}else{
-		    ladis = min(ladis,dis[k]);
+		    ttd = min(ladis,dis[k]);
 		}
 		if(dis[mp[k][i]] != 0)
 		  tt += dp[k] - dp[mp[k][i]];
 		else 
 		  tt += dp[k];
-		dfs1(mp[k][i],k,ladis-1,tt);
+		dfs1(mp[k][i],k,ttd-1,tt);
 	}
 }
 int main(){
@@ -109,19 +102,7 @@ int main(){
 		mp[tb].push_back(ta);
 	}
 	dfs(1,0);
-	/*for(int i= 1;i <= n;i ++)
-		printf("%d ",dp[i]);
-	printf("\n");
-	for(int i= 1;i <= n;i ++)
-		printf("%d ",dis[i]);
-	printf("\n");
-	for(int i= 1;i <= n;i ++)
-		printf("%d ",secdis[i]);
-	printf("\n");*/
-	dfs1(1,0,d+1,0);/*
-	for(int i= 1;i <= n;i ++)
-		printf("%d ",sum[i]);
-	printf("\n");*/
+	dfs1(1,0,0,0);
 	int ans = 0 ; 
 	for(int i = 1;i <= n;i ++)
 		if(sum[i] == m)

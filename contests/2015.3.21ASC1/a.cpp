@@ -67,8 +67,8 @@ void print()
   printf("\n");
 }
 int main(){
-	freopen("china.in","r",stdin);
-	freopen("china.out","w",stdout);
+	//freopen("china.in","r",stdin);
+	//freopen("china.out","w",stdout);
 	scanf("%s",str);
     len = strlen(str);
 	len-- ;
