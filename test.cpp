@@ -31,6 +31,6 @@ int main(){
 		{
 		  dp[i][j] = (dp[i-1][j] + dp[i-1][j-1])%M;
 		}
-	printf("%d\n",dp[4][2]);
+	printf("%d\n",dp[1000][500]);
 	return 0;
 }
