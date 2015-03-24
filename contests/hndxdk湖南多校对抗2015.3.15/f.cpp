@@ -45,7 +45,7 @@ int main(){
    while(t--)
    {
 	   int n ;
-	   scanf("%d %lld %lld",&n,&a,&b);
+	   scanf("%d %I64d %I64d",&n,&a,&b);
 	   printf("%d\n",solve(p(n),a)-1); 
    }
 return 0;
