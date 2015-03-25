@@ -1,3 +1,7 @@
+// File Name: 351b.cpp
+// Author: darkdream
+// Created Time: 2015年03月25日 星期三 10时34分48秒
+
 #include<vector>
 #include<list>
 #include<map>
@@ -17,20 +21,17 @@
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
-#include<unistd.h>
 #define LL long long
-#define M 1000000007
+#define maxn 3005
 using namespace std;
-int dp[1005][1005];
-
+int n ; 
+int a[maxn]; 
 int main(){
-	for(int i = 0;i <= 1000 ;i ++)
-		dp[i][0] = 1;
-	for(int i = 1;i <= 1000;i ++)
-		for(int j = 1;j <= 1000;j ++)
-		{
-		  dp[i][j] = (dp[i-1][j] + dp[i-1][j-1])%M;
-		}
-	printf("%d\n",dp[1000][500]);
-	return 0;
+    scanf("%d",&n);
+	for(int i= 1;i <= n;i ++)
+	{
+	  scanf("%d",&a[i]);
+	}
+    
+return 0;
 }
