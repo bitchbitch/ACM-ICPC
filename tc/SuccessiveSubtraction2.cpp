@@ -41,15 +41,64 @@ typedef vector<string> VS;
 typedef vector<double> VD;
 typedef long long LL;
 typedef pair<int,int> PII;
-
-
+#define maxn 2005
+int ary[maxn];
+int n;
+int dpz[maxn];
+int dpf[maxn];
+int solve()
+{
+    memset(dpz,0,sizeof(dpz));
+	memset(dpf,0,sizeof(dpf));
+	int tsum = 0 ;
+//	for(int i = 1 ;i <= n;i ++)
+//		printf("%d ",ary[i]);
+//	printf("\n");
+    for(int i = 3;i <= n;i ++)
+	{
+	    if(tsum < 0 )
+			tsum =0 ;
+		tsum += ary[i];
+	    dpz[i] = max(dpz[i],tsum);
+	}
+	tsum = 0 ;
+	int ans = 0 ; 
+	for(int i = n;i >= 3 ;i --)
+	{
+	    if(tsum < 0 )
+			tsum =0 ; 
+		tsum += ary[i];
+	    dpf[i] = max(dpf[i+1],tsum);
+        ans = max(dpf[i] + dpz[i-2],ans);
+	}
+	return ans ;
+}
 class SuccessiveSubtraction2
 {
         public:
         vector <int> calc(vector <int> a, vector <int> p, vector <int> v)
         {
-
-        }
+           vector<int> ans ;    
+           n = a.size();
+		   int sum =0 ;
+		   for(int i =0 ;i < n ;i ++)
+		   {
+			   ary[i+1] =a[i];
+		   }
+		   int k = p.size(); 
+		   for(int i =0 ;i < k ;i ++)
+		   {
+		      ary[p[i]+1] = v[i];
+			  sum = ary[1] *2; 
+			  for(int j = 1;j <= n;j ++)
+				  sum -= ary[j];
+			  //printf("%d ",sum);
+			  sum += solve()*2;
+			  //printf("%d\n",solve());
+			  ans.push_back(sum);
+		   }
+		   return ans ;
+		}
         
 // BEGIN CUT HERE
 	public:
