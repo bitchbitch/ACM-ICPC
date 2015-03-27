@@ -24,21 +24,9 @@
 #define LL long long
 #define maxn 105
 using namespace std;
-int mp[maxn][maxn];
-void floyd()
-{
-	  for(int i=  1;i <= 100 ;i ++)
-		  for(int j= 1;j <= 100 ;j ++)
-  for(int k = 1;k <= 100 ;k ++ )
-		  {
-		    mp[i][j] = mp[i][k] +mp[k][j];
-		  }
-}
+map<int ,map <int ,int > >mp;
 int main(){
-	 clock_t be,en;
-	 be = clock();
-     floyd();
-	 en = clock();
-	 printf("%ld",en - be);
+	mp[1][2] =1;
+	mp[1][2] += 1;
 return 0;
 }
