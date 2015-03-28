@@ -37,6 +37,13 @@ int lx, ly ,rx,ry;
 int xadd[] = {0,0,1,-1};
 int yadd[] = {1,-1,0,0};
 queue<node>qu;
+void solve(int tx,int ty)
+{
+		   mp[tx][ty] = '.';
+		   qu.push(node(tx,ty));
+		   for(int i = 0 ;i <= 3 ;i ++)
+	           qu.push(node(tx+xadd[i],ty+yadd[i]))	;   
+}
 void bfs(int x,int y)
 {
       qu.push(node(x,y));
@@ -51,37 +58,25 @@ void bfs(int x,int y)
 		 {
 		   tx = tmp.x -1;
 		   ty = tmp.y +1; 
-		   mp[tx][ty] = '.';
-		   qu.push(node(tx,ty));
-		   for(int i = 0 ;i <= 3 ;i ++)
-	           qu.push(node(tx+xadd[i],ty+yadd[i]))	;   
+		   solve(tx,ty);
 		 }
 		 if(mp[tmp.x-1][tmp.y] == '.' && mp[tmp.x][tmp.y-1] =='.' && mp[tmp.x-1][tmp.y-1] == '*')
 		 {
 		   tx = tmp.x -1;
 		   ty = tmp.y -1; 
-		   mp[tx][ty] = '.';
-		   qu.push(node(tx,ty));
-		   for(int i = 0 ;i <= 3 ;i ++)
-	           qu.push(node(tx+xadd[i],ty+yadd[i]))	;   
+		   solve(tx,ty);
 		 }
 		 if(mp[tmp.x+1][tmp.y] == '.' && mp[tmp.x][tmp.y+1] =='.' && mp[tmp.x+1][tmp.y+1] == '*')
 		 {
 		   tx = tmp.x +1;
 		   ty = tmp.y +1; 
-		   mp[tx][ty] = '.';
-		   qu.push(node(tx,ty));
-		   for(int i = 0 ;i <= 3 ;i ++)
-	           qu.push(node(tx+xadd[i],ty+yadd[i]))	;   
+		   solve(tx,ty);
 		 }
 		 if(mp[tmp.x+1][tmp.y] == '.' && mp[tmp.x][tmp.y-1] =='.' && mp[tmp.x+1][tmp.y-1] == '*')
 		 {
 		   tx = tmp.x +1;
 		   ty = tmp.y -1; 
-		   mp[tx][ty] = '.';
-		   qu.push(node(tx,ty));
-		   for(int i = 0 ;i <= 3 ;i ++)
-	           qu.push(node(tx+xadd[i],ty+yadd[i]))	;   
+		   solve(tx,ty);
 		 }
 	  }
 }

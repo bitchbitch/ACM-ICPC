@@ -1,10 +1,3 @@
-/************************************************************
- * Author : darkdream
- * Email : darkdream1994@gmail.com 
- * Last modified : 2015-03-27 16:00
- * Filename : e.cpp
- * Description :
- * *********************************************************/
 // File Name: e.cpp
 // Author: darkdream
 // Created Time: 2015年03月27日 星期五 01时21分34秒
