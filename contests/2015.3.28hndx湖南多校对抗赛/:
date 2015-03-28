@@ -26,10 +26,8 @@
 
 using namespace std;
 int t;
-priority_queue<int,vector<int>,greater<int> > qu;
+priority_queue<int> qu;
 int main(){
-	//freopen("input","r",stdin);
-	//freopen("output","w",stdout);
 	while(scanf("%d",&t)!= EOF)
 	{
 		while(!qu.empty())
@@ -48,6 +46,7 @@ int main(){
 					r += v;
 					while(!qu.empty())
 					{
+						//printf("**\n");
 						int tmp = qu.top();
 						if(tmp <= r+1)
 						{

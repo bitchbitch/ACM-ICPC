@@ -21,8 +21,11 @@
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
+#include<queue>
 #define LL long long
+
 #define maxn 105
+
 using namespace std;
 struct node{
   int l , r ; 
@@ -32,12 +35,28 @@ struct node{
     l = _l ; 
 	r = _r ; 
   }
-  bool operator<(node a, node b)
+  bool operator <(node a) const
   {
-     return a.l < b.l ;
+     return l > a.l ;
   }
 };
-int main(){
-       
+priority_queue <node> qu;
+int n ; 
+int main(){ 
+	while(scanf("%d",&n) != EOF)
+	{
+		int ta,tb;
+		for(int i = 1;i <= n;i ++)
+		{
+			scanf("%d %d",&ta,&tb);
+			qu.push(node(ta,tb)); 
+		}
+        while(!qu.empty())
+		{
+		   node tmp = qu.top();
+		   qu.pop();
+           printf("%d %d\n",tmp.l,tmp.r);
+		}
+	}
 return 0;
 }
