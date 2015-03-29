@@ -44,32 +44,27 @@ typedef pair<int,int> PII;
 #define maxn 2005
 int ary[maxn];
 int n;
-int dpz[maxn];
-int dpf[maxn];
+int dp[maxn][6];
 int solve()
 {
-    memset(dpz,0,sizeof(dpz));
-	memset(dpf,0,sizeof(dpf));
-	int tsum = 0 ;
-//	for(int i = 1 ;i <= n;i ++)
-//		printf("%d ",ary[i]);
-//	printf("\n");
-    for(int i = 3;i <= n;i ++)
+	int ans = -1e9; 
+	memset(dp,0,sizeof(dp));
+	for(int i = 1;i <= n;i ++)
+		for(int j = 0 ;j <= 4; j ++)
+			dp[i][j] = -1e9;
+	dp[1][0] = ary[1];
+	dp[2][0] = ary[1]-ary[2];
+	for(int i = 3 ;i <= n;i ++)
 	{
-	    if(tsum < 0 )
-			tsum =0 ;
-		tsum += ary[i];
-	    dpz[i] = max(dpz[i],tsum);
+		dp[i][0] = dp[i-1][0] - ary[i] ;
+        dp[i][1] = max(dp[i-1][1]+ary[i],dp[i-1][0]+ary[i]);
+        dp[i][2] = max(dp[i-1][2]-ary[i],dp[i-1][1]-ary[i]);
+        dp[i][3] = max(dp[i-1][3]+ary[i],dp[i-1][2]+ary[i]);
+        dp[i][4] = max(dp[i-1][4]-ary[i],dp[i-1][3]-ary[i]);
 	}
-	tsum = 0 ;
-	int ans = 0 ; 
-	for(int i = n;i >= 3 ;i --)
+	for(int i= 0 ;i <= 4;i ++)
 	{
-	    if(tsum < 0 )
-			tsum =0 ; 
-		tsum += ary[i];
-	    dpf[i] = max(dpf[i+1],tsum);
-        ans = max(dpf[i] + dpz[i-2],ans);
+       ans = max(ans,dp[n][i])	;
 	}
 	return ans ;
 }
@@ -89,13 +84,7 @@ class SuccessiveSubtraction2
 		   for(int i =0 ;i < k ;i ++)
 		   {
 		      ary[p[i]+1] = v[i];
-			  sum = ary[1] *2; 
-			  for(int j = 1;j <= n;j ++)
-				  sum -= ary[j];
-			  //printf("%d ",sum);
-			  sum += solve()*2;
-			  //printf("%d\n",solve());
-			  ans.push_back(sum);
+			  ans.push_back(solve());
 		   }
 		   return ans ;
 		}
