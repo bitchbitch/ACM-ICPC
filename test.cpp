@@ -43,20 +43,12 @@ struct node{
 priority_queue <node> qu;
 int n ; 
 int main(){ 
-	while(scanf("%d",&n) != EOF)
-	{
-		int ta,tb;
-		for(int i = 1;i <= n;i ++)
-		{
-			scanf("%d %d",&ta,&tb);
-			qu.push(node(ta,tb)); 
-		}
-        while(!qu.empty())
-		{
-		   node tmp = qu.top();
-		   qu.pop();
-           printf("%d %d\n",tmp.l,tmp.r);
-		}
-	}
+	int tt =0 ; 
+	for(int i= 1;i <= 40; i++)
+		for(int j = 1;j <= 40 ;j ++)
+			for(int ij = 1;ij <= 40 ;ij ++)
+				for(int ji = 1;ji <= 40;ji ++ )
+					tt ++ ;
+	printf("%d\n",tt);
 return 0;
 }
