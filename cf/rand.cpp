@@ -1,3 +1,10 @@
+/************************************************************
+ * Author : darkdream
+ * Email : darkdream1994@gmail.com 
+ * Last modified : 2015-03-30 15:11
+ * Filename : rand.cpp
+ * Description :
+ * *********************************************************/
 // File Name: rand.cpp
 // Author: darkdream
 // Created Time: 2015年03月30日 星期一 14时18分27秒

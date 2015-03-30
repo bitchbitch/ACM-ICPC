@@ -37,59 +37,28 @@ int cmp(qu a, qu b)
 {
   return a.l > b.l ;
 }
-struct node{
-   int l , r, m , v ; 
-}tree[6005*4];
-int L(int c)
+int tree[6005];
+int lowbit(int x)
 {
- return 2* c; 
+  return x & -x;
 }
-int R(int c)
+void update(int x)
 {
-  return 2 * c + 1; 
-}
-void push_up(int c)
-{
-  tree[c].v = tree[L(c)].v + tree[R(c)].v; 
-}
-void build(int c, int l, int r)
-{
-   tree[c].l = l ; 
-   tree[c].r = r; 
-   tree[c].m = (l + r)/2;
-   if(tree[c].l == tree[c].r)
+   while(x <= n)
    {
-     tree[c].v = 1; 
-	 return ;
+      tree[x] += 1; 
+	  x += lowbit(x);
    }
-   build(L(c),l,tree[c].m);
-   build(R(c),tree[c].m + 1, r );
-   push_up(c);
 }
-void update(int c ,int p )
+int getsum(int r)
 {
-    if(tree[c].l == tree[c].r)
-	{
-	   tree[c].v +=1 ; 
-	   return ;
-	}
-	if(p <= tree[c].m)
-		update(L(c),p);
-	else update(R(c),p);
-	push_up(c);
-}
-int tsum = 0 ; 
-void find(int c, int l , int r)
-{
-    if(l <= tree[c].l && tree[c].r <=  r)
-    {
-	  tsum += tree[c].v ;
-	  return ; 
-	}
-	if(l <= tree[c].m)
-		find(L(c),l,r);
-	if(r > tree[c].m)
-		find(R(c),l,r);
+  int ans  = 0 ; 
+  while(r >= 1)
+  {
+     ans += tree[r];
+	 r -= lowbit(r);
+  }
+  return ans;
 }
 inline void read_int(int &ret){
    char ch = getchar();
@@ -103,8 +72,8 @@ inline void read_int(int &ret){
    }
 }
 int main(){
-    freopen("input","r",stdin);
-	freopen("output","w",stdout);
+ //   freopen("input","r",stdin);
+//	freopen("output","w",stdout);
 	clock_t be ,en ;
 	be = clock();
 	scanf("%s",&str[1]);
@@ -116,23 +85,23 @@ int main(){
 		 a[i].si = i ; 
 	 }
 	 sort(a+1,a+1+q,cmp);
-     int n = strlen(&str[1]);
-	 build(1,1,n);
+     n = strlen(&str[1]);
 	 int tt = 1;  
 	 for(int i = n;i >= 1;i --)
 	 {
 	    dpj[i][1] = i;
+		update(i);
 		if(str[i] == str[i+1])
 		{
 		  dpo[i][2] = i+1;
-		  update(1,i+1);
+		  update(i+1);
 		}
         for(tp = dpj[i+1].begin() ; tp != dpj[i+1].end();tp++)
 		{
 		   if(str[i] == str[tp->second +1])
 		   {
 		       dpj[i][tp->first+2] = tp->second +1;
-			   update(1,tp->second+1);
+			   update(tp->second+1);
 		   }
 		}
         for(tp = dpo[i+1].begin() ; tp != dpo[i+1].end();tp++)
@@ -140,14 +109,12 @@ int main(){
 		   if(str[i] == str[tp->second +1])
 		   {
 		       dpo[i][tp->first+2] = tp->second +1;
-			   update(1,tp->second+1);
+			   update(tp->second+1);
 		   }
 		}
 		while(a[tt].l == i && tt <= q)
 		{
-		   tsum = 0 ; 
-		   find(1,a[tt].l ,a[tt].r);
-		   ans[a[tt].si] = tsum; 
+		   ans[a[tt].si] = getsum(a[tt].r);
 		   tt++;
 		}
 		if(tt >q)
@@ -158,6 +125,6 @@ int main(){
 	 for(int i = 1;i <= q; i ++)
 		 printf("%d\n",ans[i]);
 	 en = clock();
-	 printf("%lf\n",(en -be)*1.0/CLOCKS_PER_SEC);
+//	 printf("%lf\n",(en -be)*1.0/CLOCKS_PER_SEC);
 return 0;
 }
