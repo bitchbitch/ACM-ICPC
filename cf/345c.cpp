@@ -1,6 +1,6 @@
-// File Name: ccf有趣的树.mt.cpp
+// File Name: 345c.cpp
 // Author: darkdream
-// Created Time: 2015年03月30日 星期一 19时45分11秒
+// Created Time: 2015年03月31日 星期二 20时00分50秒
 
 #include<vector>
 #include<list>
@@ -22,18 +22,10 @@
 #include<cstring>
 #include<ctime>
 #define LL long long
-#define M  1000000007
+
 using namespace std;
-int c[1005][1005];
-int n ; 
-int main(){ 
-   for(int i = 0;i <= 1000;i ++)
-	   c[i][0] = 1; 
-   for(int i = 1;i <= 1000 ;i ++)
-	   for(int j = 1 ;j <= 1000 ;j ++)
-	   {
-	      c[i][j] = (c[i-1][j] + c[i-1][j-1])%M;
-	   }
-   printf("%d\n",c[1000][500]);
+
+int main(){
+
 return 0;
 }

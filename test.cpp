@@ -1,19 +1,36 @@
-#include <stdio.h>
-#define N 1001
-#define C(n,m) c[(n)+1][(m)+1]
-#define MOD 1000000007
-int c[N][N];
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    c[0][0]=1;
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=i;j++)
-            c[i][j]=(c[i-1][j-1]+c[i-1][j])%MOD;
-    int ans=0;
-    for(int i=2;i<=n-2;i++)
-        ans=(ans+(long long)C(n-1,i)*((i-1)*(n-i-1))%MOD)%MOD;
-    printf("%d\n",ans);
-    return 0;
+// File Name: test.cpp
+// Author: darkdream
+// Created Time: 2015年03月31日 星期二 20时34分29秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int main(){
+	int n = 1000000;
+	double ans = 0 ; 
+	for(int i = 1;i <= n;i ++)
+		ans += n*1.0/i ; 
+	printf("%lf\n",ans);
+		
+   
+return 0;
 }
