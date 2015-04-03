@@ -63,7 +63,7 @@ struct SplayTree{
 			ss[top2 ++] = que[head];
 			if(ch[ que[head] ][0]) que[tail++] = ch[ que[head] ][0];
 			if(ch[ que[head] ][1]) que[tail++] = ch[ que[head] ][1];
-		}
+		} //  用for 循环来实现 bfs
 		ch[ father ][ ch[father][1] == x ] = 0;
 		push_up(father);
 	}
@@ -152,8 +152,6 @@ struct SplayTree{
 		RotateTo(r+1 , root);
 		printf("%lld\n",sum[keyTree]);
 	}
- 
- 
 	/*这是题目特定变量*/
 	int num[maxn];
 	int val[maxn];
