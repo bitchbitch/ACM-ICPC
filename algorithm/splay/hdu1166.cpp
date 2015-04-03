@@ -93,14 +93,14 @@ struct SplayTree{
 		 else x = ++top1;
 		 ch[x][0] = ch[x][1] = pre[x] = 0 ; 
 		 sz[x] = 1; 
-		 sum[x] = c;
+		 val[x] = sum[x] = c;
 	}
 	inline void push_down(int x){
 
 	}
 	inline void push_up(int x){
 		sz[x] = 1 + sz[ch[x][0]] + sz[ch[x][1]]; 
-	    sum[x] = sum[ch[x][0]] + sum[ch[x][1]];	
+	    sum[x] = val[x] + sum[ch[x][0]] + sum[ch[x][1]];	
 	}
 	inline void makeTree(int &x,int l ,int r,int f){
 		if(l > r) return ; 
@@ -119,16 +119,16 @@ struct SplayTree{
 		NewNode(ch[root][1],-1);
 		pre[top1] = root;
 		sz[root] = 2; 
-	
 
 		for(int i =  1 ;i <= n;i ++) scanf("%d",&num[i]);
 		makeTree(ch[ch[root][1]][0],1,n,ch[root][1]);
 		push_up(ch[root][1]);
 		push_up(root);
+
 	}
 	inline void update(int l,int v){
       RotateTo(l,0);
-	  sum[root] += v;  
+	  val[root] += v;  
 	}
 	inline void query(int l , int r){
 	   RotateTo(l-1,0);
@@ -137,12 +137,34 @@ struct SplayTree{
 	} 
     int num[maxn];
 	LL sum[maxn];
+	int val[maxn];
 }spt;
+char str[10];
+int ta,tb;
 int main(){
     scanf("%d",&t);
 	for(int CA = 1; CA <= t ; CA ++)
 	{
+		    printf("Case %d:\n",CA);
 			scanf("%d",&n);
+			spt.init(n);
+			while(scanf("%s",str)!= EOF)
+			{
+				if(str[0] == 'E')
+					break;
+				scanf("%d %d",&ta,&tb);
+				if(str[0] == 'Q')	
+				{
+					spt.query(ta,tb);    	
+				}else if(str[0] == 'A'){
+					spt.update(ta,tb);
+				}else if(str[0] == 'S'){
+					spt.update(ta,-tb);
+				}else {
+					break;
+				}
+				//printf("%lld\n",spt.sum[1]);
+			}
 	}
 
 return 0;
