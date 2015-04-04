@@ -34,31 +34,25 @@ void solve(int n)
    }
    num -- ; 
 }
-int dp[4000];
-int a[4000];
-int add[5000];
-void dfs(int k,int step)
+int dp[5000];
+int a[5000];
+int ans = 0 ; 
+int Abs(int tt)
+{
+   if(tt >=0 )
+	   return tt;
+   return -tt;
+}
+void dfs(int k)
 {
 	if(k > num)
 		return;
-    dfs(2*k,step + 1);
-	dfs(2*k+1,step + 1);
+    dfs(2*k);
+	dfs(2*k+1);
 	dp[k] = max(dp[2*k] + a[2*k-1],dp[2*k+1] + a[2*k]);
-}
-int ans = 0 ; 
-void findans(int k)
-{
-	if(k > num )
-		return;
-	
-	int ta = dp[k*2] + a[2*k-1];
+	int ta = dp[2*k] + a[2*k-1];
 	int tb = dp[k*2+1] + a[2*k];
-    int tt = abs(ta-tb);
-	//printf("%d %d\n",ta,tb);
-	ans += tt; 
-   findans(2*k);
-   findans(2*k+1);
-
+	ans += Abs(ta-tb);
 }
 int main(){
   int n;
@@ -66,11 +60,7 @@ int main(){
   solve(n);
   for(int i = 1;i< num;i ++)
 	  scanf("%d",&a[i]);
-  dfs(1,1);
- /* for(int i = 1;i <= num;i ++)
-	  printf("%d ",dp[i]);
-  puts("\n");*/
-  findans(1);
+  dfs(1);
   printf("%d\n",ans);
 return 0;
 }
