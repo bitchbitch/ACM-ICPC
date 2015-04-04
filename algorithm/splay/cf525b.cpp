@@ -24,7 +24,7 @@
 #define LL long long
 
 using namespace std;
-const int maxn = 100005;
+const int maxn = 200005;
 struct SplayTree{
     int sz[maxn];
     int ch[maxn][2];
@@ -107,6 +107,7 @@ struct SplayTree{
 		}
     }
     inline void push_up(int x){
+		 sz[x] = 1 + sz[ch[x][0]] + sz[ch[x][1]];
     }
     inline void makeTree(int &x,int l ,int r,int f){
         if(l > r) return ; 
@@ -132,30 +133,28 @@ struct SplayTree{
         makeTree(ch[ch[root][1]][0],1,n,ch[root][1]);
         push_up(ch[root][1]);
         push_up(root); 
-    //    printf("%d***\n",mx[root]);
 
     }
 	void print(int x)
 	{
        if(x == 0 )
 		   return; 
-	   printf("%c",val[x]);
 	   push_down(x);
 	   print(ch[x][0]);
+	   printf("%c",val[x]);
 	   print(ch[x][1]);
 	}
 	inline void update(int l ,int r){
        RotateTo(l-1,0);
 	   RotateTo(r+1,root);
        rev[ch[ch[root][1]][0]] ^= 1;
+	   //Splay(ch[ch[root][1]][0],0);
 	}
     inline void query(){
        RotateTo(0,0);
        RotateTo(n+1,root);
-	   printf("***\n");
 	   //print(ch[ch[root][1]][0]);
-	   print(root);
-	   printf("(((\n");
+	   print(ch[ch[root][1]][0]);
     } 
 	char str[maxn];
 	char val[maxn];
@@ -165,13 +164,13 @@ int ta,tb;
 int n , q; 
 int main(){
         spt.init();
+		//spt.query();
 		scanf("%d",&q);
         for(int i = 1;i <= q; i++)
         {
             scanf("%d",&ta);
             spt.update(ta,spt.n-ta+1) ;
         }
-		printf("***\n");
 		spt.query();
 return 0;
 }

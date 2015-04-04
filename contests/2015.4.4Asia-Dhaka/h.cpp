@@ -69,6 +69,7 @@ int main(){
 	   for(int i = 1;i <= 160;i ++)
 		   sum[i] = sum[i-1] + num[i];
 	   pin = n*1.0/4;
+
 	   for(int i= 0;i < 160; i ++)
 	   {
 		tmp[1] = i; 
