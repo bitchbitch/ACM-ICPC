@@ -21,10 +21,12 @@
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
+#include<limits.h>
 #define LL long long
 #define keyTree (ch[ch[root][1]][0])
 using namespace std;
 const int maxn = 100005; 
+int flag = 0 ; 
 
 struct SplayTree{
     int sz[maxn];
@@ -32,7 +34,13 @@ struct SplayTree{
 	int pre[maxn];
 	int root ,top1,top2;
 	int ss[maxn],que[maxn];
-	
+	struct node{
+	  int i,si,val;
+	}num[maxn];
+	static bool cmp(node a,node b)
+	{
+	  return a.i < b.i; 
+	}
 	inline void Rotate(int x, int f){
 	     int y = pre[x];
 		 push_down(y);
@@ -61,8 +69,59 @@ struct SplayTree{
 		push_up(x);
 		if(goal == 0 ) root = x; 
 	}
-	inline int RotateTo(){
-
+	inline void RotateTo(int k ,int goal){
+		int x = root;
+		push_down(x);
+		while(sz[ch[x][0]] != k)
+		{
+			if(k < sz[ch[x][0]]){
+				x = ch[x][0];
+			}else{
+				k-= (sz[ch[x][0]] +1);
+				x = ch[x][1];
+			}
+			push_down(x);
+		}
+		Splay(x,goal);
+	}
+	void print(int x){
+		if(x == 0 )
+			return ;
+		print(ch[x][0]);
+		printf("%d ",val[x]);
+		print(ch[x][1]);
+	}
+	inline int findK(int mxnum){
+		int k = 0 ; 
+        for(int i = root;i != 0 ;)
+		{
+			push_down(i);
+	        if(val[i] == mi[root])
+			{
+			   k += sz[ch[i][0]] ;
+			   RotateTo(0,0);
+               RotateTo(k+1,root);
+			   rev[keyTree] ^= 1;
+			   RotateTo(0,0);
+			   RotateTo(2,root);
+			   erase(keyTree);
+		       push_up(ch[root][1]);
+		       push_up(root);
+			   return k ; 
+			}
+			if(mi[ch[i][1]] == mi[root])
+			{
+				k += sz[ch[i][0]] + 1; 
+				i = ch[i][1];
+			}
+			else{ 
+				i = ch[i][0];
+			    /*printf("****%d\n",k);
+				for(int i = 1;i <= 6; i++)
+					printf("%d ",sz[i]);
+				printf("\n");*/
+			}
+		}
 	}
     inline void erase(int x){
 	    int father = pre[x];
@@ -101,28 +160,44 @@ struct SplayTree{
 	inline void makeTree(int &x ,int l ,int r ,int f){
 		if(l > r ) return;
 		int m = (l + r) >> 1; 
-		NewNode(x,num[m]);
+		NewNode(x,num[m].val);
+	//	printf("%d %d\n",x,num[m]);
 		makeTree(ch[x][0],l,m-1,x);
 		makeTree(ch[x][1],m+1,r,x);
 		pre[x] = f; 
 		push_up(x);
 	}
+	static bool cmp2(SplayTree::node a, SplayTree::node b)
+	{
+	  return a.si < b.si;
+	}
 	inline void init(int n){
 		ch[0][0] = ch[0][1] = pre[0] = sz[0] = 0 ; 
 		rev[0] = 0; 
+		mi[0] = INT_MAX;
 	
-		root = top1 = 0 ; 
-		NewNode(root,-1);
-		NewNode(ch[root][1],-1);
+		root = top1 = top2 = 0 ; 
+
+		NewNode(root,INT_MAX);
+		NewNode(ch[root][1],INT_MAX);
 		pre[top1] = root;
 		sz[root] = 2; 
 		
-		for(int i = 1 ;i <= n;i ++) scanf("%d",&num[i]);
+		for(int i = 1 ;i <= n;i ++) 
+		{
+			scanf("%d",&num[i].i);
+			num[i].si = i ; 
+		}
+		stable_sort(num+1,num+n+1,cmp);
+        for(int i = 1;i <= n;i ++)
+		{
+		    num[i].val = i; 
+		}
+		sort(num+1,num+n+1,SplayTree::cmp2);
 		makeTree(keyTree,1,n,ch[root][1]);
 		push_up(ch[root][1]);
 		push_up(root);
 	}
-	int num[maxn];
 	int mi[maxn];
 	int rev[maxn];
 	int val[maxn];
@@ -131,11 +206,12 @@ int n ;
 int main(){
 	while(scanf("%d",&n) != EOF && n)
 	{
-	  spt.init(n);
-	  for(int i = 1;i <= n;i ++)
-	  {
-	    printf("%d\n",i-1+spt.RotateTo());
-	  }
+		spt.init(n);
+		for(int i = 1;i <= n;i ++)
+		{
+			printf(i == 1?"%d":" %d",i-1+spt.findK(n-i+2));
+		}
+		printf("\n");
 	}
 return 0;
 }

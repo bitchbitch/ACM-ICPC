@@ -57,7 +57,6 @@ int main(){
 	   int ans = 1e9 ;
 	   int milr = 1e9 ; 
 	   int l ,r ; 
-	   memset(from,0,sizeof(from));
 	   l = 2*n;
 	   r = 2*n-1;
 	   int j = 1; 
