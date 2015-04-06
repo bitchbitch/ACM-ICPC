@@ -28,7 +28,7 @@ using namespace std;
 int main(){
   FILE *p = fopen("output1","r");
   FILE *p1 = fopen("output","r");
-  freopen("tt","w",stdout);
+  //freopen("tt","w",stdout);
   char str[1000];
   char str1[1000];
   int tt = 0;

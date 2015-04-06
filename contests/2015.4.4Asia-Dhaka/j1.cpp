@@ -27,8 +27,8 @@ struct Box
 }box[int(1e5)+10];
 int main()
 {
-//	freopen("intput","r",stdin);
-//	freopen("output","w",stdout);
+	freopen("input","r",stdin);
+	freopen("output1","w",stdout);
 	int T,cs=0;
 	cin>>T;
 	while(T--)

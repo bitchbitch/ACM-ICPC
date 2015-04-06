@@ -23,15 +23,43 @@
 #include<ctime>
 #define LL long long
 #define M 1000000007
-
+#define maxn 100005
 using namespace std;
 int t ;
-int p ;
-int hs[1000005];
+int n;
+struct node{
+  unsigned LL val ,num;
+}a[maxn];
+unsigned LL ans ,ansnum;
+bool cmp(node a, node b)
+{
+   return a.val < b.val;
+}
 int main(){
 //	freopen("input","r",stdin);
 //	freopen("output","w",stdout);
 
+    scanf("%d",&t);
+	for(int CA = 1;CA <= t ; CA++)
+	{
+	   scanf("%d",&n);
+	   for(int i =1 ;i <= n ;i ++)
+	   {
+	      scanf("%llu %llu",&a[i].val,&a[i].num);
+	   }
+	   sort(a+1,a+1+n,cmp);
+	   unsigned LL tsum =0 ; 
+	   ans =  0 ;
+	   ansnum = 1; 
+	   for(int i = 1;i <= n;i ++)
+	   {
+		   tsum += a[i].num;
+	       ans = (ans + a[i].num * tsum); 
+		   if(i != 1)
+			   ansnum = ansnum *(a[n-i+1].num+1) % M;
+	   }
+	   printf("Case %d: %llu %llu\n",CA,ans,ansnum);
+	}
 
 return 0;
 }

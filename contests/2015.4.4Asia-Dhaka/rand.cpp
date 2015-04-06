@@ -27,13 +27,13 @@ using namespace std;
 
 int main(){
 	freopen("input","w",stdout);
-	printf("1000\n");
-	for(int i = 1;i <= 1000 ;i ++)
+	printf("100\n");
+	for(int i = 1;i <= 100 ;i ++)
 	{
-	int p = rand() % 10 + 1; 
+	int p = rand() % 100000 + 1; 
 	printf("%d\n",p);
    for(int i = 1;i <= p;i ++ )
-	   printf("%d %d ",rand()%10+1,rand()%4 == 1?2:1);
+	   printf("%d %d ",rand()%100000+1,rand()%100000 + 1);
    printf("\n");	
 	}
 return 0;
