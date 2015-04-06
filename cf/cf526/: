@@ -1,0 +1,67 @@
+// File Name: d.cpp
+// Author: darkdream
+// Created Time: 2015年04月06日 星期一 15时36分38秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+#define maxn 1000005
+using namespace std;
+int n , k ; 
+char str[1000005];
+int next[maxn];
+int len ; 
+void getnext(char *p )
+{
+   len = strlen(p);
+   next[0] = -1;
+   int k = -1;
+   int j = 0 ; 
+   while(j < len)
+   {
+       if(k == -1 || p[j] == p[k])
+	   {
+	     ++ k ; 
+		 ++ j; 
+		 next[j] = k ;
+	   }else{
+	      k = next[k];
+	   }
+   }
+}
+int fa[maxn];
+int dp[maxn];
+int main(){
+	scanf("%d %d",&n,&k);
+	scanf("%s",str);
+	getnext(str);
+	for(int i = 1; i <= len ;i ++)
+	{
+		printf("%d ",next[i]);
+	}
+	printf("\n");
+	for(int i = 1; i <= len ;i ++)
+	{
+
+	}
+    printf("\n");
+	
+return 0;
+}
