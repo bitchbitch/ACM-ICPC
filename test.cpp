@@ -21,29 +21,20 @@
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+
 #define LL long long
 #define M 1000000007
 using namespace std;
-int dp[2][1000005];
-int n , m; 
-void solve(int k ,int f)
-{
-   dp[f][0] = 1; 
-   for(int i = 1; i <= k ;i ++)
-   {
-       dp[f][i] = (dp[!f][i] + dp[!f][i-1])%M;
-   }
-   if(k % 10000 == 0 )
-     printf("%d\n",k);
-}
+using namespace __gnu_pbds;
+tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update>t;
 int main(){
-    freopen("output","w",stdout);
-    dp[0][0] = 1; 
-	scanf("%d %d",&n,&m);
-    for(int i = 1; i <= n;i ++)
-	{
-      solve(i,i%2);	
-	}
-	printf("%d\n",dp[(n%2)][m]);
-return 0;
+	t.insert(1);
+	t.insert(2);
+	t.insert(3);
+	t.insert(4);
+	printf("%d\n",*t.find_by_order(0));
+    return 0 ; 
 }
+
