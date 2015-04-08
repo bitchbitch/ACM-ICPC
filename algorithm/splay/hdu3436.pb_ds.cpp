@@ -118,10 +118,10 @@ struct SplayTree{
 	   sz[x] = 1 + sz[ch[x][1]] + sz[ch[x][0]];
 	}
 	inline void init(){
-		ch[0][0] = ch[0][1] = pre[0] = sz[9] = 0 ; 
+		ch[0][0] = ch[0][1] = pre[0] = sz[0] = 0 ; 
 		
 		root = top1 = 0 ; 
-		NewNode(root,-1,0);
+		NewNode(root,0,0);
 		NewNode(ch[root][1],1e9,0);
 		sz[root] = 2; 
 		pre[ch[root][1]] = root;
@@ -133,21 +133,24 @@ struct SplayTree{
 		int k = 0 ; 
 		for(;;)
 		{
-		  printf("**%d %d %d %d %d\n",key,keys[x],k,ch[x][0],ch[x][1]);
+		   //printf("**%d %d %d %d %d\n",key,keys[x],k,sz[ch[x][0]],sz[ch[x][1]]);
 	       if(key == keys[x])
 		   {
+			   pair<int,int> ans =  make_pair(vals[x],k+sz[ch[x][0]]);
 			   Splay(x,0);
-			   return make_pair(vals[x],k);
+			   return ans; 
 		   }
-		   int f = (key > keys[x]);
+		   bool f = (key > keys[x]);
 		   if(ch[x][f] == 0 )
 		   {
+		     pair<int,int> ans = make_pair(-1,k + sz[ch[x][0]] - (!f));   
 			 Splay(x,0);
-		     return make_pair(-1,k+f);   
+			 return ans ;
+
 		   }else{
-		     x = ch[x][f];
 			 if(f)
 				k += (sz[ch[x][0]] + 1); 
+		     x = ch[x][f];
 		   }
 		}
 	}
@@ -174,8 +177,14 @@ struct SplayTree{
 			}
 		}
 	}
-	inline void findrank(int key){	
-	
+	inline void findrank(int site){	
+		int x = root ;
+		int k = 0 ; 
+		int szmp= mp.size();
+		for(;;)
+		{
+	       int tmp = szmp + keys[x] 	
+		}
 	}
 	int vals[maxn];
 	int keys[maxn];
@@ -196,13 +205,18 @@ int main(){
 		if(str[0] == 'T'){
 			spt.insert(tmp,i);
 			mp[i] = tmp ; 
-		}else if(str[0] == 'R'){
+	     }else if(str[0] == 'Q'){
 			pair<int ,int > tt = spt.find(tmp);
 			if(tt.first != -1 )
-               printf("%ld",mp.order_of_key(tt.first) + 1);
+              printf("%ld\n",mp.order_of_key(tt.first) + 1);
 			else{
-			  printf("%d\n",tt.second);
 		      printf("%ld\n",mp.size()-tt.second + tmp); 	
+			}
+		}else{
+			if(tmp <= mp.size()){
+				printf("%d\n",mp.find_by_order(tmp-1)->second);
+			}else{
+                   
 			}
 		}
 	  }
