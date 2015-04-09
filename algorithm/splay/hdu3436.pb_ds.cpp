@@ -1,10 +1,3 @@
-/************************************************************
- * Author : darkdream
- * Email : cijianzy@gmail.com 
- * Last modified : 2015-04-08 12:27
- * Filename : hdu3436.pb_ds.cpp
- * Description :
- * *********************************************************/
 // File Name: hdu3436.pb_ds.cpp
 // Author: darkdream
 // Created Time: 2015年04月07日 星期二 14时26分13秒
@@ -91,18 +84,6 @@ struct SplayTree{
 		}
 		Splay(x,goal);
 	}
-	inline void erase(int x){
-         int father = pre[x];
-		 int head = 0 ,tail = 0 ; 
-		 for (que[tail ++] = x ; head < tail ; head ++){
-			ss[top2 ++] = que[head];
-			if(ch[que[head]][0]) que[tail ++] = ch[que[head]][0];
-			if(ch[que[head]][1]) que[tail ++] = ch[que[head]][1];
-		 }
-		 ch[father][ch[father][1] == x] = 0 ; 
-		 push_up(father);
-	}
-		
 	inline void NewNode(int &x ,int key,int val){
 		if(top2) x = ss[--top2];
 		else x = ++top1;
@@ -119,7 +100,6 @@ struct SplayTree{
 	}
 	inline void init(){
 		ch[0][0] = ch[0][1] = pre[0] = sz[0] = 0 ; 
-		
 		root = top1 = 0 ; 
 		NewNode(root,0,0);
 		NewNode(ch[root][1],1e9,0);
@@ -133,7 +113,6 @@ struct SplayTree{
 		int k = 0 ; 
 		for(;;)
 		{
-		   //printf("**%d %d %d %d %d\n",key,keys[x],k,sz[ch[x][0]],sz[ch[x][1]]);
 	       if(key == keys[x])
 		   {
 			   pair<int,int> ans =  make_pair(vals[x],k+sz[ch[x][0]]);
@@ -163,6 +142,7 @@ struct SplayTree{
 		    {
 				mp.erase(mp.find(vals[x]));
 			    vals[x] = val;  	
+				Splay(x,0);
 			    return; 
 			}
 			int f = (key > keys[x]);
@@ -177,14 +157,29 @@ struct SplayTree{
 			}
 		}
 	}
-	inline void findrank(int site){	
+	inline int  findrank(int site){	
 		int x = root ;
 		int k = 0 ; 
 		int szmp= mp.size();
-		for(;;)
+		int ans = site;  
+		int p  = root;
+		for(; x!= 0 ;)
 		{
-	       int tmp = szmp + keys[x] 	
+	       int tmp = szmp + keys[x] - (k + sz[ch[x][0]]) + 1;	
+		   //printf("***%d %d %d %d\n",keys[x],k,sz[ch[x][0]],sz[ch[x][1]]);
+		   if(tmp > site)
+		   {
+		       x = ch[x][0];
+		   }else{
+			  ans = keys[x] + (site - (tmp) + 1) ;  
+			  p = x; 
+			  //printf("%d %d\n",tmp,keys[x]);
+			  k += (sz[ch[x][0]] + 1);
+			  x = ch[x][1];
+		   }
 		}
+		Splay(p,0);
+		return ans;   
 	}
 	int vals[maxn];
 	int keys[maxn];
@@ -197,6 +192,7 @@ int main(){
 	  mp.clear();
 	  spt.init();
 	  //printf("%d\n",spt.sz[spt.root]);
+	  printf("Case %d:\n",CA);
 
 	  scanf("%d %d",&n,&q);
 	  for(int i= 1;i <= q;i ++)
@@ -216,7 +212,7 @@ int main(){
 			if(tmp <= mp.size()){
 				printf("%d\n",mp.find_by_order(tmp-1)->second);
 			}else{
-                   
+                printf("%d\n",spt.findrank(tmp)); 
 			}
 		}
 	  }
