@@ -78,7 +78,6 @@ struct SplayTree{
 	}
 	//以上Debug
  
- 
 	//以下是题目的特定函数:
 	inline void NewNode(int &x,int c) {
 		if (top2) x = ss[--top2];//用栈手动压的内存池
