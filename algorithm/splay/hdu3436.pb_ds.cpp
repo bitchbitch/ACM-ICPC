@@ -166,14 +166,12 @@ struct SplayTree{
 		for(; x!= 0 ;)
 		{
 	       int tmp = szmp + keys[x] - (k + sz[ch[x][0]]) + 1;	
-		   //printf("***%d %d %d %d\n",keys[x],k,sz[ch[x][0]],sz[ch[x][1]]);
 		   if(tmp > site)
 		   {
 		       x = ch[x][0];
 		   }else{
 			  ans = keys[x] + (site - (tmp) + 1) ;  
 			  p = x; 
-			  //printf("%d %d\n",tmp,keys[x]);
 			  k += (sz[ch[x][0]] + 1);
 			  x = ch[x][1];
 		   }
@@ -191,9 +189,7 @@ int main(){
    {
 	  mp.clear();
 	  spt.init();
-	  //printf("%d\n",spt.sz[spt.root]);
 	  printf("Case %d:\n",CA);
-
 	  scanf("%d %d",&n,&q);
 	  for(int i= 1;i <= q;i ++)
 	  {
