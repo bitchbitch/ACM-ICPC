@@ -22,7 +22,7 @@ struct SplayTree{
 		if(pre[x]) ch[ pre[y] ][ ch[pre[y]][1] == y ] = x;
 		ch[x][f] = y;
 		pre[y] = x;
-		push_up(y);//为什么只push_up(y)而不push_up,因为现在更新x是浪
+		push_up(y);//为什么只push_up(y)而不push_up(x),因为现在更新x是浪
 	}
 	inline void Splay(int x,int goal) {
 		push_down(x);
