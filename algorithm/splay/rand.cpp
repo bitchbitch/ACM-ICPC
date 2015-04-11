@@ -28,7 +28,7 @@ int n ;
 int main(){
     srand(time(NULL));
     freopen("in","w",stdout);	
-	int n = 100000; 
+	int n = 5; 
 	int m = 20000; 
 	printf("%d %d\n",n,m);
 	for(int i = 1;i <= n;i ++)

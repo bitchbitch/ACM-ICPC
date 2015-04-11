@@ -26,7 +26,7 @@
 #define INF (1ll * INT_MAX*INT_MAX)
 #define maxn 500005
 using namespace std;
-
+// 可能是push_dwon的原因
 struct SplayTree{
    int sz[maxn];
    int ch[maxn][2];
@@ -90,18 +90,10 @@ struct SplayTree{
 		push_up(father);
    }
    inline void push_down(int x){
-	   if(rev[x])
-	   {
-		    swap(ch[x][0],ch[x][1]);
-			rev[ch[x][0]] ^= 1; 
-			if(rev[ch[x][0]])
-            swap(lx[ch[x][0]],rx[ch[x][0]]);
-			rev[ch[x][1]] ^= 1; 
-			if(rev[ch[x][0]])
-            swap(lx[ch[x][1]],rx[ch[x][1]]);
-			rev[x] =  0 ; 
-	   }
 	   if(cg[x] != -INF){ 
+		    rev[ch[x][0]] = 0 ; 
+			rev[ch[x][1]] = 0 ; 
+			rev[x] = 0 ; 
 		    cg[ch[x][0]] = cg[x];
 			cg[ch[x][1]] = cg[x];
 		    val[ch[x][0]] = cg[x];
@@ -124,6 +116,16 @@ struct SplayTree{
 			   mx[ch[x][1]] = cg[x];
 			}
 			cg[x] = -INF; 
+	   }else if(rev[x])
+	   {
+		    swap(ch[x][0],ch[x][1]);
+			rev[ch[x][0]] ^= 1; 
+			if(rev[ch[x][0]])
+            swap(lx[ch[x][0]],rx[ch[x][0]]);
+			rev[ch[x][1]] ^= 1; 
+			if(rev[ch[x][0]])
+            swap(lx[ch[x][1]],rx[ch[x][1]]);
+			rev[x] =  0 ; 
 	   }
    }
    inline void push_up(int x){
@@ -233,14 +235,13 @@ struct SplayTree{
 	   RotateTo(p-1,0);
 	   RotateTo(p+n,root);
 	   rev[ch[ch[root][1]][0]] ^= 1; 
-	   if(rev[ch[ch[root][1]][0]] ); 
+	   if(rev[ch[ch[root][1]][0]] ) 
 	      swap(lx[ch[ch[root][1]][0]],rx[ch[ch[root][1]][0]]);
-	
    }
    inline LL getsum(int p ,int n){
 		RotateTo(p-1,0);
 		RotateTo(p+n,root);
-		printf("%lld\n",sum[ch[ch[root][1]][0]]);
+		printf("%lld\n\n",sum[ch[ch[root][1]][0]]);
    }
    inline LL maxsum(){
 		RotateTo(0,0);
@@ -309,11 +310,11 @@ int main(){
 		}else {
 			//spt.debug(spt.root);
 			spt.maxsum();
-	    /*spt.debug(spt.root);
-		printf("\n");
+	    //spt.debug(spt.root);
+		//printf("\n");
 	    spt.print(spt.root);
 		printf("\n");
-			spt.maxsum();*/
+		//	spt.maxsum();*/
 		}
 	}
 return 0;
