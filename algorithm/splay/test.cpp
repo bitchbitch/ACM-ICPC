@@ -26,20 +26,23 @@
 using namespace std;
 
 int main(){
-  FILE *p = fopen("out","r");
-  FILE *p1 = fopen("out1","r");
+  FILE *p = fopen("output","r");
+  FILE *p1 = fopen("output1","r");
   char str[1000000];
   char str1[1000000];
+  int num = 0 ; 
+  int sum =0 ; 
   while(fgets(str,1000000,p))
   {
        fgets(str1,1000000,p1);
+		num ++ ; 
        if(strcmp(str,str1) != 0 )
        {
-        printf("***\n");
+        printf("***%d\n",num);
+		sum ++ ; 
        }else{
-		 //  puts(str);
-		 //  puts(str1);
 	   }
   }
+  printf("%d\n",sum);
 return 0;
 }

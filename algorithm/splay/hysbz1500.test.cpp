@@ -183,6 +183,8 @@ int Get_MaxSum(int pos,int tot)
 }
 int main()
 {
+	freopen("in","r",stdin);
+	freopen("output1","w",stdout);
     while(scanf("%d%d",&n,&q)==2)
     {
         Init();
@@ -224,6 +226,7 @@ int main()
     }
     return 0;
 }
+
 
 
 

@@ -25,41 +25,43 @@
 
 using namespace std;
 int n ; 
-int vis[100004];
-void dfs(int k )
-{
-  if(k == n)
-	  return;
-  int m = rand()%(n-k)  + 1; 
- // printf("%d*",m);
-  int t = 0 ; 
-  for(int i = 1;i <= n; i ++)
-  {
-    if(!vis[i])
-	{
-	   t ++ ; 
-	   if(t == m)
-	   {
-	     printf("%d ",i);
-		 vis[i] = 1;  
-		 dfs(k+1);
-	   break;
-	   }
-	}
-  }
-}
 int main(){
     srand(time(NULL));
     freopen("in","w",stdout);	
-   // for(int i = 1;i <= 10000;i ++)
-    for(int i = 1;i<= 200;i ++)
+	int n = 100000; 
+	int m = 20000; 
+	printf("%d %d\n",n,m);
+	for(int i = 1;i <= n;i ++)
 	{
-	   n = rand() % 100000 + 1; 
-	   printf("%d\n",n);
-	   memset(vis,0,sizeof(vis));
-	   dfs(0);
-	   printf("\n");
+	  printf("%d ",rand()%200 -100);
 	}
-	printf("0\n");
+	printf("\n");
+    while(m--)
+	{
+	   int p = rand()%5;
+	   if(p == 1)
+	   {
+		   int k = rand()%n +1; 
+		   int st;
+		   if(k != n )
+		      st = rand()%(n-k) + 1; 
+		   else st = 1; 
+		   printf("MAKE-SAME %d %d %d\n",k,st,rand()%200-100);
+	   }else if(p == 2 ){ 
+		   int k = rand()%n +1; 
+		   int st; 
+		   if(k != n )
+		    st= rand()%(n-k) + 1; 
+		   else st = 1; 
+		   printf("REVERES %d %d\n",k,st); 
+	   }else if(p == 3){
+		   int k = rand()%n +1; 
+		   int st ; 
+		   if(k != n )
+		    st = rand()%(n-k) + 1; 
+		   else st = 1; 
+		   printf("GET-SUM %d %d\n",k,st);
+	   }else printf("MAX-SUM\n");
+	}
 	return 0;
 }
