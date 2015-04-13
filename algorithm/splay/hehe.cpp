@@ -89,45 +89,75 @@ struct SplayTree{
 		ch[father][ch[father][1] ==  x] = 0 ; 
 		push_up(father);
    }
-   void update_rev(int x){
-	   if(!x) return ; 
-	   swap(ch[x][0],ch[x][1]);
-	   swap(lx[x],rx[x]);
-	   rev[x] ^= 1; 
+   void update_same(int x, int c)
+   {
+	   if(x == 0 ) return ;
+	   cg[x] = c; 
+	   val[x] = c; 
+	   sum[x] = sz[x] * c; 
+	   lx[x] = rx[x] = mx[x] = max(c,c*sz[x]);
    }
-   void update_same(int x, int v){
-		if(!x) return ; 
-		rev[x] = 0; 
-		val[x] = v; 
-		sum[x] = v*sz[x];
-		cg[x] = v; 
-		lx[x] = rx[x] = mx[x] = max(v,v*sz[x]);
+   void  update_rev(int x)
+   {
+	   if(x == 0 )
+		   return; 
+      rev[x] ^= 1; 
+	  swap(lx[x],rx[x]);
    }
-   void push_down(int x){
-	   if(cg[x] != -INF){
-		   rev[x] = 0 ; 
-		   update_same(ch[x][0],cg[x]);
+   void push_down(int x)
+   {
+	   if(cg[x] != -INF)
+	   {
 		   update_same(ch[x][1],cg[x]);
-		   cg[x] = -INF;
-	   }else if(rev[x]){
-		   /*update_rev(ch[x][0]);
-		   update_rev(ch[x][1]);
-		   rev[x] = 0;*/ 
+		   update_same(ch[x][0],cg[x]);
+		   rev[x] = 0 ; 
+		   cg[x] = -INF; 
+	   }else if(rev[x] == 1)
+	   {
 		    swap(ch[x][0],ch[x][1]);
-			rev[ch[x][0]] ^= 1; 
-			rev[ch[x][1]] ^= 1; 
-            swap(lx[ch[x][0]],rx[ch[x][0]]);
-            swap(lx[ch[x][1]],rx[ch[x][1]]);
-			rev[x] =  0 ;  
+			update_rev(ch[x][0]);
+			update_rev(ch[x][1]);
+			rev[x] =  0 ; 
 	   }
    }
    void push_up(int x){
-	      sz[x] = 1 + sz[ch[x][0]] + sz[ch[x][1]];
-		  sum[x] =  val[x] + sum[ch[x][0]] + sum[ch[x][1]] ; 
-	      lx[x]=max(lx[ch[x][0]],sum[ch[x][0]]+val[x]+max(0,lx[ch[x][1]]));
-		  rx[x]=max(rx[ch[x][1]],sum[ch[x][1]]+val[x]+max(0,rx[ch[x][0]]));
-		  mx[x]=max(0,rx[ch[x][0]])+val[x]+max(0,lx[ch[x][1]]);
-		  mx[x]=max(mx[x],max(mx[ch[x][0]],mx[ch[x][1]]));	
+		sz[x] = 1 + sz[ch[x][0]] + sz[ch[x][1]];
+		sum[x] =  val[x] + sum[ch[x][0]] + sum[ch[x][1]] ; 
+		lx[x] = rx[x] = sum[x];
+		mx[x] = sum[x];
+		if(ch[x][0] == 0  && ch[x][1] == 0 ){
+		   return; 
+		}
+		if(ch[x][0] == 0 ){
+			lx[x] = max(val[x],lx[x]);
+			lx[x] = max(val[x]+lx[ch[x][1]],lx[x]);
+			rx[x] = max(rx[ch[x][1]],rx[x]);
+			mx[x] = max(mx[ch[x][1]],mx[x]);
+			mx[x] = max(lx[x],mx[x]);
+			mx[x] = max(rx[x],mx[x]);
+		}else if(ch[x][1] == 0 ){
+			lx[x] = max(lx[ch[x][0]],lx[x]);
+			rx[x] = max(val[x],rx[x]);
+			rx[x] = max(val[x] + rx[ch[x][0]],rx[x]);
+	    	mx[x] = max(mx[ch[x][0]],mx[x]);
+			mx[x] = max(lx[x],mx[x]);
+			mx[x] = max(rx[x],mx[x]);
+		}else{
+			lx[x] = max(lx[ch[x][0]],lx[x]);
+			lx[x] = max(sum[ch[x][0]] + val[x],lx[x]);
+			lx[x] = max(sum[ch[x][0]] + val[x] + lx[ch[x][1]],lx[x]);		
+			rx[x] = max(rx[ch[x][1]],rx[x]);
+			rx[x] = max(sum[ch[x][1]] + val[x],rx[x]);
+			rx[x] = max(sum[ch[x][1]] + val[x] + rx[ch[x][0]],rx[x]);
+			mx[x] = max(val[x],mx[x]);
+			mx[x] = max(mx[ch[x][0]],mx[x]);
+			mx[x] = max(mx[ch[x][1]],mx[x]);
+			mx[x] = max(rx[ch[x][0]]+val[x],mx[x]);
+			mx[x] = max(sum[ch[x][0]]+val[x],mx[x]);
+			mx[x] = max(lx[ch[x][1]]+val[x],mx[x]);
+			mx[x] = max(sum[ch[x][1]]+val[x],mx[x]);
+		    mx[x] = max(lx[ch[x][1]]  + rx[ch[x][0]] + val[x],mx[x]);
+		}
    }
    void NewNode(int &x , LL c){
 		if(top2) x = ss[--top2];
@@ -155,6 +185,7 @@ struct SplayTree{
 	  NewNode(ch[root][1],-1);
 	  pre[ch[root][1]] = root;
 	  sz[root] = 2; 
+	  push_up(root);
    }
    void insert(int p ,int n){
 	   for(int i =1 ;i <= n;i ++)
@@ -182,11 +213,7 @@ struct SplayTree{
    void flip(int p ,int n ){
 	   RotateTo(p-1,0);
 	   RotateTo(p+n,root);
-	   //update_rev(ch[ch[root][1]][0]);
-	   rev[ch[ch[root][1]][0]] ^= 1; 
-		     swap(lx[ch[ch[root][1]][0]],rx[ch[ch[root][1]][0]]);
-		push_up(ch[root][1]);
-		push_up(root);
+	   update_rev(ch[ch[root][1]][0]);
    }
    LL getsum(int p ,int n){
 		RotateTo(p-1,0);
@@ -216,8 +243,8 @@ char str[100];
 int ta,tb;
 LL tc;
 int main(){
-  freopen("in","r",stdin);
-   freopen("output","w",stdout);
+  //freopen("in","r",stdin);
+  // freopen("output","w",stdout);
 	spt.init();
 	scanf("%d %d",&n,&m);
 	spt.insert(0,n);
@@ -239,7 +266,13 @@ int main(){
 			scanf("%d %d",&ta,&tb);
 			spt.flip(ta,tb);
 		}else {
+		//	spt.debug(spt.root);
 			spt.maxsum();
+	    /*spt.debug(spt.root);
+		printf("\n");
+	    spt.print(spt.root);
+		printf("\n");
+			spt.maxsum();*/
 		}
 	}
 return 0;

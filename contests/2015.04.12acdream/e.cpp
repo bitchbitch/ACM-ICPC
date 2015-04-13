@@ -42,7 +42,7 @@ int main(){
 	   {
 		   cin >> tmp;
 		   ans = gcd(ans,tmp);
-		   mx =max(tmp,ans);
+		   mx =max(tmp,mx);
 	   }
 	   if((mx/ans - n)%2 ==0 )
 		   printf("Lose\n");
