@@ -1,3 +1,4 @@
+
 #include<limits>
 #include<queue>
 #include<vector>
@@ -28,9 +29,6 @@
 using namespace std;
 int a[1100];
 int main(){
-//	freopen("in","r",stdin);
-//	freopen("out","w",stdout);
-
 	int T,n,i;
 	scanf("%d",&T);
 	while (T--){
@@ -41,9 +39,9 @@ int main(){
 			if (M<a[i]) M=a[i];
 		}
 		sort(a,a+n);
-		int k=a[0];
+		int k=a[1]-a[0];
 		int f=1;
-		for (i=1;i<n;i++)
+		for (i=2;i<n;i++)
 			if (a[i]-a[i-1]!=k){
 				f=0;break;
 			}
