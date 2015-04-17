@@ -44,9 +44,9 @@ typedef long long LL;
 typedef pair<int,int> PII;
 
 const int maxn = 9*9*9*9*9;
-int nx[maxn][10][34];
-int dp[2][maxn];
+int dp2[5005][10];
 int pow9[6];
+int dp[maxn][32];
 void get_nx()
 {
     for(int i = 0;i < maxn; i ++){
@@ -82,7 +82,6 @@ class Nine
 			for(int i = 0 ;i < n ;i ++){
 				for(int j = 0 ;j < pow9[m];j ++){
 					for(int p = 0 ;p <= 9 ;p ++){
-						//if(dp[!t][nx[j][p][d[i]]] != -1)
 						 dp[!t][nx[j][p][d[i]]] = (dp[!t][nx[j][p][d[i]]] + dp[t][j]) % M;
 					}
 				}
