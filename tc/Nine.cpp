@@ -42,32 +42,55 @@ typedef vector<string> VS;
 typedef vector<double> VD;
 typedef long long LL;
 typedef pair<int,int> PII;
-int hs[5005];
-int dp[5005][99999];
+
+const int maxn = 9*9*9*9*9;
+int nx[maxn][10][34];
+int dp[2][maxn];
+int pow9[6];
+void get_nx()
+{
+    for(int i = 0;i < maxn; i ++){
+	    for(int j = 0 ;j <= 9 ;j ++){	
+			for(int s = 0 ;s <= 31 ;s ++)
+			{
+				int ns = 0 ; 
+			    for(int t = 0 ;t < 5;t ++){
+				     if((1 <<t) & s){
+						ns += ((i/pow9[t] + j)% 9)*pow9[t];
+					 }else{
+						ns += ((i/pow9[t])%9) *pow9[t];
+					 }
+				}
+				nx[i][j][s] = ns;
+			}
+		}
+	}
+}
 class Nine
 {
         public:
-        int count(int N, vector <int> d){
-			int len = d.size();
-			memset(dp,-1,sizeof(dp));
-			LL ans = 1; 
-			for(int i = 0 ;i < len;i ++){
-				if(d[i] == 0 )
-					ans = ans * 9 % M ; 
-			    for(int j = 0;j < N ;j ++){
-					if( (1 << j) & 1 ){
-					   for(int ij = 0;ij <= 9 ;ij ++){
-							for(int ji = 0 ;ji <= 9;ji ++){
-							
-							}
-					   }
-					}else{
-						memcpy(dp[i+1][j],dp[i][j],sizeof(dp[i][j]));
+        int count(int m, vector <int> d){
+			int n = d.size();
+			pow9[0] =1; 
+			memset(dp,0,sizeof(dp));
+			for(int i = 1;i <= 5;i ++)
+				pow9[i] = pow9[i-1] * 9 ; 
+			memset(nx,-1,sizeof(nx));
+		    get_nx();			
+			int t = 0 ; 
+			dp[0][0] = 1; 
+			for(int i = 0 ;i < n ;i ++){
+				for(int j = 0 ;j < pow9[m];j ++){
+					for(int p = 0 ;p <= 9 ;p ++){
+						//if(dp[!t][nx[j][p][d[i]]] != -1)
+						 dp[!t][nx[j][p][d[i]]] = (dp[!t][nx[j][p][d[i]]] + dp[t][j]) % M;
 					}
 				}
+				memset(dp[t],0,sizeof(dp[t]));
+				t = !t; 
 			}
+			return dp[t][0];
         }
-
 	public:
 	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); }
 	private:
@@ -87,6 +110,7 @@ class Nine
 int main()
 {
         Nine ___test;
+	    clock_t be,en;
         ___test.run_test(-1);
         return 0;
 }
