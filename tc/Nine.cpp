@@ -1,9 +1,10 @@
+
 // BEGIN CUT HERE
 /*
 
 */
 // END CUT HERE
-#line 7 "Nine.cpp"
+/*#line 7 "Nine.cpp"
 #include <cstdlib>
 #include <cctype>
 #include <cstring>
@@ -49,46 +50,23 @@ int pow9[6];
 int dp[maxn][32];
 void get_nx()
 {
-    for(int i = 0;i < maxn; i ++){
-	    for(int j = 0 ;j <= 9 ;j ++){	
-			for(int s = 0 ;s <= 31 ;s ++)
-			{
-				int ns = 0 ; 
-			    for(int t = 0 ;t < 5;t ++){
-				     if((1 <<t) & s){
-						ns += ((i/pow9[t] + j)% 9)*pow9[t];
-					 }else{
-						ns += ((i/pow9[t])%9) *pow9[t];
-					 }
-				}
-				nx[i][j][s] = ns;
+	dp2[0][0] = 1 ;
+	for(int i = 1;i<= 5000 ;i ++)
+		for(int j = 0 ;j <= 9; j ++){
+			for(int s = 0 ; s <= 9 ; s ++){
+				dp2[i][(j+s) % 9] =  (dp2[i][(j+s) %9] + dp2[i][j]) % M; 
 			}
 		}
-	}
 }
 class Nine
 {
         public:
         int count(int m, vector <int> d){
-			int n = d.size();
-			pow9[0] =1; 
+			memset(dp2,0,sizeof(dp2));
+		    get_nx();
 			memset(dp,0,sizeof(dp));
-			for(int i = 1;i <= 5;i ++)
-				pow9[i] = pow9[i-1] * 9 ; 
-			memset(nx,-1,sizeof(nx));
-		    get_nx();			
-			int t = 0 ; 
-			dp[0][0] = 1; 
-			for(int i = 0 ;i < n ;i ++){
-				for(int j = 0 ;j < pow9[m];j ++){
-					for(int p = 0 ;p <= 9 ;p ++){
-						 dp[!t][nx[j][p][d[i]]] = (dp[!t][nx[j][p][d[i]]] + dp[t][j]) % M;
-					}
-				}
-				memset(dp[t],0,sizeof(dp[t]));
-				t = !t; 
-			}
-			return dp[t][0];
+			for()
+			return dp[1][0];
         }
 	public:
 	void run_test(int Case) { if ((Case == -1) || (Case == 0)) test_case_0(); if ((Case == -1) || (Case == 1)) test_case_1(); if ((Case == -1) || (Case == 2)) test_case_2(); if ((Case == -1) || (Case == 3)) test_case_3(); if ((Case == -1) || (Case == 4)) test_case_4(); }
@@ -113,4 +91,107 @@ int main()
         ___test.run_test(-1);
         return 0;
 }
+
 // END CUT HERE
+*/
+
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+ 
+using namespace std;
+ 
+class Nine {
+public:
+  int count(int, vector <int>);
+};
+ 
+const int md = 1000000007;
+ 
+inline void add(int &a, int b) {
+  a += b;
+  if (a >= md) a -= md;
+}
+ 
+inline int mul(int a, int b) {
+  return (long long)a * b % md;
+}
+ 
+int f[33][100010];
+int ways[5555][13];
+ 
+int Nine::count(int que, vector <int> d) {
+  int ds = d.size();
+  for (int i = 0; i <= ds; i++) {
+    for (int j = 0; j < 9; j++) {
+      ways[i][j] = 0;
+    }
+  }
+  ways[0][0] = 1;
+  for (int i = 0; i < ds; i++) {
+    for (int j = 0; j <= 9; j++) {
+      for (int k = 0; k <= 9; k++) {
+        int new_j = (j + k) % 9;
+        add(ways[i + 1][new_j], ways[i][j]);
+      }
+    }
+  }//预处理 多少位 余数为多少的情况数
+  int n = (1 << que);
+  vector <int> cnt(n, 0);
+  for (int i = 0; i < ds; i++) {
+    cnt[d[i]]++;
+  }
+  int MAX = 1;
+  for (int i = 0; i < que; i++) {
+    MAX *= 9;
+  }
+  for (int t = 0; t <= n; t++) {
+    for (int z = 0; z < MAX; z++) {
+      f[t][z] = 0;
+    }
+  }
+  f[0][0] = 1;
+  int cur[42];
+  for (int t = 0; t < n; t++) {
+    for (int z = 0; z < MAX; z++) {//max代表5个问题的情况压缩
+      int zz = z;
+      for (int i = 0; i < que; i++) {
+        cur[i] = zz % 9;
+        zz /= 9;
+      }//cur[i] 代表的是每一种状态的余数 
+
+      for (int now = 0; now <= 9; now++) { //枚举位数
+
+        int new_z = 0;
+        for (int i = que - 1; i >= 0; i--) {//que代表的是问题个数
+          new_z *= 9;
+          int digit = cur[i];
+          if (t & (1 << i)) {
+            digit += now;
+            if (digit >= 9) digit -= 9;
+          }
+		  //
+          new_z += digit;
+        }
+        add(f[t + 1][new_z], mul(f[t][z], ways[cnt[t]][now]));
+      }
+    }
+  }
+  return f[n][0];
+}
+ 
