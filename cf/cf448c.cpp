@@ -41,7 +41,7 @@ LL solve(int l ,int r ,int k)
 			minum = a[i];
 	}
 	int len  =0 ; 
-	LL tt = minum - k ; 
+	LL tt =  1; 
 	for(int i = l ;i <= r;i ++)
 	{
         if(a[i] >minum)
@@ -59,9 +59,11 @@ LL solve(int l ,int r ,int k)
 }
 int n ; 
 int main(){
-  scanf("%d",&n);
+  while(scanf("%d",&n)!=EOF)
+  {
   for(int i = 1;i <= n;i ++)
 	  scanf("%d",&a[i]);
   printf("%lld\n",solve(1,n,0)) ;
+  }
   return 0;
 }

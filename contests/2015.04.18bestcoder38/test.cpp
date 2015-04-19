@@ -26,11 +26,23 @@
 using namespace std;
 
 int main(){
-   freopen("out","w",stdout);
-   printf("100000\n");
-   for(int i = 1;i <= 100000 ;i ++)
-   {
-	   printf("1\n1\n");
-   }
+  FILE *p = fopen("out1","r");
+  FILE *p1 = fopen("out","r");
+  FILE *p2 = fopen("in","r");
+  char str[1000];
+  char str1[1000];
+  char str2[1000];
+  int t = 0; 
+   fgets(str2,1000,p2);
+  while(fgets(str,1000,p))
+  {
+       fgets(str1,1000,p1);
+   fgets(str2,1000,p2);
+	   t++;
+       if(strcmp(str,str1) != 0 )
+       {
+        printf("%s\n%s****%s\n%d\n",str,str1,str2,t);
+       }
+  }
 return 0;
 }

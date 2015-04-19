@@ -188,7 +188,7 @@ int Nine::count(int que, vector <int> d) {
 		  //
           new_z += digit;
         }
-        add(f[t + 1][new_z], mul(f[t][z], ways[cnt[t]][now]));
+        add(f[t + 1][new_z], mul(f[t][z], ways[cnt[t]][now]));//其实是一下加 cnt[t] 个值
       }
     }
   }
