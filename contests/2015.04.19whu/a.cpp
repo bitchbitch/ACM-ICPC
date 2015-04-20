@@ -88,17 +88,26 @@ int  main(){
 		}
 		a[2*n]=0;
 		da(a,2*n+1,10);
-		for(int i = 0;i <n;i ++)
+		for(int i = 1,p =0 ;i <=2*n;i ++)
 		{
-			tmp[i].x = wa[i];
-			tmp[i].y = i ; 
+			if(sa[i] < n )
+				p ++ ; 
+			if(p == k )
+			{
+				if(sa[i] == 0 )
+					printf("%d\n",n);
+				else 
+				printf("%d\n",sa[i]);
+				break;
+			}
 			//printf("%d ",wa[i]);
 		}
 		//printf("\n");
+		/*
 		sort(tmp,tmp+n,cmp1);
 		if(tmp[k-1].y != 0)
 			printf("%d\n",tmp[k-1].y);
-		else printf("%d\n",n);
+		else printf("%d\n",n);*/
 	}//calHeight(a,n);
 	return 0 ; 
 }
