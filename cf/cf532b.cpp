@@ -34,17 +34,7 @@ void  dfs(int k )
 	mx[k][1] = val[k];
 	for(int i = 0 ;i < mp[k].size() ;i ++){
 		dfs(mp[k][i]);
-		if(mx[mp[k][i]][0] != 0 )
-			add[0] = max(mx[k][0] + mx[mp[k][i]][0],mx[k][1] + mx[mp[k][i]][1]);
-		else add[0] = max(mx[k][1] +mx[mp[k][i]][1],mx[k][0]);
-		if(mx[mp[k][i]][0] != 0 )
-			add[1] = max(mx[k][0] + mx[mp[k][i]][1],mx[k][1] + mx[mp[k][i]][0]);
-		else if(mx[k][0] == 0 )
-			add[1] = mx[k][1];
-		else add[1] = max(mx[k][1],mx[mp[k][i]][0] + mp[k][1]);
-		
-		mx[k][0] = add[0];
-		mx[k][1] = add[1];
+	    add[0] = max()	
 	}
 	ans = max(mx[k][1],ans);
 }

@@ -35,7 +35,7 @@ int main(){
 		for(int i = n ;i >= 1 ;i --)
 			for(int  j = i;j <= n;j ++)
 			{
-				dp[i][j] = (dp[i][j] + dp[i+1][j] + dp[i][j-1] - dp[i+1][j-1])%100007;
+				dp[i][j] = (dp[i][j] + dp[i+1][j] + dp[i][j-1] - dp[i+1][j-1] + 100007)%100007;
 				if(str[i] == str[j]){
 					dp[i][j] = (dp[i][j] + 1 + dp[i+1][j-1])%100007;
 				}
