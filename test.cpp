@@ -1,92 +1,73 @@
-const int MOD = 1000000007;
- 
-int pow9[6];
- 
-int N, M;
-vector<int> d;
-vector<int> dtimes;
- 
-long dp[9*9*9*9*9][33];
- 
-long dp2[5001][9];
- 
-// how many ways to have a sum equal to m modulo 9 are there out of t digits?
-long g(int t, int m)
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+struct node{
+	int hs[300];
+}a,b;
+char S[10000];
+char T[10000];
+int ok()
 {
-    long &res = dp2[t][m];
-    if (res == -1) {
-        res = 0;
-        if (t == 0) {
-            if (m == 0) {
-                res = 1;
-            }
-        } else {
-            for (int i = 0; i <= 9; i++) {
-                res += g(t - 1, (m + 9 - i) % 9);
-            }
-            res %= MOD;
-        }
-    }
-    return res;
+	for(int i = 0 ;i <300 ;i ++)
+		if(b.hs[i] < a.hs[i])
+			return 0 ; 
+	return 1; 
 }
- 
- 
-long f(int mask, int p)
-{
-    long & res = dp[mask][p];
-    if (res == -1) {
-        res = 0;
-        if (p == M) {
-            // base case
-            if (mask == 0) {
-                // good
-                res = 1;
-            }
-        } else {
-            // pick a sum of digits modulo 9
-            for (int i = 0; i <= 8; i++) {
-                // calculate the new mask:
-                int mask2 = 0;
-                for (int j = N-1; j >= 0; j--) {
-                    int o = (mask / pow9[j]) % 9;
-                    if ( (d[p] & (1<<j)) != 0 ) {
-                        o = (o + i) % 9;
-                    }
-                    mask2 = mask2 * 9 + o;
-                }
-                // how many ways to have that sum of digits?
-                long y = g(dtimes[p], i);
-                res += (f(mask2, p+1) * y) % MOD;
-            }
- 
-            res %= MOD;
-        }
-    }
-    return res;
-}
- 
-int count(int N, vector<int> d)
-{
-    // compress d
-    map<int, int> classTimes;
-    for (int x: d) {
-        classTimes[x]++;
-    }
-    d.resize(0);
-    for (auto it: classTimes) {
-        d.push_back(it.first);
-        dtimes.push_back(it.second);
-    }
-    // let's go:
-    this->d = d;
-    M = d.size();
-    this->M = M;
-    this->N = N;
-    memset(dp, -1, sizeof(dp));
-    memset(dp2, -1, sizeof(dp2));
-    pow9[0] = 1;
-    for (int i = 1; i <= N; i++) {
-        pow9[i] = 9 * pow9[i-1];
-    }
-    return (int)f(0,0);
+int main(){
+	scanf("%s %s",S,T);
+	int S_len ,T_len ; 
+	S_len = strlen(S);
+	T_len = strlen(T);
+	for(int i = 0;i < T_len;i ++){
+		a.hs[T[i]] = 1;
+	}
+	int l,r;
+	int lans ,rans ;
+	int mi = 1e9;
+	int ansok = 0 ; 
+	lans = rans = -1 ; 
+	l = r = 0 ; 
+	b.hs[S[0]] = 1; 
+	while(r < S_len){
+		
+		while(ok() && l <= r )
+		{
+			ansok = 1; 
+			if(r - l + 1  < mi)
+			{
+				mi = r - l + 1; 
+				lans = l ; 
+				rans = r; 
+			}
+			b.hs[S[l]] --; 
+			l ++;
+		}
+		r ++ ; 
+		b.hs[S[r]] ++ ; 
+	}
+	if(ansok)
+		for(int i = lans  ;i <= rans ;i ++)
+			printf("%c",S[i]);
+	printf("\n");
+return 0;
 }
