@@ -1,0 +1,42 @@
+// File Name: a.cpp
+// Author: darkdream
+// Created Time: 2015年04月25日 星期六 14时14分13秒
+
+#include<vector>
+#include<list>
+#include<map>
+#include<set>
+#include<deque>
+#include<stack>
+#include<bitset>
+#include<algorithm>
+#include<functional>
+#include<numeric>
+#include<utility>
+#include<sstream>
+#include<iostream>
+#include<iomanip>
+#include<cstdio>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<ctime>
+#define LL long long
+
+using namespace std;
+int fa[100005];
+int col[100005];
+vectr<int>  mp[100005];
+map<int,int > mp[100005];
+void dfs(int k ,int la)
+{
+}
+int main(){
+	int T; 
+	scanf("%d",&T);
+	for(int ca = 1; ca <= T;ca ++){
+      	  	
+	}
+
+return 0;
+}
