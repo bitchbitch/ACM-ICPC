@@ -27,12 +27,23 @@
 using namespace std;
 
 int main(){
-   for(int i = 0 ;i < 2 ;i  ++)
-   {
-		printf("-");
-		printf("-");
-		fork();
-		fork();
-   }
-return 0;
+
+	int m , n ; 
+	scanf("%d %d",&n,&m);
+
+int ans ; 
+        ans = 0 ; 
+        for(int i = 31;i >= 0 ;i --){
+            if(((n>>i)&1) ==((m>>i)&1)){
+                if((n>>i) & 1)
+                    ans += (1 << i);
+            }else{
+                break;
+            }
+			//printf("%d\n",ans);
+        }
+		while(0){
+			continue;
+		}
+	return 0;
 }
