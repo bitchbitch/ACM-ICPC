@@ -25,28 +25,47 @@
 #define LL long long
 
 using namespace std;
-bool isPalindrome(string s) {
-        string ans;
-        ans.clear();
-        for(int i =0 ;i < s.size() ;i ++){
-            if(s[i] >= 'A' && s[i] <= 'Z')
-                ans.push_back(s[i]-'A' +'a');
-            if(s[i] >= 'a' && s[i] <= 'z');
-                ans.push_back(s[i]);
+int xadd[] = {0,0,1,-1};
+    int yadd[] = {1,-1,0,0};
+    
+    vector<vector<bool> >  vis;
+    int n , m; 
+    int ok(int x, int y){
+        if(x < n && x >= 0 && y < m && y >= 0){
+            return 1;     
+        }   
+        return 0 ; 
+    }
+    void dfs(int x,int y,vector<vector<char> > &tmp){
+        int tx,ty;
+        for(int i = 0 ;i <= 3; i ++){
+            tx = x + xadd[i];
+            ty = y + yadd[i];
+            if(ok(tx,ty) && tmp[tx][ty] == '1' && vis[tx][ty] == 0 ){
+                vis[tx][ty] = 1; 
+                dfs(tx,ty,tmp);
+            }
         }
-        
-        if(ans.size() == 1)
-            return 1;
-        int k = ans.size()/2 ;
-        for(int i = 0 ;i <= k ;i ++)
-            if(ans[i] != ans[ans.size()-1-i])
-                return 0 ;
-		cout << ans<<endl ; 
-        return 1;
+    }
+    int numIslands(vector<vector<char> > &grid) {
+        n = grid.size();
+        m = grid[0].size();
+        for(int i = 0 ;i < n; i ++){
+            vis.push_back(vector<int> tmp(m,0));
+        }
+        int sum = 0 ; 
+        for(int i = 0 ;i < n ;i ++)
+            for(int j = 0 ;j < m ;j ++){
+                if(grid[i][j]){
+                    if(!vis[i][j]){
+                        sum ++ ; 
+                        vis[i][j] = 1 ;
+                        dfs(i,j,grid);
+                    }
+                }
+            }
+        return sum; 
     }
 int main(){
-	string tmp ; 
-	cin >> tmp ; 
-	isPalindrome(tmp);
 	return 0;
 }
