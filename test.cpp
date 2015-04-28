@@ -25,25 +25,28 @@
 #define LL long long
 
 using namespace std;
-
-int main(){
-
-	int m , n ; 
-	scanf("%d %d",&n,&m);
-
-int ans ; 
-        ans = 0 ; 
-        for(int i = 31;i >= 0 ;i --){
-            if(((n>>i)&1) ==((m>>i)&1)){
-                if((n>>i) & 1)
-                    ans += (1 << i);
-            }else{
-                break;
-            }
-			//printf("%d\n",ans);
+bool isPalindrome(string s) {
+        string ans;
+        ans.clear();
+        for(int i =0 ;i < s.size() ;i ++){
+            if(s[i] >= 'A' && s[i] <= 'Z')
+                ans.push_back(s[i]-'A' +'a');
+            if(s[i] >= 'a' && s[i] <= 'z');
+                ans.push_back(s[i]);
         }
-		while(0){
-			continue;
-		}
+        
+        if(ans.size() == 1)
+            return 1;
+        int k = ans.size()/2 ;
+        for(int i = 0 ;i <= k ;i ++)
+            if(ans[i] != ans[ans.size()-1-i])
+                return 0 ;
+		cout << ans<<endl ; 
+        return 1;
+    }
+int main(){
+	string tmp ; 
+	cin >> tmp ; 
+	isPalindrome(tmp);
 	return 0;
 }
