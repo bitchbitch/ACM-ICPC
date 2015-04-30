@@ -27,11 +27,11 @@
 using namespace std;
 
 int main(){
-   char str[100];
-   while(scanf("%s",str)  != EOF)
+	char str[100];
+	while(scanf("%s",str)  != EOF)
 	{
-	  // pipeidoge(str);
-	  printf("\n") ; 
+		// pipeidoge(str);
+		printf("\n") ; 
 	}
-return 0;
+	return 0;
 }

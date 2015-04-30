@@ -1,6 +1,6 @@
-// File Name: test.cpp
+// File Name: 1.5.cpp
 // Author: darkdream
-// Created Time: 2015年04月30日 星期四 09时50分38秒
+// Created Time: 2015年04月29日 星期三 20时49分20秒
 
 #include<vector>
 #include<list>
@@ -21,19 +21,16 @@
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
+#include"Sales_item.h"
 #define LL long long
 
 using namespace std;
-//typedef double Money;
-string bal;
-class Account{
-	public:
-		Money balance(){return bal;}
-	private:
-		Money bal;
-};
+
 int main(){
-	return 0 ; 
+
+	   Sales_item book;
+	   cin >> book ; 
+	   cout << book << endl;
+	   return 0 ; 
+return 0;
 }
-
-
