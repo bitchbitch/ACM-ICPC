@@ -25,14 +25,16 @@
 
 using namespace std;
 //typedef double Money;
-string bal;
-class Account{
-	public:
-		Money balance(){return bal;}
-	private:
-		Money bal;
-};
+int n = 0x7FFFFFFF;
 int main(){
+	int t =0 ; 
+	printf("%d\n",n);
+	while(n){
+		printf("%d",n%2);
+		n/= 2; 
+		t ++;
+	}
+	printf("\n%d\n",t);
 	return 0 ; 
 }
 
