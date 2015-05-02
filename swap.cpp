@@ -26,10 +26,9 @@
 using namespace std;
 
 void Swap(int *p ,int *q){
-	int * tmp ; 
-	*tmp = *p; 
-	*p = *q; 
-	*q = * tmp; 
+	int tmp = *p ;
+	*p = *q;
+	*q = tmp ;
 }
 int main(){
 	int a ,b; 

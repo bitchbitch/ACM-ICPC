@@ -7,20 +7,20 @@
 char str[1000];
 void echo(int connfd) 
 {
-    size_t n; 
-    char buf[MAXLINE]; 
-    rio_t rio;
+	size_t n; 
+	char buf[MAXLINE]; 
+	rio_t rio;
 
-    Rio_readinitb(&rio, connfd);
-    while((n = Rio_readlineb(&rio, buf, MAXLINE)) != 0) {
-		
-	printf("server received %d bytes\n", n);
-	puts(buf);
-	//Fgets(buf,MAXLINE,stdin);
-	//n = strlen(buf);
-	//printf("*******\n");
-	Rio_writen(connfd, buf, n);
-    }
+	Rio_readinitb(&rio, connfd);
+	while((n = Rio_readlineb(&rio, buf, MAXLINE)) != 0) {
+
+		printf("server received %d bytes\n", n);
+		puts(buf);
+		Fgets(buf,MAXLINE,stdin);
+		n = strlen(buf);
+		printf("*******\n");
+		Rio_writen(connfd, buf, n);
+	}
 }
 /* $end echo */
 
