@@ -24,7 +24,7 @@ int main(int argc, char** argv)
 		printf("usage: ./client <ipaddress>\n");  
 		exit(0);  
 	}  
-	char tmp[1000] = "127.0.0.1";
+	char tmp[1000] = "127.0.0.1" ;
 	if( (sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0){  
 		printf("create socket error: %s(errno: %d)\n", strerror(errno),errno);  
 		exit(0);  
@@ -33,8 +33,8 @@ int main(int argc, char** argv)
 
 	memset(&servaddr, 0, sizeof(servaddr));  
 	servaddr.sin_family = AF_INET;  
-	servaddr.sin_port = htons(8001);  
-	if( inet_pton(AF_INET, tmp, &servaddr.sin_addr) <= 0){ //由十进制转换成二进制的IP 
+	servaddr.sin_port = htons(1231);  
+	if( inet_pton(AF_INET, tmp, &servaddr.sin_addr) <= 0){  
 		printf("inet_pton error for %s\n",argv[1]);  
 		exit(0);  
 	}  
@@ -63,3 +63,4 @@ int main(int argc, char** argv)
     close(sockfd);  
     exit(0);  
 }  
+

@@ -7,8 +7,7 @@
 #include<sys/socket.h>  
 #include<netinet/in.h>  
 #include<unistd.h>
-#include<time.h>
-#define DEFAULT_PORT 8001  
+#define DEFAULT_PORT 8000  
 #define MAXLINE 4096  
 int main(int argc, char** argv)  
 {  
@@ -17,7 +16,6 @@ int main(int argc, char** argv)
 	struct sockaddr_in     servaddr;  
 	char    buff[4096];  
 	int     n;  
-	printf("%d\n",IPPTOTO_UDP);
 	//初始化Socket  
 	if( (socket_fd = socket(AF_INET, SOCK_STREAM, 0)) == -1 ){  
 		printf("create socket error: %s(errno: %d)\n",strerror(errno),errno);  
@@ -30,7 +28,7 @@ int main(int argc, char** argv)
 	if(fpid ==0 )
 	  servaddr.sin_port = htons(DEFAULT_PORT);//设置的端口为DEFAULT_PORT  
 	else 
-	  servaddr.sin_port = htons(1231);//设置的端口为DEFAULT_PORT  
+	  servaddr.sin_port = htons(1230);//设置的端口为DEFAULT_PORT  
 
 	//将本地地址绑定到所创建的套接字上  
 	if( bind(socket_fd, (struct sockaddr*)&servaddr, sizeof(servaddr)) == -1){  
@@ -58,17 +56,8 @@ int main(int argc, char** argv)
 				close(connect_fd);  
 				exit(0);  
 			}  
-			time_t t; 	
-			struct tm *timeinfo;
-			time(&t);
-			timeinfo = localtime(&t);
-
 			buff[n] = '\0';  
-			if(fpid == 0 )
-				printf("%s client1:\n %s\n",asctime(timeinfo),buff);  
-			else 
-				printf("%s client2:\n %s\n",asctime(timeinfo),buff);  
-
+			printf("recv msg from client:\n %s\n", buff);  
 		}
 		close(connect_fd);  
 	}  

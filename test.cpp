@@ -27,15 +27,9 @@ using namespace std;
 //typedef double Money;
 int n = 0x7FFFFFFF;
 struct node{
-	short a; 
-	char c;
 }tmp;
 int main(){
 	printf("%d\n",sizeof(tmp));
-	const char *d = "0123456789";
-	char str[] = "12316546"; 
-	d = str;
-	printf("%c",d[0]);
 	return 0 ; 
 }
 
