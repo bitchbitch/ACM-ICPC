@@ -25,15 +25,8 @@
 using namespace std;
 int k[1000];
 int main(){
-  memset(k,1,sizeof(k));
-  for(int i = 1;i <= 100;i ++)
-	  printf("%d\n",k[i]);
-  while(k[10])
-  {
-    if(k[10] % 2)
-	   printf("1");
-	else printf("0");
-	k[10] =  k[10] /2;
-  }
+    int a = 1; 
+    a = 5*(a--);
+    printf("%d\n",a);
 return 0;
 }
