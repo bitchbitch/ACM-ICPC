@@ -34,7 +34,7 @@ int main(){
     short_value +=1;
     cout << short_value ; 
     */
-    bool tmp = (1 || 0 && 1);
+    bool tmp = ( 0 || 1 && 0);
     cout << tmp ; 
 return 0;
 }

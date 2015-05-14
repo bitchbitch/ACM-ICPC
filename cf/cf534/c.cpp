@@ -27,11 +27,11 @@ using namespace std;
 LL n , m ; 
 LL a[200005];
 int main(){
-     scanf("%I64d %I64d",&n,&m);
+     scanf("%lld %lld",&n,&m);
 	 LL sum = 0 ; 
 	 for(int i = 1;i <= n;i ++)
 	 {
-		 scanf("%I64d",&a[i]);
+		 scanf("%lld",&a[i]);
 		 sum += a[i];
 	 }
 	 for(int i = 1;i <= n;i ++)
@@ -41,7 +41,7 @@ int main(){
 			  LL mi = (m-tsum);
 			  if(mi <= 0)
 				  mi = 1; 
-			  printf("%I64d ",a[i]-(mx-mi+1));
+			  printf("%lld ",a[i]-(mx-mi+1));
 	 }
 return 0;
 }
