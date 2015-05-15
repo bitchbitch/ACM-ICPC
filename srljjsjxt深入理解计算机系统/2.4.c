@@ -23,6 +23,8 @@ void show_pointer(void *x){
 }
 
 int main(){
-    show_int(10);    
+    const char *s = "abcdef";
+    show_bytes((byte_pointer)s,strlen(s))t
+    show_int(12345);    
 return 0 ;
 }
