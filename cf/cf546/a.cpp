@@ -1,13 +1,6 @@
-/************************************************************
- * Author : cijianzy
- * Email : cijianzy@gmail.com 
- * Last modified : 2015-05-19 18:15
- * Filename : solvedata.cpp
- * Description :
- * *********************************************************/
-// File Name: solvedata.cpp
+// File Name: a.cpp
 // Author: cijianzy
-// Created Time: 2015年05月19日 星期二 16时34分27秒
+// Created Time: 2015年05月23日 星期六 00时29分48秒
 
 #include<vector>
 #include<list>
@@ -22,17 +15,23 @@
 #include<utility>
 #include<sstream>
 #include<iostream>
-
 #include<iomanip>
 #include<cstdio>
 #include<cmath>
 #include<cstdlib>
 #include<cstring>
 #include<ctime>
-#include<unistd.h>
 #define LL long long
 
 using namespace std;
+
 int main(){
-fstream file1;   
+    LL n ,k,w; 
+    scanf("%I64d %I64d %I64d",&k,&n,&w);
+    LL sum = 0 ;
+    sum = k *(1 + w)*w/2;
+    if(sum  > n) 
+        printf("%I64d\n",sum - n);
+    else puts("0");
+    return 0;
 }

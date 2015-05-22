@@ -49,8 +49,7 @@ void  pushup(int c)
 	  tree[c].s = tree[R(c)].s;
    }
 }
-void build(int c ,int l, int r)
-{
+void build(int c ,int l, int r){
       tree[c].l = l ;
 	  tree[c].r = r ;
 	  tree[c].m = (l+r)/2;
