@@ -24,7 +24,7 @@
 #define LL long long
 
 using namespace std;
-map<LL,int> mp; 
+map<pair<LL,LL>,int> mp; 
 LL p[12];
 int isok(int x, int y)
 {
@@ -46,12 +46,12 @@ int main(){
     LL y = 0 ;
     LL tmp ; 
     for(int i = 1;i <= k1;i ++){
-        scanf("%I64d",&tmp);
+        scanf("%lld",&tmp);
         x = x * 10 + (tmp) % 10 ; 
     }
     scanf("%d",&k2);
     for(int i = 1;i <= k2;i ++){
-        scanf("%I64d",&tmp);
+        scanf("%lld",&tmp);
         y = y * 10 + (tmp) % 10 ; 
     }
     int step = 0 ; 
@@ -64,8 +64,9 @@ int main(){
             printf("%d 1\n",step);
             return 0 ;
         }
-        if(mp[x*p[k2]+y] != 1){
-            mp[x*p[k2] + y] = 1; 
+        pair<LL,LL> tt = make_pair(x,y);
+        if(mp[tt] != 1){
+            mp[tt] = 1; 
         }else{
             puts("-1");
             return 0 ; 
@@ -74,7 +75,7 @@ int main(){
         x %= p[k1-1]; 
         LL tmp2 = y / p[k2-1];
         y %= p[k2-1]; 
-        //printf("%I64d %I64d\n",tmp1,tmp2);
+        //printf("%lld %lld\n",tmp1,tmp2);
         
         if(isok(tmp1,tmp2)){
             x = x * 10 + tmp2; 
@@ -87,7 +88,7 @@ int main(){
             k2 ++ ; 
             k1 -- ; 
         }
-        //printf("%I64d:%d\n%I64d:%d\n",x,k1,y,k2);
+        //printf("%lld:%d\n%lld:%d\n",x,k1,y,k2);
         step ++ ; 
     }
 return 0;
