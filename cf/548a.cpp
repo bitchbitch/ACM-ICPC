@@ -40,7 +40,7 @@ int main(){
     scanf("%d",&k);
     int len = strlen(str);
     int s = len / k ; 
-    if(k > len )
+    if(k > len || len % k != 0)
     {
         puts("NO");
         return 0 ; 
