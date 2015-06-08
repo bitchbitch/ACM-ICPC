@@ -22,7 +22,6 @@
 #include<utility>
 #include<sstream>
 #include<iostream>
-
 #include<iomanip>
 #include<cstdio>
 #include<cmath>
@@ -33,6 +32,17 @@
 #define LL long long
 
 using namespace std;
+string  str[100];
 int main(){
-fstream file1;   
+    for(int i = 1;i <= 67 ;i ++)
+        cin >> str[i];
+   sort(str+1,str+1 + 67);
+   puts("************");
+   int sum = 1; 
+   cout << str[1] <<";" ; 
+   for(int i = 2;i <= 67 ;i ++)
+        if(str[i] != str[i-1])
+            cout << str[i] << ";" ; 
+   cout << sum << endl ; 
+   return 0 ; 
 }
